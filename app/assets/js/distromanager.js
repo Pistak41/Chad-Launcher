@@ -10,12 +10,12 @@ const logger        = require('./loggerutil')('%c[DistroManager]', 'color: #a02d
  * for a specific module.
  */
 class Artifact {
-    
+
     /**
      * Parse a JSON object into an Artifact.
-     * 
+     *
      * @param {Object} json A JSON object representing an Artifact.
-     * 
+     *
      * @returns {Artifact} The parsed Artifact.
      */
     static fromJSON(json){
@@ -26,7 +26,7 @@ class Artifact {
      * Get the MD5 hash of the artifact. This value may
      * be undefined for artifacts which are not to be
      * validated and updated.
-     * 
+     *
      * @returns {string} The MD5 hash of the Artifact or undefined.
      */
     getHash(){
@@ -62,12 +62,12 @@ exports.Artifact
  * of a module.
  */
 class Required {
-    
+
     /**
      * Parse a JSON object into a Required object.
-     * 
+     *
      * @param {Object} json A JSON object representing a Required object.
-     * 
+     *
      * @returns {Required} The parsed Required object.
      */
     static fromJSON(json){
@@ -87,7 +87,7 @@ class Required {
      * Get the default value for a required object. If a module
      * is not required, this value determines whether or not
      * it is enabled by default.
-     * 
+     *
      * @returns {boolean} The default enabled value.
      */
     isDefault(){
@@ -111,10 +111,10 @@ class Module {
 
     /**
      * Parse a JSON object into a Module.
-     * 
+     *
      * @param {Object} json A JSON object representing a Module.
      * @param {string} serverid The ID of the server to which this module belongs.
-     * 
+     *
      * @returns {Module} The parsed Module.
      */
     static fromJSON(json, serverid){
@@ -123,9 +123,9 @@ class Module {
 
     /**
      * Resolve the default extension for a specific module type.
-     * 
+     *
      * @param {string} type The type of the module.
-     * 
+     *
      * @return {string} The default extension for the given type.
      */
     static _resolveDefaultExtension(type){
@@ -316,9 +316,9 @@ class Server {
 
     /**
      * Parse a JSON object into a Server.
-     * 
+     *
      * @param {Object} json A JSON object representing a Server.
-     * 
+     *
      * @returns {Server} The parsed Server object.
      */
     static fromJSON(json){
@@ -423,9 +423,9 @@ class DistroIndex {
 
     /**
      * Parse a JSON object into a DistroIndex.
-     * 
+     *
      * @param {Object} json A JSON object representing a DistroIndex.
-     * 
+     *
      * @returns {DistroIndex} The parsed Server object.
      */
     static fromJSON(json){
@@ -485,9 +485,9 @@ class DistroIndex {
     /**
      * Get a server configuration by its ID. If it does not
      * exist, null will be returned.
-     * 
+     *
      * @param {string} id The ID of the server.
-     * 
+     *
      * @returns {Server} The server configuration with the given ID or null.
      */
     getServer(id){
@@ -501,7 +501,7 @@ class DistroIndex {
 
     /**
      * Get the main server.
-     * 
+     *
      * @returns {Server} The main server.
      */
     getMainServer(){
@@ -537,7 +537,7 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
-        const distroURL = 'http://mc.westeroscraft.com/WesterosCraftLauncher/distribution.json'
+        const distroURL = 'http://181.46.200.208:800/servers/PhobosCraft-1.12.2/distribution.json'
         //const distroURL = 'https://gist.githubusercontent.com/dscalzi/53b1ba7a11d26a5c353f9d5ae484b71b/raw/'
         const opts = {
             url: distroURL,
@@ -546,7 +546,7 @@ exports.pullRemote = function(){
         const distroDest = path.join(ConfigManager.getLauncherDirectory(), 'distribution.json')
         request(opts, (error, resp, body) => {
             if(!error){
-                
+
                 try {
                     data = DistroIndex.fromJSON(JSON.parse(body))
                 } catch (e) {

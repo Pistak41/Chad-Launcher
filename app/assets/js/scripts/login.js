@@ -19,14 +19,14 @@ const loginButton           = document.getElementById('loginButton')
 const loginForm             = document.getElementById('loginForm')
 
 // Control variables.
-let lu = false, lp = false
+let lu = false
 
 const loggerLogin = LoggerUtil('%c[Login]', 'color: #000668; font-weight: bold')
 
 
 /**
  * Show a login error.
- * 
+ *
  * @param {HTMLElement} element The element on which to display the error.
  * @param {string} value The error text.
  */
@@ -37,7 +37,7 @@ function showError(element, value){
 
 /**
  * Shake a login error to add emphasis.
- * 
+ *
  * @param {HTMLElement} element The element to shake.
  */
 function shakeError(element){
@@ -50,7 +50,7 @@ function shakeError(element){
 
 /**
  * Validate that an email field is neither empty nor invalid.
- * 
+ *
  * @param {string} value The email value.
  */
 function validateEmail(value){
@@ -60,34 +60,13 @@ function validateEmail(value){
             loginDisabled(true)
             lu = false
         } else {
+            loginDisabled(false)
             loginEmailError.style.opacity = 0
             lu = true
-            if(lp){
-                loginDisabled(false)
-            }
         }
     } else {
         lu = false
         showError(loginEmailError, Lang.queryJS('login.error.requiredValue'))
-        loginDisabled(true)
-    }
-}
-
-/**
- * Validate that the password field is not empty.
- * 
- * @param {string} value The password value.
- */
-function validatePassword(value){
-    if(value){
-        loginPasswordError.style.opacity = 0
-        lp = true
-        if(lu){
-            loginDisabled(false)
-        }
-    } else {
-        lp = false
-        showError(loginPasswordError, Lang.queryJS('login.error.invalidValue'))
         loginDisabled(true)
     }
 }
@@ -97,22 +76,15 @@ loginUsername.addEventListener('focusout', (e) => {
     validateEmail(e.target.value)
     shakeError(loginEmailError)
 })
-loginPassword.addEventListener('focusout', (e) => {
-    validatePassword(e.target.value)
-    shakeError(loginPasswordError)
-})
 
 // Validate input for each field.
 loginUsername.addEventListener('input', (e) => {
     validateEmail(e.target.value)
 })
-loginPassword.addEventListener('input', (e) => {
-    validatePassword(e.target.value)
-})
 
 /**
  * Enable or disable the login button.
- * 
+ *
  * @param {boolean} v True to enable, false to disable.
  */
 function loginDisabled(v){
@@ -123,7 +95,7 @@ function loginDisabled(v){
 
 /**
  * Enable or disable loading elements.
- * 
+ *
  * @param {boolean} v True to enable, false to disable.
  */
 function loginLoading(v){
@@ -138,7 +110,7 @@ function loginLoading(v){
 
 /**
  * Enable or disable login form.
- * 
+ *
  * @param {boolean} v True to enable, false to disable.
  */
 function formDisabled(v){
@@ -157,7 +129,7 @@ function formDisabled(v){
 /**
  * Parses an error and returns a user-friendly title and description
  * for our error overlay.
- * 
+ *
  * @param {Error | {cause: string, error: string, errorMessage: string}} err A Node.js
  * error or Mojang error response.
  */
@@ -173,12 +145,12 @@ function resolveError(err){
         if(err.error != null){
             if(err.error === 'ForbiddenOperationException'){
                 if(err.errorMessage != null){
-                    if(err.errorMessage === 'Invalid credentials. Invalid username or password.'){
+                    if(err.errorMessage === 'Credenciales Invalidas. Usuario o contraseña Invalidos.'){
                         return {
                             title: Lang.queryJS('login.error.invalidCredentials.title'),
                             desc: Lang.queryJS('login.error.invalidCredentials.desc')
                         }
-                    } else if(err.errorMessage === 'Invalid credentials.'){
+                    } else if(err.errorMessage === 'Credenciales Invalidas.'){
                         return {
                             title: Lang.queryJS('login.error.rateLimit.title'),
                             desc: Lang.queryJS('login.error.rateLimit.desc')
@@ -262,6 +234,16 @@ loginButton.addEventListener('click', () => {
     // Show loading stuff.
     loginLoading(true)
 
+    if(loginPassword.value === '' && !validUsername.test(loginUsername.value)){
+        setOverlayContent('Usuario crackeado', 'Necesitas poner un nombre de usuario valido', 'Okay')
+        setOverlayHandler(() => {
+            formDisabled(false)
+            toggleOverlay(false)
+        })
+        loginLoading(false)
+        toggleOverlay(true)
+        return
+    }
     AuthManager.addAccount(loginUsername.value, loginPassword.value).then((value) => {
         updateSelectedAccount(value)
         loginButton.innerHTML = loginButton.innerHTML.replace(Lang.queryJS('login.loggingIn'), Lang.queryJS('login.success'))
@@ -294,7 +276,7 @@ loginButton.addEventListener('click', () => {
             toggleOverlay(false)
         })
         toggleOverlay(true)
-        loggerLogin.log('Error while logging in.', err)
+        loggerLogin.log('Error durante la autentificacion.', err)
     })
 
 })

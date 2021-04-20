@@ -26,8 +26,8 @@ let currentView
 
 /**
  * Switch launcher views.
- * 
- * @param {string} current The ID of the current view container. 
+ *
+ * @param {string} current The ID of the current view container.
  * @param {*} next The ID of the next view container.
  * @param {*} currentFadeTime Optional. The fade out time for the current view.
  * @param {*} nextFadeTime Optional. The fade in time for the next view.
@@ -48,7 +48,7 @@ function switchView(current, next, currentFadeTime = 500, nextFadeTime = 500, on
 
 /**
  * Get the currently shown view container.
- * 
+ *
  * @returns {string} The currently shown view container.
  */
 function getCurrentView(){
@@ -96,7 +96,7 @@ function showMainUI(data){
                 $('#loadSpinnerImage').removeClass('rotating')
             })
         }, 250)
-        
+
     }, 750)
     // Disable tabbing to the news container.
     initNews().then(() => {
@@ -109,9 +109,9 @@ function showFatalStartupError(){
         $('#loadingContainer').fadeOut(250, () => {
             document.getElementById('overlayContainer').style.background = 'none'
             setOverlayContent(
-                'Fatal Error: Unable to Load Distribution Index',
-                'A connection could not be established to our servers to download the distribution index. No local copies were available to load. <br><br>The distribution index is an essential file which provides the latest server information. The launcher is unable to start without it. Ensure you are connected to the internet and relaunch the application.',
-                'Close'
+                'Error fatal: Fallo al intentar cargar el distribution index.',
+                'Hubo un fallo de conexion con el servidor de distribucion de Chad Launcher. No se pudo descargar ningun archivo!. <br><br>El Distribution index, provee al launcher la informacion acerca de los mods del server. Si queres una solucion rapida, concacta con Pistak por discord o en el Servidor de Phobos!',
+                'Cerrar'
             )
             setOverlayHandler(() => {
                 const window = remote.getCurrentWindow()
@@ -124,7 +124,7 @@ function showFatalStartupError(){
 
 /**
  * Common functions to perform after refreshing the distro index.
- * 
+ *
  * @param {Object} data The distro index object.
  */
 function onDistroRefresh(data){
@@ -136,7 +136,7 @@ function onDistroRefresh(data){
 
 /**
  * Sync the mod configurations with the distro index.
- * 
+ *
  * @param {Object} data The distro index object.
  */
 function syncModConfigurations(data){
@@ -222,7 +222,7 @@ function syncModConfigurations(data){
  * Recursively scan for optional sub modules. If none are found,
  * this function returns a boolean. If optional sub modules do exist,
  * a recursive configuration object is returned.
- * 
+ *
  * @returns {boolean | Object} The resolved mod configuration.
  */
 function scanOptionalSubModules(mdls, origin){
@@ -262,11 +262,11 @@ function scanOptionalSubModules(mdls, origin){
 
 /**
  * Recursively merge an old configuration into a new configuration.
- * 
+ *
  * @param {boolean | Object} o The old configuration value.
  * @param {boolean | Object} n The new configuration value.
  * @param {boolean} nReq If the new value is a required mod.
- * 
+ *
  * @returns {boolean | Object} The merged configuration.
  */
 function mergeModConfiguration(o, n, nReq = false){
@@ -323,10 +323,10 @@ async function validateSelectedAccount(){
             ConfigManager.save()
             const accLen = Object.keys(ConfigManager.getAuthAccounts()).length
             setOverlayContent(
-                'Failed to Refresh Login',
-                `We were unable to refresh the login for <strong>${selectedAcc.displayName}</strong>. Please ${accLen > 0 ? 'select another account or ' : ''} login again.`,
+                'Fallo al refrescar el login',
+                `No se pudo refrescar tu login! (Probablemente por estar crackeado!) <strong>${selectedAcc.displayName}</strong>. Por favor ${accLen > 0 ? 'selecciona otra cuenta ' : ''} o logueate otra vez.`,
                 'Login',
-                'Select Another Account'
+                'Elegir otra cuenta'
             )
             setOverlayHandler(() => {
                 document.getElementById('loginUsername').value = selectedAcc.username
@@ -371,7 +371,7 @@ async function validateSelectedAccount(){
 /**
  * Temporary function to update the selected account along
  * with the relevent UI elements.
- * 
+ *
  * @param {string} uuid The UUID of the account.
  */
 function setSelectedAccount(uuid){
@@ -393,7 +393,7 @@ document.addEventListener('readystatechange', function(){
             } else {
                 showFatalStartupError()
             }
-        } 
+        }
     }
 
 }, false)
