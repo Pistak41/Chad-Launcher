@@ -886,14 +886,6 @@ function setNewsLoading(val){
     }
 }
 
-// Bind retry button.
-newsErrorRetry.onclick = () => {
-    $('#newsErrorFailed').fadeOut(250, () => {
-        initNews()
-        $('#newsErrorLoading').fadeIn(250)
-    })
-}
-
 newsArticleContentScrollable.onscroll = (e) => {
     if(e.target.scrollTop > Number.parseFloat($('.newsArticleSpacerTop').css('height'))){
         newsContent.setAttribute('scrolled', '')
