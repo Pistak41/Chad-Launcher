@@ -319,15 +319,7 @@ async function validateSelectedAccount(){
     if(selectedAcc != null){
         const val = await AuthManager.validateSelected()
         if(!val){
-            ConfigManager.removeAuthAccount(selectedAcc.uuid)
-            ConfigManager.save()
             const accLen = Object.keys(ConfigManager.getAuthAccounts()).length
-            setOverlayContent(
-                'Fallo al refrescar el login',
-                `No se pudo refrescar tu login! (Probablemente por estar crackeado!) <strong>${selectedAcc.displayName}</strong>. Por favor ${accLen > 0 ? 'selecciona otra cuenta ' : ''} o logueate otra vez.`,
-                'Login',
-                'Elegir otra cuenta'
-            )
             setOverlayHandler(() => {
                 document.getElementById('loginUsername').value = selectedAcc.username
                 validateEmail(selectedAcc.username)
