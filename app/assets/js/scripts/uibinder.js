@@ -313,41 +313,7 @@ async function validateSelectedAccount(){
     const selectedAcc = ConfigManager.getSelectedAccount()
     if(selectedAcc != null){
         const val = await AuthManager.validateSelected()
-        if(!val){
-            const accLen = Object.keys(ConfigManager.getAuthAccounts()).length
-            setOverlayHandler(() => {
-                document.getElementById('loginUsername').value = selectedAcc.username
-                validateEmail(selectedAcc.username)
-                loginViewOnSuccess = getCurrentView()
-                loginViewOnCancel = getCurrentView()
-                if(accLen > 0){
-                    loginViewCancelHandler = () => {
-                        ConfigManager.addAuthAccount(selectedAcc.uuid, selectedAcc.accessToken, selectedAcc.username, selectedAcc.displayName)
-                        ConfigManager.save()
-                        validateSelectedAccount()
-                    }
-                    loginCancelEnabled(true)
-                }
-                toggleOverlay(false)
-                switchView(getCurrentView(), VIEWS.login)
-            })
-            setDismissHandler(() => {
-                if(accLen > 1){
-                    prepareAccountSelectionList()
-                    $('#overlayContent').fadeOut(250, () => {
-                        bindOverlayKeys(true, 'accountSelectContent', true)
-                        $('#accountSelectContent').fadeIn(250)
-                    })
-                } else {
-                    const accountsObj = ConfigManager.getAuthAccounts()
-                    const accounts = Array.from(Object.keys(accountsObj), v => accountsObj[v])
-                    // This function validates the account switch.
-                    setSelectedAccount(accounts[0].uuid)
-                    toggleOverlay(false)
-                }
-            })
-            toggleOverlay(true, accLen > 0)
-        } else {
+        if(!val){} else {
             return true
         }
     } else {

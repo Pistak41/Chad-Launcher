@@ -36,70 +36,7 @@ webFrame.setZoomLevel(0)
 webFrame.setVisualZoomLevelLimits(1, 1)
 
 // Initialize auto updates in production environments.
-let updateCheckListener
-if(!isDev){
-    ipcRenderer.on('autoUpdateNotification', (event, arg, info) => {
-        switch(arg){
-            case 'checking-for-update':
-                loggerAutoUpdater.log('Revisando si hay actualizaciones..')
-                settingsUpdateButtonStatus('Revisando si hay actualizaciones..', true)
-                break
-            case 'update-available':
-                loggerAutoUpdaterSuccess.log('Nueva actualizacion disponible', info.version)
 
-                if(process.platform === 'darwin'){
-                    info.darwindownload = ``
-                    showUpdateUI(info)
-                }
-
-                populateSettingsUpdateInformation(info)
-                break
-            case 'update-downloaded':
-                loggerAutoUpdaterSuccess.log('Actualizar ' + info.version + ' listo para ser instalado.')
-                settingsUpdateButtonStatus('Instalar ahora', false, () => {
-                    if(!isDev){
-                        ipcRenderer.send('autoUpdateAction', 'installUpdateNow')
-                    }
-                })
-                showUpdateUI(info)
-                break
-            case 'update-not-available':
-                loggerAutoUpdater.log('No se encontro una nueva actualizacion.')
-                settingsUpdateButtonStatus('Revisar si hay actualizaciones')
-                break
-            case 'ready':
-                updateCheckListener = setInterval(() => {
-                    ipcRenderer.send('autoUpdateAction', 'checkForUpdate')
-                }, 1800000)
-                ipcRenderer.send('autoUpdateAction', 'checkForUpdate')
-                break
-            case 'realerror':
-                if(info != null && info.code != null){
-                    if(info.code === 'ERR_UPDATER_INVALID_RELEASE_FEED'){
-                        loggerAutoUpdater.log('No se encontro ninguna actualizacion adecuada.')
-                    } else if(info.code === 'ERR_XML_MISSED_ELEMENT'){
-                        loggerAutoUpdater.log('No se encontro ninguna actualizacion.')
-                    } else {
-                        loggerAutoUpdater.error('Error during update check..', info)
-                        loggerAutoUpdater.debug('Error Code:', info.code)
-                    }
-                }
-                break
-            default:
-                loggerAutoUpdater.log('Unknown argument', arg)
-                break
-        }
-    })
-}
-
-/**
- * Send a notification to the main process changing the value of
- * allowPrerelease. If we are running a prerelease version, then
- * this will always be set to true, regardless of the current value
- * of val.
- *
- * @param {boolean} val The new allow prerelease value.
- */
 function changeAllowPrerelease(val){
     ipcRenderer.send('autoUpdateAction', 'allowPrereleaseChange', val)
 }
