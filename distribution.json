@@ -13,7 +13,7 @@
       "description": "Hola Running Minecraft 1.12.2",
       "icon": null,
       "version": "1.0.0",
-      "address": "192.168.0.24:25565",
+      "address": "186.19.156.44:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
