@@ -276,6 +276,16 @@
           }
         },
         {
+          "id": "codechicken.lib:codechickenlib:3.2.3.358@jar",
+          "name": "CodeChicken Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 704330,
+            "url": "http://186.19.156.44:800/Phobos/servers/Hola-1.12.2/forgemods/required/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+            "MD5": "3b5e44db5ac96fb23a439590b6731a31"
+          }
+        },
+        {
           "id": "cofh:cofhcore:4.6.6.1@jar",
           "name": "CoFH Core",
           "type": "ForgeMod",
