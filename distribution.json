@@ -316,13 +316,16 @@
           }
         },
         {
-          "id": "ic2.core:ic2:2.8.170-ex112@jar",
-          "name": "IndustrialCraft 2",
+          "id": "pl.asie:foamfix:0.10.14-1.12.2@jar",
+          "name": "FoamFix",
           "type": "ForgeMod",
           "artifact": {
-            "size": 8356436,
-            "url": "http://186.19.156.44:800/Phobos/servers/Hola-1.12.2/forgemods/required/industrialcraft-2-2.8.170-ex112.jar",
-            "MD5": "d4f952c94cacdd280abbb73f072b2424"
+            "size": 242897,
+            "url": "http://186.19.156.44:800/Phobos/servers/Hola-1.12.2/forgemods/optionalon/foamfix-0.10.14-1.12.2.jar",
+            "MD5": "25a8849a99778579e2d32badaff30e81"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -333,6 +336,16 @@
             "size": 181397,
             "url": "http://186.19.156.44:800/Phobos/servers/Hola-1.12.2/forgemods/required/InfernalMobs-1.12.1.jar",
             "MD5": "ee05dfb05aedba40a0297c479b09a98c"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.16.1.301@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 653211,
+            "url": "http://186.19.156.44:800/Phobos/servers/Hola-1.12.2/forgemods/required/jei_1.12.2-4.16.1.301.jar",
+            "MD5": "1dee4be93d666e2228039c551e927b35"
           }
         },
         {
