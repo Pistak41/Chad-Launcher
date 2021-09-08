@@ -13,7 +13,7 @@
       "description": "Hola Running Minecraft 1.12.2",
       "icon": null,
       "version": "1.0.0",
-      "address": "190.190.29.214:25565",
+      "address": "192.168.0.24:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -24,23 +24,23 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
           "name": "Minecraft Forge",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 4464068,
-            "MD5": "ff6f0650ff84d4c8e03da9a4f536d9e1",
-            "url": "http://190.190.29.214:800/Phobos/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar"
+            "size": 4464387,
+            "MD5": "02fcc447bb8938e5214292e4d36ec949",
+            "url": "http://190.190.29.214:800/Phobos/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
           },
           "subModules": [
             {
-              "id": "1.12.2-14.23.5.2854",
+              "id": "1.12.2-14.23.5.2855",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 10873,
-                "MD5": "814f52398b6ebf70d22571307d2298eb",
-                "url": "http://190.190.29.214:800/Phobos/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
+                "MD5": "5d114618e561d76e0f692c2d69dcb784",
+                "url": "http://190.190.29.214:800/Phobos/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
               }
             },
             {
@@ -306,13 +306,13 @@
           }
         },
         {
-          "id": "com.ferreusveritas:dynamictrees:1.12.2-0.9.24@jar",
+          "id": "com.ferreusveritas:dynamictrees:1.12.2-0.9.25@jar",
           "name": "Dynamic Trees",
           "type": "ForgeMod",
           "artifact": {
-            "size": 890819,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/DynamicTrees-1.12.2-0.9.24.jar",
-            "MD5": "c6d68ba5907337801ea08069edcc55f8"
+            "size": 896010,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/DynamicTrees-1.12.2-0.9.25.jar",
+            "MD5": "a3b989483d97982c21baae543833041b"
           }
         },
         {
