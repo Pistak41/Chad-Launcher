@@ -1944,6 +1944,17 @@
           }
         },
         {
+          "id": "atlas_overlay.cfg",
+          "name": "atlas_overlay.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3412,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/files/config/antiqueatlas/atlas_overlay.cfg",
+            "MD5": "3c22c94f819d1e451cdd93d9dd8d041b",
+            "path": "config/antiqueatlas/atlas_overlay.cfg"
+          }
+        },
+        {
           "id": "Chisel-MC1.12.2-1.0.2.45.jar",
           "name": "Chisel-MC1.12.2-1.0.2.45.jar",
           "type": "File",
