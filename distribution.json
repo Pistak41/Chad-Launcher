@@ -781,6 +781,17 @@
           }
         },
         {
+          "id": "CustomNPCs_1.7.10d(29oct17).jar",
+          "name": "CustomNPCs_1.7.10d(29oct17).jar",
+          "type": "File",
+          "artifact": {
+            "size": 9007920,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/CustomNPCs_1.7.10d(29oct17).jar",
+            "MD5": "486eb501ae87b3efcdc6b08823c7d7c9",
+            "path": "mods/CustomNPCs_1.7.10d(29oct17).jar"
+          }
+        },
+        {
           "id": "Decocraft-2.4.2_1.7.10.jar",
           "name": "Decocraft-2.4.2_1.7.10.jar",
           "type": "File",
