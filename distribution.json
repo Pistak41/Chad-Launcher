@@ -11,7 +11,7 @@
       "id": "Hola-1.12.2",
       "name": "Hola (Minecraft 1.12.2)",
       "description": "Hola Running Minecraft 1.12.2",
-      "icon": null,
+      "icon": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/Hola-1.12.2.jpg",
       "version": "1.0.0",
       "address": "192.168.0.24:25565",
       "minecraftVersion": "1.12.2",
