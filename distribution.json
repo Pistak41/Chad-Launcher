@@ -686,9 +686,9 @@
           "name": "mainmenu.json",
           "type": "File",
           "artifact": {
-            "size": 3659,
+            "size": 3400,
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/CustomMainMenu/mainmenu.json",
-            "MD5": "dfc240f24245b1c559294678f9ed3d41",
+            "MD5": "6f7b9771771f454229ec709392ef17f4",
             "path": "config/CustomMainMenu/mainmenu.json"
           }
         },
