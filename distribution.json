@@ -682,6 +682,17 @@
           ]
         },
         {
+          "id": "mainmenu.json",
+          "name": "mainmenu.json",
+          "type": "File",
+          "artifact": {
+            "size": 3659,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/CustomMainMenu/mainmenu.json",
+            "MD5": "dfc240f24245b1c559294678f9ed3d41",
+            "path": "config/CustomMainMenu/mainmenu.json"
+          }
+        },
+        {
           "id": "ATOP-1.7.10-v.1.2.jar",
           "name": "ATOP-1.7.10-v.1.2.jar",
           "type": "File",
@@ -778,6 +789,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ClaySoldiersMod-1.7.10-2.0.0-beta.2.jar",
             "MD5": "f7ad5985318317f30d47ade6ef2c0a4e",
             "path": "mods/ClaySoldiersMod-1.7.10-2.0.0-beta.2.jar"
+          }
+        },
+        {
+          "id": "CustomMainMenu-MC1.7.10-1.9.2.jar",
+          "name": "CustomMainMenu-MC1.7.10-1.9.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 115292,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/CustomMainMenu-MC1.7.10-1.9.2.jar",
+            "MD5": "7d0a3079e02fc07cd19a9558227e878b",
+            "path": "mods/CustomMainMenu-MC1.7.10-1.9.2.jar"
           }
         },
         {
@@ -1163,6 +1185,127 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/xprings-1.7.10-1.3.0.jar",
             "MD5": "917dfdef356437a4b4a072c1fbca70ac",
             "path": "mods/xprings-1.7.10-1.3.0.jar"
+          }
+        },
+        {
+          "id": "Z.png",
+          "name": "Z.png",
+          "type": "File",
+          "artifact": {
+            "size": 30763,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/Z.png",
+            "MD5": "3c7cad3beeb96a032dac5660a3d1ac41",
+            "path": "resources/modpack/Z.png"
+          }
+        },
+        {
+          "id": "bg_menu.png",
+          "name": "bg_menu.png",
+          "type": "File",
+          "artifact": {
+            "size": 6328,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/bg_menu.png",
+            "MD5": "982a96cd0b85bb5eecd13cb6841775f6",
+            "path": "resources/modpack/bg_menu.png"
+          }
+        },
+        {
+          "id": "boton.png",
+          "name": "boton.png",
+          "type": "File",
+          "artifact": {
+            "size": 1827,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/boton.png",
+            "MD5": "e8fffe42461ff14ec01f896def4827cd",
+            "path": "resources/modpack/boton.png"
+          }
+        },
+        {
+          "id": "btn.png",
+          "name": "btn.png",
+          "type": "File",
+          "artifact": {
+            "size": 2958,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/btn.png",
+            "MD5": "93679909e4e3c6ba9875174da24916fd",
+            "path": "resources/modpack/btn.png"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 127117,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/panorama/panorama_0.png",
+            "MD5": "e4138e528b8eb3393501e4895085c133",
+            "path": "resources/modpack/panorama/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 128726,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/panorama/panorama_1.png",
+            "MD5": "f8accb2dfa666ad10409e00b64588498",
+            "path": "resources/modpack/panorama/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 120529,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/panorama/panorama_2.png",
+            "MD5": "e9b3f6407e4677ac80b32e7586b57cac",
+            "path": "resources/modpack/panorama/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 119936,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/panorama/panorama_3.png",
+            "MD5": "d66042fc656dd3a7a34a6af98c984e06",
+            "path": "resources/modpack/panorama/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 84374,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/panorama/panorama_4.png",
+            "MD5": "aad720f49453c1bcd6c3a59faec6ec7c",
+            "path": "resources/modpack/panorama/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 136742,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/panorama/panorama_5.png",
+            "MD5": "82e4c2e61a76bc6a1ab2194e4796e90a",
+            "path": "resources/modpack/panorama/panorama_5.png"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 64,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/servers.dat",
+            "MD5": "88cc05c6b92e0a7f6c63b213dd55dd27",
+            "path": "servers.dat"
           }
         }
       ]
