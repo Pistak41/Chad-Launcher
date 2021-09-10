@@ -487,17 +487,17 @@
       "id": "Montenegro-1.7.10",
       "name": "Montenegro (Minecraft 1.7.10)",
       "description": "Montenegro Running Minecraft 1.7.10",
-      "icon": null,
+      "icon": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/Montenegro-1.7.10.png",
       "version": "1.0.0",
       "address": "190.190.29.214:25565",
       "minecraftVersion": "1.7.10",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "Montenegro 1.7.10",
+        "largeImageText": "Server crossover?",
+        "largeImageKey": "montenegro"
       },
       "mainServer": false,
-      "autoconnect": false,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10:universal",
@@ -1302,9 +1302,9 @@
           "name": "servers.dat",
           "type": "File",
           "artifact": {
-            "size": 64,
+            "size": 71,
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/servers.dat",
-            "MD5": "88cc05c6b92e0a7f6c63b213dd55dd27",
+            "MD5": "af93a9713c9beeeb8316ebf057ae52d9",
             "path": "servers.dat"
           }
         }
