@@ -16,9 +16,9 @@
       "address": "192.168.0.24:25565",
       "minecraftVersion": "1.12.2",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "Hola",
+        "largeImageText": "AMONG US",
+        "largeImageKey": "mogus"
       },
       "mainServer": false,
       "autoconnect": false,
