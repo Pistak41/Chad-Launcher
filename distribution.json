@@ -706,6 +706,17 @@
           }
         },
         {
+          "id": "abyssalcraft.cfg",
+          "name": "abyssalcraft.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 10468,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/abyssalcraft.cfg",
+            "MD5": "4b291874bbc1e947f024f2f659de4e0e",
+            "path": "config/abyssalcraft.cfg"
+          }
+        },
+        {
           "id": "wizardry.cfg",
           "name": "wizardry.cfg",
           "type": "File",
