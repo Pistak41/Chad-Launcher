@@ -682,6 +682,19 @@
           ]
         },
         {
+          "id": "net.optifine:optifine:1.7.10_HD_U_E7@jar",
+          "name": "OptiFine 1.7.10_HD_U_E7",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1774165,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/forgemods/optionalon/OptiFine_1.7.10_HD_U_E7.jar",
+            "MD5": "445062f5aaf982c36c72d90530c26850"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "mainmenu.json",
           "name": "mainmenu.json",
           "type": "File",
@@ -792,6 +805,17 @@
           }
         },
         {
+          "id": "CustomMainMenu-MC1.7.10-1.9.2.jar",
+          "name": "CustomMainMenu-MC1.7.10-1.9.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 115292,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/CustomMainMenu-MC1.7.10-1.9.2.jar",
+            "MD5": "7d0a3079e02fc07cd19a9558227e878b",
+            "path": "mods/CustomMainMenu-MC1.7.10-1.9.2.jar"
+          }
+        },
+        {
           "id": "CustomNPCs_1.7.10d(29oct17).jar",
           "name": "CustomNPCs_1.7.10d(29oct17).jar",
           "type": "File",
@@ -822,6 +846,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/DragonBlockC-v1.4.73.jar",
             "MD5": "7d0f8983be3b6a41529613da6ebd35b4",
             "path": "mods/DragonBlockC-v1.4.73.jar"
+          }
+        },
+        {
+          "id": "Electroblob's+Wizardry+-+1.1.5+-+MC+1.7.10.jar",
+          "name": "Electroblob's+Wizardry+-+1.1.5+-+MC+1.7.10.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2862993,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Electroblob's+Wizardry+-+1.1.5+-+MC+1.7.10.jar",
+            "MD5": "2778889f4e894d0d738c38570dcee29c",
+            "path": "mods/Electroblob's+Wizardry+-+1.1.5+-+MC+1.7.10.jar"
           }
         },
         {
@@ -921,6 +956,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/RadixCore-1.7.10-2.1.3-universal.jar",
             "MD5": "eba8b2727935bc4cd0309f2591de7fb7",
             "path": "mods/RadixCore-1.7.10-2.1.3-universal.jar"
+          }
+        },
+        {
+          "id": "ResourceLoader-MC1.7.10-1.3.jar",
+          "name": "ResourceLoader-MC1.7.10-1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13037,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ResourceLoader-MC1.7.10-1.3.jar",
+            "MD5": "8139e4169ad21a531110deb371c2e6f3",
+            "path": "mods/ResourceLoader-MC1.7.10-1.3.jar"
           }
         },
         {
