@@ -706,6 +706,17 @@
           }
         },
         {
+          "id": "wizardry.cfg",
+          "name": "wizardry.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 27781,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/wizardry.cfg",
+            "MD5": "bf0225fb14ff6b130fe85a590b9fa10c",
+            "path": "config/wizardry.cfg"
+          }
+        },
+        {
           "id": "BBG-1.0.0.jar",
           "name": "BBG-1.0.0.jar",
           "type": "File",
@@ -780,6 +791,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ClaySoldiersMod-1.7.10-2.0.0-beta.2.jar",
             "MD5": "f7ad5985318317f30d47ade6ef2c0a4e",
             "path": "mods/ClaySoldiersMod-1.7.10-2.0.0-beta.2.jar"
+          }
+        },
+        {
+          "id": "CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
+          "name": "CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 143985,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
+            "MD5": "9624db3d835155a1be4baef23b7cee31",
+            "path": "mods/CodeChickenCore-1.7.10-1.0.7.48-universal.jar"
           }
         },
         {
@@ -923,6 +945,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/MCA-1.7.10-5.2.2-universal.jar",
             "MD5": "85da3558edd7abc4bd69c24b6304522c",
             "path": "mods/MCA-1.7.10-5.2.2-universal.jar"
+          }
+        },
+        {
+          "id": "NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
+          "name": "NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 513136,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
+            "MD5": "742e865a9a80071e80976ffedc05700e",
+            "path": "mods/NotEnoughItems-1.7.10-1.0.5.120-universal.jar"
           }
         },
         {
@@ -1132,6 +1165,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/journeymap-1.7.10-5.1.4p2-unlimited.jar",
             "MD5": "0c3daa19789a67da328437a8635c2cf3",
             "path": "mods/journeymap-1.7.10-5.1.4p2-unlimited.jar"
+          }
+        },
+        {
+          "id": "ordinarycoins-1.7.10-1.5.jar",
+          "name": "ordinarycoins-1.7.10-1.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 43338,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ordinarycoins-1.7.10-1.5.jar",
+            "MD5": "551ca3b1590fa38d89a5f6e59196f872",
+            "path": "mods/ordinarycoins-1.7.10-1.5.jar"
           }
         },
         {
