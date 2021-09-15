@@ -992,17 +992,6 @@
           }
         },
         {
-          "id": "MineFactoryReloaded-[1.7.10]2.8.1-174.jar",
-          "name": "MineFactoryReloaded-[1.7.10]2.8.1-174.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1756014,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/MineFactoryReloaded-[1.7.10]2.8.1-174.jar",
-            "MD5": "690ebc0ca27dfbeff2c8111f413e96ad",
-            "path": "mods/MineFactoryReloaded-[1.7.10]2.8.1-174.jar"
-          }
-        },
-        {
           "id": "NetherOres-[1.7.10]2.3.1-22.jar",
           "name": "NetherOres-[1.7.10]2.3.1-22.jar",
           "type": "File",
