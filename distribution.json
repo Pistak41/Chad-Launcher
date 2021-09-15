@@ -682,6 +682,19 @@
           ]
         },
         {
+          "id": "generated.forgemod:journeymap:1.7.10-5.1.4p2@jar",
+          "name": "JourneyMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1731255,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/forgemods/optionalon/journeymap-1.7.10-5.1.4p2-unlimited.jar",
+            "MD5": "0c3daa19789a67da328437a8635c2cf3"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "net.optifine:optifine:1.7.10_HD_U_E7@jar",
           "name": "OptiFine 1.7.10_HD_U_E7",
           "type": "ForgeMod",
@@ -1212,17 +1225,6 @@
           }
         },
         {
-          "id": "[Local][1.7.10]DamageIndicatorsMod-3.3.2.jar",
-          "name": "[Local][1.7.10]DamageIndicatorsMod-3.3.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 283244,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[Local][1.7.10]DamageIndicatorsMod-3.3.2.jar",
-            "MD5": "977ecf787685d114ace82f498552dd36",
-            "path": "mods/[Local][1.7.10]DamageIndicatorsMod-3.3.2.jar"
-          }
-        },
-        {
           "id": "coroutil-1.1.3 for MC v1.7.10.jar",
           "name": "coroutil-1.1.3 for MC v1.7.10.jar",
           "type": "File",
@@ -1275,17 +1277,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/inventorypets-1.7.10-1.5.2-universal.jar",
             "MD5": "5cf1e5d4e9fe2293295b0c66b2d9a92a",
             "path": "mods/inventorypets-1.7.10-1.5.2-universal.jar"
-          }
-        },
-        {
-          "id": "journeymap-1.7.10-5.1.4p2-unlimited.jar",
-          "name": "journeymap-1.7.10-5.1.4p2-unlimited.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1731255,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/journeymap-1.7.10-5.1.4p2-unlimited.jar",
-            "MD5": "0c3daa19789a67da328437a8635c2cf3",
-            "path": "mods/journeymap-1.7.10-5.1.4p2-unlimited.jar"
           }
         },
         {
