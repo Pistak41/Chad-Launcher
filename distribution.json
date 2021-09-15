@@ -682,6 +682,20 @@
           ]
         },
         {
+          "id": "generated.forgemod:antiqueatlas:4.4.4@jar",
+          "name": "Antique Atlas",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1135508,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/forgemods/optionaloff/antiqueatlas-1.7.10-4.4.4.jar",
+            "MD5": "4b0ab763b63275d7f4abefb772961773"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "generated.forgemod:journeymap:1.7.10-5.1.4p2@jar",
           "name": "JourneyMap",
           "type": "ForgeMod",
@@ -727,6 +741,28 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/abyssalcraft.cfg",
             "MD5": "4b291874bbc1e947f024f2f659de4e0e",
             "path": "config/abyssalcraft.cfg"
+          }
+        },
+        {
+          "id": "biome_textures.json",
+          "name": "biome_textures.json",
+          "type": "File",
+          "artifact": {
+            "size": 4431,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/antiqueatlas/biome_textures.json",
+            "MD5": "225e3ac170578cf2aab292503975373c",
+            "path": "config/antiqueatlas/biome_textures.json"
+          }
+        },
+        {
+          "id": "texture_sets.json",
+          "name": "texture_sets.json",
+          "type": "File",
+          "artifact": {
+            "size": 4748,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/antiqueatlas/texture_sets.json",
+            "MD5": "2d085b0818e90bc778b52ec2a8983255",
+            "path": "config/antiqueatlas/texture_sets.json"
           }
         },
         {
