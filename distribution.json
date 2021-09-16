@@ -496,7 +496,7 @@
         "largeImageText": "Server crossover?",
         "largeImageKey": "montenegro"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": true,
       "modules": [
         {
@@ -682,20 +682,6 @@
           ]
         },
         {
-          "id": "generated.forgemod:antiqueatlas:4.4.4@jar",
-          "name": "Antique Atlas",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1135508,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/forgemods/optionaloff/antiqueatlas-1.7.10-4.4.4.jar",
-            "MD5": "4b0ab763b63275d7f4abefb772961773"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "generated.forgemod:journeymap:1.7.10-5.1.4p2@jar",
           "name": "JourneyMap",
           "type": "ForgeMod",
@@ -703,19 +689,6 @@
             "size": 1731255,
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/forgemods/optionalon/journeymap-1.7.10-5.1.4p2-unlimited.jar",
             "MD5": "0c3daa19789a67da328437a8635c2cf3"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.optifine:optifine:1.7.10_HD_U_E7@jar",
-          "name": "OptiFine 1.7.10_HD_U_E7",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1774165,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/forgemods/optionalon/OptiFine_1.7.10_HD_U_E7.jar",
-            "MD5": "445062f5aaf982c36c72d90530c26850"
           },
           "required": {
             "value": false
@@ -799,6 +772,28 @@
           }
         },
         {
+          "id": "Aroma1997Core-1.7.10-1.0.2.16.jar",
+          "name": "Aroma1997Core-1.7.10-1.0.2.16.jar",
+          "type": "File",
+          "artifact": {
+            "size": 159243,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Aroma1997Core-1.7.10-1.0.2.16.jar",
+            "MD5": "acadd2e64f5621f0e87f25a02c3dda14",
+            "path": "mods/Aroma1997Core-1.7.10-1.0.2.16.jar"
+          }
+        },
+        {
+          "id": "Aroma1997s-Dimensional-World-1.7.10-1.1.0.1.jar",
+          "name": "Aroma1997s-Dimensional-World-1.7.10-1.1.0.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 86550,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Aroma1997s-Dimensional-World-1.7.10-1.1.0.1.jar",
+            "MD5": "756e446bbcb0e045ed1907d7f56c91ae",
+            "path": "mods/Aroma1997s-Dimensional-World-1.7.10-1.1.0.1.jar"
+          }
+        },
+        {
           "id": "BBG-1.0.0.jar",
           "name": "BBG-1.0.0.jar",
           "type": "File",
@@ -843,6 +838,17 @@
           }
         },
         {
+          "id": "BigReactors-0.4.3A.jar",
+          "name": "BigReactors-0.4.3A.jar",
+          "type": "File",
+          "artifact": {
+            "size": 771107,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/BigReactors-0.4.3A.jar",
+            "MD5": "b1c71b6a64a84f154af2d83bdc0d33bf",
+            "path": "mods/BigReactors-0.4.3A.jar"
+          }
+        },
+        {
           "id": "BirdsNests1.7.10-1.4.jar",
           "name": "BirdsNests1.7.10-1.4.jar",
           "type": "File",
@@ -851,6 +857,28 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/BirdsNests1.7.10-1.4.jar",
             "MD5": "80e0e4a45af0c83e6320a5efd19f25c6",
             "path": "mods/BirdsNests1.7.10-1.4.jar"
+          }
+        },
+        {
+          "id": "BrandonsCore-1.0.0.12.jar",
+          "name": "BrandonsCore-1.0.0.12.jar",
+          "type": "File",
+          "artifact": {
+            "size": 92269,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/BrandonsCore-1.0.0.12.jar",
+            "MD5": "4cfb5db069cf6019ea602cbc1c32cc31",
+            "path": "mods/BrandonsCore-1.0.0.12.jar"
+          }
+        },
+        {
+          "id": "ChickenChunks-1.7.10-1.3.4.19-universal.jar",
+          "name": "ChickenChunks-1.7.10-1.3.4.19-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 106701,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ChickenChunks-1.7.10-1.3.4.19-universal.jar",
+            "MD5": "5592eda79bd2b52adf1d4bdceaa59b73",
+            "path": "mods/ChickenChunks-1.7.10-1.3.4.19-universal.jar"
           }
         },
         {
@@ -950,6 +978,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Decocraft-2.4.2_1.7.10.jar",
             "MD5": "9db261cb326ccdb827ebc36e37706d51",
             "path": "mods/Decocraft-2.4.2_1.7.10.jar"
+          }
+        },
+        {
+          "id": "Draconic-Evolution-1.7.10-1.0.2h.jar",
+          "name": "Draconic-Evolution-1.7.10-1.0.2h.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4874507,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Draconic-Evolution-1.7.10-1.0.2h.jar",
+            "MD5": "6fab228f67c149b2d2ada1ff856b0f63",
+            "path": "mods/Draconic-Evolution-1.7.10-1.0.2h.jar"
           }
         },
         {
@@ -1151,6 +1190,17 @@
           }
         },
         {
+          "id": "Techguns.beta.1.2_alphatest4.1.jar",
+          "name": "Techguns.beta.1.2_alphatest4.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 17998936,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Techguns.beta.1.2_alphatest4.1.jar",
+            "MD5": "fe928745a8aebf66115264fc34539403",
+            "path": "mods/Techguns.beta.1.2_alphatest4.1.jar"
+          }
+        },
+        {
           "id": "ThermalDynamics-[1.7.10]1.2.1-172.jar",
           "name": "ThermalDynamics-[1.7.10]1.2.1-172.jar",
           "type": "File",
@@ -1192,6 +1242,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Waila-1.5.10_1.7.10.jar",
             "MD5": "eeb36775188e70faa1c5ecd84f80076c",
             "path": "mods/Waila-1.5.10_1.7.10.jar"
+          }
+        },
+        {
+          "id": "[1.7.10]+SecurityCraft+v1.8.13.jar",
+          "name": "[1.7.10]+SecurityCraft+v1.8.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1060122,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[1.7.10]+SecurityCraft+v1.8.13.jar",
+            "MD5": "c3b8d3cc7bed916b8608af073c3b27fe",
+            "path": "mods/[1.7.10]+SecurityCraft+v1.8.13.jar"
           }
         },
         {
@@ -1261,6 +1322,83 @@
           }
         },
         {
+          "id": "[UniDict] UniDict-1.7.10-2.9.2.jar",
+          "name": "[UniDict] UniDict-1.7.10-2.9.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 152787,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[UniDict]%20UniDict-1.7.10-2.9.2.jar",
+            "MD5": "07261f423e1d5c537c1a087185d9bff0",
+            "path": "mods/[UniDict] UniDict-1.7.10-2.9.2.jar"
+          }
+        },
+        {
+          "id": "[UniDict][lib] WanionLib-1.7.10-1.8.jar",
+          "name": "[UniDict][lib] WanionLib-1.7.10-1.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 60225,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[UniDict][lib]%20WanionLib-1.7.10-1.8.jar",
+            "MD5": "8c7c8b8fef46a39d174500d5cdb712e0",
+            "path": "mods/[UniDict][lib] WanionLib-1.7.10-1.8.jar"
+          }
+        },
+        {
+          "id": "[buildcraft] buildcraft-7.1.23.jar",
+          "name": "[buildcraft] buildcraft-7.1.23.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2705733,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[buildcraft]%20buildcraft-7.1.23.jar",
+            "MD5": "5642e498a79c92f5e4994d10d3de7ac6",
+            "path": "mods/[buildcraft] buildcraft-7.1.23.jar"
+          }
+        },
+        {
+          "id": "[indust] AdvancedSolarPanel_1.7.10_Edition.jar",
+          "name": "[indust] AdvancedSolarPanel_1.7.10_Edition.jar",
+          "type": "File",
+          "artifact": {
+            "size": 305650,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[indust]%20AdvancedSolarPanel_1.7.10_Edition.jar",
+            "MD5": "345df7343f44988e8522a7e6d5bf56ba",
+            "path": "mods/[indust] AdvancedSolarPanel_1.7.10_Edition.jar"
+          }
+        },
+        {
+          "id": "[indust] industrialcraft-2-2.2.827-experimental.jar",
+          "name": "[indust] industrialcraft-2-2.2.827-experimental.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5633941,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[indust]%20industrialcraft-2-2.2.827-experimental.jar",
+            "MD5": "6fd8c3b8b87532c4c8884614fc2eb21d",
+            "path": "mods/[indust] industrialcraft-2-2.2.827-experimental.jar"
+          }
+        },
+        {
+          "id": "antiqueatlas-1.7.10-4.4.4.jar",
+          "name": "antiqueatlas-1.7.10-4.4.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1135508,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/antiqueatlas-1.7.10-4.4.4.jar",
+            "MD5": "4b0ab763b63275d7f4abefb772961773",
+            "path": "mods/antiqueatlas-1.7.10-4.4.4.jar"
+          }
+        },
+        {
+          "id": "appliedenergistics2-rv3-beta-6.jar",
+          "name": "appliedenergistics2-rv3-beta-6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2924325,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/appliedenergistics2-rv3-beta-6.jar",
+            "MD5": "0a555df010345a27e0956a3f05517510",
+            "path": "mods/appliedenergistics2-rv3-beta-6.jar"
+          }
+        },
+        {
           "id": "coroutil-1.1.3 for MC v1.7.10.jar",
           "name": "coroutil-1.1.3 for MC v1.7.10.jar",
           "type": "File",
@@ -1269,6 +1407,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/coroutil-1.1.3%20for%20MC%20v1.7.10.jar",
             "MD5": "8268bb28cb7c05eccc4355ec13f70860",
             "path": "mods/coroutil-1.1.3 for MC v1.7.10.jar"
+          }
+        },
+        {
+          "id": "extrautilities-1.2.12.jar",
+          "name": "extrautilities-1.2.12.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2149827,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/extrautilities-1.2.12.jar",
+            "MD5": "0b1848ece3f6e1370e6caa8124c1480d",
+            "path": "mods/extrautilities-1.2.12.jar"
           }
         },
         {
@@ -1324,6 +1473,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ordinarycoins-1.7.10-1.5.jar",
             "MD5": "551ca3b1590fa38d89a5f6e59196f872",
             "path": "mods/ordinarycoins-1.7.10-1.5.jar"
+          }
+        },
+        {
+          "id": "rivalrebels-1.7.10Z1.jar",
+          "name": "rivalrebels-1.7.10Z1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 9399664,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/rivalrebels-1.7.10Z1.jar",
+            "MD5": "77daa6f745ea92cd6a238fe6f6866250",
+            "path": "mods/rivalrebels-1.7.10Z1.jar"
           }
         },
         {
@@ -1506,7 +1666,7 @@
         "largeImageText": "Server de Chad Launcher",
         "largeImageKey": "launcher"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": true,
       "modules": [
         {
