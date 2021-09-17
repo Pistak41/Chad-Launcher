@@ -772,6 +772,17 @@
           }
         },
         {
+          "id": "AntiqueAtlasOverlay-1.7.10-1.2.jar",
+          "name": "AntiqueAtlasOverlay-1.7.10-1.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 12571,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/AntiqueAtlasOverlay-1.7.10-1.2.jar",
+            "MD5": "d373728e6f0c078e0b85f1f16ca7ea8f",
+            "path": "mods/AntiqueAtlasOverlay-1.7.10-1.2.jar"
+          }
+        },
+        {
           "id": "Aroma1997Core-1.7.10-1.0.2.16.jar",
           "name": "Aroma1997Core-1.7.10-1.0.2.16.jar",
           "type": "File",
