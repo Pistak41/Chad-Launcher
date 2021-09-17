@@ -717,6 +717,17 @@
           }
         },
         {
+          "id": "AntiqueAtlasOverlay.cfg",
+          "name": "AntiqueAtlasOverlay.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3533,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/antiqueatlas/AntiqueAtlasOverlay.cfg",
+            "MD5": "d5537c4e7f1d714cf3cc0a1662ffe4cc",
+            "path": "config/antiqueatlas/AntiqueAtlasOverlay.cfg"
+          }
+        },
+        {
           "id": "biome_textures.json",
           "name": "biome_textures.json",
           "type": "File",
