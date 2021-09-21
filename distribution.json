@@ -1047,6 +1047,17 @@
           }
         },
         {
+          "id": "FoamFix-1.7.10-universal-1.0.0-beta3.jar",
+          "name": "FoamFix-1.7.10-universal-1.0.0-beta3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 63341,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/FoamFix-1.7.10-universal-1.0.0-beta3.jar",
+            "MD5": "bf46762f339b573224a96e30919b2259",
+            "path": "mods/FoamFix-1.7.10-universal-1.0.0-beta3.jar"
+          }
+        },
+        {
           "id": "GravityGun-4.0.0-beta.jar",
           "name": "GravityGun-4.0.0-beta.jar",
           "type": "File",
