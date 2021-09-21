@@ -1487,6 +1487,17 @@
           }
         },
         {
+          "id": "ironfurnaces-1.2.1R.jar",
+          "name": "ironfurnaces-1.2.1R.jar",
+          "type": "File",
+          "artifact": {
+            "size": 115391,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ironfurnaces-1.2.1R.jar",
+            "MD5": "220b9e5f198df2181011c89d5f1ea3ad",
+            "path": "mods/ironfurnaces-1.2.1R.jar"
+          }
+        },
+        {
           "id": "ordinarycoins-1.7.10-1.5.jar",
           "name": "ordinarycoins-1.7.10-1.5.jar",
           "type": "File",
