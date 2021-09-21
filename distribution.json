@@ -1058,6 +1058,17 @@
           }
         },
         {
+          "id": "FutureThings_Relase_V2.0.0.jar",
+          "name": "FutureThings_Relase_V2.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1148699,
+            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/FutureThings_Relase_V2.0.0.jar",
+            "MD5": "7799c570164dec3e5fc2733fcb982aed",
+            "path": "mods/FutureThings_Relase_V2.0.0.jar"
+          }
+        },
+        {
           "id": "GravityGun-4.0.0-beta.jar",
           "name": "GravityGun-4.0.0-beta.jar",
           "type": "File",
