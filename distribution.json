@@ -270,6 +270,16 @@
           }
         },
         {
+          "id": "mcp.mobius:waila:1.8.26@jar",
+          "name": "Waila",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 453778,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/required/Hwyla-1.8.26-B41_1.12.2.jar",
+            "MD5": "bca1c069d9171d331d211d24e8a3b770"
+          }
+        },
+        {
           "id": "mezz.jei:jei:4.16.1.301@jar",
           "name": "Just Enough Items",
           "type": "ForgeMod",
