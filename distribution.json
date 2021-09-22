@@ -250,6 +250,26 @@
           }
         },
         {
+          "id": "net.mcreator:futureminecraf:1.3.1@jar",
+          "name": "Future Versions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10011886,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/required/FutureVersions+v1.3.1.jar",
+            "MD5": "e2d83e1bb81d3c4f3a1c905a52cdaade"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:4.16.1.301@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 653211,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/required/jei_1.12.2-4.16.1.301.jar",
+            "MD5": "1dee4be93d666e2228039c551e927b35"
+          }
+        },
+        {
           "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
           "name": "OptiFine 1.12.2_HD_U_G5",
           "type": "ForgeMod",
