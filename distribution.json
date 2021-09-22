@@ -236,6 +236,16 @@
           ]
         },
         {
+          "id": "com.shinoow:abyssalcraft:1.12.2-1.10.4@jar",
+          "name": "AbyssalCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14248353,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/required/AbyssalCraft-1.12.2-1.10.4.jar",
+            "MD5": "c8d67c26e50bc2c3c4cc13c2c8b43dc4"
+          }
+        },
+        {
           "id": "pl.asie:foamfix:0.10.11-1.12.2@jar",
           "name": "FoamFix",
           "type": "ForgeMod",
@@ -280,6 +290,16 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "twilightforest:twilightforest:3.11.1021@jar",
+          "name": "The Twilight Forest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 28721862,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/required/twilightforest-1.12.2-3.11.1021-universal.jar",
+            "MD5": "0933760943721154f3208782306f04d6"
           }
         },
         {
