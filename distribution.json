@@ -1115,17 +1115,6 @@
           }
         },
         {
-          "id": "antiqueatlas-1.12.2-4.6.3.jar",
-          "name": "antiqueatlas-1.12.2-4.6.3.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1239580,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/antiqueatlas-1.12.2-4.6.3.jar",
-            "MD5": "2cafce41d88d5067bf9a9da6a8fc79a8",
-            "path": "mods/antiqueatlas-1.12.2-4.6.3.jar"
-          }
-        },
-        {
           "id": "appliedenergistics2-rv6-stable-7.jar",
           "name": "appliedenergistics2-rv6-stable-7.jar",
           "type": "File",
