@@ -1258,17 +1258,6 @@
           }
         },
         {
-          "id": "journeymap-1.12.2-5.7.1.jar",
-          "name": "journeymap-1.12.2-5.7.1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 6990968,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/journeymap-1.12.2-5.7.1.jar",
-            "MD5": "8160b970fc14cff30dff2785bb9f964c",
-            "path": "mods/journeymap-1.12.2-5.7.1.jar"
-          }
-        },
-        {
           "id": "llibrary-1.7.20-1.12.2.jar",
           "name": "llibrary-1.7.20-1.12.2.jar",
           "type": "File",
