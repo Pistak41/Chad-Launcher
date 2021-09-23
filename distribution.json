@@ -610,16 +610,6 @@
           }
         },
         {
-          "id": "ic2.core:ic2:2.8.170-ex112@jar",
-          "name": "IndustrialCraft 2",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 8356436,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/required/industrialcraft-2-2.8.170-ex112.jar",
-            "MD5": "d4f952c94cacdd280abbb73f072b2424"
-          }
-        },
-        {
           "id": "org.cyclops:integrateddynamics:1.12.2-1.1.11@jar",
           "name": "Integrated Dynamics",
           "type": "ForgeMod",
