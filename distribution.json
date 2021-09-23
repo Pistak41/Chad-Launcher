@@ -263,6 +263,39 @@
           }
         },
         {
+          "id": "biome_textures (2).json",
+          "name": "biome_textures (2).json",
+          "type": "File",
+          "artifact": {
+            "size": 4431,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/config/antiqueatlas/biome_textures%20(2).json",
+            "MD5": "225e3ac170578cf2aab292503975373c",
+            "path": "config/antiqueatlas/biome_textures (2).json"
+          }
+        },
+        {
+          "id": "biome_textures.json",
+          "name": "biome_textures.json",
+          "type": "File",
+          "artifact": {
+            "size": 5788,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/config/antiqueatlas/biome_textures.json",
+            "MD5": "94c49ed899f45447f68854b6aff7dced",
+            "path": "config/antiqueatlas/biome_textures.json"
+          }
+        },
+        {
+          "id": "texture_sets.json",
+          "name": "texture_sets.json",
+          "type": "File",
+          "artifact": {
+            "size": 4748,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/config/antiqueatlas/texture_sets.json",
+            "MD5": "2d085b0818e90bc778b52ec2a8983255",
+            "path": "config/antiqueatlas/texture_sets.json"
+          }
+        },
+        {
           "id": "ActuallyAdditions-1.12.2-r152.jar",
           "name": "ActuallyAdditions-1.12.2-r152.jar",
           "type": "File",
@@ -271,6 +304,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ActuallyAdditions-1.12.2-r152.jar",
             "MD5": "4bb5c052581c729eb8a6adc60b376ec6",
             "path": "mods/ActuallyAdditions-1.12.2-r152.jar"
+          }
+        },
+        {
+          "id": "Advanced+Solar+Panels-4.3.0.jar",
+          "name": "Advanced+Solar+Panels-4.3.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 316833,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Advanced+Solar+Panels-4.3.0.jar",
+            "MD5": "2f16b7591d15da58d91f2ff147299a73",
+            "path": "mods/Advanced+Solar+Panels-4.3.0.jar"
           }
         },
         {
@@ -326,6 +370,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Baubles-1.12-1.5.2.jar",
             "MD5": "944dec4ef3fbfd4d498d94a7047af201",
             "path": "mods/Baubles-1.12-1.5.2.jar"
+          }
+        },
+        {
+          "id": "BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
+          "name": "BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4702147,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
+            "MD5": "4c1d23b8a58b6aaa9a5204fae3f18393",
+            "path": "mods/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar"
           }
         },
         {
@@ -989,6 +1044,17 @@
           }
         },
         {
+          "id": "antiqueatlas-1.12.2-4.6.3.jar",
+          "name": "antiqueatlas-1.12.2-4.6.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1239580,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/antiqueatlas-1.12.2-4.6.3.jar",
+            "MD5": "2cafce41d88d5067bf9a9da6a8fc79a8",
+            "path": "mods/antiqueatlas-1.12.2-4.6.3.jar"
+          }
+        },
+        {
           "id": "appliedenergistics2-rv6-stable-7.jar",
           "name": "appliedenergistics2-rv6-stable-7.jar",
           "type": "File",
@@ -1118,6 +1184,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/jei_1.12.2-4.16.1.301.jar",
             "MD5": "1dee4be93d666e2228039c551e927b35",
             "path": "mods/jei_1.12.2-4.16.1.301.jar"
+          }
+        },
+        {
+          "id": "journeymap-1.12.2-5.7.1.jar",
+          "name": "journeymap-1.12.2-5.7.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6990968,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/journeymap-1.12.2-5.7.1.jar",
+            "MD5": "8160b970fc14cff30dff2785bb9f964c",
+            "path": "mods/journeymap-1.12.2-5.7.1.jar"
           }
         },
         {
