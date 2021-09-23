@@ -329,6 +329,17 @@
           }
         },
         {
+          "id": "Armor+Souls+Reforged+v1.jar",
+          "name": "Armor+Souls+Reforged+v1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 728820,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Armor+Souls+Reforged+v1.jar",
+            "MD5": "e08b7975c86346868e8c541e51196417",
+            "path": "mods/Armor+Souls+Reforged+v1.jar"
+          }
+        },
+        {
           "id": "ArteMagicum-1.3.0.jar",
           "name": "ArteMagicum-1.3.0.jar",
           "type": "File",
@@ -406,6 +417,17 @@
           }
         },
         {
+          "id": "Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
+          "name": "Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5462081,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
+            "MD5": "ebc4c328d1d9994a8e77c5963af815be",
+            "path": "mods/Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar"
+          }
+        },
+        {
           "id": "CoFHCore-1.12.2-4.6.6.1-universal.jar",
           "name": "CoFHCore-1.12.2-4.6.6.1-universal.jar",
           "type": "File",
@@ -458,6 +480,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/CraftTweaker2-1.12-4.1.20.660.jar",
             "MD5": "5564da84d9122dc975a7592550e996e2",
             "path": "mods/CraftTweaker2-1.12-4.1.20.660.jar"
+          }
+        },
+        {
+          "id": "CustomNPCs_1.12.2-(05Jul20).jar",
+          "name": "CustomNPCs_1.12.2-(05Jul20).jar",
+          "type": "File",
+          "artifact": {
+            "size": 9911871,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/CustomNPCs_1.12.2-(05Jul20).jar",
+            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7",
+            "path": "mods/CustomNPCs_1.12.2-(05Jul20).jar"
           }
         },
         {
@@ -700,6 +733,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/MicdoodleCore-1.12.2-4.0.2.280.jar",
             "MD5": "2b033cb0694a53ea7b80876e2f00dec5",
             "path": "mods/MicdoodleCore-1.12.2-4.0.2.280.jar"
+          }
+        },
+        {
+          "id": "MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
+          "name": "MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 703346,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
+            "MD5": "d77d93d13d89c2ec4ff10887519daab8",
+            "path": "mods/MoBends_1.12.2-1.0.0-beta-20.06.20.jar"
           }
         },
         {
@@ -1143,6 +1187,17 @@
           }
         },
         {
+          "id": "geckolib-forge-1.12.2-3.0.0-beta.8.jar",
+          "name": "geckolib-forge-1.12.2-3.0.0-beta.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3685483,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/geckolib-forge-1.12.2-3.0.0-beta.8.jar",
+            "MD5": "948cb17694501c9a47d3f2ad9df8c144",
+            "path": "mods/geckolib-forge-1.12.2-3.0.0-beta.8.jar"
+          }
+        },
+        {
           "id": "iChunUtil-1.12.2-7.2.2.jar",
           "name": "iChunUtil-1.12.2-7.2.2.jar",
           "type": "File",
@@ -1253,6 +1308,17 @@
           }
         },
         {
+          "id": "ordinarycoins-1.12.2-1.5.jar",
+          "name": "ordinarycoins-1.12.2-1.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 47241,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ordinarycoins-1.12.2-1.5.jar",
+            "MD5": "170bc6362cfd7bad72f9ae11b283954c",
+            "path": "mods/ordinarycoins-1.12.2-1.5.jar"
+          }
+        },
+        {
           "id": "potions+mod+1.3.jar",
           "name": "potions+mod+1.3.jar",
           "type": "File",
@@ -1316,6 +1382,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/tetra-1.12.2-0.39.1.jar",
             "MD5": "9e9db45a08dd7ca24e2c02a069ca214f",
             "path": "mods/tetra-1.12.2-0.39.1.jar"
+          }
+        },
+        {
+          "id": "toroquest-1.12.2-5.3.jar",
+          "name": "toroquest-1.12.2-5.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 700179,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/toroquest-1.12.2-5.3.jar",
+            "MD5": "499efc967e8303e3bf3ccf7b18a4d2ce",
+            "path": "mods/toroquest-1.12.2-5.3.jar"
           }
         },
         {
