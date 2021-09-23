@@ -236,6 +236,20 @@
           ]
         },
         {
+          "id": "hunternif.mc.atlas:antiqueatlas:1.12.2-4.6.3@jar",
+          "name": "Antique Atlas",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1239580,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/optionaloff/antiqueatlas-1.12.2-4.6.3.jar",
+            "MD5": "2cafce41d88d5067bf9a9da6a8fc79a8"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "pl.asie:foamfix:0.10.11-1.12.2@jar",
           "name": "FoamFix",
           "type": "ForgeMod",
@@ -247,6 +261,19 @@
           "required": {
             "value": false,
             "def": false
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.12.2-5.7.1@jar",
+          "name": "JourneyMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6990968,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.7.1.jar",
+            "MD5": "8160b970fc14cff30dff2785bb9f964c"
+          },
+          "required": {
+            "value": false
           }
         },
         {
