@@ -517,6 +517,17 @@
           }
         },
         {
+          "id": "Decocraft-2.6.3.7_1.12.2.jar",
+          "name": "Decocraft-2.6.3.7_1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 16976718,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Decocraft-2.6.3.7_1.12.2.jar",
+            "MD5": "083cf0c798ebfd6065c2db0af0419c12",
+            "path": "mods/Decocraft-2.6.3.7_1.12.2.jar"
+          }
+        },
+        {
           "id": "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
           "name": "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
           "type": "File",
@@ -569,6 +580,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ExtraSpells-1.12.2-1.2.0.jar",
             "MD5": "84661ace81cd4a43fed9b9c83fdb6c6b",
             "path": "mods/ExtraSpells-1.12.2-1.2.0.jar"
+          }
+        },
+        {
+          "id": "Flan's+Mod-1.12.2-5.10.0.jar",
+          "name": "Flan's+Mod-1.12.2-5.10.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2259973,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Flan's+Mod-1.12.2-5.10.0.jar",
+            "MD5": "0cc53ac00145d96448d5d20eae4e2ed6",
+            "path": "mods/Flan's+Mod-1.12.2-5.10.0.jar"
           }
         },
         {
@@ -1210,6 +1232,17 @@
           }
         },
         {
+          "id": "guns-0.15.3-1.12.2.jar",
+          "name": "guns-0.15.3-1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 814386,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/guns-0.15.3-1.12.2.jar",
+            "MD5": "e7bdc91c4c17a75bce67b6e523869340",
+            "path": "mods/guns-0.15.3-1.12.2.jar"
+          }
+        },
+        {
           "id": "iChunUtil-1.12.2-7.2.2.jar",
           "name": "iChunUtil-1.12.2-7.2.2.jar",
           "type": "File",
@@ -1309,6 +1342,17 @@
           }
         },
         {
+          "id": "mw_2.0-0.4.4.6_mc1.12.2.jar",
+          "name": "mw_2.0-0.4.4.6_mc1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 27545802,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/mw_2.0-0.4.4.6_mc1.12.2.jar",
+            "MD5": "69cbe3bd707a5284b1af20ebf0a9b0b9",
+            "path": "mods/mw_2.0-0.4.4.6_mc1.12.2.jar"
+          }
+        },
+        {
           "id": "ordinarycoins-1.12.2-1.5.jar",
           "name": "ordinarycoins-1.12.2-1.5.jar",
           "type": "File",
@@ -1372,6 +1416,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/rftoolspower-1.12-1.2.0.jar",
             "MD5": "afd405e1ba3857a4bff72c394c3540af",
             "path": "mods/rftoolspower-1.12-1.2.0.jar"
+          }
+        },
+        {
+          "id": "techguns-1.12.2-2.0.2.0_pre3.2.jar",
+          "name": "techguns-1.12.2-2.0.2.0_pre3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 28126750,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/techguns-1.12.2-2.0.2.0_pre3.2.jar",
+            "MD5": "dbae09102aedeca925d4b3546685e5b5",
+            "path": "mods/techguns-1.12.2-2.0.2.0_pre3.2.jar"
           }
         },
         {
