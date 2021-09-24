@@ -1420,6 +1420,17 @@
             "MD5": "dbfd86a4ce5f669d0361be8a6ef57385",
             "path": "mods/wonderful-enchantments-1.12.2-0.6.0.jar"
           }
+        },
+        {
+          "id": "AntiqueAtlasExtra-v1.2.zip",
+          "name": "AntiqueAtlasExtra-v1.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1327669,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/resourcepacks/AntiqueAtlasExtra-v1.2.zip",
+            "MD5": "8c8f4a20714bce5779b06b81a9f24f46",
+            "path": "resourcepacks/AntiqueAtlasExtra-v1.2.zip"
+          }
         }
       ]
     },
