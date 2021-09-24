@@ -236,20 +236,6 @@
           ]
         },
         {
-          "id": "hunternif.mc.atlas:antiqueatlas:1.12.2-4.6.3@jar",
-          "name": "Antique Atlas",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1239580,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/optionaloff/antiqueatlas-1.12.2-4.6.3.jar",
-            "MD5": "2cafce41d88d5067bf9a9da6a8fc79a8"
-          },
-          "required": {
-            "value": false,
-            "def": false
-          }
-        },
-        {
           "id": "pl.asie:foamfix:0.10.11-1.12.2@jar",
           "name": "FoamFix",
           "type": "ForgeMod",
@@ -1111,6 +1097,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/[1.12.2]+SecurityCraft+v1.8.23.2.jar",
             "MD5": "32d7af044c1d127597eb3e02199700bd",
             "path": "mods/[1.12.2]+SecurityCraft+v1.8.23.2.jar"
+          }
+        },
+        {
+          "id": "antiqueatlas-1.12.2-4.6.3.jar",
+          "name": "antiqueatlas-1.12.2-4.6.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1239580,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/antiqueatlas-1.12.2-4.6.3.jar",
+            "MD5": "2cafce41d88d5067bf9a9da6a8fc79a8",
+            "path": "mods/antiqueatlas-1.12.2-4.6.3.jar"
           }
         },
         {
