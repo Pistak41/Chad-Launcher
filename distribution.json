@@ -825,6 +825,17 @@
           }
         },
         {
+          "id": "PTRLib-1.0.5.jar",
+          "name": "PTRLib-1.0.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 169749,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/PTRLib-1.0.5.jar",
+            "MD5": "7376e09acb5d531d28cb4d28a7f190fd",
+            "path": "mods/PTRLib-1.0.5.jar"
+          }
+        },
+        {
           "id": "Patchouli-1.0-23.6.jar",
           "name": "Patchouli-1.0-23.6.jar",
           "type": "File",
@@ -1350,6 +1361,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/mw_2.0-0.4.4.6_mc1.12.2.jar",
             "MD5": "69cbe3bd707a5284b1af20ebf0a9b0b9",
             "path": "mods/mw_2.0-0.4.4.6_mc1.12.2.jar"
+          }
+        },
+        {
+          "id": "obfuscate-0.4.2-1.12.2.jar",
+          "name": "obfuscate-0.4.2-1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 129099,
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/obfuscate-0.4.2-1.12.2.jar",
+            "MD5": "a5d3ac71ec8762fe72a91465de6d30a3",
+            "path": "mods/obfuscate-0.4.2-1.12.2.jar"
           }
         },
         {
