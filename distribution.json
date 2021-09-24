@@ -255,12 +255,11 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 210423,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/optionaloff/foamfix-0.10.11-1.12.2.jar",
+            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/optionalon/foamfix-0.10.11-1.12.2.jar",
             "MD5": "005b3d124df67e4c2ca7c1aeb1b2cb7c"
           },
           "required": {
-            "value": false,
-            "def": false
+            "value": false
           }
         },
         {
