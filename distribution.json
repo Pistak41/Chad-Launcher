@@ -8,1507 +8,6 @@
   },
   "servers": [
     {
-      "id": "Betweenlands-1.12.2",
-      "name": "Betweenlands",
-      "description": "Betweenlands Server 1.12.2",
-      "icon": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/betweenlands.png",
-      "version": "1.0.0",
-      "address": "190.190.29.214:25565",
-      "minecraftVersion": "1.12.2",
-      "discord": {
-        "shortId": "Betweenlands",
-        "largeImageText": "Betweenlands de Chad Launcher",
-        "largeImageKey": "betweenlands"
-      },
-      "mainServer": false,
-      "autoconnect": true,
-      "modules": [
-        {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
-          "name": "Minecraft Forge",
-          "type": "ForgeHosted",
-          "artifact": {
-            "size": 4464387,
-            "MD5": "02fcc447bb8938e5214292e4d36ec949",
-            "url": "http://190.190.29.214:800/Phobos/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.12.2-14.23.5.2855",
-              "name": "Minecraft Forge (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 10873,
-                "MD5": "5d114618e561d76e0f692c2d69dcb784",
-                "url": "http://190.190.29.214:800/Phobos/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
-              "name": "Minecraft Forge (asm-debug-all)",
-              "type": "Library",
-              "artifact": {
-                "size": 387903,
-                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraft:launchwrapper:1.12@jar",
-              "name": "Minecraft Forge (launchwrapper)",
-              "type": "Library",
-              "artifact": {
-                "size": 32999,
-                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline:3.5.1@jar",
-              "name": "Minecraft Forge (jline)",
-              "type": "Library",
-              "artifact": {
-                "size": 614590,
-                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
-              }
-            },
-            {
-              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
-              "name": "Minecraft Forge (akka-actor_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 2514991,
-                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
-              }
-            },
-            {
-              "id": "com.typesafe:config:1.2.1@jar",
-              "name": "Minecraft Forge (config)",
-              "type": "Library",
-              "artifact": {
-                "size": 219554,
-                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
-              "name": "Minecraft Forge (scala-actors-migration_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 58018,
-                "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
-              "name": "Minecraft Forge (scala-compiler)",
-              "type": "Library",
-              "artifact": {
-                "size": 13449765,
-                "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-library_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 25365,
-                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
-              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
-              "type": "Library",
-              "artifact": {
-                "size": 206575,
-                "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-library:2.11.1@jar",
-              "name": "Minecraft Forge (scala-library)",
-              "type": "Library",
-              "artifact": {
-                "size": 5538130,
-                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 419701,
-                "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
-              "name": "Minecraft Forge (scala-reflect)",
-              "type": "Library",
-              "artifact": {
-                "size": 4372892,
-                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
-              "name": "Minecraft Forge (scala-swing_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 726500,
-                "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
-              }
-            },
-            {
-              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
-              "name": "Minecraft Forge (scala-xml_2.11)",
-              "type": "Library",
-              "artifact": {
-                "size": 648679,
-                "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
-              }
-            },
-            {
-              "id": "lzma:lzma:0.0.1@jar",
-              "name": "Minecraft Forge (lzma)",
-              "type": "Library",
-              "artifact": {
-                "size": 5762,
-                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
-              }
-            },
-            {
-              "id": "java3d:vecmath:1.5.2@jar",
-              "name": "Minecraft Forge (vecmath)",
-              "type": "Library",
-              "artifact": {
-                "size": 318956,
-                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
-              }
-            },
-            {
-              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
-              "name": "Minecraft Forge (trove4j)",
-              "type": "Library",
-              "artifact": {
-                "size": 2523218,
-                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 54961,
-                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
-              }
-            },
-            {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
-              "name": "Minecraft Forge (jopt-simple)",
-              "type": "Library",
-              "artifact": {
-                "size": 78175,
-                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "pl.asie:foamfix:0.10.11-1.12.2@jar",
-          "name": "FoamFix",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 210423,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/optionalon/foamfix-0.10.11-1.12.2.jar",
-            "MD5": "005b3d124df67e4c2ca7c1aeb1b2cb7c"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "journeymap:journeymap:1.12.2-5.7.1@jar",
-          "name": "JourneyMap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6990968,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.7.1.jar",
-            "MD5": "8160b970fc14cff30dff2785bb9f964c"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
-          "name": "OptiFine 1.12.2_HD_U_G5",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2457427,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_G5_MOD.jar",
-            "MD5": "dc2865643ff1885d7520a5e6204228f9"
-          },
-          "required": {
-            "value": false
-          }
-        },
-        {
-          "id": "biome_textures (2).json",
-          "name": "biome_textures (2).json",
-          "type": "File",
-          "artifact": {
-            "size": 4431,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/config/antiqueatlas/biome_textures%20(2).json",
-            "MD5": "225e3ac170578cf2aab292503975373c",
-            "path": "config/antiqueatlas/biome_textures (2).json"
-          }
-        },
-        {
-          "id": "biome_textures.json",
-          "name": "biome_textures.json",
-          "type": "File",
-          "artifact": {
-            "size": 5788,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/config/antiqueatlas/biome_textures.json",
-            "MD5": "94c49ed899f45447f68854b6aff7dced",
-            "path": "config/antiqueatlas/biome_textures.json"
-          }
-        },
-        {
-          "id": "texture_sets.json",
-          "name": "texture_sets.json",
-          "type": "File",
-          "artifact": {
-            "size": 4748,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/config/antiqueatlas/texture_sets.json",
-            "MD5": "2d085b0818e90bc778b52ec2a8983255",
-            "path": "config/antiqueatlas/texture_sets.json"
-          }
-        },
-        {
-          "id": "ActuallyAdditions-1.12.2-r152.jar",
-          "name": "ActuallyAdditions-1.12.2-r152.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2958699,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ActuallyAdditions-1.12.2-r152.jar",
-            "MD5": "4bb5c052581c729eb8a6adc60b376ec6",
-            "path": "mods/ActuallyAdditions-1.12.2-r152.jar"
-          }
-        },
-        {
-          "id": "Advanced+Solar+Panels-4.3.0.jar",
-          "name": "Advanced+Solar+Panels-4.3.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 316833,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Advanced+Solar+Panels-4.3.0.jar",
-            "MD5": "2f16b7591d15da58d91f2ff147299a73",
-            "path": "mods/Advanced+Solar+Panels-4.3.0.jar"
-          }
-        },
-        {
-          "id": "AncientSpellcraft-1.12.2-1.2.2.jar",
-          "name": "AncientSpellcraft-1.12.2-1.2.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5687092,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/AncientSpellcraft-1.12.2-1.2.2.jar",
-            "MD5": "251a0ee0b5abd7ba47dcaa329a51f188",
-            "path": "mods/AncientSpellcraft-1.12.2-1.2.2.jar"
-          }
-        },
-        {
-          "id": "Armor+Souls+Reforged+v1.jar",
-          "name": "Armor+Souls+Reforged+v1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 728820,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Armor+Souls+Reforged+v1.jar",
-            "MD5": "e08b7975c86346868e8c541e51196417",
-            "path": "mods/Armor+Souls+Reforged+v1.jar"
-          }
-        },
-        {
-          "id": "ArteMagicum-1.3.0.jar",
-          "name": "ArteMagicum-1.3.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1661394,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ArteMagicum-1.3.0.jar",
-            "MD5": "b12c83bd016fda6b8b51583b39f0bf5f",
-            "path": "mods/ArteMagicum-1.3.0.jar"
-          }
-        },
-        {
-          "id": "ArtemisLib-1.12.2-v1.0.6.jar",
-          "name": "ArtemisLib-1.12.2-v1.0.6.jar",
-          "type": "File",
-          "artifact": {
-            "size": 21318,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ArtemisLib-1.12.2-v1.0.6.jar",
-            "MD5": "cd4d52c46b76651ad3f3ee36961ca8fd",
-            "path": "mods/ArtemisLib-1.12.2-v1.0.6.jar"
-          }
-        },
-        {
-          "id": "AutoRegLib-1.3-32.jar",
-          "name": "AutoRegLib-1.3-32.jar",
-          "type": "File",
-          "artifact": {
-            "size": 108306,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/AutoRegLib-1.3-32.jar",
-            "MD5": "4e5a4b881c27b1e4502a9a16c00882ad",
-            "path": "mods/AutoRegLib-1.3-32.jar"
-          }
-        },
-        {
-          "id": "Baubles-1.12-1.5.2.jar",
-          "name": "Baubles-1.12-1.5.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 108450,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Baubles-1.12-1.5.2.jar",
-            "MD5": "944dec4ef3fbfd4d498d94a7047af201",
-            "path": "mods/Baubles-1.12-1.5.2.jar"
-          }
-        },
-        {
-          "id": "BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
-          "name": "BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 4702147,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
-            "MD5": "4c1d23b8a58b6aaa9a5204fae3f18393",
-            "path": "mods/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar"
-          }
-        },
-        {
-          "id": "Botania+r1.10-363.jar",
-          "name": "Botania+r1.10-363.jar",
-          "type": "File",
-          "artifact": {
-            "size": 13814617,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Botania+r1.10-363.jar",
-            "MD5": "5ba76d3db9345fa9e398523bddda59f3",
-            "path": "mods/Botania+r1.10-363.jar"
-          }
-        },
-        {
-          "id": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
-          "name": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 827900,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/BrandonsCore-1.12.2-2.4.20.162-universal.jar",
-            "MD5": "4a67ccad9d684466010c02164d7ff13e",
-            "path": "mods/BrandonsCore-1.12.2-2.4.20.162-universal.jar"
-          }
-        },
-        {
-          "id": "Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
-          "name": "Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5462081,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
-            "MD5": "ebc4c328d1d9994a8e77c5963af815be",
-            "path": "mods/Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar"
-          }
-        },
-        {
-          "id": "CoFHCore-1.12.2-4.6.6.1-universal.jar",
-          "name": "CoFHCore-1.12.2-4.6.6.1-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 848187,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/CoFHCore-1.12.2-4.6.6.1-universal.jar",
-            "MD5": "f147d3b87f97bb317e1c37cba0dde002",
-            "path": "mods/CoFHCore-1.12.2-4.6.6.1-universal.jar"
-          }
-        },
-        {
-          "id": "CoFHWorld-1.12.2-1.4.0.1-universal.jar",
-          "name": "CoFHWorld-1.12.2-1.4.0.1-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 505987,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
-            "MD5": "f2bfd74e76b71bdee8a20a9243dd5cdf",
-            "path": "mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar"
-          }
-        },
-        {
-          "id": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
-          "name": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 704330,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
-            "MD5": "3b5e44db5ac96fb23a439590b6731a31",
-            "path": "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar"
-          }
-        },
-        {
-          "id": "CommonCapabilities-1.12.2-2.4.6.jar",
-          "name": "CommonCapabilities-1.12.2-2.4.6.jar",
-          "type": "File",
-          "artifact": {
-            "size": 361473,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/CommonCapabilities-1.12.2-2.4.6.jar",
-            "MD5": "51c5f7fa82c3a243538397bdca28c6ca",
-            "path": "mods/CommonCapabilities-1.12.2-2.4.6.jar"
-          }
-        },
-        {
-          "id": "CraftTweaker2-1.12-4.1.20.660.jar",
-          "name": "CraftTweaker2-1.12-4.1.20.660.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1562816,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/CraftTweaker2-1.12-4.1.20.660.jar",
-            "MD5": "5564da84d9122dc975a7592550e996e2",
-            "path": "mods/CraftTweaker2-1.12-4.1.20.660.jar"
-          }
-        },
-        {
-          "id": "CustomNPCs_1.12.2-(05Jul20).jar",
-          "name": "CustomNPCs_1.12.2-(05Jul20).jar",
-          "type": "File",
-          "artifact": {
-            "size": 9911871,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/CustomNPCs_1.12.2-(05Jul20).jar",
-            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7",
-            "path": "mods/CustomNPCs_1.12.2-(05Jul20).jar"
-          }
-        },
-        {
-          "id": "CyclopsCore-1.12.2-1.6.7.jar",
-          "name": "CyclopsCore-1.12.2-1.6.7.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1060985,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/CyclopsCore-1.12.2-1.6.7.jar",
-            "MD5": "dc635fec13b1245323a58799fa6e6b39",
-            "path": "mods/CyclopsCore-1.12.2-1.6.7.jar"
-          }
-        },
-        {
-          "id": "Decocraft-2.6.3.7_1.12.2.jar",
-          "name": "Decocraft-2.6.3.7_1.12.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 16976718,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Decocraft-2.6.3.7_1.12.2.jar",
-            "MD5": "083cf0c798ebfd6065c2db0af0419c12",
-            "path": "mods/Decocraft-2.6.3.7_1.12.2.jar"
-          }
-        },
-        {
-          "id": "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
-          "name": "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5708839,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
-            "MD5": "e6c70ebe71c94d00b1056f6e4bef207f",
-            "path": "mods/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar"
-          }
-        },
-        {
-          "id": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
-          "name": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 10881050,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
-            "MD5": "a6cf1f36c230fbed2f4ef5b2db72d87a",
-            "path": "mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar"
-          }
-        },
-        {
-          "id": "EnderCore-1.12.2-0.5.76.jar",
-          "name": "EnderCore-1.12.2-0.5.76.jar",
-          "type": "File",
-          "artifact": {
-            "size": 647959,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/EnderCore-1.12.2-0.5.76.jar",
-            "MD5": "6164be012de6ee761e37f54a74074125",
-            "path": "mods/EnderCore-1.12.2-0.5.76.jar"
-          }
-        },
-        {
-          "id": "EnderIO-1.12.2-5.3.70.jar",
-          "name": "EnderIO-1.12.2-5.3.70.jar",
-          "type": "File",
-          "artifact": {
-            "size": 8946575,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/EnderIO-1.12.2-5.3.70.jar",
-            "MD5": "c74737e1b943ca1b94265f0bc8f1c6cc",
-            "path": "mods/EnderIO-1.12.2-5.3.70.jar"
-          }
-        },
-        {
-          "id": "ExtraSpells-1.12.2-1.2.0.jar",
-          "name": "ExtraSpells-1.12.2-1.2.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 93682,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ExtraSpells-1.12.2-1.2.0.jar",
-            "MD5": "84661ace81cd4a43fed9b9c83fdb6c6b",
-            "path": "mods/ExtraSpells-1.12.2-1.2.0.jar"
-          }
-        },
-        {
-          "id": "Flan's+Mod-1.12.2-5.10.0.jar",
-          "name": "Flan's+Mod-1.12.2-5.10.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2259973,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Flan's+Mod-1.12.2-5.10.0.jar",
-            "MD5": "0cc53ac00145d96448d5d20eae4e2ed6",
-            "path": "mods/Flan's+Mod-1.12.2-5.10.0.jar"
-          }
-        },
-        {
-          "id": "FluxNetworks-1.12.2-4.1.1.34.jar",
-          "name": "FluxNetworks-1.12.2-4.1.1.34.jar",
-          "type": "File",
-          "artifact": {
-            "size": 475994,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/FluxNetworks-1.12.2-4.1.1.34.jar",
-            "MD5": "dc5f666ad856dd1da2b195f03a815bb3",
-            "path": "mods/FluxNetworks-1.12.2-4.1.1.34.jar"
-          }
-        },
-        {
-          "id": "Forgelin-1.8.3.jar",
-          "name": "Forgelin-1.8.3.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5772310,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Forgelin-1.8.3.jar",
-            "MD5": "d729a4a101a5687329526f6cb7adc64d",
-            "path": "mods/Forgelin-1.8.3.jar"
-          }
-        },
-        {
-          "id": "GIsCraftableWizardryItems-2.0.jar",
-          "name": "GIsCraftableWizardryItems-2.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 38975,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/GIsCraftableWizardryItems-2.0.jar",
-            "MD5": "5e030a5f6c209a20e5c8097071be4809",
-            "path": "mods/GIsCraftableWizardryItems-2.0.jar"
-          }
-        },
-        {
-          "id": "Galacticraft-Planets-1.12.2-4.0.2.280.jar",
-          "name": "Galacticraft-Planets-1.12.2-4.0.2.280.jar",
-          "type": "File",
-          "artifact": {
-            "size": 3975978,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Galacticraft-Planets-1.12.2-4.0.2.280.jar",
-            "MD5": "848ebcd467a3389c9461007d2b164a6c",
-            "path": "mods/Galacticraft-Planets-1.12.2-4.0.2.280.jar"
-          }
-        },
-        {
-          "id": "GalacticraftCore-1.12.2-4.0.2.280.jar",
-          "name": "GalacticraftCore-1.12.2-4.0.2.280.jar",
-          "type": "File",
-          "artifact": {
-            "size": 10610662,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/GalacticraftCore-1.12.2-4.0.2.280.jar",
-            "MD5": "9298e6b85b38eab9b830a0637f1fbced",
-            "path": "mods/GalacticraftCore-1.12.2-4.0.2.280.jar"
-          }
-        },
-        {
-          "id": "GrimoireOfGaia3-1.12.2-1.7.2.jar",
-          "name": "GrimoireOfGaia3-1.12.2-1.7.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 3647043,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/GrimoireOfGaia3-1.12.2-1.7.2.jar",
-            "MD5": "665d71bcc29e0e75c7396d323df1a623",
-            "path": "mods/GrimoireOfGaia3-1.12.2-1.7.2.jar"
-          }
-        },
-        {
-          "id": "Hwyla-1.8.26-B41_1.12.2.jar",
-          "name": "Hwyla-1.8.26-B41_1.12.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 453778,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Hwyla-1.8.26-B41_1.12.2.jar",
-            "MD5": "bca1c069d9171d331d211d24e8a3b770",
-            "path": "mods/Hwyla-1.8.26-B41_1.12.2.jar"
-          }
-        },
-        {
-          "id": "IntegratedDynamics-1.12.2-1.1.11.jar",
-          "name": "IntegratedDynamics-1.12.2-1.1.11.jar",
-          "type": "File",
-          "artifact": {
-            "size": 3049509,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/IntegratedDynamics-1.12.2-1.1.11.jar",
-            "MD5": "f96333cf15335deef0d53412b52cc006",
-            "path": "mods/IntegratedDynamics-1.12.2-1.1.11.jar"
-          }
-        },
-        {
-          "id": "IntegratedTunnels-1.12.2-1.6.14.jar",
-          "name": "IntegratedTunnels-1.12.2-1.6.14.jar",
-          "type": "File",
-          "artifact": {
-            "size": 493503,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/IntegratedTunnels-1.12.2-1.6.14.jar",
-            "MD5": "27db1b2ca9dc091675a744d2fe6edc02",
-            "path": "mods/IntegratedTunnels-1.12.2-1.6.14.jar"
-          }
-        },
-        {
-          "id": "IronBackpacks-1.12.2-3.0.8-12.jar",
-          "name": "IronBackpacks-1.12.2-3.0.8-12.jar",
-          "type": "File",
-          "artifact": {
-            "size": 465363,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/IronBackpacks-1.12.2-3.0.8-12.jar",
-            "MD5": "9fd50b1827b711704c69789aa94ac2ca",
-            "path": "mods/IronBackpacks-1.12.2-3.0.8-12.jar"
-          }
-        },
-        {
-          "id": "JustEnoughIDs-1.0.3-55.jar",
-          "name": "JustEnoughIDs-1.0.3-55.jar",
-          "type": "File",
-          "artifact": {
-            "size": 982320,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/JustEnoughIDs-1.0.3-55.jar",
-            "MD5": "ac6f54cb5478dd3d0147aedbfe782d5d",
-            "path": "mods/JustEnoughIDs-1.0.3-55.jar"
-          }
-        },
-        {
-          "id": "Magic_Circle-1.0.1.jar",
-          "name": "Magic_Circle-1.0.1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 301907,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Magic_Circle-1.0.1.jar",
-            "MD5": "b872636ca1b509a1611cecc19dc29258",
-            "path": "mods/Magic_Circle-1.0.1.jar"
-          }
-        },
-        {
-          "id": "Mantle-1.12-1.3.3.55.jar",
-          "name": "Mantle-1.12-1.3.3.55.jar",
-          "type": "File",
-          "artifact": {
-            "size": 843486,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Mantle-1.12-1.3.3.55.jar",
-            "MD5": "1026f5f8d3c4997831decd9023ca65a6",
-            "path": "mods/Mantle-1.12-1.3.3.55.jar"
-          }
-        },
-        {
-          "id": "MedievalCraft-1.12.2-1.15.11.jar",
-          "name": "MedievalCraft-1.12.2-1.15.11.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1453752,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/MedievalCraft-1.12.2-1.15.11.jar",
-            "MD5": "bda4351ca6287e1635105f151b7d73e1",
-            "path": "mods/MedievalCraft-1.12.2-1.15.11.jar"
-          }
-        },
-        {
-          "id": "Mekanism-1.12.2-9.8.3.390.jar",
-          "name": "Mekanism-1.12.2-9.8.3.390.jar",
-          "type": "File",
-          "artifact": {
-            "size": 7863657,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Mekanism-1.12.2-9.8.3.390.jar",
-            "MD5": "e622b8365b9a1190b3b6cc042854e870",
-            "path": "mods/Mekanism-1.12.2-9.8.3.390.jar"
-          }
-        },
-        {
-          "id": "MicdoodleCore-1.12.2-4.0.2.280.jar",
-          "name": "MicdoodleCore-1.12.2-4.0.2.280.jar",
-          "type": "File",
-          "artifact": {
-            "size": 53300,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/MicdoodleCore-1.12.2-4.0.2.280.jar",
-            "MD5": "2b033cb0694a53ea7b80876e2f00dec5",
-            "path": "mods/MicdoodleCore-1.12.2-4.0.2.280.jar"
-          }
-        },
-        {
-          "id": "MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
-          "name": "MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
-          "type": "File",
-          "artifact": {
-            "size": 703346,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
-            "MD5": "d77d93d13d89c2ec4ff10887519daab8",
-            "path": "mods/MoBends_1.12.2-1.0.0-beta-20.06.20.jar"
-          }
-        },
-        {
-          "id": "MoSpells-1.12.2-1.0.2.jar",
-          "name": "MoSpells-1.12.2-1.0.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 659420,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/MoSpells-1.12.2-1.0.2.jar",
-            "MD5": "896e9dd595fbd920701cb0a871ec4a65",
-            "path": "mods/MoSpells-1.12.2-1.0.2.jar"
-          }
-        },
-        {
-          "id": "MonsterTotems-1.12.2-2.0.2.2.jar",
-          "name": "MonsterTotems-1.12.2-2.0.2.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2044246,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/MonsterTotems-1.12.2-2.0.2.2.jar",
-            "MD5": "af3d077e111ab4212eb140f6dfb3047e",
-            "path": "mods/MonsterTotems-1.12.2-2.0.2.2.jar"
-          }
-        },
-        {
-          "id": "More-Planets-1.12.2-2.2.1-GC280.jar",
-          "name": "More-Planets-1.12.2-2.2.1-GC280.jar",
-          "type": "File",
-          "artifact": {
-            "size": 7006745,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/More-Planets-1.12.2-2.2.1-GC280.jar",
-            "MD5": "55ca53ea3650b07fb340fa99980f1dc6",
-            "path": "mods/More-Planets-1.12.2-2.2.1-GC280.jar"
-          }
-        },
-        {
-          "id": "NuclearCraft-2.18z-1.12.2.jar",
-          "name": "NuclearCraft-2.18z-1.12.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 6904694,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/NuclearCraft-2.18z-1.12.2.jar",
-            "MD5": "1f90965dbc63fcb5151fbe5c5ba95776",
-            "path": "mods/NuclearCraft-2.18z-1.12.2.jar"
-          }
-        },
-        {
-          "id": "PTRLib-1.0.5.jar",
-          "name": "PTRLib-1.0.5.jar",
-          "type": "File",
-          "artifact": {
-            "size": 169749,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/PTRLib-1.0.5.jar",
-            "MD5": "7376e09acb5d531d28cb4d28a7f190fd",
-            "path": "mods/PTRLib-1.0.5.jar"
-          }
-        },
-        {
-          "id": "Patchouli-1.0-23.6.jar",
-          "name": "Patchouli-1.0-23.6.jar",
-          "type": "File",
-          "artifact": {
-            "size": 472464,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Patchouli-1.0-23.6.jar",
-            "MD5": "5450477c1ce7189c5ee11595d5e03a7c",
-            "path": "mods/Patchouli-1.0-23.6.jar"
-          }
-        },
-        {
-          "id": "PortalGun-1.12.2-7.1.0.jar",
-          "name": "PortalGun-1.12.2-7.1.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1717073,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/PortalGun-1.12.2-7.1.0.jar",
-            "MD5": "2219e579132b53719ef21ea78934f4c3",
-            "path": "mods/PortalGun-1.12.2-7.1.0.jar"
-          }
-        },
-        {
-          "id": "PotionCore-1.9_for_1.12.2.jar",
-          "name": "PotionCore-1.9_for_1.12.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 145329,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/PotionCore-1.9_for_1.12.2.jar",
-            "MD5": "5dea390b2e61967b35d23f73adf73bad",
-            "path": "mods/PotionCore-1.9_for_1.12.2.jar"
-          }
-        },
-        {
-          "id": "ProjectIntelligence-1.12.2-1.0.9.28-universal.jar",
-          "name": "ProjectIntelligence-1.12.2-1.0.9.28-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 473948,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ProjectIntelligence-1.12.2-1.0.9.28-universal.jar",
-            "MD5": "96657f132afd609f2a92cf4994698e64",
-            "path": "mods/ProjectIntelligence-1.12.2-1.0.9.28-universal.jar"
-          }
-        },
-        {
-          "id": "Quark-r1.6-179.jar",
-          "name": "Quark-r1.6-179.jar",
-          "type": "File",
-          "artifact": {
-            "size": 3877577,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Quark-r1.6-179.jar",
-            "MD5": "dfcfa70d244f0435a5ff2b28037a324b",
-            "path": "mods/Quark-r1.6-179.jar"
-          }
-        },
-        {
-          "id": "RedstoneArsenal-1.12.2-2.6.6.1-universal.jar",
-          "name": "RedstoneArsenal-1.12.2-2.6.6.1-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 243859,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/RedstoneArsenal-1.12.2-2.6.6.1-universal.jar",
-            "MD5": "d2ca2d7e0987a9f3d1cb82898942bb78",
-            "path": "mods/RedstoneArsenal-1.12.2-2.6.6.1-universal.jar"
-          }
-        },
-        {
-          "id": "RedstoneFlux-1.12-2.1.1.1-universal.jar",
-          "name": "RedstoneFlux-1.12-2.1.1.1-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 31802,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/RedstoneFlux-1.12-2.1.1.1-universal.jar",
-            "MD5": "93b1715f05be1878da93fca36dd37f2a",
-            "path": "mods/RedstoneFlux-1.12-2.1.1.1-universal.jar"
-          }
-        },
-        {
-          "id": "Reliquary-1.12.2-1.3.4.796.jar",
-          "name": "Reliquary-1.12.2-1.3.4.796.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1247278,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Reliquary-1.12.2-1.3.4.796.jar",
-            "MD5": "acd6db4d0449a588f651a63480c4b435",
-            "path": "mods/Reliquary-1.12.2-1.3.4.796.jar"
-          }
-        },
-        {
-          "id": "RingOfSacrifice-1.12.2-1.1.2b.jar",
-          "name": "RingOfSacrifice-1.12.2-1.1.2b.jar",
-          "type": "File",
-          "artifact": {
-            "size": 46551,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/RingOfSacrifice-1.12.2-1.1.2b.jar",
-            "MD5": "93e46037a7a770b86b3608884174fadd",
-            "path": "mods/RingOfSacrifice-1.12.2-1.1.2b.jar"
-          }
-        },
-        {
-          "id": "SeedsForWizardryReforged.jar",
-          "name": "SeedsForWizardryReforged.jar",
-          "type": "File",
-          "artifact": {
-            "size": 24736,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/SeedsForWizardryReforged.jar",
-            "MD5": "2ba94627be0f59662c9b126a027b2886",
-            "path": "mods/SeedsForWizardryReforged.jar"
-          }
-        },
-        {
-          "id": "SteveKunG's-Lib-1.12.2-1.1.10.jar",
-          "name": "SteveKunG's-Lib-1.12.2-1.1.10.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1080012,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/SteveKunG's-Lib-1.12.2-1.1.10.jar",
-            "MD5": "dfa6d2c6f9076ebae481b2ac40304a38",
-            "path": "mods/SteveKunG's-Lib-1.12.2-1.1.10.jar"
-          }
-        },
-        {
-          "id": "SwordsPlus.jar",
-          "name": "SwordsPlus.jar",
-          "type": "File",
-          "artifact": {
-            "size": 643253,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/SwordsPlus.jar",
-            "MD5": "6b67bae2b240772828c71328bc4aba28",
-            "path": "mods/SwordsPlus.jar"
-          }
-        },
-        {
-          "id": "TConstruct-1.12.2-2.13.0.183.jar",
-          "name": "TConstruct-1.12.2-2.13.0.183.jar",
-          "type": "File",
-          "artifact": {
-            "size": 4023372,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/TConstruct-1.12.2-2.13.0.183.jar",
-            "MD5": "710d64342d41042b7d6ced891448e727",
-            "path": "mods/TConstruct-1.12.2-2.13.0.183.jar"
-          }
-        },
-        {
-          "id": "Thaumcraft-1.12.2-6.1.BETA26.jar",
-          "name": "Thaumcraft-1.12.2-6.1.BETA26.jar",
-          "type": "File",
-          "artifact": {
-            "size": 11360786,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Thaumcraft-1.12.2-6.1.BETA26.jar",
-            "MD5": "3b13783ccaafb5d5b9ce8cb85e87fff6",
-            "path": "mods/Thaumcraft-1.12.2-6.1.BETA26.jar"
-          }
-        },
-        {
-          "id": "TheBetweenlands-3.7.3-universal.jar",
-          "name": "TheBetweenlands-3.7.3-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 133488642,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/TheBetweenlands-3.7.3-universal.jar",
-            "MD5": "796ffca775c891c947ae912724f58d04",
-            "path": "mods/TheBetweenlands-3.7.3-universal.jar"
-          }
-        },
-        {
-          "id": "ThereAndBackAgain-1.12.2-1.2.jar",
-          "name": "ThereAndBackAgain-1.12.2-1.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 12091519,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ThereAndBackAgain-1.12.2-1.2.jar",
-            "MD5": "519a6b0ead5eb905dccff745dfc8a952",
-            "path": "mods/ThereAndBackAgain-1.12.2-1.2.jar"
-          }
-        },
-        {
-          "id": "ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
-          "name": "ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 98845,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
-            "MD5": "28970430074736ae6efbe4f7c353b30a",
-            "path": "mods/ThermalCultivation-1.12.2-0.3.6.1-universal.jar"
-          }
-        },
-        {
-          "id": "ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
-          "name": "ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 728082,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
-            "MD5": "38a0c024f5775b0cf783de839033f8db",
-            "path": "mods/ThermalDynamics-1.12.2-2.5.6.1-universal.jar"
-          }
-        },
-        {
-          "id": "ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
-          "name": "ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2345139,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
-            "MD5": "0bf91e166b05e83d22455a9c7ec395bb",
-            "path": "mods/ThermalExpansion-1.12.2-5.5.7.1-universal.jar"
-          }
-        },
-        {
-          "id": "ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
-          "name": "ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2219736,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
-            "MD5": "6eca041bbf28949b60ecf1179d561156",
-            "path": "mods/ThermalFoundation-1.12.2-2.6.7.1-universal.jar"
-          }
-        },
-        {
-          "id": "ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
-          "name": "ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 182379,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
-            "MD5": "320accf690ccc1c8a23679beb63fb615",
-            "path": "mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar"
-          }
-        },
-        {
-          "id": "VanillaSatchels-1.12.2-1.0.2.4-universal.jar",
-          "name": "VanillaSatchels-1.12.2-1.0.2.4-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 69873,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/VanillaSatchels-1.12.2-1.0.2.4-universal.jar",
-            "MD5": "26fb21c307560e3bc091b06ff2aed339",
-            "path": "mods/VanillaSatchels-1.12.2-1.0.2.4-universal.jar"
-          }
-        },
-        {
-          "id": "VanillaTools-1.12.2-1.1.0.2-universal.jar",
-          "name": "VanillaTools-1.12.2-1.1.0.2-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 84020,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/VanillaTools-1.12.2-1.1.0.2-universal.jar",
-            "MD5": "193d6ab43c8985e2ae3cd77f306bc710",
-            "path": "mods/VanillaTools-1.12.2-1.1.0.2-universal.jar"
-          }
-        },
-        {
-          "id": "Voice+Chat+Reloaded-1.2.5.jar",
-          "name": "Voice+Chat+Reloaded-1.2.5.jar",
-          "type": "File",
-          "artifact": {
-            "size": 423682,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/Voice+Chat+Reloaded-1.2.5.jar",
-            "MD5": "13344fa9ab436f944f354fb8687306d8",
-            "path": "mods/Voice+Chat+Reloaded-1.2.5.jar"
-          }
-        },
-        {
-          "id": "ZettaiGrimoires+1.4.9.jar",
-          "name": "ZettaiGrimoires+1.4.9.jar",
-          "type": "File",
-          "artifact": {
-            "size": 991848,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ZettaiGrimoires+1.4.9.jar",
-            "MD5": "bf5b423171ccf6c1661ab23c21c0e605",
-            "path": "mods/ZettaiGrimoires+1.4.9.jar"
-          }
-        },
-        {
-          "id": "ZettaiMagic+1.4.2.jar",
-          "name": "ZettaiMagic+1.4.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 6313346,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ZettaiMagic+1.4.2.jar",
-            "MD5": "8bf13fb62234d5bec51a0d179278b5ba",
-            "path": "mods/ZettaiMagic+1.4.2.jar"
-          }
-        },
-        {
-          "id": "[1.12.2]+SecurityCraft+v1.8.23.2.jar",
-          "name": "[1.12.2]+SecurityCraft+v1.8.23.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1915657,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/[1.12.2]+SecurityCraft+v1.8.23.2.jar",
-            "MD5": "32d7af044c1d127597eb3e02199700bd",
-            "path": "mods/[1.12.2]+SecurityCraft+v1.8.23.2.jar"
-          }
-        },
-        {
-          "id": "antiqueatlas-1.12.2-4.6.3.jar",
-          "name": "antiqueatlas-1.12.2-4.6.3.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1239580,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/antiqueatlas-1.12.2-4.6.3.jar",
-            "MD5": "2cafce41d88d5067bf9a9da6a8fc79a8",
-            "path": "mods/antiqueatlas-1.12.2-4.6.3.jar"
-          }
-        },
-        {
-          "id": "appliedenergistics2-rv6-stable-7.jar",
-          "name": "appliedenergistics2-rv6-stable-7.jar",
-          "type": "File",
-          "artifact": {
-            "size": 4062630,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/appliedenergistics2-rv6-stable-7.jar",
-            "MD5": "b8667d60a761d5b5ae3c8a15192f9e28",
-            "path": "mods/appliedenergistics2-rv6-stable-7.jar"
-          }
-        },
-        {
-          "id": "astralsorcery-1.12.2-1.10.27.jar",
-          "name": "astralsorcery-1.12.2-1.10.27.jar",
-          "type": "File",
-          "artifact": {
-            "size": 25028160,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/astralsorcery-1.12.2-1.10.27.jar",
-            "MD5": "c2db411b6e678c7e24035cd5c0525264",
-            "path": "mods/astralsorcery-1.12.2-1.10.27.jar"
-          }
-        },
-        {
-          "id": "autonetworklib-1.12.2-1.0.45.jar",
-          "name": "autonetworklib-1.12.2-1.0.45.jar",
-          "type": "File",
-          "artifact": {
-            "size": 42252,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/autonetworklib-1.12.2-1.0.45.jar",
-            "MD5": "d71e10c4e181819d8052d2afe3d1ccad",
-            "path": "mods/autonetworklib-1.12.2-1.0.45.jar"
-          }
-        },
-        {
-          "id": "buildcraft-all-7.99.24.8.jar",
-          "name": "buildcraft-all-7.99.24.8.jar",
-          "type": "File",
-          "artifact": {
-            "size": 4879732,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/buildcraft-all-7.99.24.8.jar",
-            "MD5": "df73e94d29b8c6bde42c451ff6018761",
-            "path": "mods/buildcraft-all-7.99.24.8.jar"
-          }
-        },
-        {
-          "id": "carryon-1.12.2-1.12.4.16.jar",
-          "name": "carryon-1.12.2-1.12.4.16.jar",
-          "type": "File",
-          "artifact": {
-            "size": 319491,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/carryon-1.12.2-1.12.4.16.jar",
-            "MD5": "9a18667fc6953dcc7899928f007efddf",
-            "path": "mods/carryon-1.12.2-1.12.4.16.jar"
-          }
-        },
-        {
-          "id": "divinefavor-1.0.756.jar",
-          "name": "divinefavor-1.0.756.jar",
-          "type": "File",
-          "artifact": {
-            "size": 4884051,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/divinefavor-1.0.756.jar",
-            "MD5": "fa5da4a790497632267c7610d5a72ec7",
-            "path": "mods/divinefavor-1.0.756.jar"
-          }
-        },
-        {
-          "id": "dragonenchantments-1.0.0.jar",
-          "name": "dragonenchantments-1.0.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 805877,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/dragonenchantments-1.0.0.jar",
-            "MD5": "a94f50a6efc39d3405a45ed12c975380",
-            "path": "mods/dragonenchantments-1.0.0.jar"
-          }
-        },
-        {
-          "id": "extrautils2-1.12-1.9.9.jar",
-          "name": "extrautils2-1.12-1.9.9.jar",
-          "type": "File",
-          "artifact": {
-            "size": 3226408,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/extrautils2-1.12-1.9.9.jar",
-            "MD5": "1ea591619e6d5204bf077214868772ef",
-            "path": "mods/extrautils2-1.12-1.9.9.jar"
-          }
-        },
-        {
-          "id": "geckolib-forge-1.12.2-3.0.0-beta.8.jar",
-          "name": "geckolib-forge-1.12.2-3.0.0-beta.8.jar",
-          "type": "File",
-          "artifact": {
-            "size": 3685483,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/geckolib-forge-1.12.2-3.0.0-beta.8.jar",
-            "MD5": "948cb17694501c9a47d3f2ad9df8c144",
-            "path": "mods/geckolib-forge-1.12.2-3.0.0-beta.8.jar"
-          }
-        },
-        {
-          "id": "guns-0.15.3-1.12.2.jar",
-          "name": "guns-0.15.3-1.12.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 814386,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/guns-0.15.3-1.12.2.jar",
-            "MD5": "e7bdc91c4c17a75bce67b6e523869340",
-            "path": "mods/guns-0.15.3-1.12.2.jar"
-          }
-        },
-        {
-          "id": "iChunUtil-1.12.2-7.2.2.jar",
-          "name": "iChunUtil-1.12.2-7.2.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 581963,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/iChunUtil-1.12.2-7.2.2.jar",
-            "MD5": "bf13a2044ece544b449c7dc6f8aa40af",
-            "path": "mods/iChunUtil-1.12.2-7.2.2.jar"
-          }
-        },
-        {
-          "id": "industrialcraft-2-2.8.170-ex112.jar",
-          "name": "industrialcraft-2-2.8.170-ex112.jar",
-          "type": "File",
-          "artifact": {
-            "size": 8356436,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/industrialcraft-2-2.8.170-ex112.jar",
-            "MD5": "d4f952c94cacdd280abbb73f072b2424",
-            "path": "mods/industrialcraft-2-2.8.170-ex112.jar"
-          }
-        },
-        {
-          "id": "ironfurnaces-1.3.5.jar",
-          "name": "ironfurnaces-1.3.5.jar",
-          "type": "File",
-          "artifact": {
-            "size": 130723,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ironfurnaces-1.3.5.jar",
-            "MD5": "4820b6f8c61839ce6abffb916c6f0571",
-            "path": "mods/ironfurnaces-1.3.5.jar"
-          }
-        },
-        {
-          "id": "jei_1.12.2-4.16.1.301.jar",
-          "name": "jei_1.12.2-4.16.1.301.jar",
-          "type": "File",
-          "artifact": {
-            "size": 653211,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/jei_1.12.2-4.16.1.301.jar",
-            "MD5": "1dee4be93d666e2228039c551e927b35",
-            "path": "mods/jei_1.12.2-4.16.1.301.jar"
-          }
-        },
-        {
-          "id": "llibrary-1.7.20-1.12.2.jar",
-          "name": "llibrary-1.7.20-1.12.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 884550,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/llibrary-1.7.20-1.12.2.jar",
-            "MD5": "218aefca8bd6bb8d9ff7dd877c1d277d",
-            "path": "mods/llibrary-1.7.20-1.12.2.jar"
-          }
-        },
-        {
-          "id": "mahoutsukai-1.12.2-v1.19.47.jar",
-          "name": "mahoutsukai-1.12.2-v1.19.47.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2044359,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/mahoutsukai-1.12.2-v1.19.47.jar",
-            "MD5": "6747974a661fd173221f5191ef2e28e5",
-            "path": "mods/mahoutsukai-1.12.2-v1.19.47.jar"
-          }
-        },
-        {
-          "id": "mcjtylib-1.12-3.5.4.jar",
-          "name": "mcjtylib-1.12-3.5.4.jar",
-          "type": "File",
-          "artifact": {
-            "size": 544856,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/mcjtylib-1.12-3.5.4.jar",
-            "MD5": "45ac9983da9fd2bc7fe3446b9f4287c1",
-            "path": "mods/mcjtylib-1.12-3.5.4.jar"
-          }
-        },
-        {
-          "id": "minecolonies-1.12.2-0.11.841-ALPHA-universal.jar",
-          "name": "minecolonies-1.12.2-0.11.841-ALPHA-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 34929750,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/minecolonies-1.12.2-0.11.841-ALPHA-universal.jar",
-            "MD5": "182825677199de55f2ce7b315162397c",
-            "path": "mods/minecolonies-1.12.2-0.11.841-ALPHA-universal.jar"
-          }
-        },
-        {
-          "id": "mowziesmobs-1.5.8.jar",
-          "name": "mowziesmobs-1.5.8.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5185246,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/mowziesmobs-1.5.8.jar",
-            "MD5": "de6541439f9a436963b020f20164cbfa",
-            "path": "mods/mowziesmobs-1.5.8.jar"
-          }
-        },
-        {
-          "id": "mw_2.0-0.4.4.6_mc1.12.2.jar",
-          "name": "mw_2.0-0.4.4.6_mc1.12.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 27545802,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/mw_2.0-0.4.4.6_mc1.12.2.jar",
-            "MD5": "69cbe3bd707a5284b1af20ebf0a9b0b9",
-            "path": "mods/mw_2.0-0.4.4.6_mc1.12.2.jar"
-          }
-        },
-        {
-          "id": "obfuscate-0.4.2-1.12.2.jar",
-          "name": "obfuscate-0.4.2-1.12.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 129099,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/obfuscate-0.4.2-1.12.2.jar",
-            "MD5": "a5d3ac71ec8762fe72a91465de6d30a3",
-            "path": "mods/obfuscate-0.4.2-1.12.2.jar"
-          }
-        },
-        {
-          "id": "ordinarycoins-1.12.2-1.5.jar",
-          "name": "ordinarycoins-1.12.2-1.5.jar",
-          "type": "File",
-          "artifact": {
-            "size": 47241,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/ordinarycoins-1.12.2-1.5.jar",
-            "MD5": "170bc6362cfd7bad72f9ae11b283954c",
-            "path": "mods/ordinarycoins-1.12.2-1.5.jar"
-          }
-        },
-        {
-          "id": "potions+mod+1.3.jar",
-          "name": "potions+mod+1.3.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2176042,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/potions+mod+1.3.jar",
-            "MD5": "6a9e57ee07370aca4213e4294fb14440",
-            "path": "mods/potions+mod+1.3.jar"
-          }
-        },
-        {
-          "id": "refinedstorage-1.6.16.jar",
-          "name": "refinedstorage-1.6.16.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1912377,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/refinedstorage-1.6.16.jar",
-            "MD5": "0b5e41f29c3ceb1db560531fef9f55a2",
-            "path": "mods/refinedstorage-1.6.16.jar"
-          }
-        },
-        {
-          "id": "refinedstorageaddons-0.4.5.jar",
-          "name": "refinedstorageaddons-0.4.5.jar",
-          "type": "File",
-          "artifact": {
-            "size": 26804,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/refinedstorageaddons-0.4.5.jar",
-            "MD5": "d840373cb0ce3752e92c3840f64d8d90",
-            "path": "mods/refinedstorageaddons-0.4.5.jar"
-          }
-        },
-        {
-          "id": "rftools-1.12-7.73.jar",
-          "name": "rftools-1.12-7.73.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2895803,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/rftools-1.12-7.73.jar",
-            "MD5": "3af6f5864243b044a8dd6f2cb1a4b0cf",
-            "path": "mods/rftools-1.12-7.73.jar"
-          }
-        },
-        {
-          "id": "rftoolspower-1.12-1.2.0.jar",
-          "name": "rftoolspower-1.12-1.2.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 148083,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/rftoolspower-1.12-1.2.0.jar",
-            "MD5": "afd405e1ba3857a4bff72c394c3540af",
-            "path": "mods/rftoolspower-1.12-1.2.0.jar"
-          }
-        },
-        {
-          "id": "techguns-1.12.2-2.0.2.0_pre3.2.jar",
-          "name": "techguns-1.12.2-2.0.2.0_pre3.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 28126750,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/techguns-1.12.2-2.0.2.0_pre3.2.jar",
-            "MD5": "dbae09102aedeca925d4b3546685e5b5",
-            "path": "mods/techguns-1.12.2-2.0.2.0_pre3.2.jar"
-          }
-        },
-        {
-          "id": "tetra-1.12.2-0.39.1.jar",
-          "name": "tetra-1.12.2-0.39.1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2531823,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/tetra-1.12.2-0.39.1.jar",
-            "MD5": "9e9db45a08dd7ca24e2c02a069ca214f",
-            "path": "mods/tetra-1.12.2-0.39.1.jar"
-          }
-        },
-        {
-          "id": "toroquest-1.12.2-5.3.jar",
-          "name": "toroquest-1.12.2-5.3.jar",
-          "type": "File",
-          "artifact": {
-            "size": 700179,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/toroquest-1.12.2-5.3.jar",
-            "MD5": "499efc967e8303e3bf3ccf7b18a4d2ce",
-            "path": "mods/toroquest-1.12.2-5.3.jar"
-          }
-        },
-        {
-          "id": "twilightforest-1.12.2-3.11.1021-universal.jar",
-          "name": "twilightforest-1.12.2-3.11.1021-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 28721862,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/twilightforest-1.12.2-3.11.1021-universal.jar",
-            "MD5": "0933760943721154f3208782306f04d6",
-            "path": "mods/twilightforest-1.12.2-3.11.1021-universal.jar"
-          }
-        },
-        {
-          "id": "wonderful-enchantments-1.12.2-0.6.0.jar",
-          "name": "wonderful-enchantments-1.12.2-0.6.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 46038,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/mods/wonderful-enchantments-1.12.2-0.6.0.jar",
-            "MD5": "dbfd86a4ce5f669d0361be8a6ef57385",
-            "path": "mods/wonderful-enchantments-1.12.2-0.6.0.jar"
-          }
-        },
-        {
-          "id": "AntiqueAtlasExtra-v1.2.zip",
-          "name": "AntiqueAtlasExtra-v1.2.zip",
-          "type": "File",
-          "artifact": {
-            "size": 1327669,
-            "url": "http://190.190.29.214:800/Phobos/servers/Betweenlands-1.12.2/files/resourcepacks/AntiqueAtlasExtra-v1.2.zip",
-            "MD5": "8c8f4a20714bce5779b06b81a9f24f46",
-            "path": "resourcepacks/AntiqueAtlasExtra-v1.2.zip"
-          }
-        }
-      ]
-    },
-    {
       "id": "Hola-1.12.2",
       "name": "Hola (Minecraft 1.12.2)",
       "description": "Hola Running Minecraft 1.12.2",
@@ -1985,31 +484,51 @@
       ]
     },
     {
-      "id": "Montenegro-1.7.10",
-      "name": "Montenegro (Minecraft 1.7.10)",
-      "description": "Montenegro Running Minecraft 1.7.10",
-      "icon": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/Montenegro-1.7.10.png",
+      "id": "Nacion CHAD-1.12.2",
+      "name": "Nacion CHAD",
+      "description": "ModPack Crossover entre Nacion Gamer y Phobos",
+      "icon": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/Nacion%20CHAD-1.12.2.png",
       "version": "1.0.0",
-      "address": "190.190.29.214:25565",
-      "minecraftVersion": "1.7.10",
+      "address": "181.47.8.135:25565",
+      "minecraftVersion": "1.12.2",
       "discord": {
-        "shortId": "Montenegro 1.7.10",
-        "largeImageText": "Server crossover?",
+        "shortId": "Nacion CHAD",
+        "largeImageText": "Nacion CHAD de Chad Launcher",
         "largeImageKey": "montenegro"
       },
       "mainServer": true,
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10:universal",
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
           "name": "Minecraft Forge",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 3018833,
-            "MD5": "add0fba161c4652a96efb4264ec2d9ec",
-            "url": "http://190.190.29.214:800/Phobos/repo/lib/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar"
+            "size": 4464387,
+            "MD5": "02fcc447bb8938e5214292e4d36ec949",
+            "url": "http://190.190.29.214:800/Phobos/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
           },
           "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2855",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 10873,
+                "MD5": "5d114618e561d76e0f692c2d69dcb784",
+                "url": "http://190.190.29.214:800/Phobos/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+              }
+            },
             {
               "id": "net.minecraft:launchwrapper:1.12@jar",
               "name": "Minecraft Forge (launchwrapper)",
@@ -2021,13 +540,13 @@
               }
             },
             {
-              "id": "org.ow2.asm:asm-all:5.0.3@jar",
-              "name": "Minecraft Forge (asm-all)",
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
               "type": "Library",
               "artifact": {
-                "size": 241639,
-                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
               }
             },
             {
@@ -2071,23 +590,23 @@
               }
             },
             {
-              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
               "name": "Minecraft Forge (scala-continuations-library_2.11)",
               "type": "Library",
               "artifact": {
                 "size": 25365,
                 "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
+                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
               }
             },
             {
-              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
               "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
               "type": "Library",
               "artifact": {
                 "size": 206575,
                 "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
+                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
               }
             },
             {
@@ -2151,81 +670,95 @@
               }
             },
             {
-              "id": "net.sf.jopt-simple:jopt-simple:4.5@jar",
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "http://190.190.29.214:800/Phobos/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "http://190.190.29.214:800/Phobos/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
               "name": "Minecraft Forge (jopt-simple)",
               "type": "Library",
               "artifact": {
-                "size": 61311,
-                "MD5": "1372bd4823bb1ef61e7db6724f601150",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
-              }
-            },
-            {
-              "id": "com.google.guava:guava:17.0@jar",
-              "name": "Minecraft Forge (guava)",
-              "type": "Library",
-              "artifact": {
-                "size": 2243036,
-                "MD5": "89fef81c2adfa9b50a64ed5cd5d8c155",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/com/google/guava/guava/17.0/guava-17.0.jar"
-              }
-            },
-            {
-              "id": "org.apache.commons:commons-lang3:3.3.2@jar",
-              "name": "Minecraft Forge (commons-lang3)",
-              "type": "Library",
-              "artifact": {
-                "size": 412739,
-                "MD5": "3128bf75a2549ebe38663401191bacab",
-                "url": "http://190.190.29.214:800/Phobos/repo/lib/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "http://190.190.29.214:800/Phobos/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
               }
             }
           ]
         },
         {
-          "id": "generated.forgemod:journeymap:1.7.10-5.1.4p2@jar",
-          "name": "JourneyMap",
+          "id": "pl.asie:foamfix:0.10.11-1.12.2@jar",
+          "name": "FoamFix",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1731255,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/forgemods/optionalon/journeymap-1.7.10-5.1.4p2-unlimited.jar",
-            "MD5": "0c3daa19789a67da328437a8635c2cf3"
+            "size": 210423,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/optionalon/foamfix-0.10.11-1.12.2.jar",
+            "MD5": "005b3d124df67e4c2ca7c1aeb1b2cb7c"
           },
           "required": {
             "value": false
           }
         },
         {
-          "id": "mainmenu.json",
-          "name": "mainmenu.json",
-          "type": "File",
+          "id": "journeymap:journeymap:1.12.2-5.7.1@jar",
+          "name": "JourneyMap",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 3400,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/CustomMainMenu/mainmenu.json",
-            "MD5": "6f7b9771771f454229ec709392ef17f4",
-            "path": "config/CustomMainMenu/mainmenu.json"
+            "size": 6990968,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/optionalon/journeymap-1.12.2-5.7.1.jar",
+            "MD5": "8160b970fc14cff30dff2785bb9f964c"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "abyssalcraft.cfg",
-          "name": "abyssalcraft.cfg",
-          "type": "File",
+          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+          "name": "OptiFine 1.12.2_HD_U_G5",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 10468,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/abyssalcraft.cfg",
-            "MD5": "4b291874bbc1e947f024f2f659de4e0e",
-            "path": "config/abyssalcraft.cfg"
+            "size": 2457427,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_G5_MOD.jar",
+            "MD5": "dc2865643ff1885d7520a5e6204228f9"
+          },
+          "required": {
+            "value": false
           }
         },
         {
-          "id": "AntiqueAtlasOverlay.cfg",
-          "name": "AntiqueAtlasOverlay.cfg",
+          "id": "biome_textures (2).json",
+          "name": "biome_textures (2).json",
           "type": "File",
           "artifact": {
-            "size": 3533,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/antiqueatlas/AntiqueAtlasOverlay.cfg",
-            "MD5": "d5537c4e7f1d714cf3cc0a1662ffe4cc",
-            "path": "config/antiqueatlas/AntiqueAtlasOverlay.cfg"
+            "size": 4431,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/antiqueatlas/biome_textures%20(2).json",
+            "MD5": "225e3ac170578cf2aab292503975373c",
+            "path": "config/antiqueatlas/biome_textures (2).json"
           }
         },
         {
@@ -2233,9 +766,9 @@
           "name": "biome_textures.json",
           "type": "File",
           "artifact": {
-            "size": 4431,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/antiqueatlas/biome_textures.json",
-            "MD5": "225e3ac170578cf2aab292503975373c",
+            "size": 5788,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/antiqueatlas/biome_textures.json",
+            "MD5": "94c49ed899f45447f68854b6aff7dced",
             "path": "config/antiqueatlas/biome_textures.json"
           }
         },
@@ -2245,955 +778,1208 @@
           "type": "File",
           "artifact": {
             "size": 4748,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/antiqueatlas/texture_sets.json",
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/antiqueatlas/texture_sets.json",
             "MD5": "2d085b0818e90bc778b52ec2a8983255",
             "path": "config/antiqueatlas/texture_sets.json"
           }
         },
         {
-          "id": "wizardry.cfg",
-          "name": "wizardry.cfg",
+          "id": "ActuallyAdditions-1.12.2-r152.jar",
+          "name": "ActuallyAdditions-1.12.2-r152.jar",
           "type": "File",
           "artifact": {
-            "size": 27781,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/config/wizardry.cfg",
-            "MD5": "bf0225fb14ff6b130fe85a590b9fa10c",
-            "path": "config/wizardry.cfg"
+            "size": 2958699,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ActuallyAdditions-1.12.2-r152.jar",
+            "MD5": "4bb5c052581c729eb8a6adc60b376ec6",
+            "path": "mods/ActuallyAdditions-1.12.2-r152.jar"
           }
         },
         {
-          "id": "AbyssalCraft-1.7.10-1.9.1.3-FINAL.jar",
-          "name": "AbyssalCraft-1.7.10-1.9.1.3-FINAL.jar",
+          "id": "Advanced+Solar+Panels-4.3.0.jar",
+          "name": "Advanced+Solar+Panels-4.3.0.jar",
           "type": "File",
           "artifact": {
-            "size": 10522950,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/AbyssalCraft-1.7.10-1.9.1.3-FINAL.jar",
-            "MD5": "646ebd123e9366eb20783719cdb5a8b3",
-            "path": "mods/AbyssalCraft-1.7.10-1.9.1.3-FINAL.jar"
+            "size": 316833,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Advanced+Solar+Panels-4.3.0.jar",
+            "MD5": "2f16b7591d15da58d91f2ff147299a73",
+            "path": "mods/Advanced+Solar+Panels-4.3.0.jar"
           }
         },
         {
-          "id": "ActuallyAdditions-1.7.10-r21.jar",
-          "name": "ActuallyAdditions-1.7.10-r21.jar",
+          "id": "AncientSpellcraft-1.12.2-1.2.2.jar",
+          "name": "AncientSpellcraft-1.12.2-1.2.2.jar",
           "type": "File",
           "artifact": {
-            "size": 1774429,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ActuallyAdditions-1.7.10-r21.jar",
-            "MD5": "fab82c415fdc8b88d44ace7345c1a119",
-            "path": "mods/ActuallyAdditions-1.7.10-r21.jar"
+            "size": 5687092,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/AncientSpellcraft-1.12.2-1.2.2.jar",
+            "MD5": "251a0ee0b5abd7ba47dcaa329a51f188",
+            "path": "mods/AncientSpellcraft-1.12.2-1.2.2.jar"
           }
         },
         {
-          "id": "AntiqueAtlasOverlay-1.7.10-1.2.jar",
-          "name": "AntiqueAtlasOverlay-1.7.10-1.2.jar",
+          "id": "Armor+Souls+Reforged+v1.jar",
+          "name": "Armor+Souls+Reforged+v1.jar",
           "type": "File",
           "artifact": {
-            "size": 12571,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/AntiqueAtlasOverlay-1.7.10-1.2.jar",
-            "MD5": "d373728e6f0c078e0b85f1f16ca7ea8f",
-            "path": "mods/AntiqueAtlasOverlay-1.7.10-1.2.jar"
+            "size": 728820,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Armor+Souls+Reforged+v1.jar",
+            "MD5": "e08b7975c86346868e8c541e51196417",
+            "path": "mods/Armor+Souls+Reforged+v1.jar"
           }
         },
         {
-          "id": "Aroma1997Core-1.7.10-1.0.2.16.jar",
-          "name": "Aroma1997Core-1.7.10-1.0.2.16.jar",
+          "id": "ArteMagicum-1.3.0.jar",
+          "name": "ArteMagicum-1.3.0.jar",
           "type": "File",
           "artifact": {
-            "size": 159243,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Aroma1997Core-1.7.10-1.0.2.16.jar",
-            "MD5": "acadd2e64f5621f0e87f25a02c3dda14",
-            "path": "mods/Aroma1997Core-1.7.10-1.0.2.16.jar"
+            "size": 1661394,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ArteMagicum-1.3.0.jar",
+            "MD5": "b12c83bd016fda6b8b51583b39f0bf5f",
+            "path": "mods/ArteMagicum-1.3.0.jar"
           }
         },
         {
-          "id": "Aroma1997s-Dimensional-World-1.7.10-1.1.0.1.jar",
-          "name": "Aroma1997s-Dimensional-World-1.7.10-1.1.0.1.jar",
+          "id": "ArtemisLib-1.12.2-v1.0.6.jar",
+          "name": "ArtemisLib-1.12.2-v1.0.6.jar",
           "type": "File",
           "artifact": {
-            "size": 86550,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Aroma1997s-Dimensional-World-1.7.10-1.1.0.1.jar",
-            "MD5": "756e446bbcb0e045ed1907d7f56c91ae",
-            "path": "mods/Aroma1997s-Dimensional-World-1.7.10-1.1.0.1.jar"
+            "size": 21318,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ArtemisLib-1.12.2-v1.0.6.jar",
+            "MD5": "cd4d52c46b76651ad3f3ee36961ca8fd",
+            "path": "mods/ArtemisLib-1.12.2-v1.0.6.jar"
           }
         },
         {
-          "id": "BBG-1.0.0.jar",
-          "name": "BBG-1.0.0.jar",
+          "id": "AutoRegLib-1.3-32.jar",
+          "name": "AutoRegLib-1.3-32.jar",
           "type": "File",
           "artifact": {
-            "size": 3059,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/BBG-1.0.0.jar",
-            "MD5": "93d331916fc31519b842ccbbe06a702f",
-            "path": "mods/BBG-1.0.0.jar"
+            "size": 108306,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/AutoRegLib-1.3-32.jar",
+            "MD5": "4e5a4b881c27b1e4502a9a16c00882ad",
+            "path": "mods/AutoRegLib-1.3-32.jar"
           }
         },
         {
-          "id": "BabyMobs-1.7.10-1.3-Hotfix.jar",
-          "name": "BabyMobs-1.7.10-1.3-Hotfix.jar",
+          "id": "Baubles-1.12-1.5.2.jar",
+          "name": "Baubles-1.12-1.5.2.jar",
           "type": "File",
           "artifact": {
-            "size": 365706,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/BabyMobs-1.7.10-1.3-Hotfix.jar",
-            "MD5": "814da19286b0861a6401d11ac9006424",
-            "path": "mods/BabyMobs-1.7.10-1.3-Hotfix.jar"
+            "size": 108450,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Baubles-1.12-1.5.2.jar",
+            "MD5": "944dec4ef3fbfd4d498d94a7047af201",
+            "path": "mods/Baubles-1.12-1.5.2.jar"
           }
         },
         {
-          "id": "BackTools-4.0.0.jar",
-          "name": "BackTools-4.0.0.jar",
+          "id": "BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
+          "name": "BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 10184,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/BackTools-4.0.0.jar",
-            "MD5": "ac7636be5954b440b4da823194528fa3",
-            "path": "mods/BackTools-4.0.0.jar"
+            "size": 4702147,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
+            "MD5": "4c1d23b8a58b6aaa9a5204fae3f18393",
+            "path": "mods/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar"
           }
         },
         {
-          "id": "Baubles-1.7.10-1.0.1.10.jar",
-          "name": "Baubles-1.7.10-1.0.1.10.jar",
+          "id": "Botania+r1.10-363.jar",
+          "name": "Botania+r1.10-363.jar",
           "type": "File",
           "artifact": {
-            "size": 95415,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Baubles-1.7.10-1.0.1.10.jar",
-            "MD5": "0e711d6535970f62d4964edaa26f4623",
-            "path": "mods/Baubles-1.7.10-1.0.1.10.jar"
+            "size": 13814617,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Botania+r1.10-363.jar",
+            "MD5": "5ba76d3db9345fa9e398523bddda59f3",
+            "path": "mods/Botania+r1.10-363.jar"
           }
         },
         {
-          "id": "BigReactors-0.4.3A.jar",
-          "name": "BigReactors-0.4.3A.jar",
+          "id": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+          "name": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 771107,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/BigReactors-0.4.3A.jar",
-            "MD5": "b1c71b6a64a84f154af2d83bdc0d33bf",
-            "path": "mods/BigReactors-0.4.3A.jar"
+            "size": 827900,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+            "MD5": "4a67ccad9d684466010c02164d7ff13e",
+            "path": "mods/BrandonsCore-1.12.2-2.4.20.162-universal.jar"
           }
         },
         {
-          "id": "BirdsNests1.7.10-1.4.jar",
-          "name": "BirdsNests1.7.10-1.4.jar",
+          "id": "Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
+          "name": "Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
           "type": "File",
           "artifact": {
-            "size": 16317,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/BirdsNests1.7.10-1.4.jar",
-            "MD5": "80e0e4a45af0c83e6320a5efd19f25c6",
-            "path": "mods/BirdsNests1.7.10-1.4.jar"
+            "size": 5462081,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
+            "MD5": "ebc4c328d1d9994a8e77c5963af815be",
+            "path": "mods/Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar"
           }
         },
         {
-          "id": "BrandonsCore-1.0.0.12.jar",
-          "name": "BrandonsCore-1.0.0.12.jar",
+          "id": "CoFHCore-1.12.2-4.6.6.1-universal.jar",
+          "name": "CoFHCore-1.12.2-4.6.6.1-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 92269,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/BrandonsCore-1.0.0.12.jar",
-            "MD5": "4cfb5db069cf6019ea602cbc1c32cc31",
-            "path": "mods/BrandonsCore-1.0.0.12.jar"
+            "size": 848187,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CoFHCore-1.12.2-4.6.6.1-universal.jar",
+            "MD5": "f147d3b87f97bb317e1c37cba0dde002",
+            "path": "mods/CoFHCore-1.12.2-4.6.6.1-universal.jar"
           }
         },
         {
-          "id": "ChickenChunks-1.7.10-1.3.4.19-universal.jar",
-          "name": "ChickenChunks-1.7.10-1.3.4.19-universal.jar",
+          "id": "CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+          "name": "CoFHWorld-1.12.2-1.4.0.1-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 106701,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ChickenChunks-1.7.10-1.3.4.19-universal.jar",
-            "MD5": "5592eda79bd2b52adf1d4bdceaa59b73",
-            "path": "mods/ChickenChunks-1.7.10-1.3.4.19-universal.jar"
+            "size": 505987,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+            "MD5": "f2bfd74e76b71bdee8a20a9243dd5cdf",
+            "path": "mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar"
           }
         },
         {
-          "id": "Chisel-2.9.5.11.jar",
-          "name": "Chisel-2.9.5.11.jar",
+          "id": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+          "name": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 6378920,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Chisel-2.9.5.11.jar",
-            "MD5": "c76378129307ab7b371bb9b3b8631fce",
-            "path": "mods/Chisel-2.9.5.11.jar"
+            "size": 704330,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+            "MD5": "3b5e44db5ac96fb23a439590b6731a31",
+            "path": "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar"
           }
         },
         {
-          "id": "ClaySoldiersMod-1.7.10-2.0.0-beta.2.jar",
-          "name": "ClaySoldiersMod-1.7.10-2.0.0-beta.2.jar",
+          "id": "CommonCapabilities-1.12.2-2.4.6.jar",
+          "name": "CommonCapabilities-1.12.2-2.4.6.jar",
           "type": "File",
           "artifact": {
-            "size": 813144,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ClaySoldiersMod-1.7.10-2.0.0-beta.2.jar",
-            "MD5": "f7ad5985318317f30d47ade6ef2c0a4e",
-            "path": "mods/ClaySoldiersMod-1.7.10-2.0.0-beta.2.jar"
+            "size": 361473,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CommonCapabilities-1.12.2-2.4.6.jar",
+            "MD5": "51c5f7fa82c3a243538397bdca28c6ca",
+            "path": "mods/CommonCapabilities-1.12.2-2.4.6.jar"
           }
         },
         {
-          "id": "CoFHCore-[1.7.10]3.1.4-329.jar",
-          "name": "CoFHCore-[1.7.10]3.1.4-329.jar",
+          "id": "CraftTweaker2-1.12-4.1.20.660.jar",
+          "name": "CraftTweaker2-1.12-4.1.20.660.jar",
           "type": "File",
           "artifact": {
-            "size": 1230511,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/CoFHCore-[1.7.10]3.1.4-329.jar",
-            "MD5": "de527c101a1f2c62203f99515f3d0957",
-            "path": "mods/CoFHCore-[1.7.10]3.1.4-329.jar"
+            "size": 1562816,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CraftTweaker2-1.12-4.1.20.660.jar",
+            "MD5": "5564da84d9122dc975a7592550e996e2",
+            "path": "mods/CraftTweaker2-1.12-4.1.20.660.jar"
           }
         },
         {
-          "id": "CoFHTweaks-[1.7.10]1.1.2-89.jar",
-          "name": "CoFHTweaks-[1.7.10]1.1.2-89.jar",
+          "id": "CustomNPCs_1.12.2-(05Jul20).jar",
+          "name": "CustomNPCs_1.12.2-(05Jul20).jar",
           "type": "File",
           "artifact": {
-            "size": 165041,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/CoFHTweaks-[1.7.10]1.1.2-89.jar",
-            "MD5": "cbb2193115b252c17cd7c03da9b8af3b",
-            "path": "mods/CoFHTweaks-[1.7.10]1.1.2-89.jar"
+            "size": 9911871,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CustomNPCs_1.12.2-(05Jul20).jar",
+            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7",
+            "path": "mods/CustomNPCs_1.12.2-(05Jul20).jar"
           }
         },
         {
-          "id": "CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
-          "name": "CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
+          "id": "CyclopsCore-1.12.2-1.6.7.jar",
+          "name": "CyclopsCore-1.12.2-1.6.7.jar",
           "type": "File",
           "artifact": {
-            "size": 143985,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/CodeChickenCore-1.7.10-1.0.7.48-universal.jar",
-            "MD5": "9624db3d835155a1be4baef23b7cee31",
-            "path": "mods/CodeChickenCore-1.7.10-1.0.7.48-universal.jar"
+            "size": 1060985,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CyclopsCore-1.12.2-1.6.7.jar",
+            "MD5": "dc635fec13b1245323a58799fa6e6b39",
+            "path": "mods/CyclopsCore-1.12.2-1.6.7.jar"
           }
         },
         {
-          "id": "CodeChickenLib-1.7.10-1.1.3.141-universal.jar",
-          "name": "CodeChickenLib-1.7.10-1.1.3.141-universal.jar",
+          "id": "Decocraft-2.6.3.7_1.12.2.jar",
+          "name": "Decocraft-2.6.3.7_1.12.2.jar",
           "type": "File",
           "artifact": {
-            "size": 311450,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/CodeChickenLib-1.7.10-1.1.3.141-universal.jar",
-            "MD5": "b65fa954bb32611d9b42ae3352915473",
-            "path": "mods/CodeChickenLib-1.7.10-1.1.3.141-universal.jar"
+            "size": 16976718,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Decocraft-2.6.3.7_1.12.2.jar",
+            "MD5": "083cf0c798ebfd6065c2db0af0419c12",
+            "path": "mods/Decocraft-2.6.3.7_1.12.2.jar"
           }
         },
         {
-          "id": "CustomMainMenu-MC1.7.10-1.9.2.jar",
-          "name": "CustomMainMenu-MC1.7.10-1.9.2.jar",
+          "id": "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
+          "name": "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 115292,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/CustomMainMenu-MC1.7.10-1.9.2.jar",
-            "MD5": "7d0a3079e02fc07cd19a9558227e878b",
-            "path": "mods/CustomMainMenu-MC1.7.10-1.9.2.jar"
+            "size": 5708839,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
+            "MD5": "e6c70ebe71c94d00b1056f6e4bef207f",
+            "path": "mods/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar"
           }
         },
         {
-          "id": "CustomNPCs_1.7.10d(29oct17).jar",
-          "name": "CustomNPCs_1.7.10d(29oct17).jar",
+          "id": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
+          "name": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
           "type": "File",
           "artifact": {
-            "size": 9007920,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/CustomNPCs_1.7.10d(29oct17).jar",
-            "MD5": "486eb501ae87b3efcdc6b08823c7d7c9",
-            "path": "mods/CustomNPCs_1.7.10d(29oct17).jar"
+            "size": 10881050,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
+            "MD5": "a6cf1f36c230fbed2f4ef5b2db72d87a",
+            "path": "mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar"
           }
         },
         {
-          "id": "Decocraft-2.4.2_1.7.10.jar",
-          "name": "Decocraft-2.4.2_1.7.10.jar",
+          "id": "EnderCore-1.12.2-0.5.76.jar",
+          "name": "EnderCore-1.12.2-0.5.76.jar",
           "type": "File",
           "artifact": {
-            "size": 13365882,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Decocraft-2.4.2_1.7.10.jar",
-            "MD5": "9db261cb326ccdb827ebc36e37706d51",
-            "path": "mods/Decocraft-2.4.2_1.7.10.jar"
+            "size": 647959,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/EnderCore-1.12.2-0.5.76.jar",
+            "MD5": "6164be012de6ee761e37f54a74074125",
+            "path": "mods/EnderCore-1.12.2-0.5.76.jar"
           }
         },
         {
-          "id": "Draconic-Evolution-1.7.10-1.0.2h.jar",
-          "name": "Draconic-Evolution-1.7.10-1.0.2h.jar",
+          "id": "EnderIO-1.12.2-5.3.70.jar",
+          "name": "EnderIO-1.12.2-5.3.70.jar",
           "type": "File",
           "artifact": {
-            "size": 4874507,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Draconic-Evolution-1.7.10-1.0.2h.jar",
-            "MD5": "6fab228f67c149b2d2ada1ff856b0f63",
-            "path": "mods/Draconic-Evolution-1.7.10-1.0.2h.jar"
+            "size": 8946575,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/EnderIO-1.12.2-5.3.70.jar",
+            "MD5": "c74737e1b943ca1b94265f0bc8f1c6cc",
+            "path": "mods/EnderIO-1.12.2-5.3.70.jar"
           }
         },
         {
-          "id": "DragonBlockC-v1.4.73.jar",
-          "name": "DragonBlockC-v1.4.73.jar",
+          "id": "ExtraSpells-1.12.2-1.2.0.jar",
+          "name": "ExtraSpells-1.12.2-1.2.0.jar",
           "type": "File",
           "artifact": {
-            "size": 12611667,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/DragonBlockC-v1.4.73.jar",
-            "MD5": "7d0f8983be3b6a41529613da6ebd35b4",
-            "path": "mods/DragonBlockC-v1.4.73.jar"
+            "size": 93682,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ExtraSpells-1.12.2-1.2.0.jar",
+            "MD5": "84661ace81cd4a43fed9b9c83fdb6c6b",
+            "path": "mods/ExtraSpells-1.12.2-1.2.0.jar"
           }
         },
         {
-          "id": "Electroblob's+Wizardry+-+1.1.5+-+MC+1.7.10.jar",
-          "name": "Electroblob's+Wizardry+-+1.1.5+-+MC+1.7.10.jar",
+          "id": "Flan's+Mod-1.12.2-5.10.0.jar",
+          "name": "Flan's+Mod-1.12.2-5.10.0.jar",
           "type": "File",
           "artifact": {
-            "size": 2862993,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Electroblob's+Wizardry+-+1.1.5+-+MC+1.7.10.jar",
-            "MD5": "2778889f4e894d0d738c38570dcee29c",
-            "path": "mods/Electroblob's+Wizardry+-+1.1.5+-+MC+1.7.10.jar"
+            "size": 2259973,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Flan's+Mod-1.12.2-5.10.0.jar",
+            "MD5": "0cc53ac00145d96448d5d20eae4e2ed6",
+            "path": "mods/Flan's+Mod-1.12.2-5.10.0.jar"
           }
         },
         {
-          "id": "EnderZoo-1.7.10-1.0.15.32.jar",
-          "name": "EnderZoo-1.7.10-1.0.15.32.jar",
+          "id": "FluxNetworks-1.12.2-4.1.1.34.jar",
+          "name": "FluxNetworks-1.12.2-4.1.1.34.jar",
           "type": "File",
           "artifact": {
-            "size": 351928,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/EnderZoo-1.7.10-1.0.15.32.jar",
-            "MD5": "577531417d0dc93fc264631f100f53ba",
-            "path": "mods/EnderZoo-1.7.10-1.0.15.32.jar"
+            "size": 475994,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/FluxNetworks-1.12.2-4.1.1.34.jar",
+            "MD5": "dc5f666ad856dd1da2b195f03a815bb3",
+            "path": "mods/FluxNetworks-1.12.2-4.1.1.34.jar"
           }
         },
         {
-          "id": "FoamFix-1.7.10-universal-1.0.0-beta3.jar",
-          "name": "FoamFix-1.7.10-universal-1.0.0-beta3.jar",
+          "id": "Forgelin-1.8.3.jar",
+          "name": "Forgelin-1.8.3.jar",
           "type": "File",
           "artifact": {
-            "size": 63341,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/FoamFix-1.7.10-universal-1.0.0-beta3.jar",
-            "MD5": "bf46762f339b573224a96e30919b2259",
-            "path": "mods/FoamFix-1.7.10-universal-1.0.0-beta3.jar"
+            "size": 5772310,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Forgelin-1.8.3.jar",
+            "MD5": "d729a4a101a5687329526f6cb7adc64d",
+            "path": "mods/Forgelin-1.8.3.jar"
           }
         },
         {
-          "id": "GravityGun-4.0.0-beta.jar",
-          "name": "GravityGun-4.0.0-beta.jar",
+          "id": "GIsCraftableWizardryItems-2.0.jar",
+          "name": "GIsCraftableWizardryItems-2.0.jar",
           "type": "File",
           "artifact": {
-            "size": 266221,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/GravityGun-4.0.0-beta.jar",
-            "MD5": "ac70a43a82eac9488caecb6a11d5e040",
-            "path": "mods/GravityGun-4.0.0-beta.jar"
+            "size": 38975,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/GIsCraftableWizardryItems-2.0.jar",
+            "MD5": "5e030a5f6c209a20e5c8097071be4809",
+            "path": "mods/GIsCraftableWizardryItems-2.0.jar"
           }
         },
         {
-          "id": "IronBackpacks-1.7.10-1.2.20.jar",
-          "name": "IronBackpacks-1.7.10-1.2.20.jar",
+          "id": "Galacticraft-Planets-1.12.2-4.0.2.280.jar",
+          "name": "Galacticraft-Planets-1.12.2-4.0.2.280.jar",
           "type": "File",
           "artifact": {
-            "size": 354672,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/IronBackpacks-1.7.10-1.2.20.jar",
-            "MD5": "a7e20c4ced02e078db2f35b71796aca5",
-            "path": "mods/IronBackpacks-1.7.10-1.2.20.jar"
+            "size": 3975978,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Galacticraft-Planets-1.12.2-4.0.2.280.jar",
+            "MD5": "848ebcd467a3389c9461007d2b164a6c",
+            "path": "mods/Galacticraft-Planets-1.12.2-4.0.2.280.jar"
           }
         },
         {
-          "id": "JBRA-Client-v1.6.47.jar",
-          "name": "JBRA-Client-v1.6.47.jar",
+          "id": "GalacticraftCore-1.12.2-4.0.2.280.jar",
+          "name": "GalacticraftCore-1.12.2-4.0.2.280.jar",
           "type": "File",
           "artifact": {
-            "size": 125945,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/JBRA-Client-v1.6.47.jar",
-            "MD5": "1b594a32a76deb92d8ed1f9a73391a0c",
-            "path": "mods/JBRA-Client-v1.6.47.jar"
+            "size": 10610662,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/GalacticraftCore-1.12.2-4.0.2.280.jar",
+            "MD5": "9298e6b85b38eab9b830a0637f1fbced",
+            "path": "mods/GalacticraftCore-1.12.2-4.0.2.280.jar"
           }
         },
         {
-          "id": "JRMCore-v1.3.34.jar",
-          "name": "JRMCore-v1.3.34.jar",
+          "id": "GrimoireOfGaia3-1.12.2-1.7.2.jar",
+          "name": "GrimoireOfGaia3-1.12.2-1.7.2.jar",
           "type": "File",
           "artifact": {
-            "size": 1797796,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/JRMCore-v1.3.34.jar",
-            "MD5": "20b1943057a0bb2c22839760717f33d4",
-            "path": "mods/JRMCore-v1.3.34.jar"
+            "size": 3647043,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/GrimoireOfGaia3-1.12.2-1.7.2.jar",
+            "MD5": "665d71bcc29e0e75c7396d323df1a623",
+            "path": "mods/GrimoireOfGaia3-1.12.2-1.7.2.jar"
           }
         },
         {
-          "id": "MCA-1.7.10-5.2.2-universal.jar",
-          "name": "MCA-1.7.10-5.2.2-universal.jar",
+          "id": "Hwyla-1.8.26-B41_1.12.2.jar",
+          "name": "Hwyla-1.8.26-B41_1.12.2.jar",
           "type": "File",
           "artifact": {
-            "size": 3279533,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/MCA-1.7.10-5.2.2-universal.jar",
-            "MD5": "85da3558edd7abc4bd69c24b6304522c",
-            "path": "mods/MCA-1.7.10-5.2.2-universal.jar"
+            "size": 453778,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Hwyla-1.8.26-B41_1.12.2.jar",
+            "MD5": "bca1c069d9171d331d211d24e8a3b770",
+            "path": "mods/Hwyla-1.8.26-B41_1.12.2.jar"
           }
         },
         {
-          "id": "NetherOres-[1.7.10]2.3.1-22.jar",
-          "name": "NetherOres-[1.7.10]2.3.1-22.jar",
+          "id": "IntegratedDynamics-1.12.2-1.1.11.jar",
+          "name": "IntegratedDynamics-1.12.2-1.1.11.jar",
           "type": "File",
           "artifact": {
-            "size": 79708,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/NetherOres-[1.7.10]2.3.1-22.jar",
-            "MD5": "78980ff5bea5c0de0b0a27edff94225b",
-            "path": "mods/NetherOres-[1.7.10]2.3.1-22.jar"
+            "size": 3049509,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/IntegratedDynamics-1.12.2-1.1.11.jar",
+            "MD5": "f96333cf15335deef0d53412b52cc006",
+            "path": "mods/IntegratedDynamics-1.12.2-1.1.11.jar"
           }
         },
         {
-          "id": "NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
-          "name": "NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
+          "id": "IntegratedTunnels-1.12.2-1.6.14.jar",
+          "name": "IntegratedTunnels-1.12.2-1.6.14.jar",
           "type": "File",
           "artifact": {
-            "size": 513136,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/NotEnoughItems-1.7.10-1.0.5.120-universal.jar",
-            "MD5": "742e865a9a80071e80976ffedc05700e",
-            "path": "mods/NotEnoughItems-1.7.10-1.0.5.120-universal.jar"
+            "size": 493503,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/IntegratedTunnels-1.12.2-1.6.14.jar",
+            "MD5": "27db1b2ca9dc091675a744d2fe6edc02",
+            "path": "mods/IntegratedTunnels-1.12.2-1.6.14.jar"
           }
         },
         {
-          "id": "Portal+Blocks+v1.0_1.7.10.jar",
-          "name": "Portal+Blocks+v1.0_1.7.10.jar",
+          "id": "IronBackpacks-1.12.2-3.0.8-12.jar",
+          "name": "IronBackpacks-1.12.2-3.0.8-12.jar",
           "type": "File",
           "artifact": {
-            "size": 4110684,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Portal+Blocks+v1.0_1.7.10.jar",
-            "MD5": "f891bfe1d4c119c977481374787e8f47",
-            "path": "mods/Portal+Blocks+v1.0_1.7.10.jar"
+            "size": 465363,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/IronBackpacks-1.12.2-3.0.8-12.jar",
+            "MD5": "9fd50b1827b711704c69789aa94ac2ca",
+            "path": "mods/IronBackpacks-1.12.2-3.0.8-12.jar"
           }
         },
         {
-          "id": "PortalGun-4.0.0-beta-6-fix-1.jar",
-          "name": "PortalGun-4.0.0-beta-6-fix-1.jar",
+          "id": "JustEnoughIDs-1.0.3-55.jar",
+          "name": "JustEnoughIDs-1.0.3-55.jar",
           "type": "File",
           "artifact": {
-            "size": 626478,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/PortalGun-4.0.0-beta-6-fix-1.jar",
-            "MD5": "318fb7d5510c6ae47cab5c3534cf7268",
-            "path": "mods/PortalGun-4.0.0-beta-6-fix-1.jar"
+            "size": 982320,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/JustEnoughIDs-1.0.3-55.jar",
+            "MD5": "ac6f54cb5478dd3d0147aedbfe782d5d",
+            "path": "mods/JustEnoughIDs-1.0.3-55.jar"
           }
         },
         {
-          "id": "RadixCore-1.7.10-2.1.3-universal.jar",
-          "name": "RadixCore-1.7.10-2.1.3-universal.jar",
+          "id": "Magic_Circle-1.0.1.jar",
+          "name": "Magic_Circle-1.0.1.jar",
           "type": "File",
           "artifact": {
-            "size": 148295,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/RadixCore-1.7.10-2.1.3-universal.jar",
-            "MD5": "eba8b2727935bc4cd0309f2591de7fb7",
-            "path": "mods/RadixCore-1.7.10-2.1.3-universal.jar"
+            "size": 301907,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Magic_Circle-1.0.1.jar",
+            "MD5": "b872636ca1b509a1611cecc19dc29258",
+            "path": "mods/Magic_Circle-1.0.1.jar"
           }
         },
         {
-          "id": "RedstoneArsenal-[1.7.10]1.1.2-92.jar",
-          "name": "RedstoneArsenal-[1.7.10]1.1.2-92.jar",
+          "id": "Mantle-1.12-1.3.3.55.jar",
+          "name": "Mantle-1.12-1.3.3.55.jar",
           "type": "File",
           "artifact": {
-            "size": 318347,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/RedstoneArsenal-[1.7.10]1.1.2-92.jar",
-            "MD5": "72f8414b856d40b07d6837560f067acc",
-            "path": "mods/RedstoneArsenal-[1.7.10]1.1.2-92.jar"
+            "size": 843486,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Mantle-1.12-1.3.3.55.jar",
+            "MD5": "1026f5f8d3c4997831decd9023ca65a6",
+            "path": "mods/Mantle-1.12-1.3.3.55.jar"
           }
         },
         {
-          "id": "ResourceLoader-MC1.7.10-1.3.jar",
-          "name": "ResourceLoader-MC1.7.10-1.3.jar",
+          "id": "MedievalCraft-1.12.2-1.15.11.jar",
+          "name": "MedievalCraft-1.12.2-1.15.11.jar",
           "type": "File",
           "artifact": {
-            "size": 13037,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ResourceLoader-MC1.7.10-1.3.jar",
-            "MD5": "8139e4169ad21a531110deb371c2e6f3",
-            "path": "mods/ResourceLoader-MC1.7.10-1.3.jar"
+            "size": 1453752,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MedievalCraft-1.12.2-1.15.11.jar",
+            "MD5": "bda4351ca6287e1635105f151b7d73e1",
+            "path": "mods/MedievalCraft-1.12.2-1.15.11.jar"
           }
         },
         {
-          "id": "SAPManPack-1.7.10-2.7.2.jar",
-          "name": "SAPManPack-1.7.10-2.7.2.jar",
+          "id": "Mekanism-1.12.2-9.8.3.390.jar",
+          "name": "Mekanism-1.12.2-9.8.3.390.jar",
           "type": "File",
           "artifact": {
-            "size": 294021,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/SAPManPack-1.7.10-2.7.2.jar",
-            "MD5": "55ffd9d75e35e4a23e671d72d84b654c",
-            "path": "mods/SAPManPack-1.7.10-2.7.2.jar"
+            "size": 7863657,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Mekanism-1.12.2-9.8.3.390.jar",
+            "MD5": "e622b8365b9a1190b3b6cc042854e870",
+            "path": "mods/Mekanism-1.12.2-9.8.3.390.jar"
           }
         },
         {
-          "id": "SaltyMod-1.7.10-1.8.c_.jar",
-          "name": "SaltyMod-1.7.10-1.8.c_.jar",
+          "id": "MicdoodleCore-1.12.2-4.0.2.280.jar",
+          "name": "MicdoodleCore-1.12.2-4.0.2.280.jar",
           "type": "File",
           "artifact": {
-            "size": 596531,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/SaltyMod-1.7.10-1.8.c_.jar",
-            "MD5": "8a2ee6a103249795328c17681641533e",
-            "path": "mods/SaltyMod-1.7.10-1.8.c_.jar"
+            "size": 53300,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MicdoodleCore-1.12.2-4.0.2.280.jar",
+            "MD5": "2b033cb0694a53ea7b80876e2f00dec5",
+            "path": "mods/MicdoodleCore-1.12.2-4.0.2.280.jar"
           }
         },
         {
-          "id": "SilentGems-1.7.10-1.3.14-172.jar",
-          "name": "SilentGems-1.7.10-1.3.14-172.jar",
+          "id": "MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
+          "name": "MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
           "type": "File",
           "artifact": {
-            "size": 1485948,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/SilentGems-1.7.10-1.3.14-172.jar",
-            "MD5": "f5bfa48883b295585d8a2d3c51bde773",
-            "path": "mods/SilentGems-1.7.10-1.3.14-172.jar"
+            "size": 703346,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
+            "MD5": "d77d93d13d89c2ec4ff10887519daab8",
+            "path": "mods/MoBends_1.12.2-1.0.0-beta-20.06.20.jar"
           }
         },
         {
-          "id": "Techguns.beta.1.2_alphatest4.1.jar",
-          "name": "Techguns.beta.1.2_alphatest4.1.jar",
+          "id": "MoSpells-1.12.2-1.0.2.jar",
+          "name": "MoSpells-1.12.2-1.0.2.jar",
           "type": "File",
           "artifact": {
-            "size": 17998936,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Techguns.beta.1.2_alphatest4.1.jar",
-            "MD5": "fe928745a8aebf66115264fc34539403",
-            "path": "mods/Techguns.beta.1.2_alphatest4.1.jar"
+            "size": 659420,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MoSpells-1.12.2-1.0.2.jar",
+            "MD5": "896e9dd595fbd920701cb0a871ec4a65",
+            "path": "mods/MoSpells-1.12.2-1.0.2.jar"
           }
         },
         {
-          "id": "ThermalDynamics-[1.7.10]1.2.1-172.jar",
-          "name": "ThermalDynamics-[1.7.10]1.2.1-172.jar",
+          "id": "MonsterTotems-1.12.2-2.0.2.2.jar",
+          "name": "MonsterTotems-1.12.2-2.0.2.2.jar",
           "type": "File",
           "artifact": {
-            "size": 632485,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ThermalDynamics-[1.7.10]1.2.1-172.jar",
-            "MD5": "156ea02d8bb4b2ab948f8a5aa6bdb99f",
-            "path": "mods/ThermalDynamics-[1.7.10]1.2.1-172.jar"
+            "size": 2044246,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MonsterTotems-1.12.2-2.0.2.2.jar",
+            "MD5": "af3d077e111ab4212eb140f6dfb3047e",
+            "path": "mods/MonsterTotems-1.12.2-2.0.2.2.jar"
           }
         },
         {
-          "id": "ThermalExpansion-[1.7.10]4.1.5-248.jar",
-          "name": "ThermalExpansion-[1.7.10]4.1.5-248.jar",
+          "id": "More-Planets-1.12.2-2.2.1-GC280.jar",
+          "name": "More-Planets-1.12.2-2.2.1-GC280.jar",
           "type": "File",
           "artifact": {
-            "size": 2614932,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ThermalExpansion-[1.7.10]4.1.5-248.jar",
-            "MD5": "8c0ca9e6cc197a13e6cdbaf53b8d60f5",
-            "path": "mods/ThermalExpansion-[1.7.10]4.1.5-248.jar"
+            "size": 7006745,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/More-Planets-1.12.2-2.2.1-GC280.jar",
+            "MD5": "55ca53ea3650b07fb340fa99980f1dc6",
+            "path": "mods/More-Planets-1.12.2-2.2.1-GC280.jar"
           }
         },
         {
-          "id": "ThermalFoundation-[1.7.10]1.2.6-118.jar",
-          "name": "ThermalFoundation-[1.7.10]1.2.6-118.jar",
+          "id": "NuclearCraft-2.18z-1.12.2.jar",
+          "name": "NuclearCraft-2.18z-1.12.2.jar",
           "type": "File",
           "artifact": {
-            "size": 2316321,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ThermalFoundation-[1.7.10]1.2.6-118.jar",
-            "MD5": "cc29ba7f9164bb5c78cee67a3a23a81d",
-            "path": "mods/ThermalFoundation-[1.7.10]1.2.6-118.jar"
+            "size": 6904694,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/NuclearCraft-2.18z-1.12.2.jar",
+            "MD5": "1f90965dbc63fcb5151fbe5c5ba95776",
+            "path": "mods/NuclearCraft-2.18z-1.12.2.jar"
           }
         },
         {
-          "id": "Waila-1.5.10_1.7.10.jar",
-          "name": "Waila-1.5.10_1.7.10.jar",
+          "id": "PTRLib-1.0.5.jar",
+          "name": "PTRLib-1.0.5.jar",
           "type": "File",
           "artifact": {
-            "size": 544821,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/Waila-1.5.10_1.7.10.jar",
-            "MD5": "eeb36775188e70faa1c5ecd84f80076c",
-            "path": "mods/Waila-1.5.10_1.7.10.jar"
+            "size": 169749,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/PTRLib-1.0.5.jar",
+            "MD5": "7376e09acb5d531d28cb4d28a7f190fd",
+            "path": "mods/PTRLib-1.0.5.jar"
           }
         },
         {
-          "id": "[1.7.10]+SecurityCraft+v1.8.13.jar",
-          "name": "[1.7.10]+SecurityCraft+v1.8.13.jar",
+          "id": "Patchouli-1.0-23.6.jar",
+          "name": "Patchouli-1.0-23.6.jar",
           "type": "File",
           "artifact": {
-            "size": 1060122,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[1.7.10]+SecurityCraft+v1.8.13.jar",
-            "MD5": "c3b8d3cc7bed916b8608af073c3b27fe",
-            "path": "mods/[1.7.10]+SecurityCraft+v1.8.13.jar"
+            "size": 472464,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Patchouli-1.0-23.6.jar",
+            "MD5": "5450477c1ce7189c5ee11595d5e03a7c",
+            "path": "mods/Patchouli-1.0-23.6.jar"
           }
         },
         {
-          "id": "[1.7.10]Treecapitator-universal-2.0.4.jar",
-          "name": "[1.7.10]Treecapitator-universal-2.0.4.jar",
+          "id": "PortalGun-1.12.2-7.1.0.jar",
+          "name": "PortalGun-1.12.2-7.1.0.jar",
           "type": "File",
           "artifact": {
-            "size": 94792,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[1.7.10]Treecapitator-universal-2.0.4.jar",
-            "MD5": "c9a8f77274a63745d2d0e1f026dffdbc",
-            "path": "mods/[1.7.10]Treecapitator-universal-2.0.4.jar"
+            "size": 1717073,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/PortalGun-1.12.2-7.1.0.jar",
+            "MD5": "2219e579132b53719ef21ea78934f4c3",
+            "path": "mods/PortalGun-1.12.2-7.1.0.jar"
           }
         },
         {
-          "id": "[1.7.10]bspkrsCore-universal-6.16.jar",
-          "name": "[1.7.10]bspkrsCore-universal-6.16.jar",
+          "id": "PotionCore-1.9_for_1.12.2.jar",
+          "name": "PotionCore-1.9_for_1.12.2.jar",
           "type": "File",
           "artifact": {
-            "size": 198525,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[1.7.10]bspkrsCore-universal-6.16.jar",
-            "MD5": "e77344bda12bd0b91e01dfbb00a653f0",
-            "path": "mods/[1.7.10]bspkrsCore-universal-6.16.jar"
+            "size": 145329,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/PotionCore-1.9_for_1.12.2.jar",
+            "MD5": "5dea390b2e61967b35d23f73adf73bad",
+            "path": "mods/PotionCore-1.9_for_1.12.2.jar"
           }
         },
         {
-          "id": "[DBC]JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar",
-          "name": "[DBC]JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar",
+          "id": "ProjectIntelligence-1.12.2-1.0.9.28-universal.jar",
+          "name": "ProjectIntelligence-1.12.2-1.0.9.28-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 23139,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[DBC]JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar",
-            "MD5": "e2cf6a79e3b8e6730fa5c144d531cd5e",
-            "path": "mods/[DBC]JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar"
+            "size": 473948,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ProjectIntelligence-1.12.2-1.0.9.28-universal.jar",
+            "MD5": "96657f132afd609f2a92cf4994698e64",
+            "path": "mods/ProjectIntelligence-1.12.2-1.0.9.28-universal.jar"
           }
         },
         {
-          "id": "[Local]BetterLoadingScreen-1.3.10.jar",
-          "name": "[Local]BetterLoadingScreen-1.3.10.jar",
+          "id": "Quark-r1.6-179.jar",
+          "name": "Quark-r1.6-179.jar",
           "type": "File",
           "artifact": {
-            "size": 84054,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[Local]BetterLoadingScreen-1.3.10.jar",
-            "MD5": "d713da2a6b25e9690a68c42c0412da10",
-            "path": "mods/[Local]BetterLoadingScreen-1.3.10.jar"
+            "size": 3877577,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Quark-r1.6-179.jar",
+            "MD5": "dfcfa70d244f0435a5ff2b28037a324b",
+            "path": "mods/Quark-r1.6-179.jar"
           }
         },
         {
-          "id": "[Local]BetterPing-1.7.10-1.0.jar",
-          "name": "[Local]BetterPing-1.7.10-1.0.jar",
+          "id": "RedstoneArsenal-1.12.2-2.6.6.1-universal.jar",
+          "name": "RedstoneArsenal-1.12.2-2.6.6.1-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 5441,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[Local]BetterPing-1.7.10-1.0.jar",
-            "MD5": "792567b5a4a7bc4704000988ed80ac97",
-            "path": "mods/[Local]BetterPing-1.7.10-1.0.jar"
+            "size": 243859,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/RedstoneArsenal-1.12.2-2.6.6.1-universal.jar",
+            "MD5": "d2ca2d7e0987a9f3d1cb82898942bb78",
+            "path": "mods/RedstoneArsenal-1.12.2-2.6.6.1-universal.jar"
           }
         },
         {
-          "id": "[Local]BetterPlacement-MC1.7.10-1.0.0-1.jar",
-          "name": "[Local]BetterPlacement-MC1.7.10-1.0.0-1.jar",
+          "id": "RedstoneFlux-1.12-2.1.1.1-universal.jar",
+          "name": "RedstoneFlux-1.12-2.1.1.1-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 10122,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[Local]BetterPlacement-MC1.7.10-1.0.0-1.jar",
-            "MD5": "918cf416c64c1616fea0758723ff97da",
-            "path": "mods/[Local]BetterPlacement-MC1.7.10-1.0.0-1.jar"
+            "size": 31802,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+            "MD5": "93b1715f05be1878da93fca36dd37f2a",
+            "path": "mods/RedstoneFlux-1.12-2.1.1.1-universal.jar"
           }
         },
         {
-          "id": "[UniDict] UniDict-1.7.10-2.9.2.jar",
-          "name": "[UniDict] UniDict-1.7.10-2.9.2.jar",
+          "id": "Reliquary-1.12.2-1.3.4.796.jar",
+          "name": "Reliquary-1.12.2-1.3.4.796.jar",
           "type": "File",
           "artifact": {
-            "size": 152787,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[UniDict]%20UniDict-1.7.10-2.9.2.jar",
-            "MD5": "07261f423e1d5c537c1a087185d9bff0",
-            "path": "mods/[UniDict] UniDict-1.7.10-2.9.2.jar"
+            "size": 1247278,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Reliquary-1.12.2-1.3.4.796.jar",
+            "MD5": "acd6db4d0449a588f651a63480c4b435",
+            "path": "mods/Reliquary-1.12.2-1.3.4.796.jar"
           }
         },
         {
-          "id": "[UniDict][lib] WanionLib-1.7.10-1.8.jar",
-          "name": "[UniDict][lib] WanionLib-1.7.10-1.8.jar",
+          "id": "RingOfSacrifice-1.12.2-1.1.2b.jar",
+          "name": "RingOfSacrifice-1.12.2-1.1.2b.jar",
           "type": "File",
           "artifact": {
-            "size": 60225,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[UniDict][lib]%20WanionLib-1.7.10-1.8.jar",
-            "MD5": "8c7c8b8fef46a39d174500d5cdb712e0",
-            "path": "mods/[UniDict][lib] WanionLib-1.7.10-1.8.jar"
+            "size": 46551,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/RingOfSacrifice-1.12.2-1.1.2b.jar",
+            "MD5": "93e46037a7a770b86b3608884174fadd",
+            "path": "mods/RingOfSacrifice-1.12.2-1.1.2b.jar"
           }
         },
         {
-          "id": "[buildcraft] buildcraft-7.1.23.jar",
-          "name": "[buildcraft] buildcraft-7.1.23.jar",
+          "id": "SeedsForWizardryReforged.jar",
+          "name": "SeedsForWizardryReforged.jar",
           "type": "File",
           "artifact": {
-            "size": 2705733,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[buildcraft]%20buildcraft-7.1.23.jar",
-            "MD5": "5642e498a79c92f5e4994d10d3de7ac6",
-            "path": "mods/[buildcraft] buildcraft-7.1.23.jar"
+            "size": 24736,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/SeedsForWizardryReforged.jar",
+            "MD5": "2ba94627be0f59662c9b126a027b2886",
+            "path": "mods/SeedsForWizardryReforged.jar"
           }
         },
         {
-          "id": "[indust] AdvancedSolarPanel_1.7.10_Edition.jar",
-          "name": "[indust] AdvancedSolarPanel_1.7.10_Edition.jar",
+          "id": "SteveKunG's-Lib-1.12.2-1.1.10.jar",
+          "name": "SteveKunG's-Lib-1.12.2-1.1.10.jar",
           "type": "File",
           "artifact": {
-            "size": 305650,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[indust]%20AdvancedSolarPanel_1.7.10_Edition.jar",
-            "MD5": "345df7343f44988e8522a7e6d5bf56ba",
-            "path": "mods/[indust] AdvancedSolarPanel_1.7.10_Edition.jar"
+            "size": 1080012,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/SteveKunG's-Lib-1.12.2-1.1.10.jar",
+            "MD5": "dfa6d2c6f9076ebae481b2ac40304a38",
+            "path": "mods/SteveKunG's-Lib-1.12.2-1.1.10.jar"
           }
         },
         {
-          "id": "[indust] industrialcraft-2-2.2.827-experimental.jar",
-          "name": "[indust] industrialcraft-2-2.2.827-experimental.jar",
+          "id": "SwordsPlus.jar",
+          "name": "SwordsPlus.jar",
           "type": "File",
           "artifact": {
-            "size": 5633941,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/[indust]%20industrialcraft-2-2.2.827-experimental.jar",
-            "MD5": "6fd8c3b8b87532c4c8884614fc2eb21d",
-            "path": "mods/[indust] industrialcraft-2-2.2.827-experimental.jar"
+            "size": 643253,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/SwordsPlus.jar",
+            "MD5": "6b67bae2b240772828c71328bc4aba28",
+            "path": "mods/SwordsPlus.jar"
           }
         },
         {
-          "id": "antiqueatlas-1.7.10-4.4.4.jar",
-          "name": "antiqueatlas-1.7.10-4.4.4.jar",
+          "id": "TConstruct-1.12.2-2.13.0.183.jar",
+          "name": "TConstruct-1.12.2-2.13.0.183.jar",
           "type": "File",
           "artifact": {
-            "size": 1135508,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/antiqueatlas-1.7.10-4.4.4.jar",
-            "MD5": "4b0ab763b63275d7f4abefb772961773",
-            "path": "mods/antiqueatlas-1.7.10-4.4.4.jar"
+            "size": 4023372,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/TConstruct-1.12.2-2.13.0.183.jar",
+            "MD5": "710d64342d41042b7d6ced891448e727",
+            "path": "mods/TConstruct-1.12.2-2.13.0.183.jar"
           }
         },
         {
-          "id": "appliedenergistics2-rv3-beta-6.jar",
-          "name": "appliedenergistics2-rv3-beta-6.jar",
+          "id": "Thaumcraft-1.12.2-6.1.BETA26.jar",
+          "name": "Thaumcraft-1.12.2-6.1.BETA26.jar",
           "type": "File",
           "artifact": {
-            "size": 2924325,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/appliedenergistics2-rv3-beta-6.jar",
-            "MD5": "0a555df010345a27e0956a3f05517510",
-            "path": "mods/appliedenergistics2-rv3-beta-6.jar"
+            "size": 11360786,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Thaumcraft-1.12.2-6.1.BETA26.jar",
+            "MD5": "3b13783ccaafb5d5b9ce8cb85e87fff6",
+            "path": "mods/Thaumcraft-1.12.2-6.1.BETA26.jar"
           }
         },
         {
-          "id": "coroutil-1.1.3 for MC v1.7.10.jar",
-          "name": "coroutil-1.1.3 for MC v1.7.10.jar",
+          "id": "TheBetweenlands-3.7.3-universal.jar",
+          "name": "TheBetweenlands-3.7.3-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 1246290,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/coroutil-1.1.3%20for%20MC%20v1.7.10.jar",
-            "MD5": "8268bb28cb7c05eccc4355ec13f70860",
-            "path": "mods/coroutil-1.1.3 for MC v1.7.10.jar"
+            "size": 133488642,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/TheBetweenlands-3.7.3-universal.jar",
+            "MD5": "796ffca775c891c947ae912724f58d04",
+            "path": "mods/TheBetweenlands-3.7.3-universal.jar"
           }
         },
         {
-          "id": "extrautilities-1.2.12.jar",
-          "name": "extrautilities-1.2.12.jar",
+          "id": "ThereAndBackAgain-1.12.2-1.2.jar",
+          "name": "ThereAndBackAgain-1.12.2-1.2.jar",
           "type": "File",
           "artifact": {
-            "size": 2149827,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/extrautilities-1.2.12.jar",
-            "MD5": "0b1848ece3f6e1370e6caa8124c1480d",
-            "path": "mods/extrautilities-1.2.12.jar"
+            "size": 12091519,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ThereAndBackAgain-1.12.2-1.2.jar",
+            "MD5": "519a6b0ead5eb905dccff745dfc8a952",
+            "path": "mods/ThereAndBackAgain-1.12.2-1.2.jar"
           }
         },
         {
-          "id": "farlanders-1.7.10-v1.2b.jar",
-          "name": "farlanders-1.7.10-v1.2b.jar",
+          "id": "ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
+          "name": "ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 2873319,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/farlanders-1.7.10-v1.2b.jar",
-            "MD5": "dddbc9561985ac330888e6b243793470",
-            "path": "mods/farlanders-1.7.10-v1.2b.jar"
+            "size": 98845,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
+            "MD5": "28970430074736ae6efbe4f7c353b30a",
+            "path": "mods/ThermalCultivation-1.12.2-0.3.6.1-universal.jar"
           }
         },
         {
-          "id": "godweapons+-+1.7.10+-+4.1.jar",
-          "name": "godweapons+-+1.7.10+-+4.1.jar",
+          "id": "ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+          "name": "ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 214708,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/godweapons+-+1.7.10+-+4.1.jar",
-            "MD5": "c58eb3f5f270aeff0a914a1947b6ae97",
-            "path": "mods/godweapons+-+1.7.10+-+4.1.jar"
+            "size": 728082,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+            "MD5": "38a0c024f5775b0cf783de839033f8db",
+            "path": "mods/ThermalDynamics-1.12.2-2.5.6.1-universal.jar"
           }
         },
         {
-          "id": "iChunUtil-4.2.3.jar",
-          "name": "iChunUtil-4.2.3.jar",
+          "id": "ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
+          "name": "ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 213084,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/iChunUtil-4.2.3.jar",
-            "MD5": "9f90848755f2c3002996b86b57dee2f1",
-            "path": "mods/iChunUtil-4.2.3.jar"
+            "size": 2345139,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
+            "MD5": "0bf91e166b05e83d22455a9c7ec395bb",
+            "path": "mods/ThermalExpansion-1.12.2-5.5.7.1-universal.jar"
           }
         },
         {
-          "id": "inventorypets-1.7.10-1.5.2-universal.jar",
-          "name": "inventorypets-1.7.10-1.5.2-universal.jar",
+          "id": "ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+          "name": "ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 6048433,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/inventorypets-1.7.10-1.5.2-universal.jar",
-            "MD5": "5cf1e5d4e9fe2293295b0c66b2d9a92a",
-            "path": "mods/inventorypets-1.7.10-1.5.2-universal.jar"
+            "size": 2219736,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+            "MD5": "6eca041bbf28949b60ecf1179d561156",
+            "path": "mods/ThermalFoundation-1.12.2-2.6.7.1-universal.jar"
           }
         },
         {
-          "id": "ironfurnaces-1.2.1R.jar",
-          "name": "ironfurnaces-1.2.1R.jar",
+          "id": "ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
+          "name": "ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 115391,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ironfurnaces-1.2.1R.jar",
-            "MD5": "220b9e5f198df2181011c89d5f1ea3ad",
-            "path": "mods/ironfurnaces-1.2.1R.jar"
+            "size": 182379,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
+            "MD5": "320accf690ccc1c8a23679beb63fb615",
+            "path": "mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar"
           }
         },
         {
-          "id": "ordinarycoins-1.7.10-1.5.jar",
-          "name": "ordinarycoins-1.7.10-1.5.jar",
+          "id": "VanillaSatchels-1.12.2-1.0.2.4-universal.jar",
+          "name": "VanillaSatchels-1.12.2-1.0.2.4-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 43338,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/ordinarycoins-1.7.10-1.5.jar",
-            "MD5": "551ca3b1590fa38d89a5f6e59196f872",
-            "path": "mods/ordinarycoins-1.7.10-1.5.jar"
+            "size": 69873,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/VanillaSatchels-1.12.2-1.0.2.4-universal.jar",
+            "MD5": "26fb21c307560e3bc091b06ff2aed339",
+            "path": "mods/VanillaSatchels-1.12.2-1.0.2.4-universal.jar"
           }
         },
         {
-          "id": "rivalrebels-1.7.10Z1.jar",
-          "name": "rivalrebels-1.7.10Z1.jar",
+          "id": "VanillaTools-1.12.2-1.1.0.2-universal.jar",
+          "name": "VanillaTools-1.12.2-1.1.0.2-universal.jar",
           "type": "File",
           "artifact": {
-            "size": 9399664,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/rivalrebels-1.7.10Z1.jar",
-            "MD5": "77daa6f745ea92cd6a238fe6f6866250",
-            "path": "mods/rivalrebels-1.7.10Z1.jar"
+            "size": 84020,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/VanillaTools-1.12.2-1.1.0.2-universal.jar",
+            "MD5": "193d6ab43c8985e2ae3cd77f306bc710",
+            "path": "mods/VanillaTools-1.12.2-1.1.0.2-universal.jar"
           }
         },
         {
-          "id": "roguelike-1.7.10-1.5.0b.jar",
-          "name": "roguelike-1.7.10-1.5.0b.jar",
+          "id": "Voice+Chat+Reloaded-1.2.5.jar",
+          "name": "Voice+Chat+Reloaded-1.2.5.jar",
           "type": "File",
           "artifact": {
-            "size": 593789,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/roguelike-1.7.10-1.5.0b.jar",
-            "MD5": "d62d30d52d3f51dc39bdc61ce224e6c6",
-            "path": "mods/roguelike-1.7.10-1.5.0b.jar"
+            "size": 423682,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Voice+Chat+Reloaded-1.2.5.jar",
+            "MD5": "13344fa9ab436f944f354fb8687306d8",
+            "path": "mods/Voice+Chat+Reloaded-1.2.5.jar"
           }
         },
         {
-          "id": "tropicraft-6.0.5.jar",
-          "name": "tropicraft-6.0.5.jar",
+          "id": "ZettaiGrimoires+1.4.9.jar",
+          "name": "ZettaiGrimoires+1.4.9.jar",
           "type": "File",
           "artifact": {
-            "size": 41302385,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/tropicraft-6.0.5.jar",
-            "MD5": "8433a425fdf49719caf494b13d6bff0b",
-            "path": "mods/tropicraft-6.0.5.jar"
+            "size": 991848,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ZettaiGrimoires+1.4.9.jar",
+            "MD5": "bf5b423171ccf6c1661ab23c21c0e605",
+            "path": "mods/ZettaiGrimoires+1.4.9.jar"
           }
         },
         {
-          "id": "warpbook-1.7.10_2.0.37.jar",
-          "name": "warpbook-1.7.10_2.0.37.jar",
+          "id": "ZettaiMagic+1.4.2.jar",
+          "name": "ZettaiMagic+1.4.2.jar",
           "type": "File",
           "artifact": {
-            "size": 405250,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/warpbook-1.7.10_2.0.37.jar",
-            "MD5": "2d18007363b8557a899acc9612b9010f",
-            "path": "mods/warpbook-1.7.10_2.0.37.jar"
+            "size": 6313346,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ZettaiMagic+1.4.2.jar",
+            "MD5": "8bf13fb62234d5bec51a0d179278b5ba",
+            "path": "mods/ZettaiMagic+1.4.2.jar"
           }
         },
         {
-          "id": "xprings-1.7.10-1.3.0.jar",
-          "name": "xprings-1.7.10-1.3.0.jar",
+          "id": "[1.12.2]+SecurityCraft+v1.8.23.2.jar",
+          "name": "[1.12.2]+SecurityCraft+v1.8.23.2.jar",
           "type": "File",
           "artifact": {
-            "size": 20587,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/mods/xprings-1.7.10-1.3.0.jar",
-            "MD5": "917dfdef356437a4b4a072c1fbca70ac",
-            "path": "mods/xprings-1.7.10-1.3.0.jar"
+            "size": 1915657,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/[1.12.2]+SecurityCraft+v1.8.23.2.jar",
+            "MD5": "32d7af044c1d127597eb3e02199700bd",
+            "path": "mods/[1.12.2]+SecurityCraft+v1.8.23.2.jar"
           }
         },
         {
-          "id": "Z.png",
-          "name": "Z.png",
+          "id": "antiqueatlas-1.12.2-4.6.3.jar",
+          "name": "antiqueatlas-1.12.2-4.6.3.jar",
           "type": "File",
           "artifact": {
-            "size": 30763,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/Z.png",
-            "MD5": "3c7cad3beeb96a032dac5660a3d1ac41",
-            "path": "resources/modpack/Z.png"
+            "size": 1239580,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/antiqueatlas-1.12.2-4.6.3.jar",
+            "MD5": "2cafce41d88d5067bf9a9da6a8fc79a8",
+            "path": "mods/antiqueatlas-1.12.2-4.6.3.jar"
           }
         },
         {
-          "id": "bg_menu.png",
-          "name": "bg_menu.png",
+          "id": "appliedenergistics2-rv6-stable-7.jar",
+          "name": "appliedenergistics2-rv6-stable-7.jar",
           "type": "File",
           "artifact": {
-            "size": 6328,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/bg_menu.png",
-            "MD5": "982a96cd0b85bb5eecd13cb6841775f6",
-            "path": "resources/modpack/bg_menu.png"
+            "size": 4062630,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/appliedenergistics2-rv6-stable-7.jar",
+            "MD5": "b8667d60a761d5b5ae3c8a15192f9e28",
+            "path": "mods/appliedenergistics2-rv6-stable-7.jar"
           }
         },
         {
-          "id": "boton.png",
-          "name": "boton.png",
+          "id": "astralsorcery-1.12.2-1.10.27.jar",
+          "name": "astralsorcery-1.12.2-1.10.27.jar",
           "type": "File",
           "artifact": {
-            "size": 1827,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/boton.png",
-            "MD5": "e8fffe42461ff14ec01f896def4827cd",
-            "path": "resources/modpack/boton.png"
+            "size": 25028160,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/astralsorcery-1.12.2-1.10.27.jar",
+            "MD5": "c2db411b6e678c7e24035cd5c0525264",
+            "path": "mods/astralsorcery-1.12.2-1.10.27.jar"
           }
         },
         {
-          "id": "btn.png",
-          "name": "btn.png",
+          "id": "autonetworklib-1.12.2-1.0.45.jar",
+          "name": "autonetworklib-1.12.2-1.0.45.jar",
           "type": "File",
           "artifact": {
-            "size": 2958,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/btn.png",
-            "MD5": "93679909e4e3c6ba9875174da24916fd",
-            "path": "resources/modpack/btn.png"
+            "size": 42252,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/autonetworklib-1.12.2-1.0.45.jar",
+            "MD5": "d71e10c4e181819d8052d2afe3d1ccad",
+            "path": "mods/autonetworklib-1.12.2-1.0.45.jar"
           }
         },
         {
-          "id": "panorama_0.png",
-          "name": "panorama_0.png",
+          "id": "buildcraft-all-7.99.24.8.jar",
+          "name": "buildcraft-all-7.99.24.8.jar",
           "type": "File",
           "artifact": {
-            "size": 127117,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/panorama/panorama_0.png",
-            "MD5": "e4138e528b8eb3393501e4895085c133",
-            "path": "resources/modpack/panorama/panorama_0.png"
+            "size": 4879732,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/buildcraft-all-7.99.24.8.jar",
+            "MD5": "df73e94d29b8c6bde42c451ff6018761",
+            "path": "mods/buildcraft-all-7.99.24.8.jar"
           }
         },
         {
-          "id": "panorama_1.png",
-          "name": "panorama_1.png",
+          "id": "carryon-1.12.2-1.12.4.16.jar",
+          "name": "carryon-1.12.2-1.12.4.16.jar",
           "type": "File",
           "artifact": {
-            "size": 128726,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/panorama/panorama_1.png",
-            "MD5": "f8accb2dfa666ad10409e00b64588498",
-            "path": "resources/modpack/panorama/panorama_1.png"
+            "size": 319491,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/carryon-1.12.2-1.12.4.16.jar",
+            "MD5": "9a18667fc6953dcc7899928f007efddf",
+            "path": "mods/carryon-1.12.2-1.12.4.16.jar"
           }
         },
         {
-          "id": "panorama_2.png",
-          "name": "panorama_2.png",
+          "id": "divinefavor-1.0.756.jar",
+          "name": "divinefavor-1.0.756.jar",
           "type": "File",
           "artifact": {
-            "size": 120529,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/panorama/panorama_2.png",
-            "MD5": "e9b3f6407e4677ac80b32e7586b57cac",
-            "path": "resources/modpack/panorama/panorama_2.png"
+            "size": 4884051,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/divinefavor-1.0.756.jar",
+            "MD5": "fa5da4a790497632267c7610d5a72ec7",
+            "path": "mods/divinefavor-1.0.756.jar"
           }
         },
         {
-          "id": "panorama_3.png",
-          "name": "panorama_3.png",
+          "id": "dragonenchantments-1.0.0.jar",
+          "name": "dragonenchantments-1.0.0.jar",
           "type": "File",
           "artifact": {
-            "size": 119936,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/panorama/panorama_3.png",
-            "MD5": "d66042fc656dd3a7a34a6af98c984e06",
-            "path": "resources/modpack/panorama/panorama_3.png"
+            "size": 805877,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/dragonenchantments-1.0.0.jar",
+            "MD5": "a94f50a6efc39d3405a45ed12c975380",
+            "path": "mods/dragonenchantments-1.0.0.jar"
           }
         },
         {
-          "id": "panorama_4.png",
-          "name": "panorama_4.png",
+          "id": "extrautils2-1.12-1.9.9.jar",
+          "name": "extrautils2-1.12-1.9.9.jar",
           "type": "File",
           "artifact": {
-            "size": 84374,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/panorama/panorama_4.png",
-            "MD5": "aad720f49453c1bcd6c3a59faec6ec7c",
-            "path": "resources/modpack/panorama/panorama_4.png"
+            "size": 3226408,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/extrautils2-1.12-1.9.9.jar",
+            "MD5": "1ea591619e6d5204bf077214868772ef",
+            "path": "mods/extrautils2-1.12-1.9.9.jar"
           }
         },
         {
-          "id": "panorama_5.png",
-          "name": "panorama_5.png",
+          "id": "geckolib-forge-1.12.2-3.0.0-beta.8.jar",
+          "name": "geckolib-forge-1.12.2-3.0.0-beta.8.jar",
           "type": "File",
           "artifact": {
-            "size": 136742,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/resources/modpack/panorama/panorama_5.png",
-            "MD5": "82e4c2e61a76bc6a1ab2194e4796e90a",
-            "path": "resources/modpack/panorama/panorama_5.png"
+            "size": 3685483,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/geckolib-forge-1.12.2-3.0.0-beta.8.jar",
+            "MD5": "948cb17694501c9a47d3f2ad9df8c144",
+            "path": "mods/geckolib-forge-1.12.2-3.0.0-beta.8.jar"
           }
         },
         {
-          "id": "servers.dat",
-          "name": "servers.dat",
+          "id": "guns-0.15.3-1.12.2.jar",
+          "name": "guns-0.15.3-1.12.2.jar",
           "type": "File",
           "artifact": {
-            "size": 71,
-            "url": "http://190.190.29.214:800/Phobos/servers/Montenegro-1.7.10/files/servers.dat",
-            "MD5": "af93a9713c9beeeb8316ebf057ae52d9",
-            "path": "servers.dat"
+            "size": 814386,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/guns-0.15.3-1.12.2.jar",
+            "MD5": "e7bdc91c4c17a75bce67b6e523869340",
+            "path": "mods/guns-0.15.3-1.12.2.jar"
+          }
+        },
+        {
+          "id": "iChunUtil-1.12.2-7.2.2.jar",
+          "name": "iChunUtil-1.12.2-7.2.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 581963,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/iChunUtil-1.12.2-7.2.2.jar",
+            "MD5": "bf13a2044ece544b449c7dc6f8aa40af",
+            "path": "mods/iChunUtil-1.12.2-7.2.2.jar"
+          }
+        },
+        {
+          "id": "industrialcraft-2-2.8.170-ex112.jar",
+          "name": "industrialcraft-2-2.8.170-ex112.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8356436,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/industrialcraft-2-2.8.170-ex112.jar",
+            "MD5": "d4f952c94cacdd280abbb73f072b2424",
+            "path": "mods/industrialcraft-2-2.8.170-ex112.jar"
+          }
+        },
+        {
+          "id": "ironfurnaces-1.3.5.jar",
+          "name": "ironfurnaces-1.3.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 130723,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ironfurnaces-1.3.5.jar",
+            "MD5": "4820b6f8c61839ce6abffb916c6f0571",
+            "path": "mods/ironfurnaces-1.3.5.jar"
+          }
+        },
+        {
+          "id": "jei_1.12.2-4.16.1.301.jar",
+          "name": "jei_1.12.2-4.16.1.301.jar",
+          "type": "File",
+          "artifact": {
+            "size": 653211,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/jei_1.12.2-4.16.1.301.jar",
+            "MD5": "1dee4be93d666e2228039c551e927b35",
+            "path": "mods/jei_1.12.2-4.16.1.301.jar"
+          }
+        },
+        {
+          "id": "llibrary-1.7.20-1.12.2.jar",
+          "name": "llibrary-1.7.20-1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 884550,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/llibrary-1.7.20-1.12.2.jar",
+            "MD5": "218aefca8bd6bb8d9ff7dd877c1d277d",
+            "path": "mods/llibrary-1.7.20-1.12.2.jar"
+          }
+        },
+        {
+          "id": "mahoutsukai-1.12.2-v1.19.47.jar",
+          "name": "mahoutsukai-1.12.2-v1.19.47.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2044359,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/mahoutsukai-1.12.2-v1.19.47.jar",
+            "MD5": "6747974a661fd173221f5191ef2e28e5",
+            "path": "mods/mahoutsukai-1.12.2-v1.19.47.jar"
+          }
+        },
+        {
+          "id": "mcjtylib-1.12-3.5.4.jar",
+          "name": "mcjtylib-1.12-3.5.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 544856,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/mcjtylib-1.12-3.5.4.jar",
+            "MD5": "45ac9983da9fd2bc7fe3446b9f4287c1",
+            "path": "mods/mcjtylib-1.12-3.5.4.jar"
+          }
+        },
+        {
+          "id": "minecolonies-1.12.2-0.11.841-ALPHA-universal.jar",
+          "name": "minecolonies-1.12.2-0.11.841-ALPHA-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 34929750,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/minecolonies-1.12.2-0.11.841-ALPHA-universal.jar",
+            "MD5": "182825677199de55f2ce7b315162397c",
+            "path": "mods/minecolonies-1.12.2-0.11.841-ALPHA-universal.jar"
+          }
+        },
+        {
+          "id": "mowziesmobs-1.5.8.jar",
+          "name": "mowziesmobs-1.5.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5185246,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/mowziesmobs-1.5.8.jar",
+            "MD5": "de6541439f9a436963b020f20164cbfa",
+            "path": "mods/mowziesmobs-1.5.8.jar"
+          }
+        },
+        {
+          "id": "mw_2.0-0.4.4.6_mc1.12.2.jar",
+          "name": "mw_2.0-0.4.4.6_mc1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 27545802,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/mw_2.0-0.4.4.6_mc1.12.2.jar",
+            "MD5": "69cbe3bd707a5284b1af20ebf0a9b0b9",
+            "path": "mods/mw_2.0-0.4.4.6_mc1.12.2.jar"
+          }
+        },
+        {
+          "id": "obfuscate-0.4.2-1.12.2.jar",
+          "name": "obfuscate-0.4.2-1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 129099,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/obfuscate-0.4.2-1.12.2.jar",
+            "MD5": "a5d3ac71ec8762fe72a91465de6d30a3",
+            "path": "mods/obfuscate-0.4.2-1.12.2.jar"
+          }
+        },
+        {
+          "id": "ordinarycoins-1.12.2-1.5.jar",
+          "name": "ordinarycoins-1.12.2-1.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 47241,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ordinarycoins-1.12.2-1.5.jar",
+            "MD5": "170bc6362cfd7bad72f9ae11b283954c",
+            "path": "mods/ordinarycoins-1.12.2-1.5.jar"
+          }
+        },
+        {
+          "id": "potions+mod+1.3.jar",
+          "name": "potions+mod+1.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2176042,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/potions+mod+1.3.jar",
+            "MD5": "6a9e57ee07370aca4213e4294fb14440",
+            "path": "mods/potions+mod+1.3.jar"
+          }
+        },
+        {
+          "id": "refinedstorage-1.6.16.jar",
+          "name": "refinedstorage-1.6.16.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1912377,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/refinedstorage-1.6.16.jar",
+            "MD5": "0b5e41f29c3ceb1db560531fef9f55a2",
+            "path": "mods/refinedstorage-1.6.16.jar"
+          }
+        },
+        {
+          "id": "refinedstorageaddons-0.4.5.jar",
+          "name": "refinedstorageaddons-0.4.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 26804,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/refinedstorageaddons-0.4.5.jar",
+            "MD5": "d840373cb0ce3752e92c3840f64d8d90",
+            "path": "mods/refinedstorageaddons-0.4.5.jar"
+          }
+        },
+        {
+          "id": "rftools-1.12-7.73.jar",
+          "name": "rftools-1.12-7.73.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2895803,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/rftools-1.12-7.73.jar",
+            "MD5": "3af6f5864243b044a8dd6f2cb1a4b0cf",
+            "path": "mods/rftools-1.12-7.73.jar"
+          }
+        },
+        {
+          "id": "rftoolspower-1.12-1.2.0.jar",
+          "name": "rftoolspower-1.12-1.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 148083,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/rftoolspower-1.12-1.2.0.jar",
+            "MD5": "afd405e1ba3857a4bff72c394c3540af",
+            "path": "mods/rftoolspower-1.12-1.2.0.jar"
+          }
+        },
+        {
+          "id": "techguns-1.12.2-2.0.2.0_pre3.2.jar",
+          "name": "techguns-1.12.2-2.0.2.0_pre3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 28126750,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/techguns-1.12.2-2.0.2.0_pre3.2.jar",
+            "MD5": "dbae09102aedeca925d4b3546685e5b5",
+            "path": "mods/techguns-1.12.2-2.0.2.0_pre3.2.jar"
+          }
+        },
+        {
+          "id": "tetra-1.12.2-0.39.1.jar",
+          "name": "tetra-1.12.2-0.39.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2531823,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/tetra-1.12.2-0.39.1.jar",
+            "MD5": "9e9db45a08dd7ca24e2c02a069ca214f",
+            "path": "mods/tetra-1.12.2-0.39.1.jar"
+          }
+        },
+        {
+          "id": "toroquest-1.12.2-5.3.jar",
+          "name": "toroquest-1.12.2-5.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 700179,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/toroquest-1.12.2-5.3.jar",
+            "MD5": "499efc967e8303e3bf3ccf7b18a4d2ce",
+            "path": "mods/toroquest-1.12.2-5.3.jar"
+          }
+        },
+        {
+          "id": "twilightforest-1.12.2-3.11.1021-universal.jar",
+          "name": "twilightforest-1.12.2-3.11.1021-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 28721862,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/twilightforest-1.12.2-3.11.1021-universal.jar",
+            "MD5": "0933760943721154f3208782306f04d6",
+            "path": "mods/twilightforest-1.12.2-3.11.1021-universal.jar"
+          }
+        },
+        {
+          "id": "wonderful-enchantments-1.12.2-0.6.0.jar",
+          "name": "wonderful-enchantments-1.12.2-0.6.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 46038,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/wonderful-enchantments-1.12.2-0.6.0.jar",
+            "MD5": "dbfd86a4ce5f669d0361be8a6ef57385",
+            "path": "mods/wonderful-enchantments-1.12.2-0.6.0.jar"
+          }
+        },
+        {
+          "id": "AntiqueAtlasExtra-v1.2.zip",
+          "name": "AntiqueAtlasExtra-v1.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1327669,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/resourcepacks/AntiqueAtlasExtra-v1.2.zip",
+            "MD5": "8c8f4a20714bce5779b06b81a9f24f46",
+            "path": "resourcepacks/AntiqueAtlasExtra-v1.2.zip"
           }
         }
       ]
