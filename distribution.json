@@ -784,17 +784,6 @@
           }
         },
         {
-          "id": "AbyssalCraft-1.12.2-1.10.4.jar",
-          "name": "AbyssalCraft-1.12.2-1.10.4.jar",
-          "type": "File",
-          "artifact": {
-            "size": 14248353,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/AbyssalCraft-1.12.2-1.10.4.jar",
-            "MD5": "c8d67c26e50bc2c3c4cc13c2c8b43dc4",
-            "path": "mods/AbyssalCraft-1.12.2-1.10.4.jar"
-          }
-        },
-        {
           "id": "ActuallyAdditions-1.12.2-r152.jar",
           "name": "ActuallyAdditions-1.12.2-r152.jar",
           "type": "File",
@@ -1254,6 +1243,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MicdoodleCore-1.12.2-4.0.2.280.jar",
             "MD5": "2b033cb0694a53ea7b80876e2f00dec5",
             "path": "mods/MicdoodleCore-1.12.2-4.0.2.280.jar"
+          }
+        },
+        {
+          "id": "MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
+          "name": "MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 703346,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
+            "MD5": "d77d93d13d89c2ec4ff10887519daab8",
+            "path": "mods/MoBends_1.12.2-1.0.0-beta-20.06.20.jar"
           }
         },
         {
