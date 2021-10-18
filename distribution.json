@@ -1246,17 +1246,6 @@
           }
         },
         {
-          "id": "MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
-          "name": "MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
-          "type": "File",
-          "artifact": {
-            "size": 703346,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
-            "MD5": "d77d93d13d89c2ec4ff10887519daab8",
-            "path": "mods/MoBends_1.12.2-1.0.0-beta-20.06.20.jar"
-          }
-        },
-        {
           "id": "MoSpells-1.12.2-1.0.2.jar",
           "name": "MoSpells-1.12.2-1.0.2.jar",
           "type": "File",
@@ -1719,14 +1708,14 @@
           }
         },
         {
-          "id": "guns-0.15.3-1.12.2.jar",
-          "name": "guns-0.15.3-1.12.2.jar",
+          "id": "hbm-1.6.4a.jar",
+          "name": "hbm-1.6.4a.jar",
           "type": "File",
           "artifact": {
-            "size": 814386,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/guns-0.15.3-1.12.2.jar",
-            "MD5": "e7bdc91c4c17a75bce67b6e523869340",
-            "path": "mods/guns-0.15.3-1.12.2.jar"
+            "size": 55976504,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/hbm-1.6.4a.jar",
+            "MD5": "829fc5fead0c7ab492c6b3bad947f1d0",
+            "path": "mods/hbm-1.6.4a.jar"
           }
         },
         {
