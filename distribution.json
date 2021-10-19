@@ -1455,17 +1455,6 @@
           }
         },
         {
-          "id": "TheBetweenlands-3.7.3-universal.jar",
-          "name": "TheBetweenlands-3.7.3-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 133488642,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/TheBetweenlands-3.7.3-universal.jar",
-            "MD5": "796ffca775c891c947ae912724f58d04",
-            "path": "mods/TheBetweenlands-3.7.3-universal.jar"
-          }
-        },
-        {
           "id": "ThereAndBackAgain-1.12.2-1.2.jar",
           "name": "ThereAndBackAgain-1.12.2-1.2.jar",
           "type": "File",
