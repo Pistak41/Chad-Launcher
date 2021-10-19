@@ -1708,14 +1708,14 @@
           }
         },
         {
-          "id": "hbm-1.6.4a.jar",
-          "name": "hbm-1.6.4a.jar",
+          "id": "hbm-1.6.4a-Gv1.jar",
+          "name": "hbm-1.6.4a-Gv1.jar",
           "type": "File",
           "artifact": {
-            "size": 55976504,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/hbm-1.6.4a.jar",
-            "MD5": "829fc5fead0c7ab492c6b3bad947f1d0",
-            "path": "mods/hbm-1.6.4a.jar"
+            "size": 56102172,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/hbm-1.6.4a-Gv1.jar",
+            "MD5": "8c8d5aabd0012b13e930382665f3ed1c",
+            "path": "mods/hbm-1.6.4a-Gv1.jar"
           }
         },
         {
