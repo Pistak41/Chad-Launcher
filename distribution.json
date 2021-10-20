@@ -1928,17 +1928,6 @@
           }
         },
         {
-          "id": "twilightforest-1.12.2-3.11.1021-universal.jar",
-          "name": "twilightforest-1.12.2-3.11.1021-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 28721862,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/twilightforest-1.12.2-3.11.1021-universal.jar",
-            "MD5": "0933760943721154f3208782306f04d6",
-            "path": "mods/twilightforest-1.12.2-3.11.1021-universal.jar"
-          }
-        },
-        {
           "id": "wonderful-enchantments-1.12.2-0.6.0.jar",
           "name": "wonderful-enchantments-1.12.2-0.6.0.jar",
           "type": "File",
