@@ -1103,28 +1103,6 @@
           }
         },
         {
-          "id": "Galacticraft-Planets-1.12.2-4.0.2.280.jar",
-          "name": "Galacticraft-Planets-1.12.2-4.0.2.280.jar",
-          "type": "File",
-          "artifact": {
-            "size": 3975978,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Galacticraft-Planets-1.12.2-4.0.2.280.jar",
-            "MD5": "848ebcd467a3389c9461007d2b164a6c",
-            "path": "mods/Galacticraft-Planets-1.12.2-4.0.2.280.jar"
-          }
-        },
-        {
-          "id": "GalacticraftCore-1.12.2-4.0.2.280.jar",
-          "name": "GalacticraftCore-1.12.2-4.0.2.280.jar",
-          "type": "File",
-          "artifact": {
-            "size": 10610662,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/GalacticraftCore-1.12.2-4.0.2.280.jar",
-            "MD5": "9298e6b85b38eab9b830a0637f1fbced",
-            "path": "mods/GalacticraftCore-1.12.2-4.0.2.280.jar"
-          }
-        },
-        {
           "id": "GrimoireOfGaia3-1.12.2-1.7.2.jar",
           "name": "GrimoireOfGaia3-1.12.2-1.7.2.jar",
           "type": "File",
@@ -1155,28 +1133,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ImmersiveEngineering-0.12-98.jar",
             "MD5": "affce9a7f7cb9ab257135da89314e07e",
             "path": "mods/ImmersiveEngineering-0.12-98.jar"
-          }
-        },
-        {
-          "id": "IntegratedDynamics-1.12.2-1.1.11.jar",
-          "name": "IntegratedDynamics-1.12.2-1.1.11.jar",
-          "type": "File",
-          "artifact": {
-            "size": 3049509,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/IntegratedDynamics-1.12.2-1.1.11.jar",
-            "MD5": "f96333cf15335deef0d53412b52cc006",
-            "path": "mods/IntegratedDynamics-1.12.2-1.1.11.jar"
-          }
-        },
-        {
-          "id": "IntegratedTunnels-1.12.2-1.6.14.jar",
-          "name": "IntegratedTunnels-1.12.2-1.6.14.jar",
-          "type": "File",
-          "artifact": {
-            "size": 493503,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/IntegratedTunnels-1.12.2-1.6.14.jar",
-            "MD5": "27db1b2ca9dc091675a744d2fe6edc02",
-            "path": "mods/IntegratedTunnels-1.12.2-1.6.14.jar"
           }
         },
         {
@@ -1246,17 +1202,6 @@
           }
         },
         {
-          "id": "MicdoodleCore-1.12.2-4.0.2.280.jar",
-          "name": "MicdoodleCore-1.12.2-4.0.2.280.jar",
-          "type": "File",
-          "artifact": {
-            "size": 53300,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MicdoodleCore-1.12.2-4.0.2.280.jar",
-            "MD5": "2b033cb0694a53ea7b80876e2f00dec5",
-            "path": "mods/MicdoodleCore-1.12.2-4.0.2.280.jar"
-          }
-        },
-        {
           "id": "MoSpells-1.12.2-1.0.2.jar",
           "name": "MoSpells-1.12.2-1.0.2.jar",
           "type": "File",
@@ -1276,17 +1221,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MonsterTotems-1.12.2-2.0.2.2.jar",
             "MD5": "af3d077e111ab4212eb140f6dfb3047e",
             "path": "mods/MonsterTotems-1.12.2-2.0.2.2.jar"
-          }
-        },
-        {
-          "id": "More-Planets-1.12.2-2.2.1-GC280.jar",
-          "name": "More-Planets-1.12.2-2.2.1-GC280.jar",
-          "type": "File",
-          "artifact": {
-            "size": 7006745,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/More-Planets-1.12.2-2.2.1-GC280.jar",
-            "MD5": "55ca53ea3650b07fb340fa99980f1dc6",
-            "path": "mods/More-Planets-1.12.2-2.2.1-GC280.jar"
           }
         },
         {
