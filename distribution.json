@@ -1059,6 +1059,17 @@
           }
         },
         {
+          "id": "ExtremeReactors-1.12.2-0.4.5.68.jar",
+          "name": "ExtremeReactors-1.12.2-0.4.5.68.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1149733,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ExtremeReactors-1.12.2-0.4.5.68.jar",
+            "MD5": "ea53f47ee48439a3fea2586e023bd6c8",
+            "path": "mods/ExtremeReactors-1.12.2-0.4.5.68.jar"
+          }
+        },
+        {
           "id": "FluxNetworks-1.12.2-4.1.1.34.jar",
           "name": "FluxNetworks-1.12.2-4.1.1.34.jar",
           "type": "File",
@@ -1210,17 +1221,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MonsterTotems-1.12.2-2.0.2.2.jar",
             "MD5": "af3d077e111ab4212eb140f6dfb3047e",
             "path": "mods/MonsterTotems-1.12.2-2.0.2.2.jar"
-          }
-        },
-        {
-          "id": "NuclearCraft-2.18z-1.12.2.jar",
-          "name": "NuclearCraft-2.18z-1.12.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 6904694,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/NuclearCraft-2.18z-1.12.2.jar",
-            "MD5": "1f90965dbc63fcb5151fbe5c5ba95776",
-            "path": "mods/NuclearCraft-2.18z-1.12.2.jar"
           }
         },
         {
