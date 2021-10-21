@@ -905,6 +905,17 @@
           }
         },
         {
+          "id": "CTM-MC1.12.2-1.0.2.31.jar",
+          "name": "CTM-MC1.12.2-1.0.2.31.jar",
+          "type": "File",
+          "artifact": {
+            "size": 199045,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CTM-MC1.12.2-1.0.2.31.jar",
+            "MD5": "77a8bb5486c97e3eaa6f45e5bd768864",
+            "path": "mods/CTM-MC1.12.2-1.0.2.31.jar"
+          }
+        },
+        {
           "id": "Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
           "name": "Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
           "type": "File",
@@ -1059,17 +1070,6 @@
           }
         },
         {
-          "id": "Flan's+Mod-1.12.2-5.10.0.jar",
-          "name": "Flan's+Mod-1.12.2-5.10.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2259973,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Flan's+Mod-1.12.2-5.10.0.jar",
-            "MD5": "0cc53ac00145d96448d5d20eae4e2ed6",
-            "path": "mods/Flan's+Mod-1.12.2-5.10.0.jar"
-          }
-        },
-        {
           "id": "FluxNetworks-1.12.2-4.1.1.34.jar",
           "name": "FluxNetworks-1.12.2-4.1.1.34.jar",
           "type": "File",
@@ -1103,6 +1103,28 @@
           }
         },
         {
+          "id": "Galacticraft-Planets-1.12.2-4.0.2.280.jar",
+          "name": "Galacticraft-Planets-1.12.2-4.0.2.280.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3975978,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Galacticraft-Planets-1.12.2-4.0.2.280.jar",
+            "MD5": "848ebcd467a3389c9461007d2b164a6c",
+            "path": "mods/Galacticraft-Planets-1.12.2-4.0.2.280.jar"
+          }
+        },
+        {
+          "id": "GalacticraftCore-1.12.2-4.0.2.280.jar",
+          "name": "GalacticraftCore-1.12.2-4.0.2.280.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10610662,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/GalacticraftCore-1.12.2-4.0.2.280.jar",
+            "MD5": "9298e6b85b38eab9b830a0637f1fbced",
+            "path": "mods/GalacticraftCore-1.12.2-4.0.2.280.jar"
+          }
+        },
+        {
           "id": "GrimoireOfGaia3-1.12.2-1.7.2.jar",
           "name": "GrimoireOfGaia3-1.12.2-1.7.2.jar",
           "type": "File",
@@ -1122,6 +1144,39 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Hwyla-1.8.26-B41_1.12.2.jar",
             "MD5": "bca1c069d9171d331d211d24e8a3b770",
             "path": "mods/Hwyla-1.8.26-B41_1.12.2.jar"
+          }
+        },
+        {
+          "id": "ImmersiveEngineering-0.12-98.jar",
+          "name": "ImmersiveEngineering-0.12-98.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6360959,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ImmersiveEngineering-0.12-98.jar",
+            "MD5": "affce9a7f7cb9ab257135da89314e07e",
+            "path": "mods/ImmersiveEngineering-0.12-98.jar"
+          }
+        },
+        {
+          "id": "IntegratedDynamics-1.12.2-1.1.11.jar",
+          "name": "IntegratedDynamics-1.12.2-1.1.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3049509,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/IntegratedDynamics-1.12.2-1.1.11.jar",
+            "MD5": "f96333cf15335deef0d53412b52cc006",
+            "path": "mods/IntegratedDynamics-1.12.2-1.1.11.jar"
+          }
+        },
+        {
+          "id": "IntegratedTunnels-1.12.2-1.6.14.jar",
+          "name": "IntegratedTunnels-1.12.2-1.6.14.jar",
+          "type": "File",
+          "artifact": {
+            "size": 493503,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/IntegratedTunnels-1.12.2-1.6.14.jar",
+            "MD5": "27db1b2ca9dc091675a744d2fe6edc02",
+            "path": "mods/IntegratedTunnels-1.12.2-1.6.14.jar"
           }
         },
         {
@@ -1191,6 +1246,17 @@
           }
         },
         {
+          "id": "MicdoodleCore-1.12.2-4.0.2.280.jar",
+          "name": "MicdoodleCore-1.12.2-4.0.2.280.jar",
+          "type": "File",
+          "artifact": {
+            "size": 53300,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MicdoodleCore-1.12.2-4.0.2.280.jar",
+            "MD5": "2b033cb0694a53ea7b80876e2f00dec5",
+            "path": "mods/MicdoodleCore-1.12.2-4.0.2.280.jar"
+          }
+        },
+        {
           "id": "MoSpells-1.12.2-1.0.2.jar",
           "name": "MoSpells-1.12.2-1.0.2.jar",
           "type": "File",
@@ -1210,6 +1276,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MonsterTotems-1.12.2-2.0.2.2.jar",
             "MD5": "af3d077e111ab4212eb140f6dfb3047e",
             "path": "mods/MonsterTotems-1.12.2-2.0.2.2.jar"
+          }
+        },
+        {
+          "id": "More-Planets-1.12.2-2.2.1-GC280.jar",
+          "name": "More-Planets-1.12.2-2.2.1-GC280.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7006745,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/More-Planets-1.12.2-2.2.1-GC280.jar",
+            "MD5": "55ca53ea3650b07fb340fa99980f1dc6",
+            "path": "mods/More-Planets-1.12.2-2.2.1-GC280.jar"
           }
         },
         {
@@ -1356,17 +1433,6 @@
           }
         },
         {
-          "id": "SwordsPlus.jar",
-          "name": "SwordsPlus.jar",
-          "type": "File",
-          "artifact": {
-            "size": 643253,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/SwordsPlus.jar",
-            "MD5": "6b67bae2b240772828c71328bc4aba28",
-            "path": "mods/SwordsPlus.jar"
-          }
-        },
-        {
           "id": "TConstruct-1.12.2-2.13.0.183.jar",
           "name": "TConstruct-1.12.2-2.13.0.183.jar",
           "type": "File",
@@ -1375,17 +1441,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/TConstruct-1.12.2-2.13.0.183.jar",
             "MD5": "710d64342d41042b7d6ced891448e727",
             "path": "mods/TConstruct-1.12.2-2.13.0.183.jar"
-          }
-        },
-        {
-          "id": "Thaumcraft-1.12.2-6.1.BETA26.jar",
-          "name": "Thaumcraft-1.12.2-6.1.BETA26.jar",
-          "type": "File",
-          "artifact": {
-            "size": 11360786,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Thaumcraft-1.12.2-6.1.BETA26.jar",
-            "MD5": "3b13783ccaafb5d5b9ce8cb85e87fff6",
-            "path": "mods/Thaumcraft-1.12.2-6.1.BETA26.jar"
           }
         },
         {
@@ -1441,6 +1496,28 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
             "MD5": "320accf690ccc1c8a23679beb63fb615",
             "path": "mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar"
+          }
+        },
+        {
+          "id": "VanillaSatchels-1.12.2-1.0.2.4-universal.jar",
+          "name": "VanillaSatchels-1.12.2-1.0.2.4-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 69873,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/VanillaSatchels-1.12.2-1.0.2.4-universal.jar",
+            "MD5": "26fb21c307560e3bc091b06ff2aed339",
+            "path": "mods/VanillaSatchels-1.12.2-1.0.2.4-universal.jar"
+          }
+        },
+        {
+          "id": "VanillaTools-1.12.2-1.1.0.2-universal.jar",
+          "name": "VanillaTools-1.12.2-1.1.0.2-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 84020,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/VanillaTools-1.12.2-1.1.0.2-universal.jar",
+            "MD5": "193d6ab43c8985e2ae3cd77f306bc710",
+            "path": "mods/VanillaTools-1.12.2-1.1.0.2-universal.jar"
           }
         },
         {
@@ -1510,17 +1587,6 @@
           }
         },
         {
-          "id": "astralsorcery-1.12.2-1.10.27.jar",
-          "name": "astralsorcery-1.12.2-1.10.27.jar",
-          "type": "File",
-          "artifact": {
-            "size": 25028160,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/astralsorcery-1.12.2-1.10.27.jar",
-            "MD5": "c2db411b6e678c7e24035cd5c0525264",
-            "path": "mods/astralsorcery-1.12.2-1.10.27.jar"
-          }
-        },
-        {
           "id": "autonetworklib-1.12.2-1.0.45.jar",
           "name": "autonetworklib-1.12.2-1.0.45.jar",
           "type": "File",
@@ -1554,17 +1620,6 @@
           }
         },
         {
-          "id": "divinefavor-1.0.756.jar",
-          "name": "divinefavor-1.0.756.jar",
-          "type": "File",
-          "artifact": {
-            "size": 4884051,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/divinefavor-1.0.756.jar",
-            "MD5": "fa5da4a790497632267c7610d5a72ec7",
-            "path": "mods/divinefavor-1.0.756.jar"
-          }
-        },
-        {
           "id": "dragonenchantments-1.0.0.jar",
           "name": "dragonenchantments-1.0.0.jar",
           "type": "File",
@@ -1595,6 +1650,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/geckolib-forge-1.12.2-3.0.0-beta.8.jar",
             "MD5": "948cb17694501c9a47d3f2ad9df8c144",
             "path": "mods/geckolib-forge-1.12.2-3.0.0-beta.8.jar"
+          }
+        },
+        {
+          "id": "guns-0.15.3-1.12.2.jar",
+          "name": "guns-0.15.3-1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 814386,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/guns-0.15.3-1.12.2.jar",
+            "MD5": "e7bdc91c4c17a75bce67b6e523869340",
+            "path": "mods/guns-0.15.3-1.12.2.jar"
           }
         },
         {
@@ -1749,6 +1815,28 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/potions+mod+1.3.jar",
             "MD5": "6a9e57ee07370aca4213e4294fb14440",
             "path": "mods/potions+mod+1.3.jar"
+          }
+        },
+        {
+          "id": "refinedstorage-1.6.16.jar",
+          "name": "refinedstorage-1.6.16.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1912377,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/refinedstorage-1.6.16.jar",
+            "MD5": "0b5e41f29c3ceb1db560531fef9f55a2",
+            "path": "mods/refinedstorage-1.6.16.jar"
+          }
+        },
+        {
+          "id": "refinedstorageaddons-0.4.5.jar",
+          "name": "refinedstorageaddons-0.4.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 26804,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/refinedstorageaddons-0.4.5.jar",
+            "MD5": "d840373cb0ce3752e92c3840f64d8d90",
+            "path": "mods/refinedstorageaddons-0.4.5.jar"
           }
         },
         {
