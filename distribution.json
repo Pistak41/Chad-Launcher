@@ -883,17 +883,6 @@
           }
         },
         {
-          "id": "Botania+r1.10-363.jar",
-          "name": "Botania+r1.10-363.jar",
-          "type": "File",
-          "artifact": {
-            "size": 13814617,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Botania+r1.10-363.jar",
-            "MD5": "5ba76d3db9345fa9e398523bddda59f3",
-            "path": "mods/Botania+r1.10-363.jar"
-          }
-        },
-        {
           "id": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
           "name": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
           "type": "File",
@@ -1433,28 +1422,6 @@
           }
         },
         {
-          "id": "VanillaSatchels-1.12.2-1.0.2.4-universal.jar",
-          "name": "VanillaSatchels-1.12.2-1.0.2.4-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 69873,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/VanillaSatchels-1.12.2-1.0.2.4-universal.jar",
-            "MD5": "26fb21c307560e3bc091b06ff2aed339",
-            "path": "mods/VanillaSatchels-1.12.2-1.0.2.4-universal.jar"
-          }
-        },
-        {
-          "id": "VanillaTools-1.12.2-1.1.0.2-universal.jar",
-          "name": "VanillaTools-1.12.2-1.1.0.2-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 84020,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/VanillaTools-1.12.2-1.1.0.2-universal.jar",
-            "MD5": "193d6ab43c8985e2ae3cd77f306bc710",
-            "path": "mods/VanillaTools-1.12.2-1.1.0.2-universal.jar"
-          }
-        },
-        {
           "id": "Voice+Chat+Reloaded-1.2.5.jar",
           "name": "Voice+Chat+Reloaded-1.2.5.jar",
           "type": "File",
@@ -1683,17 +1650,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/mcjtylib-1.12-3.5.4.jar",
             "MD5": "45ac9983da9fd2bc7fe3446b9f4287c1",
             "path": "mods/mcjtylib-1.12-3.5.4.jar"
-          }
-        },
-        {
-          "id": "minecolonies-1.12.2-0.11.841-ALPHA-universal.jar",
-          "name": "minecolonies-1.12.2-0.11.841-ALPHA-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 34929750,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/minecolonies-1.12.2-0.11.841-ALPHA-universal.jar",
-            "MD5": "182825677199de55f2ce7b315162397c",
-            "path": "mods/minecolonies-1.12.2-0.11.841-ALPHA-universal.jar"
           }
         },
         {
