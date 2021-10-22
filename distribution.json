@@ -1796,6 +1796,17 @@
           }
         },
         {
+          "id": "zerocore-1.12.2-0.1.2.9.jar",
+          "name": "zerocore-1.12.2-0.1.2.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 227426,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/zerocore-1.12.2-0.1.2.9.jar",
+            "MD5": "8e15e85a8975db0f7a2285f336b47688",
+            "path": "mods/zerocore-1.12.2-0.1.2.9.jar"
+          }
+        },
+        {
           "id": "AntiqueAtlasExtra-v1.2.zip",
           "name": "AntiqueAtlasExtra-v1.2.zip",
           "type": "File",
