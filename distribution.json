@@ -1708,6 +1708,17 @@
           }
         },
         {
+          "id": "railcraft-12.0.0.jar",
+          "name": "railcraft-12.0.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5541089,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/railcraft-12.0.0.jar",
+            "MD5": "b6f0592e8f5c24d07fe065f1c97c8fda",
+            "path": "mods/railcraft-12.0.0.jar"
+          }
+        },
+        {
           "id": "refinedstorage-1.6.16.jar",
           "name": "refinedstorage-1.6.16.jar",
           "type": "File",
