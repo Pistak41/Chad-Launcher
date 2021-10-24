@@ -828,17 +828,6 @@
           }
         },
         {
-          "id": "ArteMagicum-1.4.0.jar",
-          "name": "ArteMagicum-1.4.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1659988,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ArteMagicum-1.4.0.jar",
-            "MD5": "70c7ae8e08af5a607e49c2125fcf7b4e",
-            "path": "mods/ArteMagicum-1.4.0.jar"
-          }
-        },
-        {
           "id": "ArtemisLib-1.12.2-v1.0.6.jar",
           "name": "ArtemisLib-1.12.2-v1.0.6.jar",
           "type": "File",
