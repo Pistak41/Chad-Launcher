@@ -872,6 +872,17 @@
           }
         },
         {
+          "id": "Botania+r1.10-364.4.jar",
+          "name": "Botania+r1.10-364.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13817704,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Botania+r1.10-364.4.jar",
+            "MD5": "7a19779fa19e37cb9fb49a0a1770332b",
+            "path": "mods/Botania+r1.10-364.4.jar"
+          }
+        },
+        {
           "id": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
           "name": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
           "type": "File",
@@ -1202,6 +1213,28 @@
           }
         },
         {
+          "id": "OpenBlocks-1.12.2-1.8.1.jar",
+          "name": "OpenBlocks-1.12.2-1.8.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3217616,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/OpenBlocks-1.12.2-1.8.1.jar",
+            "MD5": "cd7f642f983669c6ae94d6a999d0d6e9",
+            "path": "mods/OpenBlocks-1.12.2-1.8.1.jar"
+          }
+        },
+        {
+          "id": "OpenModsLib-1.12.2-0.12.2.jar",
+          "name": "OpenModsLib-1.12.2-0.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2639587,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/OpenModsLib-1.12.2-0.12.2.jar",
+            "MD5": "9c0606c553fbdf86e2f459c1cc40414d",
+            "path": "mods/OpenModsLib-1.12.2-0.12.2.jar"
+          }
+        },
+        {
           "id": "PTRLib-1.0.5.jar",
           "name": "PTRLib-1.0.5.jar",
           "type": "File",
@@ -1342,6 +1375,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/TConstruct-1.12.2-2.13.0.183.jar",
             "MD5": "710d64342d41042b7d6ced891448e727",
             "path": "mods/TConstruct-1.12.2-2.13.0.183.jar"
+          }
+        },
+        {
+          "id": "TheBetweenlands-3.7.3-universal.jar",
+          "name": "TheBetweenlands-3.7.3-universal.jar",
+          "type": "File",
+          "artifact": {
+            "size": 133488642,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/TheBetweenlands-3.7.3-universal.jar",
+            "MD5": "796ffca775c891c947ae912724f58d04",
+            "path": "mods/TheBetweenlands-3.7.3-universal.jar"
           }
         },
         {
