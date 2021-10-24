@@ -1774,17 +1774,6 @@
           }
         },
         {
-          "id": "wonderful-enchantments-1.12.2-0.6.0.jar",
-          "name": "wonderful-enchantments-1.12.2-0.6.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 46038,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/wonderful-enchantments-1.12.2-0.6.0.jar",
-            "MD5": "dbfd86a4ce5f669d0361be8a6ef57385",
-            "path": "mods/wonderful-enchantments-1.12.2-0.6.0.jar"
-          }
-        },
-        {
           "id": "zerocore-1.12.2-0.1.2.9.jar",
           "name": "zerocore-1.12.2-0.1.2.9.jar",
           "type": "File",
