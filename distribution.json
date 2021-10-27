@@ -1780,6 +1780,149 @@
           }
         },
         {
+          "id": "TheBetweenlands-3.7.3-SNAPSHOT-20210322.052210-core.jar",
+          "name": "TheBetweenlands-3.7.3-SNAPSHOT-20210322.052210-core.jar",
+          "type": "File",
+          "artifact": {
+            "size": 21484,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/memory_repo/angrypixel/TheBetweenlands/3.7.3-SNAPSHOT/TheBetweenlands-3.7.3-SNAPSHOT-20210322.052210-core.jar",
+            "MD5": "3a52677be1eefca5e9023dabf2d357d7",
+            "path": "mods/memory_repo/angrypixel/TheBetweenlands/3.7.3-SNAPSHOT/TheBetweenlands-3.7.3-SNAPSHOT-20210322.052210-core.jar"
+          }
+        },
+        {
+          "id": "TheBetweenlands-3.7.3-SNAPSHOT-20210322.052210-core.jar.meta",
+          "name": "TheBetweenlands-3.7.3-SNAPSHOT-20210322.052210-core.jar.meta",
+          "type": "File",
+          "artifact": {
+            "size": 1823,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/memory_repo/angrypixel/TheBetweenlands/3.7.3-SNAPSHOT/TheBetweenlands-3.7.3-SNAPSHOT-20210322.052210-core.jar.meta",
+            "MD5": "33d592c7f6b4c04ae498bdd90c871cf8",
+            "path": "mods/memory_repo/angrypixel/TheBetweenlands/3.7.3-SNAPSHOT/TheBetweenlands-3.7.3-SNAPSHOT-20210322.052210-core.jar.meta"
+          }
+        },
+        {
+          "id": "maven-metadata.json",
+          "name": "maven-metadata.json",
+          "type": "File",
+          "artifact": {
+            "size": 73,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/memory_repo/angrypixel/TheBetweenlands/3.7.3-SNAPSHOT/maven-metadata.json",
+            "MD5": "5775b91ce95befd78d184403cd724388",
+            "path": "mods/memory_repo/angrypixel/TheBetweenlands/3.7.3-SNAPSHOT/maven-metadata.json"
+          }
+        },
+        {
+          "id": "ImmersiveEngineering-core-0.12-98.jar",
+          "name": "ImmersiveEngineering-core-0.12-98.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5971,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar",
+            "MD5": "1a54e0e65323328f814c139860e34475",
+            "path": "mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar"
+          }
+        },
+        {
+          "id": "ImmersiveEngineering-core-0.12-98.jar.meta",
+          "name": "ImmersiveEngineering-core-0.12-98.jar.meta",
+          "type": "File",
+          "artifact": {
+            "size": 165,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar.meta",
+            "MD5": "e62798c555f5520c31a7efb68c0ba170",
+            "path": "mods/memory_repo/blusunrize/ImmersiveEngineering-core/0.12-98/ImmersiveEngineering-core-0.12-98.jar.meta"
+          }
+        },
+        {
+          "id": "EnderCore-1.12.2-0.5.76-core.jar",
+          "name": "EnderCore-1.12.2-0.5.76-core.jar",
+          "type": "File",
+          "artifact": {
+            "size": 39561,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar",
+            "MD5": "3f481a8dbd8bbdf13e78905ecde3b8ce",
+            "path": "mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar"
+          }
+        },
+        {
+          "id": "EnderCore-1.12.2-0.5.76-core.jar.meta",
+          "name": "EnderCore-1.12.2-0.5.76-core.jar.meta",
+          "type": "File",
+          "artifact": {
+            "size": 2921,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar.meta",
+            "MD5": "a104e76eaddd40f0d88444f42a22ea83",
+            "path": "mods/memory_repo/com/enderio/core/EnderCore/1.12.2-0.5.76/EnderCore-1.12.2-0.5.76-core.jar.meta"
+          }
+        },
+        {
+          "id": "AutoConfig-1.12.2-1.0.2.jar",
+          "name": "AutoConfig-1.12.2-1.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 74722,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar",
+            "MD5": "d074e11b089198adba6fb9fba8b19a75",
+            "path": "mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar"
+          }
+        },
+        {
+          "id": "AutoConfig-1.12.2-1.0.2.jar.meta",
+          "name": "AutoConfig-1.12.2-1.0.2.jar.meta",
+          "type": "File",
+          "artifact": {
+            "size": 6735,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar.meta",
+            "MD5": "56f633fc5678ab56256cf80f9c3437c2",
+            "path": "mods/memory_repo/info/loenwind/autoconfig/AutoConfig/1.12.2-1.0.2/AutoConfig-1.12.2-1.0.2.jar.meta"
+          }
+        },
+        {
+          "id": "AutoSave-1.12.2-1.0.11.jar",
+          "name": "AutoSave-1.12.2-1.0.11.jar",
+          "type": "File",
+          "artifact": {
+            "size": 90467,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar",
+            "MD5": "490de07d7f50548ac99ef25d75319d48",
+            "path": "mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar"
+          }
+        },
+        {
+          "id": "AutoSave-1.12.2-1.0.11.jar.meta",
+          "name": "AutoSave-1.12.2-1.0.11.jar.meta",
+          "type": "File",
+          "artifact": {
+            "size": 8002,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar.meta",
+            "MD5": "70a04c0c9daa2448e5fc69374fe9c884",
+            "path": "mods/memory_repo/info/loenwind/autosave/AutoSave/1.12.2-1.0.11/AutoSave-1.12.2-1.0.11.jar.meta"
+          }
+        },
+        {
+          "id": "llibrary-core-1.0.11-1.12.2.jar",
+          "name": "llibrary-core-1.0.11-1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 446755,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar",
+            "MD5": "732b7e43ec97734ce846fd996c84affe",
+            "path": "mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar"
+          }
+        },
+        {
+          "id": "llibrary-core-1.0.11-1.12.2.jar.meta",
+          "name": "llibrary-core-1.0.11-1.12.2.jar.meta",
+          "type": "File",
+          "artifact": {
+            "size": 8527,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar.meta",
+            "MD5": "2d0457fc2c10dbcd705b28c326954042",
+            "path": "mods/memory_repo/net/ilexiconn/llibrary-core/1.0.11-1.12.2/llibrary-core-1.0.11-1.12.2.jar.meta"
+          }
+        },
+        {
           "id": "AntiqueAtlasExtra-v1.2.zip",
           "name": "AntiqueAtlasExtra-v1.2.zip",
           "type": "File",
