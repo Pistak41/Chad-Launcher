@@ -500,23 +500,23 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2854:universal",
           "name": "Minecraft Forge",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 4464387,
-            "MD5": "02fcc447bb8938e5214292e4d36ec949",
-            "url": "http://190.190.29.214:800/Phobos/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
+            "size": 4464068,
+            "MD5": "ff6f0650ff84d4c8e03da9a4f536d9e1",
+            "url": "http://190.190.29.214:800/Phobos/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2854/forge-1.12.2-14.23.5.2854-universal.jar"
           },
           "subModules": [
             {
-              "id": "1.12.2-14.23.5.2855",
+              "id": "1.12.2-14.23.5.2854",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
                 "size": 10873,
-                "MD5": "5d114618e561d76e0f692c2d69dcb784",
-                "url": "http://190.190.29.214:800/Phobos/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
+                "MD5": "814f52398b6ebf70d22571307d2298eb",
+                "url": "http://190.190.29.214:800/Phobos/repo/versions/1.12.2-forge-14.23.5.2854/1.12.2-forge-14.23.5.2854.json"
               }
             },
             {
