@@ -1002,16 +1002,6 @@
           }
         },
         {
-          "id": "electroblob.wizardry:ebwizardry:4.3.4@jar",
-          "name": "Electroblob's Wizardry",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 10881050,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
-            "MD5": "a6cf1f36c230fbed2f4ef5b2db72d87a"
-          }
-        },
-        {
           "id": "com.enderio.core:endercore:1.12.2-0.5.76@jar",
           "name": "EnderCore",
           "type": "ForgeMod",
@@ -1461,6 +1451,16 @@
           }
         },
         {
+          "id": "mods.railcraft.common.core:railcraft:12.0.0@jar",
+          "name": "Railcraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5541089,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/railcraft-12.0.0.jar",
+            "MD5": "b6f0592e8f5c24d07fe065f1c97c8fda"
+          }
+        },
+        {
           "id": "cofh.redstonearsenal:redstonearsenal:2.6.6.1@jar",
           "name": "Redstone Arsenal",
           "type": "ForgeMod",
@@ -1768,14 +1768,14 @@
           }
         },
         {
-          "id": "railcraft-12.0.0.jar",
-          "name": "railcraft-12.0.0.jar",
+          "id": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
+          "name": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
           "type": "File",
           "artifact": {
-            "size": 5541089,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/railcraft-12.0.0.jar",
-            "MD5": "b6f0592e8f5c24d07fe065f1c97c8fda",
-            "path": "mods/railcraft-12.0.0.jar"
+            "size": 10881050,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
+            "MD5": "a6cf1f36c230fbed2f4ef5b2db72d87a",
+            "path": "mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar"
           }
         },
         {
