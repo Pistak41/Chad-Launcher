@@ -722,16 +722,6 @@
           }
         },
         {
-          "id": "generated.forgemod:abyssalcraft:1.12.2-1.10.4-api@jar",
-          "name": "AbyssalCraft",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 289853,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/AbyssalCraft-1.12.2-1.10.4-api.jar",
-            "MD5": "035affd924c7990c44f0f2aa653fcad3"
-          }
-        },
-        {
           "id": "com.shinoow:abyssalcraft:1.12.2-1.10.4@jar",
           "name": "AbyssalCraft",
           "type": "ForgeMod",
