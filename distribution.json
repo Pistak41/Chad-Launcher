@@ -1155,16 +1155,6 @@
           }
         },
         {
-          "id": "ic2.core:ic2:2.8.170-ex112@jar",
-          "name": "IndustrialCraft 2",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 8356436,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/industrialcraft-2-2.8.170-ex112.jar",
-            "MD5": "d4f952c94cacdd280abbb73f072b2424"
-          }
-        },
-        {
           "id": "gr8pefish.ironbackpacks:ironbackpacks:1.12.2-3.0.8-12@jar",
           "name": "Iron Backpacks",
           "type": "ForgeMod",
@@ -1776,6 +1766,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
             "MD5": "a6cf1f36c230fbed2f4ef5b2db72d87a",
             "path": "mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar"
+          }
+        },
+        {
+          "id": "industrialcraft-2-2.8.170-ex112.jar",
+          "name": "industrialcraft-2-2.8.170-ex112.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8356436,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/industrialcraft-2-2.8.170-ex112.jar",
+            "MD5": "d4f952c94cacdd280abbb73f072b2424",
+            "path": "mods/industrialcraft-2-2.8.170-ex112.jar"
           }
         },
         {
