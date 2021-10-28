@@ -894,6 +894,17 @@
           }
         },
         {
+          "id": "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar",
+          "name": "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 80736,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar",
+            "MD5": "f73cd99ef1bc9ccec0086fb1edcc41fb",
+            "path": "mods/Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar"
+          }
+        },
+        {
           "id": "ArtemisLib-1.12.2-v1.0.6.jar",
           "name": "ArtemisLib-1.12.2-v1.0.6.jar",
           "type": "File",
@@ -1265,28 +1276,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Mekanism-1.12.2-9.8.3.390.jar",
             "MD5": "e622b8365b9a1190b3b6cc042854e870",
             "path": "mods/Mekanism-1.12.2-9.8.3.390.jar"
-          }
-        },
-        {
-          "id": "MekanismGenerators-1.12.2-9.8.3.390.jar",
-          "name": "MekanismGenerators-1.12.2-9.8.3.390.jar",
-          "type": "File",
-          "artifact": {
-            "size": 336364,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MekanismGenerators-1.12.2-9.8.3.390.jar",
-            "MD5": "d75ddb11a6c1353b046c70d8904fe61e",
-            "path": "mods/MekanismGenerators-1.12.2-9.8.3.390.jar"
-          }
-        },
-        {
-          "id": "MekanismTools-1.12.2-9.8.3.390.jar",
-          "name": "MekanismTools-1.12.2-9.8.3.390.jar",
-          "type": "File",
-          "artifact": {
-            "size": 159785,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MekanismTools-1.12.2-9.8.3.390.jar",
-            "MD5": "0095f13a729ce5873319e36e29a5b5e1",
-            "path": "mods/MekanismTools-1.12.2-9.8.3.390.jar"
           }
         },
         {
@@ -1796,17 +1785,6 @@
           }
         },
         {
-          "id": "mekatweaker-1.12-1.2.0.jar",
-          "name": "mekatweaker-1.12-1.2.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 17037,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/mekatweaker-1.12-1.2.0.jar",
-            "MD5": "16fb650583430511932fe356c4188083",
-            "path": "mods/mekatweaker-1.12-1.2.0.jar"
-          }
-        },
-        {
           "id": "mowziesmobs-1.5.8.jar",
           "name": "mowziesmobs-1.5.8.jar",
           "type": "File",
@@ -1837,6 +1815,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/obfuscate-0.4.2-1.12.2.jar",
             "MD5": "a5d3ac71ec8762fe72a91465de6d30a3",
             "path": "mods/obfuscate-0.4.2-1.12.2.jar"
+          }
+        },
+        {
+          "id": "openmodularturrets-1.12.2-3.1.14-382.jar",
+          "name": "openmodularturrets-1.12.2-3.1.14-382.jar",
+          "type": "File",
+          "artifact": {
+            "size": 967479,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/openmodularturrets-1.12.2-3.1.14-382.jar",
+            "MD5": "8c7aa58188451f5526bb9afdb55f9652",
+            "path": "mods/openmodularturrets-1.12.2-3.1.14-382.jar"
           }
         },
         {
