@@ -1818,6 +1818,28 @@
           }
         },
         {
+          "id": "omlib-1.12.2-3.1.5-256.jar",
+          "name": "omlib-1.12.2-3.1.5-256.jar",
+          "type": "File",
+          "artifact": {
+            "size": 215479,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/omlib-1.12.2-3.1.5-256.jar",
+            "MD5": "c01775f59a24ec97f8dc2116f8723735",
+            "path": "mods/omlib-1.12.2-3.1.5-256.jar"
+          }
+        },
+        {
+          "id": "ompd-1.12.2-3.1.1-76.jar",
+          "name": "ompd-1.12.2-3.1.1-76.jar",
+          "type": "File",
+          "artifact": {
+            "size": 104655,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ompd-1.12.2-3.1.1-76.jar",
+            "MD5": "bb61fe3e8509568f16127d88f7435dde",
+            "path": "mods/ompd-1.12.2-3.1.1-76.jar"
+          }
+        },
+        {
           "id": "openmodularturrets-1.12.2-3.1.14-382.jar",
           "name": "openmodularturrets-1.12.2-3.1.14-382.jar",
           "type": "File",
