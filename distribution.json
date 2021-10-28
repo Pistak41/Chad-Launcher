@@ -894,6 +894,17 @@
           }
         },
         {
+          "id": "Aroma1997Core-1.12.2-2.0.0.2.jar",
+          "name": "Aroma1997Core-1.12.2-2.0.0.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 398634,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Aroma1997Core-1.12.2-2.0.0.2.jar",
+            "MD5": "f5199ab1a48d442af764071147a31747",
+            "path": "mods/Aroma1997Core-1.12.2-2.0.0.2.jar"
+          }
+        },
+        {
           "id": "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar",
           "name": "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar",
           "type": "File",
