@@ -894,28 +894,6 @@
           }
         },
         {
-          "id": "Aroma1997Core-1.12.2-2.0.0.2.jar",
-          "name": "Aroma1997Core-1.12.2-2.0.0.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 398634,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Aroma1997Core-1.12.2-2.0.0.2.jar",
-            "MD5": "f5199ab1a48d442af764071147a31747",
-            "path": "mods/Aroma1997Core-1.12.2-2.0.0.2.jar"
-          }
-        },
-        {
-          "id": "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar",
-          "name": "Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 80736,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar",
-            "MD5": "f73cd99ef1bc9ccec0086fb1edcc41fb",
-            "path": "mods/Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.jar"
-          }
-        },
-        {
           "id": "ArtemisLib-1.12.2-v1.0.6.jar",
           "name": "ArtemisLib-1.12.2-v1.0.6.jar",
           "type": "File",
@@ -1232,17 +1210,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/JustEnoughIDs-1.0.3-55.jar",
             "MD5": "ac6f54cb5478dd3d0147aedbfe782d5d",
             "path": "mods/JustEnoughIDs-1.0.3-55.jar"
-          }
-        },
-        {
-          "id": "JustEnoughResources-1.12.2-0.9.2.60.jar",
-          "name": "JustEnoughResources-1.12.2-0.9.2.60.jar",
-          "type": "File",
-          "artifact": {
-            "size": 222270,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/JustEnoughResources-1.12.2-0.9.2.60.jar",
-            "MD5": "87a4666549a60d8fb423883dd4ee6232",
-            "path": "mods/JustEnoughResources-1.12.2-0.9.2.60.jar"
           }
         },
         {
@@ -1730,39 +1697,6 @@
           }
         },
         {
-          "id": "jeiintegration_1.12.2-1.6.0.jar",
-          "name": "jeiintegration_1.12.2-1.6.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 25196,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/jeiintegration_1.12.2-1.6.0.jar",
-            "MD5": "591f2eef8dc65ebc6850bce0acd88f41",
-            "path": "mods/jeiintegration_1.12.2-1.6.0.jar"
-          }
-        },
-        {
-          "id": "jetif-1.12.2-1.5.2.jar",
-          "name": "jetif-1.12.2-1.5.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 29003,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/jetif-1.12.2-1.5.2.jar",
-            "MD5": "361e466e0669d0d9cf533fbf6aafe3f1",
-            "path": "mods/jetif-1.12.2-1.5.2.jar"
-          }
-        },
-        {
-          "id": "justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar",
-          "name": "justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar",
-          "type": "File",
-          "artifact": {
-            "size": 265325,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar",
-            "MD5": "fea8d777d4f41330a2e1f245cbebc554",
-            "path": "mods/justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar"
-          }
-        },
-        {
           "id": "llibrary-1.7.20-1.12.2.jar",
           "name": "llibrary-1.7.20-1.12.2.jar",
           "type": "File",
@@ -1826,39 +1760,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/obfuscate-0.4.2-1.12.2.jar",
             "MD5": "a5d3ac71ec8762fe72a91465de6d30a3",
             "path": "mods/obfuscate-0.4.2-1.12.2.jar"
-          }
-        },
-        {
-          "id": "omlib-1.12.2-3.1.5-256.jar",
-          "name": "omlib-1.12.2-3.1.5-256.jar",
-          "type": "File",
-          "artifact": {
-            "size": 215479,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/omlib-1.12.2-3.1.5-256.jar",
-            "MD5": "c01775f59a24ec97f8dc2116f8723735",
-            "path": "mods/omlib-1.12.2-3.1.5-256.jar"
-          }
-        },
-        {
-          "id": "ompd-1.12.2-3.1.1-76.jar",
-          "name": "ompd-1.12.2-3.1.1-76.jar",
-          "type": "File",
-          "artifact": {
-            "size": 104655,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ompd-1.12.2-3.1.1-76.jar",
-            "MD5": "bb61fe3e8509568f16127d88f7435dde",
-            "path": "mods/ompd-1.12.2-3.1.1-76.jar"
-          }
-        },
-        {
-          "id": "openmodularturrets-1.12.2-3.1.14-382.jar",
-          "name": "openmodularturrets-1.12.2-3.1.14-382.jar",
-          "type": "File",
-          "artifact": {
-            "size": 967479,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/openmodularturrets-1.12.2-3.1.14-382.jar",
-            "MD5": "8c7aa58188451f5526bb9afdb55f9652",
-            "path": "mods/openmodularturrets-1.12.2-3.1.14-382.jar"
           }
         },
         {
