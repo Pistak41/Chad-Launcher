@@ -828,6 +828,17 @@
           }
         },
         {
+          "id": "AbyssalCraft+Integration-1.12.2-1.11.3.jar",
+          "name": "AbyssalCraft+Integration-1.12.2-1.11.3.jar",
+          "type": "File",
+          "artifact": {
+            "size": 507074,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/AbyssalCraft+Integration-1.12.2-1.11.3.jar",
+            "MD5": "9420e6b81bb644c09d1169a84d955844",
+            "path": "mods/AbyssalCraft+Integration-1.12.2-1.11.3.jar"
+          }
+        },
+        {
           "id": "AbyssalCraft-1.12.2-1.10.4.jar",
           "name": "AbyssalCraft-1.12.2-1.10.4.jar",
           "type": "File",
@@ -1202,6 +1213,17 @@
           }
         },
         {
+          "id": "JustEnoughResources-1.12.2-0.9.2.60.jar",
+          "name": "JustEnoughResources-1.12.2-0.9.2.60.jar",
+          "type": "File",
+          "artifact": {
+            "size": 222270,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/JustEnoughResources-1.12.2-0.9.2.60.jar",
+            "MD5": "87a4666549a60d8fb423883dd4ee6232",
+            "path": "mods/JustEnoughResources-1.12.2-0.9.2.60.jar"
+          }
+        },
+        {
           "id": "Magic_Circle-1.0.1.jar",
           "name": "Magic_Circle-1.0.1.jar",
           "type": "File",
@@ -1243,6 +1265,28 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Mekanism-1.12.2-9.8.3.390.jar",
             "MD5": "e622b8365b9a1190b3b6cc042854e870",
             "path": "mods/Mekanism-1.12.2-9.8.3.390.jar"
+          }
+        },
+        {
+          "id": "MekanismGenerators-1.12.2-9.8.3.390.jar",
+          "name": "MekanismGenerators-1.12.2-9.8.3.390.jar",
+          "type": "File",
+          "artifact": {
+            "size": 336364,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MekanismGenerators-1.12.2-9.8.3.390.jar",
+            "MD5": "d75ddb11a6c1353b046c70d8904fe61e",
+            "path": "mods/MekanismGenerators-1.12.2-9.8.3.390.jar"
+          }
+        },
+        {
+          "id": "MekanismTools-1.12.2-9.8.3.390.jar",
+          "name": "MekanismTools-1.12.2-9.8.3.390.jar",
+          "type": "File",
+          "artifact": {
+            "size": 159785,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MekanismTools-1.12.2-9.8.3.390.jar",
+            "MD5": "0095f13a729ce5873319e36e29a5b5e1",
+            "path": "mods/MekanismTools-1.12.2-9.8.3.390.jar"
           }
         },
         {
@@ -1686,6 +1730,39 @@
           }
         },
         {
+          "id": "jeiintegration_1.12.2-1.6.0.jar",
+          "name": "jeiintegration_1.12.2-1.6.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 25196,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/jeiintegration_1.12.2-1.6.0.jar",
+            "MD5": "591f2eef8dc65ebc6850bce0acd88f41",
+            "path": "mods/jeiintegration_1.12.2-1.6.0.jar"
+          }
+        },
+        {
+          "id": "jetif-1.12.2-1.5.2.jar",
+          "name": "jetif-1.12.2-1.5.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 29003,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/jetif-1.12.2-1.5.2.jar",
+            "MD5": "361e466e0669d0d9cf533fbf6aafe3f1",
+            "path": "mods/jetif-1.12.2-1.5.2.jar"
+          }
+        },
+        {
+          "id": "justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar",
+          "name": "justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar",
+          "type": "File",
+          "artifact": {
+            "size": 265325,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar",
+            "MD5": "fea8d777d4f41330a2e1f245cbebc554",
+            "path": "mods/justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714.jar"
+          }
+        },
+        {
           "id": "llibrary-1.7.20-1.12.2.jar",
           "name": "llibrary-1.7.20-1.12.2.jar",
           "type": "File",
@@ -1716,6 +1793,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/mcjtylib-1.12-3.5.4.jar",
             "MD5": "45ac9983da9fd2bc7fe3446b9f4287c1",
             "path": "mods/mcjtylib-1.12-3.5.4.jar"
+          }
+        },
+        {
+          "id": "mekatweaker-1.12-1.2.0.jar",
+          "name": "mekatweaker-1.12-1.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 17037,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/mekatweaker-1.12-1.2.0.jar",
+            "MD5": "16fb650583430511932fe356c4188083",
+            "path": "mods/mekatweaker-1.12-1.2.0.jar"
           }
         },
         {
