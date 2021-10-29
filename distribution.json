@@ -775,9 +775,9 @@
           "name": "mainmenu.json",
           "type": "File",
           "artifact": {
-            "size": 6120,
+            "size": 6116,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/CustomMainMenu/mainmenu.json",
-            "MD5": "d28b216d9ca89044dc1a8c7a26a2d687",
+            "MD5": "71ac97266e3ff55bf986ae80cbffc6ac",
             "path": "config/CustomMainMenu/mainmenu.json"
           }
         },
@@ -786,9 +786,9 @@
           "name": "mainmenu_auto.json",
           "type": "File",
           "artifact": {
-            "size": 5942,
+            "size": 5938,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/CustomMainMenu/mainmenu_auto.json",
-            "MD5": "56c3f8fe1a8e60a2007c32ff325fcbca",
+            "MD5": "460cba3de45b10433fe7dfb13b12a1ea",
             "path": "config/CustomMainMenu/mainmenu_auto.json"
           }
         },
@@ -797,9 +797,9 @@
           "name": "mainmenu_normal.json",
           "type": "File",
           "artifact": {
-            "size": 6120,
+            "size": 6116,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/CustomMainMenu/mainmenu_normal.json",
-            "MD5": "e5c0f9b7356e7ebd573be55f1d49cbf6",
+            "MD5": "056aff4faacfcb05ebb2fc3152878bd8",
             "path": "config/CustomMainMenu/mainmenu_normal.json"
           }
         },
@@ -808,9 +808,9 @@
           "name": "mainmenu_small.json",
           "type": "File",
           "artifact": {
-            "size": 6123,
+            "size": 6119,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/CustomMainMenu/mainmenu_small.json",
-            "MD5": "8d7a41fb8af9bee843bbed7195437264",
+            "MD5": "23be6c81129c8e6e7b1d82e61c414794",
             "path": "config/CustomMainMenu/mainmenu_small.json"
           }
         },
@@ -2051,9 +2051,9 @@
           "name": "logo.png",
           "type": "File",
           "artifact": {
-            "size": 713364,
+            "size": 14076,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/resources/menufarfania/textures/logo.png",
-            "MD5": "167a42a5a2ef4d36a1232c1421b39899",
+            "MD5": "406da435398a2e15adf173759ff6f72c",
             "path": "resources/menufarfania/textures/logo.png"
           }
         },
@@ -24099,6 +24099,105 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/resources/music/calm3.ogg",
             "MD5": "ff32c2bfea9a23555713ca1d0739ee06",
             "path": "resources/music/calm3.ogg"
+          }
+        },
+        {
+          "id": "Chocapic13_V9_Extreme.zip",
+          "name": "Chocapic13_V9_Extreme.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3134623,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/shaderpacks/Chocapic13_V9_Extreme.zip",
+            "MD5": "2a5ec76ad7acc47005e32cc1e5da1e41",
+            "path": "shaderpacks/Chocapic13_V9_Extreme.zip"
+          }
+        },
+        {
+          "id": "Chocapic13_V9_High.zip",
+          "name": "Chocapic13_V9_High.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3134568,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/shaderpacks/Chocapic13_V9_High.zip",
+            "MD5": "29c39e1d1e6030b14e3db3f65c38ce05",
+            "path": "shaderpacks/Chocapic13_V9_High.zip"
+          }
+        },
+        {
+          "id": "Chocapic13_V9_Medium.zip",
+          "name": "Chocapic13_V9_Medium.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2428092,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/shaderpacks/Chocapic13_V9_Medium.zip",
+            "MD5": "55e6328b1ca9e1208f8034bc6983f5c3",
+            "path": "shaderpacks/Chocapic13_V9_Medium.zip"
+          }
+        },
+        {
+          "id": "Chocapic13_V9_Ultra.zip",
+          "name": "Chocapic13_V9_Ultra.zip",
+          "type": "File",
+          "artifact": {
+            "size": 3134570,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/shaderpacks/Chocapic13_V9_Ultra.zip",
+            "MD5": "46d8fcd102bdaa4340c37a137135a2bc",
+            "path": "shaderpacks/Chocapic13_V9_Ultra.zip"
+          }
+        },
+        {
+          "id": "Sildurs Vibrant Shaders v1.283 Lite.zip",
+          "name": "Sildurs Vibrant Shaders v1.283 Lite.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142935,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/shaderpacks/Sildurs%20Vibrant%20Shaders%20v1.283%20Lite.zip",
+            "MD5": "72f6fb6310b14bde06c5e33c51169e3f",
+            "path": "shaderpacks/Sildurs Vibrant Shaders v1.283 Lite.zip"
+          }
+        },
+        {
+          "id": "Sildurs Vibrant Shaders v1.283 Medium.zip",
+          "name": "Sildurs Vibrant Shaders v1.283 Medium.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142963,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/shaderpacks/Sildurs%20Vibrant%20Shaders%20v1.283%20Medium.zip",
+            "MD5": "30371722f8ef16d3503a087302d721a7",
+            "path": "shaderpacks/Sildurs Vibrant Shaders v1.283 Medium.zip"
+          }
+        },
+        {
+          "id": "[Alto Rendimiento]-Chocapic13_Potato.zip",
+          "name": "[Alto Rendimiento]-Chocapic13_Potato.zip",
+          "type": "File",
+          "artifact": {
+            "size": 98962,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/shaderpacks/[Alto%20Rendimiento]-Chocapic13_Potato.zip",
+            "MD5": "88df9af20bcabd6bf4f6a7c565cb824c",
+            "path": "shaderpacks/[Alto Rendimiento]-Chocapic13_Potato.zip"
+          }
+        },
+        {
+          "id": "[Recomendado]-ComplementaryShaders.zip",
+          "name": "[Recomendado]-ComplementaryShaders.zip",
+          "type": "File",
+          "artifact": {
+            "size": 329069,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/shaderpacks/[Recomendado]-ComplementaryShaders.zip",
+            "MD5": "8cb172d1b93fc53b9febf6a7b608a471",
+            "path": "shaderpacks/[Recomendado]-ComplementaryShaders.zip"
+          }
+        },
+        {
+          "id": "[Recomendado]-ComplementaryShaders.zip.txt",
+          "name": "[Recomendado]-ComplementaryShaders.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 86,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/shaderpacks/[Recomendado]-ComplementaryShaders.zip.txt",
+            "MD5": "7a77dfcf4b16ef5bb409140c9d1fb3d2",
+            "path": "shaderpacks/[Recomendado]-ComplementaryShaders.zip.txt"
           }
         }
       ]
