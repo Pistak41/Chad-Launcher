@@ -712,6 +712,16 @@
           ]
         },
         {
+          "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
+          "name": "Custom Main Menu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91121,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/custommainmenu-2.0.9.1.jar",
+            "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+          }
+        },
+        {
           "id": "pl.asie:foamfix:0.10.14-1.12.2@jar",
           "name": "FoamFix",
           "type": "ForgeMod",
@@ -748,6 +758,16 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "lumien.resourceloader:resourceloader:1.5.3@jar",
+          "name": "Resource Loader",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16612,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/resourceloader-1.5.3.jar",
+            "MD5": "51141e882f96ce756b9b3d25f2acdf57"
           }
         },
         {
