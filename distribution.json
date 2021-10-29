@@ -828,28 +828,6 @@
           }
         },
         {
-          "id": "AbyssalCraft+Integration-1.12.2-1.11.3.jar",
-          "name": "AbyssalCraft+Integration-1.12.2-1.11.3.jar",
-          "type": "File",
-          "artifact": {
-            "size": 507074,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/AbyssalCraft+Integration-1.12.2-1.11.3.jar",
-            "MD5": "9420e6b81bb644c09d1169a84d955844",
-            "path": "mods/AbyssalCraft+Integration-1.12.2-1.11.3.jar"
-          }
-        },
-        {
-          "id": "AbyssalCraft-1.12.2-1.10.4.jar",
-          "name": "AbyssalCraft-1.12.2-1.10.4.jar",
-          "type": "File",
-          "artifact": {
-            "size": 14248353,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/AbyssalCraft-1.12.2-1.10.4.jar",
-            "MD5": "c8d67c26e50bc2c3c4cc13c2c8b43dc4",
-            "path": "mods/AbyssalCraft-1.12.2-1.10.4.jar"
-          }
-        },
-        {
           "id": "ActuallyAdditions-1.12.2-r152.jar",
           "name": "ActuallyAdditions-1.12.2-r152.jar",
           "type": "File",
