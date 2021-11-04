@@ -712,6 +712,76 @@
           ]
         },
         {
+          "id": "net.geforcemods:securitycraft:v1.8.23.2@jar",
+          "name": "SecurityCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1915657,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[1.12.2]+SecurityCraft+v1.8.23.2.jar",
+            "MD5": "32d7af044c1d127597eb3e02199700bd"
+          }
+        },
+        {
+          "id": "de.ellpeck.actuallyadditions.mod:actuallyadditions:1.12.2-r152@jar",
+          "name": "Actually Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2958699,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ActuallyAdditions-1.12.2-r152.jar",
+            "MD5": "4bb5c052581c729eb8a6adc60b376ec6"
+          }
+        },
+        {
+          "id": "com.chocohead.advsolar:advanced_solar_panels:4.3.0@jar",
+          "name": "Advanced Solar Panels",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 316833,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/Advanced+Solar+Panels-4.3.0.jar",
+            "MD5": "2f16b7591d15da58d91f2ff147299a73"
+          }
+        },
+        {
+          "id": "com.windanesz:ancientspellcraft:1.12.2-1.2.2@jar",
+          "name": "Ancient Spellcraft by Dan",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5687092,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/AncientSpellcraft-1.12.2-1.2.2.jar",
+            "MD5": "251a0ee0b5abd7ba47dcaa329a51f188"
+          }
+        },
+        {
+          "id": "hunternif.mc.atlas:antiqueatlas:1.12.2-4.6.3@jar",
+          "name": "Antique Atlas",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1239580,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/antiqueatlas-1.12.2-4.6.3.jar",
+            "MD5": "2cafce41d88d5067bf9a9da6a8fc79a8"
+          }
+        },
+        {
+          "id": "appeng.core:appliedenergistics2:rv6-stable-7@jar",
+          "name": "Applied Energistics 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4062630,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/appliedenergistics2-rv6-stable-7.jar",
+            "MD5": "b8667d60a761d5b5ae3c8a15192f9e28"
+          }
+        },
+        {
+          "id": "net.mcreator.armorsoulsremake:armor_souls_reforged:1.0.0@jar",
+          "name": "Armor Souls: Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 728820,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/Armor+Souls+Reforged+v1.jar",
+            "MD5": "e08b7975c86346868e8c541e51196417"
+          }
+        },
+        {
           "id": "alexiil.mc.mod.load:customloadingscreen:1.12.2-1.5.6@jar",
           "name": "Custom Loading Screen",
           "type": "ForgeMod",
@@ -896,50 +966,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/mobends.cfg",
             "MD5": "d86d83c0dbf6984a97f43feb9ac8c14a",
             "path": "config/mobends.cfg"
-          }
-        },
-        {
-          "id": "ActuallyAdditions-1.12.2-r152.jar",
-          "name": "ActuallyAdditions-1.12.2-r152.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2958699,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ActuallyAdditions-1.12.2-r152.jar",
-            "MD5": "4bb5c052581c729eb8a6adc60b376ec6",
-            "path": "mods/ActuallyAdditions-1.12.2-r152.jar"
-          }
-        },
-        {
-          "id": "Advanced+Solar+Panels-4.3.0.jar",
-          "name": "Advanced+Solar+Panels-4.3.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 316833,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Advanced+Solar+Panels-4.3.0.jar",
-            "MD5": "2f16b7591d15da58d91f2ff147299a73",
-            "path": "mods/Advanced+Solar+Panels-4.3.0.jar"
-          }
-        },
-        {
-          "id": "AncientSpellcraft-1.12.2-1.2.2.jar",
-          "name": "AncientSpellcraft-1.12.2-1.2.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5687092,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/AncientSpellcraft-1.12.2-1.2.2.jar",
-            "MD5": "251a0ee0b5abd7ba47dcaa329a51f188",
-            "path": "mods/AncientSpellcraft-1.12.2-1.2.2.jar"
-          }
-        },
-        {
-          "id": "Armor+Souls+Reforged+v1.jar",
-          "name": "Armor+Souls+Reforged+v1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 728820,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Armor+Souls+Reforged+v1.jar",
-            "MD5": "e08b7975c86346868e8c541e51196417",
-            "path": "mods/Armor+Souls+Reforged+v1.jar"
           }
         },
         {
@@ -1578,39 +1604,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ZettaiMagic+1.4.2.jar",
             "MD5": "8bf13fb62234d5bec51a0d179278b5ba",
             "path": "mods/ZettaiMagic+1.4.2.jar"
-          }
-        },
-        {
-          "id": "[1.12.2]+SecurityCraft+v1.8.23.2.jar",
-          "name": "[1.12.2]+SecurityCraft+v1.8.23.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1915657,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/[1.12.2]+SecurityCraft+v1.8.23.2.jar",
-            "MD5": "32d7af044c1d127597eb3e02199700bd",
-            "path": "mods/[1.12.2]+SecurityCraft+v1.8.23.2.jar"
-          }
-        },
-        {
-          "id": "antiqueatlas-1.12.2-4.6.3.jar",
-          "name": "antiqueatlas-1.12.2-4.6.3.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1239580,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/antiqueatlas-1.12.2-4.6.3.jar",
-            "MD5": "2cafce41d88d5067bf9a9da6a8fc79a8",
-            "path": "mods/antiqueatlas-1.12.2-4.6.3.jar"
-          }
-        },
-        {
-          "id": "appliedenergistics2-rv6-stable-7.jar",
-          "name": "appliedenergistics2-rv6-stable-7.jar",
-          "type": "File",
-          "artifact": {
-            "size": 4062630,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/appliedenergistics2-rv6-stable-7.jar",
-            "MD5": "b8667d60a761d5b5ae3c8a15192f9e28",
-            "path": "mods/appliedenergistics2-rv6-stable-7.jar"
           }
         },
         {
