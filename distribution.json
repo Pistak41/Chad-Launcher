@@ -748,6 +748,20 @@
           }
         },
         {
+          "id": "goblinbob.mobends.standard.main:mobends:1.1.0@jar",
+          "name": "Mo' Bends",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 760863,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/optionaloff/MoBends_1.12.2-1.1.0-28.09.21.jar",
+            "MD5": "0c90fe3a3b6bd2412d425d2abb7a154c"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
           "name": "OptiFine 1.12.2_HD_U_G5",
           "type": "ForgeMod",
