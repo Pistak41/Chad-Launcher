@@ -782,6 +782,166 @@
           }
         },
         {
+          "id": "com.artemis:artemislib:1.0.6@jar",
+          "name": "ArtemisLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21318,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ArtemisLib-1.12.2-v1.0.6.jar",
+            "MD5": "cd4d52c46b76651ad3f3ee36961ca8fd"
+          }
+        },
+        {
+          "id": "aurocosh.autonetworklib:autonetworklib:1.0.45@jar",
+          "name": "Auto Network Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 42252,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/autonetworklib-1.12.2-1.0.45.jar",
+            "MD5": "d71e10c4e181819d8052d2afe3d1ccad"
+          }
+        },
+        {
+          "id": "vazkii.arl:autoreglib:1.3-32@jar",
+          "name": "AutoRegLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 108306,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/AutoRegLib-1.3-32.jar",
+            "MD5": "4e5a4b881c27b1e4502a9a16c00882ad"
+          }
+        },
+        {
+          "id": "baubles:baubles:1.12-1.5.2@jar",
+          "name": "Baubles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 108450,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/Baubles-1.12-1.5.2.jar",
+            "MD5": "944dec4ef3fbfd4d498d94a7047af201"
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:7.0.1@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4702147,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
+            "MD5": "4c1d23b8a58b6aaa9a5204fae3f18393"
+          }
+        },
+        {
+          "id": "vazkii.botania:botania:r1.10-364.4@jar",
+          "name": "Botania",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13817704,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/Botania+r1.10-364.4.jar",
+            "MD5": "7a19779fa19e37cb9fb49a0a1770332b"
+          }
+        },
+        {
+          "id": "com.brandon3055:brandonscore:1.12.2-2.4.20.22@jar",
+          "name": "Brandon's Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 827900,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+            "MD5": "4a67ccad9d684466010c02164d7ff13e"
+          }
+        },
+        {
+          "id": "buildcraft.compat:buildcraftlib:7.99.24.8@jar",
+          "name": "BuildCraft Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4879732,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/buildcraft-all-7.99.24.8.jar",
+            "MD5": "df73e94d29b8c6bde42c451ff6018761"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:1.12.3@jar",
+          "name": "Carry On",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 319491,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/carryon-1.12.2-1.12.4.16.jar",
+            "MD5": "9a18667fc6953dcc7899928f007efddf"
+          }
+        },
+        {
+          "id": "team.cqr:cqrepoured:2.5.3B@jar",
+          "name": "Chocolate_Quest_Repoured",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5462081,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
+            "MD5": "ebc4c328d1d9994a8e77c5963af815be"
+          }
+        },
+        {
+          "id": "codechicken.lib:codechickenlib:3.2.3.358@jar",
+          "name": "CodeChicken Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 704330,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+            "MD5": "3b5e44db5ac96fb23a439590b6731a31"
+          }
+        },
+        {
+          "id": "cofh:cofhcore:4.6.6.1@jar",
+          "name": "CoFH Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 848187,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/CoFHCore-1.12.2-4.6.6.1-universal.jar",
+            "MD5": "f147d3b87f97bb317e1c37cba0dde002"
+          }
+        },
+        {
+          "id": "cofh.cofhworld:cofhworld:1.4.0.1@jar",
+          "name": "CoFH World",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 505987,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+            "MD5": "f2bfd74e76b71bdee8a20a9243dd5cdf"
+          }
+        },
+        {
+          "id": "org.cyclops:commoncapabilities:1.12.2-2.4.6@jar",
+          "name": "CommonCapabilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 361473,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/CommonCapabilities-1.12.2-2.4.6.jar",
+            "MD5": "51c5f7fa82c3a243538397bdca28c6ca"
+          }
+        },
+        {
+          "id": "com.blamejared:crafttweaker:1.12-4.1.20.660@jar",
+          "name": "CraftTweaker2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1562816,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/CraftTweaker2-1.12-4.1.20.660.jar",
+            "MD5": "5564da84d9122dc975a7592550e996e2"
+          }
+        },
+        {
+          "id": "team.chisel:ctm:MC1.12.2-1.0.2.31@jar",
+          "name": "CTM",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 199045,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/CTM-MC1.12.2-1.0.2.31.jar",
+            "MD5": "77a8bb5486c97e3eaa6f45e5bd768864"
+          }
+        },
+        {
           "id": "alexiil.mc.mod.load:customloadingscreen:1.12.2-1.5.6@jar",
           "name": "Custom Loading Screen",
           "type": "ForgeMod",
@@ -799,6 +959,46 @@
             "size": 91121,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/custommainmenu-2.0.9.1.jar",
             "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.12@jar",
+          "name": "CustomNPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9911871,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/CustomNPCs_1.12.2-(05Jul20).jar",
+            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7"
+          }
+        },
+        {
+          "id": "org.cyclops:cyclopscore:1.12.2-1.6.7@jar",
+          "name": "Cyclops Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1060985,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/CyclopsCore-1.12.2-1.6.7.jar",
+            "MD5": "dc635fec13b1245323a58799fa6e6b39"
+          }
+        },
+        {
+          "id": "com.mia:props:2.6.3.7_1.12.2@jar",
+          "name": "Decocraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16976718,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/Decocraft-2.6.3.7_1.12.2.jar",
+            "MD5": "083cf0c798ebfd6065c2db0af0419c12"
+          }
+        },
+        {
+          "id": "com.brandon3055:draconicevolution:1.12.2-2.3.28.193@jar",
+          "name": "Draconic Evolution",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5708839,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
+            "MD5": "e6c70ebe71c94d00b1056f6e4bef207f"
           }
         },
         {
@@ -969,6 +1169,17 @@
           }
         },
         {
+          "id": "customloadingscreen.cfg",
+          "name": "customloadingscreen.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1032,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/customloadingscreen.cfg",
+            "MD5": "d4b44ebac0b00e4bdec85a25bf86206b",
+            "path": "config/customloadingscreen.cfg"
+          }
+        },
+        {
           "id": "mobends.cfg",
           "name": "mobends.cfg",
           "type": "File",
@@ -977,193 +1188,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/mobends.cfg",
             "MD5": "d86d83c0dbf6984a97f43feb9ac8c14a",
             "path": "config/mobends.cfg"
-          }
-        },
-        {
-          "id": "ArtemisLib-1.12.2-v1.0.6.jar",
-          "name": "ArtemisLib-1.12.2-v1.0.6.jar",
-          "type": "File",
-          "artifact": {
-            "size": 21318,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ArtemisLib-1.12.2-v1.0.6.jar",
-            "MD5": "cd4d52c46b76651ad3f3ee36961ca8fd",
-            "path": "mods/ArtemisLib-1.12.2-v1.0.6.jar"
-          }
-        },
-        {
-          "id": "AutoRegLib-1.3-32.jar",
-          "name": "AutoRegLib-1.3-32.jar",
-          "type": "File",
-          "artifact": {
-            "size": 108306,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/AutoRegLib-1.3-32.jar",
-            "MD5": "4e5a4b881c27b1e4502a9a16c00882ad",
-            "path": "mods/AutoRegLib-1.3-32.jar"
-          }
-        },
-        {
-          "id": "Baubles-1.12-1.5.2.jar",
-          "name": "Baubles-1.12-1.5.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 108450,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Baubles-1.12-1.5.2.jar",
-            "MD5": "944dec4ef3fbfd4d498d94a7047af201",
-            "path": "mods/Baubles-1.12-1.5.2.jar"
-          }
-        },
-        {
-          "id": "BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
-          "name": "BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 4702147,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
-            "MD5": "4c1d23b8a58b6aaa9a5204fae3f18393",
-            "path": "mods/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar"
-          }
-        },
-        {
-          "id": "Botania+r1.10-364.4.jar",
-          "name": "Botania+r1.10-364.4.jar",
-          "type": "File",
-          "artifact": {
-            "size": 13817704,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Botania+r1.10-364.4.jar",
-            "MD5": "7a19779fa19e37cb9fb49a0a1770332b",
-            "path": "mods/Botania+r1.10-364.4.jar"
-          }
-        },
-        {
-          "id": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
-          "name": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 827900,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/BrandonsCore-1.12.2-2.4.20.162-universal.jar",
-            "MD5": "4a67ccad9d684466010c02164d7ff13e",
-            "path": "mods/BrandonsCore-1.12.2-2.4.20.162-universal.jar"
-          }
-        },
-        {
-          "id": "CTM-MC1.12.2-1.0.2.31.jar",
-          "name": "CTM-MC1.12.2-1.0.2.31.jar",
-          "type": "File",
-          "artifact": {
-            "size": 199045,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CTM-MC1.12.2-1.0.2.31.jar",
-            "MD5": "77a8bb5486c97e3eaa6f45e5bd768864",
-            "path": "mods/CTM-MC1.12.2-1.0.2.31.jar"
-          }
-        },
-        {
-          "id": "Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
-          "name": "Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5462081,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar",
-            "MD5": "ebc4c328d1d9994a8e77c5963af815be",
-            "path": "mods/Chocolate_Quest_Repoured-1.12.2-2.5.3B.jar"
-          }
-        },
-        {
-          "id": "CoFHCore-1.12.2-4.6.6.1-universal.jar",
-          "name": "CoFHCore-1.12.2-4.6.6.1-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 848187,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CoFHCore-1.12.2-4.6.6.1-universal.jar",
-            "MD5": "f147d3b87f97bb317e1c37cba0dde002",
-            "path": "mods/CoFHCore-1.12.2-4.6.6.1-universal.jar"
-          }
-        },
-        {
-          "id": "CoFHWorld-1.12.2-1.4.0.1-universal.jar",
-          "name": "CoFHWorld-1.12.2-1.4.0.1-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 505987,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
-            "MD5": "f2bfd74e76b71bdee8a20a9243dd5cdf",
-            "path": "mods/CoFHWorld-1.12.2-1.4.0.1-universal.jar"
-          }
-        },
-        {
-          "id": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
-          "name": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 704330,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
-            "MD5": "3b5e44db5ac96fb23a439590b6731a31",
-            "path": "mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar"
-          }
-        },
-        {
-          "id": "CommonCapabilities-1.12.2-2.4.6.jar",
-          "name": "CommonCapabilities-1.12.2-2.4.6.jar",
-          "type": "File",
-          "artifact": {
-            "size": 361473,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CommonCapabilities-1.12.2-2.4.6.jar",
-            "MD5": "51c5f7fa82c3a243538397bdca28c6ca",
-            "path": "mods/CommonCapabilities-1.12.2-2.4.6.jar"
-          }
-        },
-        {
-          "id": "CraftTweaker2-1.12-4.1.20.660.jar",
-          "name": "CraftTweaker2-1.12-4.1.20.660.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1562816,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CraftTweaker2-1.12-4.1.20.660.jar",
-            "MD5": "5564da84d9122dc975a7592550e996e2",
-            "path": "mods/CraftTweaker2-1.12-4.1.20.660.jar"
-          }
-        },
-        {
-          "id": "CustomNPCs_1.12.2-(05Jul20).jar",
-          "name": "CustomNPCs_1.12.2-(05Jul20).jar",
-          "type": "File",
-          "artifact": {
-            "size": 9911871,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CustomNPCs_1.12.2-(05Jul20).jar",
-            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7",
-            "path": "mods/CustomNPCs_1.12.2-(05Jul20).jar"
-          }
-        },
-        {
-          "id": "CyclopsCore-1.12.2-1.6.7.jar",
-          "name": "CyclopsCore-1.12.2-1.6.7.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1060985,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/CyclopsCore-1.12.2-1.6.7.jar",
-            "MD5": "dc635fec13b1245323a58799fa6e6b39",
-            "path": "mods/CyclopsCore-1.12.2-1.6.7.jar"
-          }
-        },
-        {
-          "id": "Decocraft-2.6.3.7_1.12.2.jar",
-          "name": "Decocraft-2.6.3.7_1.12.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 16976718,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Decocraft-2.6.3.7_1.12.2.jar",
-            "MD5": "083cf0c798ebfd6065c2db0af0419c12",
-            "path": "mods/Decocraft-2.6.3.7_1.12.2.jar"
-          }
-        },
-        {
-          "id": "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
-          "name": "Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5708839,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
-            "MD5": "e6c70ebe71c94d00b1056f6e4bef207f",
-            "path": "mods/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar"
           }
         },
         {
@@ -1615,39 +1639,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ZettaiMagic+1.4.2.jar",
             "MD5": "8bf13fb62234d5bec51a0d179278b5ba",
             "path": "mods/ZettaiMagic+1.4.2.jar"
-          }
-        },
-        {
-          "id": "autonetworklib-1.12.2-1.0.45.jar",
-          "name": "autonetworklib-1.12.2-1.0.45.jar",
-          "type": "File",
-          "artifact": {
-            "size": 42252,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/autonetworklib-1.12.2-1.0.45.jar",
-            "MD5": "d71e10c4e181819d8052d2afe3d1ccad",
-            "path": "mods/autonetworklib-1.12.2-1.0.45.jar"
-          }
-        },
-        {
-          "id": "buildcraft-all-7.99.24.8.jar",
-          "name": "buildcraft-all-7.99.24.8.jar",
-          "type": "File",
-          "artifact": {
-            "size": 4879732,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/buildcraft-all-7.99.24.8.jar",
-            "MD5": "df73e94d29b8c6bde42c451ff6018761",
-            "path": "mods/buildcraft-all-7.99.24.8.jar"
-          }
-        },
-        {
-          "id": "carryon-1.12.2-1.12.4.16.jar",
-          "name": "carryon-1.12.2-1.12.4.16.jar",
-          "type": "File",
-          "artifact": {
-            "size": 319491,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/carryon-1.12.2-1.12.4.16.jar",
-            "MD5": "9a18667fc6953dcc7899928f007efddf",
-            "path": "mods/carryon-1.12.2-1.12.4.16.jar"
           }
         },
         {
