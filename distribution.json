@@ -712,6 +712,16 @@
           ]
         },
         {
+          "id": "alexiil.mc.mod.load:customloadingscreen:1.12.2-1.5.6@jar",
+          "name": "Custom Loading Screen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 976969,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/CustomLoadingScreen-1.12.2-1.5.6.jar",
+            "MD5": "8f6acbade05a1d5a4bc4a1a0cda7b675"
+          }
+        },
+        {
           "id": "lumien.custommainmenu:custommainmenu:2.0.9.1@jar",
           "name": "Custom Main Menu",
           "type": "ForgeMod",
@@ -719,6 +729,16 @@
             "size": 91121,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/custommainmenu-2.0.9.1.jar",
             "MD5": "c12200ad89f9399d5bdcbe9da7900bb9"
+          }
+        },
+        {
+          "id": "electroblob.wizardry:ebwizardry:4.3.4@jar",
+          "name": "Electroblob's Wizardry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10833151,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ebwizardry-4.3.4.jar",
+            "MD5": "407a92f5443e5b60c730a97ab8341716"
           }
         },
         {
@@ -775,6 +795,16 @@
           }
         },
         {
+          "id": "me.jellysquid.mods.phosphor.mod:phosphor-lighting:1.12.2-0.2.7@jar",
+          "name": "Phosphor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 920264,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/phosphor-forge-mc1.12.2-0.2.7-universal.jar",
+            "MD5": "13f62131ab2fff6212301ee70f6bf5d8"
+          }
+        },
+        {
           "id": "lumien.resourceloader:resourceloader:1.5.3@jar",
           "name": "Resource Loader",
           "type": "ForgeMod",
@@ -782,6 +812,16 @@
             "size": 16612,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/resourceloader-1.5.3.jar",
             "MD5": "51141e882f96ce756b9b3d25f2acdf57"
+          }
+        },
+        {
+          "id": "com.teamderpy:shouldersurfing:2.2.1@jar",
+          "name": "Shoulder Surfing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 150246,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ShoulderSurfing-1.12.2-2.2.1.jar",
+            "MD5": "3805aa998fecb298db4fee93261eeefc"
           }
         },
         {
@@ -1093,17 +1133,6 @@
           }
         },
         {
-          "id": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
-          "name": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 10881050,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
-            "MD5": "a6cf1f36c230fbed2f4ef5b2db72d87a",
-            "path": "mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar"
-          }
-        },
-        {
           "id": "EnderCore-1.12.2-0.5.76.jar",
           "name": "EnderCore-1.12.2-0.5.76.jar",
           "type": "File",
@@ -1266,6 +1295,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/Mekanism-1.12.2-9.8.3.390.jar",
             "MD5": "e622b8365b9a1190b3b6cc042854e870",
             "path": "mods/Mekanism-1.12.2-9.8.3.390.jar"
+          }
+        },
+        {
+          "id": "MoBends - NO ELIMINAR.jar",
+          "name": "MoBends - NO ELIMINAR.jar",
+          "type": "File",
+          "artifact": {
+            "size": 702608,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MoBends%20-%20NO%20ELIMINAR.jar",
+            "MD5": "3b744a926aec836a079caa7382f91c94",
+            "path": "mods/MoBends - NO ELIMINAR.jar"
           }
         },
         {
