@@ -881,6 +881,17 @@
           }
         },
         {
+          "id": "AppliedEnergistics2.cfg",
+          "name": "AppliedEnergistics2.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 12259,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/AppliedEnergistics2/AppliedEnergistics2.cfg",
+            "MD5": "0ca3217e739541549e5ed7eff0078ec1",
+            "path": "config/AppliedEnergistics2/AppliedEnergistics2.cfg"
+          }
+        },
+        {
           "id": "mainmenu.json",
           "name": "mainmenu.json",
           "type": "File",
