@@ -1895,6 +1895,17 @@
           }
         },
         {
+          "id": "ebwizardry.cfg",
+          "name": "ebwizardry.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 58787,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/ebwizardry/ebwizardry.cfg",
+            "MD5": "c86dd00a1a44b535d74dfc33533b7b74",
+            "path": "config/ebwizardry/ebwizardry.cfg"
+          }
+        },
+        {
           "id": "mobends.cfg",
           "name": "mobends.cfg",
           "type": "File",
