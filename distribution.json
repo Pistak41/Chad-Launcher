@@ -1002,6 +1002,16 @@
           }
         },
         {
+          "id": "com.favouritedragon.dragonenchantments:dragon_enchants:1.0.0@jar",
+          "name": "Dragon Enchantments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 805877,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/dragonenchantments-1.0.0.jar",
+            "MD5": "a94f50a6efc39d3405a45ed12c975380"
+          }
+        },
+        {
           "id": "electroblob.wizardry:ebwizardry:4.3.4@jar",
           "name": "Electroblob's Wizardry",
           "type": "ForgeMod",
@@ -1136,14 +1146,25 @@
           }
         },
         {
-          "id": "biome_textures (2).json",
-          "name": "biome_textures (2).json",
+          "id": "antiqueatlas.cfg",
+          "name": "antiqueatlas.cfg",
           "type": "File",
           "artifact": {
-            "size": 4431,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/antiqueatlas/biome_textures%20(2).json",
-            "MD5": "225e3ac170578cf2aab292503975373c",
-            "path": "config/antiqueatlas/biome_textures (2).json"
+            "size": 4728,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/antiqueatlas/antiqueatlas.cfg",
+            "MD5": "2f4ea1f2bb2536319c378ad2ffdced27",
+            "path": "config/antiqueatlas/antiqueatlas.cfg"
+          }
+        },
+        {
+          "id": "atlas_overlay.cfg",
+          "name": "atlas_overlay.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3411,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/antiqueatlas/atlas_overlay.cfg",
+            "MD5": "de40b0caf7b2cffd6dfa4ab9cb13bbab",
+            "path": "config/antiqueatlas/atlas_overlay.cfg"
           }
         },
         {
@@ -1151,10 +1172,32 @@
           "name": "biome_textures.json",
           "type": "File",
           "artifact": {
-            "size": 5788,
+            "size": 2878,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/antiqueatlas/biome_textures.json",
-            "MD5": "94c49ed899f45447f68854b6aff7dced",
+            "MD5": "af642aac2f7b5652fc953d3c0412f138",
             "path": "config/antiqueatlas/biome_textures.json"
+          }
+        },
+        {
+          "id": "biome_textures_old1.json",
+          "name": "biome_textures_old1.json",
+          "type": "File",
+          "artifact": {
+            "size": 4431,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/antiqueatlas/biome_textures_old1.json",
+            "MD5": "225e3ac170578cf2aab292503975373c",
+            "path": "config/antiqueatlas/biome_textures_old1.json"
+          }
+        },
+        {
+          "id": "markers.json",
+          "name": "markers.json",
+          "type": "File",
+          "artifact": {
+            "size": 1878,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/antiqueatlas/markers.json",
+            "MD5": "ce54c2ec8c04c91bbd21cecf2d2a5ab1",
+            "path": "config/antiqueatlas/markers.json"
           }
         },
         {
@@ -1166,6 +1209,28 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/antiqueatlas/texture_sets.json",
             "MD5": "2d085b0818e90bc778b52ec2a8983255",
             "path": "config/antiqueatlas/texture_sets.json"
+          }
+        },
+        {
+          "id": "tile_textures.json",
+          "name": "tile_textures.json",
+          "type": "File",
+          "artifact": {
+            "size": 1077,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/antiqueatlas/tile_textures.json",
+            "MD5": "5ec504e085a5174e6d9f418d36c6e7b2",
+            "path": "config/antiqueatlas/tile_textures.json"
+          }
+        },
+        {
+          "id": "tileids.json",
+          "name": "tileids.json",
+          "type": "File",
+          "artifact": {
+            "size": 780,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/antiqueatlas/tileids.json",
+            "MD5": "33155192fb405e6d1dcb0743f03b4792",
+            "path": "config/antiqueatlas/tileids.json"
           }
         },
         {
@@ -1639,17 +1704,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ZettaiMagic+1.4.2.jar",
             "MD5": "8bf13fb62234d5bec51a0d179278b5ba",
             "path": "mods/ZettaiMagic+1.4.2.jar"
-          }
-        },
-        {
-          "id": "dragonenchantments-1.0.0.jar",
-          "name": "dragonenchantments-1.0.0.jar",
-          "type": "File",
-          "artifact": {
-            "size": 805877,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/dragonenchantments-1.0.0.jar",
-            "MD5": "a94f50a6efc39d3405a45ed12c975380",
-            "path": "mods/dragonenchantments-1.0.0.jar"
           }
         },
         {
