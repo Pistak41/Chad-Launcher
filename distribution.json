@@ -1002,6 +1002,16 @@
           }
         },
         {
+          "id": "electroblob.wizardry:ebwizardry:4.3.4@jar",
+          "name": "Electroblob's Wizardry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10833151,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ebwizardry-4.3.4.jar",
+            "MD5": "407a92f5443e5b60c730a97ab8341716"
+          }
+        },
+        {
           "id": "com.enderio.core:endercore:1.12.2-0.5.76@jar",
           "name": "EnderCore",
           "type": "ForgeMod",
@@ -1019,16 +1029,6 @@
             "size": 8946575,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/EnderIO-1.12.2-5.3.70.jar",
             "MD5": "c74737e1b943ca1b94265f0bc8f1c6cc"
-          }
-        },
-        {
-          "id": "meldexun.extraspells:extra_spells:1.2.0@jar",
-          "name": "Meldexun's Extra Spells",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 93682,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ExtraSpells-1.12.2-1.2.0.jar",
-            "MD5": "84661ace81cd4a43fed9b9c83fdb6c6b"
           }
         },
         {
@@ -1878,14 +1878,14 @@
           }
         },
         {
-          "id": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
-          "name": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
+          "id": "ExtraSpells-1.12.2-1.2.0.jar",
+          "name": "ExtraSpells-1.12.2-1.2.0.jar",
           "type": "File",
           "artifact": {
-            "size": 10881050,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
-            "MD5": "a6cf1f36c230fbed2f4ef5b2db72d87a",
-            "path": "mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar"
+            "size": 93682,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ExtraSpells-1.12.2-1.2.0.jar",
+            "MD5": "84661ace81cd4a43fed9b9c83fdb6c6b",
+            "path": "mods/ExtraSpells-1.12.2-1.2.0.jar"
           }
         },
         {
