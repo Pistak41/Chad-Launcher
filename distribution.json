@@ -1012,16 +1012,6 @@
           }
         },
         {
-          "id": "electroblob.wizardry:ebwizardry:4.3.4@jar",
-          "name": "Electroblob's Wizardry",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 10833151,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ebwizardry-4.3.4.jar",
-            "MD5": "407a92f5443e5b60c730a97ab8341716"
-          }
-        },
-        {
           "id": "com.enderio.core:endercore:1.12.2-0.5.76@jar",
           "name": "EnderCore",
           "type": "ForgeMod",
@@ -1601,6 +1591,16 @@
           }
         },
         {
+          "id": "simpletextoverlay:simpletextoverlay:1.12.2-0.5.0.0@jar",
+          "name": "Simple Text Overlay",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 433117,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/SimpleTextOverlay-1.12.2-1.0.0.2.jar",
+            "MD5": "b8867632975410f9ba5fd58c7f5710ce"
+          }
+        },
+        {
           "id": "stevekung.mods.stevekunglib.core:stevekung's_lib:1.1.10@jar",
           "name": "SteveKunG's Lib",
           "type": "ForgeMod",
@@ -1718,6 +1718,26 @@
             "size": 227426,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/zerocore-1.12.2-0.1.2.9.jar",
             "MD5": "8e15e85a8975db0f7a2285f336b47688"
+          }
+        },
+        {
+          "id": "zettasword.zettaigrimoires:zettaigrimoires:1.4.9@jar",
+          "name": "Zettai Grimoires",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 991848,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ZettaiGrimoires+1.4.9.jar",
+            "MD5": "bf5b423171ccf6c1661ab23c21c0e605"
+          }
+        },
+        {
+          "id": "zettasword.zettaimagic:zettaimagic:1.4.2@jar",
+          "name": "Zettai Magic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6313346,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ZettaiMagic+1.4.2.jar",
+            "MD5": "8bf13fb62234d5bec51a0d179278b5ba"
           }
         },
         {
@@ -1897,6 +1917,17 @@
           }
         },
         {
+          "id": "simpletextoverlay.cfg",
+          "name": "simpletextoverlay.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3330,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/simpletextoverlay.cfg",
+            "MD5": "d389fc064361bffdc0bc8e6e29b700b8",
+            "path": "config/simpletextoverlay.cfg"
+          }
+        },
+        {
           "id": "Mixin - NO ELIMINAR.jar",
           "name": "Mixin - NO ELIMINAR.jar",
           "type": "File",
@@ -1919,25 +1950,14 @@
           }
         },
         {
-          "id": "ZettaiGrimoires+1.4.9.jar",
-          "name": "ZettaiGrimoires+1.4.9.jar",
+          "id": "ebwizardry-4.3.4.jar",
+          "name": "ebwizardry-4.3.4.jar",
           "type": "File",
           "artifact": {
-            "size": 991848,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ZettaiGrimoires+1.4.9.jar",
-            "MD5": "bf5b423171ccf6c1661ab23c21c0e605",
-            "path": "mods/ZettaiGrimoires+1.4.9.jar"
-          }
-        },
-        {
-          "id": "ZettaiMagic+1.4.2.jar",
-          "name": "ZettaiMagic+1.4.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 6313346,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ZettaiMagic+1.4.2.jar",
-            "MD5": "8bf13fb62234d5bec51a0d179278b5ba",
-            "path": "mods/ZettaiMagic+1.4.2.jar"
+            "size": 10833151,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ebwizardry-4.3.4.jar",
+            "MD5": "407a92f5443e5b60c730a97ab8341716",
+            "path": "mods/ebwizardry-4.3.4.jar"
           }
         },
         {
