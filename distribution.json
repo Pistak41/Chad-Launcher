@@ -1845,17 +1845,6 @@
           }
         },
         {
-          "id": "ebwizardry.cfg",
-          "name": "ebwizardry.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 58787,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/ebwizardry/ebwizardry.cfg",
-            "MD5": "c86dd00a1a44b535d74dfc33533b7b74",
-            "path": "config/ebwizardry/ebwizardry.cfg"
-          }
-        },
-        {
           "id": "mobends.cfg",
           "name": "mobends.cfg",
           "type": "File",
@@ -1886,6 +1875,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/AncientSpellcraft-1.12.2-1.2.2.jar",
             "MD5": "251a0ee0b5abd7ba47dcaa329a51f188",
             "path": "mods/AncientSpellcraft-1.12.2-1.2.2.jar"
+          }
+        },
+        {
+          "id": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
+          "name": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10881050,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
+            "MD5": "a6cf1f36c230fbed2f4ef5b2db72d87a",
+            "path": "mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar"
           }
         },
         {
@@ -1952,17 +1952,6 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ZettaiMagic+1.4.2.jar",
             "MD5": "8bf13fb62234d5bec51a0d179278b5ba",
             "path": "mods/ZettaiMagic+1.4.2.jar"
-          }
-        },
-        {
-          "id": "ebwizardry-4.3.4.jar",
-          "name": "ebwizardry-4.3.4.jar",
-          "type": "File",
-          "artifact": {
-            "size": 10833151,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ebwizardry-4.3.4.jar",
-            "MD5": "407a92f5443e5b60c730a97ab8341716",
-            "path": "mods/ebwizardry-4.3.4.jar"
           }
         },
         {
