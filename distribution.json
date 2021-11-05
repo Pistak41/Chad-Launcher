@@ -1551,16 +1551,6 @@
           }
         },
         {
-          "id": "t3mods.seedsforelectroblobswizardry:t3s4ebw:1.0@jar",
-          "name": "Seeds For Electroblob's Wizardry",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 24736,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/SeedsForWizardryReforged.jar",
-            "MD5": "2ba94627be0f59662c9b126a027b2886"
-          }
-        },
-        {
           "id": "com.teamderpy:shouldersurfing:2.2.1@jar",
           "name": "Shoulder Surfing",
           "type": "ForgeMod",
@@ -1929,6 +1919,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MoSpells-1.12.2-1.0.2.jar",
             "MD5": "896e9dd595fbd920701cb0a871ec4a65",
             "path": "mods/MoSpells-1.12.2-1.0.2.jar"
+          }
+        },
+        {
+          "id": "SeedsForWizardryReforged.jar",
+          "name": "SeedsForWizardryReforged.jar",
+          "type": "File",
+          "artifact": {
+            "size": 24736,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/SeedsForWizardryReforged.jar",
+            "MD5": "2ba94627be0f59662c9b126a027b2886",
+            "path": "mods/SeedsForWizardryReforged.jar"
           }
         },
         {
