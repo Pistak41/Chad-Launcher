@@ -1721,26 +1721,6 @@
           }
         },
         {
-          "id": "zettasword.zettaigrimoires:zettaigrimoires:1.4.9@jar",
-          "name": "Zettai Grimoires",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 991848,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ZettaiGrimoires+1.4.9.jar",
-            "MD5": "bf5b423171ccf6c1661ab23c21c0e605"
-          }
-        },
-        {
-          "id": "zettasword.zettaimagic:zettaimagic:1.4.2@jar",
-          "name": "Zettai Magic",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6313346,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ZettaiMagic+1.4.2.jar",
-            "MD5": "8bf13fb62234d5bec51a0d179278b5ba"
-          }
-        },
-        {
           "id": "AppliedEnergistics2.cfg",
           "name": "AppliedEnergistics2.cfg",
           "type": "File",
@@ -1936,6 +1916,28 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/MoBends%20-%20NO%20ELIMINAR.jar",
             "MD5": "3b744a926aec836a079caa7382f91c94",
             "path": "mods/MoBends - NO ELIMINAR.jar"
+          }
+        },
+        {
+          "id": "ZettaiGrimoires+1.4.9.jar",
+          "name": "ZettaiGrimoires+1.4.9.jar",
+          "type": "File",
+          "artifact": {
+            "size": 991848,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ZettaiGrimoires+1.4.9.jar",
+            "MD5": "bf5b423171ccf6c1661ab23c21c0e605",
+            "path": "mods/ZettaiGrimoires+1.4.9.jar"
+          }
+        },
+        {
+          "id": "ZettaiMagic+1.4.2.jar",
+          "name": "ZettaiMagic+1.4.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6313346,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/ZettaiMagic+1.4.2.jar",
+            "MD5": "8bf13fb62234d5bec51a0d179278b5ba",
+            "path": "mods/ZettaiMagic+1.4.2.jar"
           }
         },
         {
