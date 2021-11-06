@@ -24715,13 +24715,13 @@
           }
         },
         {
-          "id": "net.dark_roleplay.core_modules.blueprints:drpcmblueprints:1.12.2-1.2.3@jar",
+          "id": "net.dark_roleplay.core_modules.blueprints:drpcmblueprints:1.12.2-1.2.4@jar",
           "name": "Dark Roleplay Core Module Blueprints",
           "type": "ForgeMod",
           "artifact": {
-            "size": 81126,
-            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/drpcmblueprints-1.12.2-1.2.3.jar",
-            "MD5": "56663064526ccd1f66ec16505f89c60c"
+            "size": 231675,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/drpcmblueprints-1.12.2-1.2.4.jar",
+            "MD5": "3944660806cf516f21f29330ef8577b5"
           }
         },
         {
