@@ -24604,6 +24604,26 @@
           }
         },
         {
+          "id": "team.chisel:chisel:MC1.12.2-1.0.2.45@jar",
+          "name": "Chisel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4755282,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Chisel-MC1.12.2-1.0.2.45.jar",
+            "MD5": "54afc298f94e708f0e1cdf399200b2cb"
+          }
+        },
+        {
+          "id": "team.cqr:cqrepoured:2.4.2B@jar",
+          "name": "Chocolate_Quest_Repoured",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5400241,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Chocolate_Quest_Repoured-1.12.2-2.4.2B.jar",
+            "MD5": "28fbb80ced7a27c4a56424f570f61f64"
+          }
+        },
+        {
           "id": "extendedrenderer:coroutil:1.12.1-1.2.37@jar",
           "name": "CoroUtil Library",
           "type": "ForgeMod",
@@ -24684,6 +24704,36 @@
           }
         },
         {
+          "id": "net.dark_roleplay.core_modules.blueprints:drpcmblueprints:1.12.2-1.2.4@jar",
+          "name": "Dark Roleplay Core Module Blueprints",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 231675,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/drpcmblueprints-1.12.2-1.2.4.jar",
+            "MD5": "3944660806cf516f21f29330ef8577b5"
+          }
+        },
+        {
+          "id": "net.dark_roleplay.core:drpcore:1.12.2-0.4.7@jar",
+          "name": "Dark Roleplay Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1075472,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/drpcore-1.12.2-0.4.8.jar",
+            "MD5": "5425b06103cbce9ff1abddb6ad8ea5c9"
+          }
+        },
+        {
+          "id": "net.dark_roleplay.medieval:drpmedieval:1.12.2-0.3.6@jar",
+          "name": "Dark Roleplay Medieval",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5575065,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/drpmedieval-1.12.2-0.3.6.jar",
+            "MD5": "d65b3f37ed9a9cec5d607ccd8ed67a7c"
+          }
+        },
+        {
           "id": "pegbeard.dungeontactics:dungeontactics:DT-0.16.9@jar",
           "name": "DungeonTactics",
           "type": "ForgeMod",
@@ -24691,6 +24741,16 @@
             "size": 2797080,
             "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/DungeonTactics-1.12.2-0.16.9.jar",
             "MD5": "0e87f86e10338ad36cdc9a1b4e56d78b"
+          }
+        },
+        {
+          "id": "electroblob.wizardry:ebwizardry:4.3.4@jar",
+          "name": "Electroblob's Wizardry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10833151,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/ebwizardry-4.3.4.jar",
+            "MD5": "407a92f5443e5b60c730a97ab8341716"
           }
         },
         {
@@ -24838,16 +24898,6 @@
           }
         },
         {
-          "id": "goblinbob.mobends.standard.main:mobends:1.0.0-beta-20.06.20@jar",
-          "name": "Mo' Bends",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 703346,
-            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/MoBends_1.12.2-1.0.0-beta-20.06.20.jar",
-            "MD5": "d77d93d13d89c2ec4ff10887519daab8"
-          }
-        },
-        {
           "id": "com.bobmowzie:mowziesmobs:1.5.8@jar",
           "name": "Mowzie's Mobs",
           "type": "ForgeMod",
@@ -24855,6 +24905,16 @@
             "size": 5185246,
             "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/mowziesmobs-1.5.8.jar",
             "MD5": "de6541439f9a436963b020f20164cbfa"
+          }
+        },
+        {
+          "id": "net.daveyx0.multimob.core:multimob:1.0.5@jar",
+          "name": "Multi Mob Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 183875,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/multimob-1.0.5.jar",
+            "MD5": "48bff39752c6ac0b6090ac4c241a55ea"
           }
         },
         {
@@ -25011,6 +25071,16 @@
           }
         },
         {
+          "id": "se.mickelus:tetra:0.39.1@jar",
+          "name": "Tetra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2531823,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/tetra-1.12.2-0.39.1.jar",
+            "MD5": "9e9db45a08dd7ca24e2c02a069ca214f"
+          }
+        },
+        {
           "id": "ovh.corail:tombstone:4.4.7@jar",
           "name": "Corail Tombstone",
           "type": "ForgeMod",
@@ -25063,91 +25133,14 @@
           }
         },
         {
-          "id": "Chisel-MC1.12.2-1.0.2.45.jar",
-          "name": "Chisel-MC1.12.2-1.0.2.45.jar",
+          "id": "MoBends - NO ELIMINAR.jar",
+          "name": "MoBends - NO ELIMINAR.jar",
           "type": "File",
           "artifact": {
-            "size": 4755282,
-            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/Chisel-MC1.12.2-1.0.2.45.jar",
-            "MD5": "54afc298f94e708f0e1cdf399200b2cb",
-            "path": "mods/Chisel-MC1.12.2-1.0.2.45.jar"
-          }
-        },
-        {
-          "id": "Chocolate_Quest_Repoured-1.12.2-2.4.2B.jar",
-          "name": "Chocolate_Quest_Repoured-1.12.2-2.4.2B.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5400241,
-            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/Chocolate_Quest_Repoured-1.12.2-2.4.2B.jar",
-            "MD5": "28fbb80ced7a27c4a56424f570f61f64",
-            "path": "mods/Chocolate_Quest_Repoured-1.12.2-2.4.2B.jar"
-          }
-        },
-        {
-          "id": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
-          "name": "ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
-          "type": "File",
-          "artifact": {
-            "size": 10881050,
-            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar",
-            "MD5": "a6cf1f36c230fbed2f4ef5b2db72d87a",
-            "path": "mods/ElectroblobsWizardry-4.3.4-MC1.12.2.jar"
-          }
-        },
-        {
-          "id": "drpcmblueprints-1.12.2-1.2.4.jar",
-          "name": "drpcmblueprints-1.12.2-1.2.4.jar",
-          "type": "File",
-          "artifact": {
-            "size": 231675,
-            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/drpcmblueprints-1.12.2-1.2.4.jar",
-            "MD5": "3944660806cf516f21f29330ef8577b5",
-            "path": "mods/drpcmblueprints-1.12.2-1.2.4.jar"
-          }
-        },
-        {
-          "id": "drpcore-1.12.2-0.4.8.jar",
-          "name": "drpcore-1.12.2-0.4.8.jar",
-          "type": "File",
-          "artifact": {
-            "size": 1075472,
-            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/drpcore-1.12.2-0.4.8.jar",
-            "MD5": "5425b06103cbce9ff1abddb6ad8ea5c9",
-            "path": "mods/drpcore-1.12.2-0.4.8.jar"
-          }
-        },
-        {
-          "id": "drpmedieval-1.12.2-0.3.6.jar",
-          "name": "drpmedieval-1.12.2-0.3.6.jar",
-          "type": "File",
-          "artifact": {
-            "size": 5575065,
-            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/drpmedieval-1.12.2-0.3.6.jar",
-            "MD5": "d65b3f37ed9a9cec5d607ccd8ed67a7c",
-            "path": "mods/drpmedieval-1.12.2-0.3.6.jar"
-          }
-        },
-        {
-          "id": "multimob-1.0.5.jar",
-          "name": "multimob-1.0.5.jar",
-          "type": "File",
-          "artifact": {
-            "size": 183875,
-            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/multimob-1.0.5.jar",
-            "MD5": "48bff39752c6ac0b6090ac4c241a55ea",
-            "path": "mods/multimob-1.0.5.jar"
-          }
-        },
-        {
-          "id": "tetra-1.12.2-0.39.1.jar",
-          "name": "tetra-1.12.2-0.39.1.jar",
-          "type": "File",
-          "artifact": {
-            "size": 2531823,
-            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/tetra-1.12.2-0.39.1.jar",
-            "MD5": "9e9db45a08dd7ca24e2c02a069ca214f",
-            "path": "mods/tetra-1.12.2-0.39.1.jar"
+            "size": 702608,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/MoBends%20-%20NO%20ELIMINAR.jar",
+            "MD5": "3b744a926aec836a079caa7382f91c94",
+            "path": "mods/MoBends - NO ELIMINAR.jar"
           }
         },
         {
