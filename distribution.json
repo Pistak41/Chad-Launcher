@@ -25133,6 +25133,17 @@
           }
         },
         {
+          "id": "Mixin - NO ELIMINAR.jar",
+          "name": "Mixin - NO ELIMINAR.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1066150,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/Mixin%20-%20NO%20ELIMINAR.jar",
+            "MD5": "bd76dd9467f3bc208d37b3c827e86c38",
+            "path": "mods/Mixin - NO ELIMINAR.jar"
+          }
+        },
+        {
           "id": "MoBends - NO ELIMINAR.jar",
           "name": "MoBends - NO ELIMINAR.jar",
           "type": "File",
