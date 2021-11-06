@@ -24715,6 +24715,46 @@
           }
         },
         {
+          "id": "net.dark_roleplay.core_modules.blueprints:drpcmblueprints:1.12.2-1.2.3@jar",
+          "name": "Dark Roleplay Core Module Blueprints",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 81126,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/drpcmblueprints-1.12.2-1.2.3.jar",
+            "MD5": "56663064526ccd1f66ec16505f89c60c"
+          }
+        },
+        {
+          "id": "net.dark_roleplay.core_modules.guis:drpcmguis:1.12.2-0.0.2-SNAPSHOT@jar",
+          "name": "Dark Roleplay Core Module Guis",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 266596,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/drpcmguis-1.12.2-0.0.1-SNAPSHOT-20181125.020253.jar",
+            "MD5": "40196cabb4eb530eb1656230dc69bee1"
+          }
+        },
+        {
+          "id": "net.dark_roleplay.core_modules.locks:drpcmlocks:1.12.2-1.0.0-SNAPSHOT@jar",
+          "name": "Dark Roleplay Core Module Locks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181395,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/drpcmlocks-1.12.2-1.0.0-SNAPSHOT-20181126.011203.jar",
+            "MD5": "35dcd1ad1633a069d2ceee623f2198dc"
+          }
+        },
+        {
+          "id": "net.dark_roleplay.core_modules.maarg:drpcmmaarg:1.12.2-0.10.0-SNAPSHOT@jar",
+          "name": "Dark Roleplay Core Module - Materials and Automatic Resource Generation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 94477,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/drpcmmaarg-1.12.2-0.10.0-SNAPSHOT-20181116.094036.jar",
+            "MD5": "637cf12455851bf324435c5b261d272f"
+          }
+        },
+        {
           "id": "net.dark_roleplay.core:drpcore:1.12.2-0.4.7@jar",
           "name": "Dark Roleplay Core",
           "type": "ForgeMod",
@@ -24722,6 +24762,26 @@
             "size": 1073469,
             "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/drpcore-1.12.2-0.4.7.jar",
             "MD5": "bdae91c1ab16f8addeaedf02b78be1ad"
+          }
+        },
+        {
+          "id": "net.dark_roleplay.library:drplibrary:1.12.2-0.1.3-pre@jar",
+          "name": "Dark Roleplay Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 166706,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/drplibrary-1.12.2-0.1.2.4-SNAPSHOT-20181115.072433.jar",
+            "MD5": "a21d5da3da9e680ee03bd0b827752a7c"
+          }
+        },
+        {
+          "id": "net.dark_roleplay.library:drplibrary:1.12.2-0.1.3-SNAPSHOT@jar",
+          "name": "Dark Roleplay Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 172662,
+            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/drplibrary-1.12.2-0.1.3-SNAPSHOT-20190129.054240.jar",
+            "MD5": "1ce46414d1a439fed61cb8f0a1ad7f72"
           }
         },
         {
