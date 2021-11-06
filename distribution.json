@@ -24775,16 +24775,6 @@
           }
         },
         {
-          "id": "net.dark_roleplay.library:drplibrary:1.12.2-0.1.3-SNAPSHOT@jar",
-          "name": "Dark Roleplay Library",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 172662,
-            "url": "http://190.190.29.214:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/drplibrary-1.12.2-0.1.3-SNAPSHOT-20190129.054240.jar",
-            "MD5": "1ce46414d1a439fed61cb8f0a1ad7f72"
-          }
-        },
-        {
           "id": "net.dark_roleplay.medieval:drpmedieval:1.12.2-0.3.6@jar",
           "name": "Dark Roleplay Medieval",
           "type": "ForgeMod",
