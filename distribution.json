@@ -1155,6 +1155,16 @@
           }
         },
         {
+          "id": "minecrafttransportsimulator:mts:20.3.0@jar",
+          "name": "Immersive Vehicles (formerly MTS)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4338476,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ImmersiveVehicles-1.12.2-20.3.0.jar",
+            "MD5": "c49c5ddcfbb6e19ef696b93c02328c91"
+          }
+        },
+        {
           "id": "ic2.core:ic2:2.8.170-ex112@jar",
           "name": "IndustrialCraft 2",
           "type": "ForgeMod",
@@ -1305,16 +1315,6 @@
             "size": 5185246,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/mowziesmobs-1.5.8.jar",
             "MD5": "de6541439f9a436963b020f20164cbfa"
-          }
-        },
-        {
-          "id": "com.vicmatskiv:mw:0.4.4.6@jar",
-          "name": "Modern Warfare 2.0 Contagion",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 27545802,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/mw_2.0-0.4.4.6_mc1.12.2.jar",
-            "MD5": "69cbe3bd707a5284b1af20ebf0a9b0b9"
           }
         },
         {
@@ -1611,16 +1611,6 @@
           }
         },
         {
-          "id": "cofh.thermalcultivation:thermalcultivation:0.3.6.1@jar",
-          "name": "Thermal Cultivation",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 98845,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
-            "MD5": "28970430074736ae6efbe4f7c353b30a"
-          }
-        },
-        {
           "id": "cofh.thermaldynamics:thermaldynamics:2.5.6.1@jar",
           "name": "Thermal Dynamics",
           "type": "ForgeMod",
@@ -1651,16 +1641,6 @@
           }
         },
         {
-          "id": "cofh.thermalinnovation:thermalinnovation:0.3.6.1@jar",
-          "name": "Thermal Innovation",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 182379,
-            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
-            "MD5": "320accf690ccc1c8a23679beb63fb615"
-          }
-        },
-        {
           "id": "net.torocraft:toroquest:1.12.2-5.3@jar",
           "name": "ToroQuest",
           "type": "ForgeMod",
@@ -1668,6 +1648,26 @@
             "size": 700179,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/toroquest-1.12.2-5.3.jar",
             "MD5": "499efc967e8303e3bf3ccf7b18a4d2ce"
+          }
+        },
+        {
+          "id": "unumilitary:unumilitary:4.0.2@jar",
+          "name": "UNU Military Vehicles",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12137811,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/UNU+Military+Pack+[MTS]+1.12.2-19.15.5-4.0.2.jar",
+            "MD5": "993c1c6a64fa29ea3f048093cf192a2b"
+          }
+        },
+        {
+          "id": "unuparts:unuparts:4.4.0@jar",
+          "name": "UNU Parts Pack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14356040,
+            "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/UNU+Parts+Pack+[MTS]+1.12.2-20.1.0-4.4.2.jar",
+            "MD5": "c877d0c3f5c181fe20841aaaffee5ba1"
           }
         },
         {
@@ -1772,9 +1772,9 @@
           "name": "atlas_overlay.cfg",
           "type": "File",
           "artifact": {
-            "size": 3411,
+            "size": 3407,
             "url": "http://190.190.29.214:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/antiqueatlas/atlas_overlay.cfg",
-            "MD5": "de40b0caf7b2cffd6dfa4ab9cb13bbab",
+            "MD5": "84244b3882899108990af43b8cdce30e",
             "path": "config/antiqueatlas/atlas_overlay.cfg"
           }
         },
