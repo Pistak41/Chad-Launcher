@@ -916,16 +916,6 @@
           }
         },
         {
-          "id": "net.shadowfacts:forgelin:1.8.4@jar",
-          "name": "Shadowfacts' Forgelin",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6278399,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[General][Lib]Forgelin.jar",
-            "MD5": "2da79fce72265eab0541e565636d389d"
-          }
-        },
-        {
           "id": "software.bernie.example:geckolib3:3.0.0@jar",
           "name": "GeckoLib",
           "type": "ForgeMod",
@@ -1493,6 +1483,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[General]Mo'%20Bends.jar",
             "MD5": "3b744a926aec836a079caa7382f91c94",
             "path": "mods/[General]Mo' Bends.jar"
+          }
+        },
+        {
+          "id": "[General][Lib]Forgelin.jar",
+          "name": "[General][Lib]Forgelin.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6278399,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[General][Lib]Forgelin.jar",
+            "MD5": "2da79fce72265eab0541e565636d389d",
+            "path": "mods/[General][Lib]Forgelin.jar"
           }
         },
         {
