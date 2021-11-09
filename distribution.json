@@ -326,6 +326,26 @@
           }
         },
         {
+          "id": "zettasword.zettaigrimoires:zettaigrimoires:1.5.0@jar",
+          "name": "Zettai Grimoires",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 998135,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus][Addon]Zettai%20Grimoires.jar",
+            "MD5": "c6479d5c3573b504e8322b636e75fc35"
+          }
+        },
+        {
+          "id": "zettasword.zettaimagic:zettaimagic:1.4.3@jar",
+          "name": "Zettai Magic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6342821,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus][Addon]Zettai%20Magic.jar",
+            "MD5": "27a191bc457ad921c1f6d79356d9fb60"
+          }
+        },
+        {
           "id": "com.tmtravlr:potioncore:1.9_for_1.12.2@jar",
           "name": "Potion Core",
           "type": "ForgeMod",
@@ -393,16 +413,6 @@
             "size": 13817704,
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus]Botania.jar",
             "MD5": "7a19779fa19e37cb9fb49a0a1770332b"
-          }
-        },
-        {
-          "id": "electroblob.wizardry:ebwizardry:4.3.4@jar",
-          "name": "Electroblob's Wizardry",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 10833151,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus]Electroblob's%20Wizardry.jar",
-            "MD5": "407a92f5443e5b60c730a97ab8341716"
           }
         },
         {
@@ -1444,25 +1454,14 @@
           }
         },
         {
-          "id": "[Agus][Addon]Zettai Grimoires.jar",
-          "name": "[Agus][Addon]Zettai Grimoires.jar",
+          "id": "[Agus]Electroblob's Wizardry.jar",
+          "name": "[Agus]Electroblob's Wizardry.jar",
           "type": "File",
           "artifact": {
-            "size": 998135,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Agus][Addon]Zettai%20Grimoires.jar",
-            "MD5": "c6479d5c3573b504e8322b636e75fc35",
-            "path": "mods/[Agus][Addon]Zettai Grimoires.jar"
-          }
-        },
-        {
-          "id": "[Agus][Addon]Zettai Magic.jar",
-          "name": "[Agus][Addon]Zettai Magic.jar",
-          "type": "File",
-          "artifact": {
-            "size": 6342821,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Agus][Addon]Zettai%20Magic.jar",
-            "MD5": "27a191bc457ad921c1f6d79356d9fb60",
-            "path": "mods/[Agus][Addon]Zettai Magic.jar"
+            "size": 10833151,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Agus]Electroblob's%20Wizardry.jar",
+            "MD5": "407a92f5443e5b60c730a97ab8341716",
+            "path": "mods/[Agus]Electroblob's Wizardry.jar"
           }
         },
         {
