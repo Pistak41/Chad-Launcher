@@ -326,26 +326,6 @@
           }
         },
         {
-          "id": "zettasword.zettaigrimoires:zettaigrimoires:1.5.0@jar",
-          "name": "Zettai Grimoires",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 998135,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus][Addon]Zettai%20Grimoires.jar",
-            "MD5": "c6479d5c3573b504e8322b636e75fc35"
-          }
-        },
-        {
-          "id": "zettasword.zettaimagic:zettaimagic:1.4.3@jar",
-          "name": "Zettai Magic",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6342821,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus][Addon]Zettai%20Magic.jar",
-            "MD5": "27a191bc457ad921c1f6d79356d9fb60"
-          }
-        },
-        {
           "id": "com.tmtravlr:potioncore:1.9_for_1.12.2@jar",
           "name": "Potion Core",
           "type": "ForgeMod",
@@ -1461,6 +1441,28 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/config/antiqueatlas/tileids.json",
             "MD5": "33155192fb405e6d1dcb0743f03b4792",
             "path": "config/antiqueatlas/tileids.json"
+          }
+        },
+        {
+          "id": "[Agus][Addon]Zettai Grimoires.jar",
+          "name": "[Agus][Addon]Zettai Grimoires.jar",
+          "type": "File",
+          "artifact": {
+            "size": 998135,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Agus][Addon]Zettai%20Grimoires.jar",
+            "MD5": "c6479d5c3573b504e8322b636e75fc35",
+            "path": "mods/[Agus][Addon]Zettai Grimoires.jar"
+          }
+        },
+        {
+          "id": "[Agus][Addon]Zettai Magic.jar",
+          "name": "[Agus][Addon]Zettai Magic.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6342821,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Agus][Addon]Zettai%20Magic.jar",
+            "MD5": "27a191bc457ad921c1f6d79356d9fb60",
+            "path": "mods/[Agus][Addon]Zettai Magic.jar"
           }
         },
         {
