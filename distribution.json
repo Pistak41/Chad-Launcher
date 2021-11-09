@@ -366,6 +366,16 @@
           }
         },
         {
+          "id": "net.ilexiconn:llibrary:1.7.20-1.12.2@jar",
+          "name": "LLibrary",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 884550,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus][Lib]Llibrary.jar",
+            "MD5": "218aefca8bd6bb8d9ff7dd877c1d277d"
+          }
+        },
+        {
           "id": "zabi.minecraft.minerva.common.mod:minerva:1.0.13@jar",
           "name": "Minerva Library",
           "type": "ForgeMod",
@@ -596,6 +606,16 @@
           }
         },
         {
+          "id": "aroma1997.core:aroma1997core:2.0.0.2@jar",
+          "name": "Aroma1997Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398634,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Dariel][Core]Aroma1997%20Core.jar",
+            "MD5": "f5199ab1a48d442af764071147a31747"
+          }
+        },
+        {
           "id": "com.brandon3055:brandonscore:1.12.2-2.4.20.22@jar",
           "name": "Brandon's Core",
           "type": "ForgeMod",
@@ -643,6 +663,16 @@
             "size": 227426,
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Dariel][Core]Zero%20Core.jar",
             "MD5": "8e15e85a8975db0f7a2285f336b47688"
+          }
+        },
+        {
+          "id": "atm.bloodworkxgaming:bloodylib:1.0.0@jar",
+          "name": "BloodyLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55892,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Dariel][Lib]Bloody%20Lib.jar",
+            "MD5": "9fdc16cc91a7436fd32b44bc912e8325"
           }
         },
         {
@@ -913,6 +943,16 @@
             "size": 649252,
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[General][Lib]McHorse's%20Mc%20Lib.jar",
             "MD5": "30a64410b0cb66e19a02e3db6afcd998"
+          }
+        },
+        {
+          "id": "mchorse.metamorph:metamorph:1.2.10-1.12.2@jar",
+          "name": "Metamorph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 386172,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[General][Lib]Metamorph.jar",
+            "MD5": "17715d192d8d7431b55bfdc1857c46a9"
           }
         },
         {
