@@ -236,16 +236,6 @@
           ]
         },
         {
-          "id": "com.ghostrider231:ghostspells:0.7-alpha@jar",
-          "name": "Extra Arcane Knowledge",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 87435,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus][Addon][PELIGROSO]Extra%20Arcane%20Knowledge.jar",
-            "MD5": "1f73de50c7cb53b7c6b09ea581b66c87"
-          }
-        },
-        {
           "id": "com.shinoow:acheads:1.12.2-2.1.1@jar",
           "name": "AbyssalCraft Heads",
           "type": "ForgeMod",
@@ -263,26 +253,6 @@
             "size": 507074,
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus][Addon]AbyssalCraft%20Integration.jar",
             "MD5": "9420e6b81bb644c09d1169a84d955844"
-          }
-        },
-        {
-          "id": "com.windanesz:ancientspellcraft:1.12.2-1.2.3@jar",
-          "name": "Ancient Spellcraft by Dan",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6226174,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus][Addon]Ancient%20Spellcraft.jar",
-            "MD5": "206ba6f1295df122adb8791fb9b98532"
-          }
-        },
-        {
-          "id": "com.favouritedragon.arcaneessentials:arcane_essentials:1.0.0-alpha-11@jar",
-          "name": "Arcane Essentials",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1333700,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus][Addon]Arcane%20Essentials.jar",
-            "MD5": "9b6ddb80b7ab0636e07cfc604bceadbc"
           }
         },
         {
@@ -306,16 +276,6 @@
           }
         },
         {
-          "id": "com.windanesz:mospells:1.0.2@jar",
-          "name": "Mo' Spells",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 659420,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus][Addon]Mo'%20Spells.jar",
-            "MD5": "896e9dd595fbd920701cb0a871ec4a65"
-          }
-        },
-        {
           "id": "com.zeitheron.thaumicadditions:thaumicadditions:12.6.7@jar",
           "name": "Thaumic Additions",
           "type": "ForgeMod",
@@ -323,26 +283,6 @@
             "size": 6370752,
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus][Addon]Thaumic%20Additions.jar",
             "MD5": "dce2c62c7f3338edeadf219239f9b25d"
-          }
-        },
-        {
-          "id": "zettasword.zettaigrimoires:zettaigrimoires:1.5.0@jar",
-          "name": "Zettai Grimoires",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 998135,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus][Addon]Zettai%20Grimoires.jar",
-            "MD5": "c6479d5c3573b504e8322b636e75fc35"
-          }
-        },
-        {
-          "id": "zettasword.zettaimagic:zettaimagic:1.4.3@jar",
-          "name": "Zettai Magic",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 6342821,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus][Addon]Zettai%20Magic.jar",
-            "MD5": "27a191bc457ad921c1f6d79356d9fb60"
           }
         },
         {
@@ -413,6 +353,16 @@
             "size": 13817704,
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus]Botania.jar",
             "MD5": "7a19779fa19e37cb9fb49a0a1770332b"
+          }
+        },
+        {
+          "id": "electroblob.wizardry:ebwizardry:4.3.4@jar",
+          "name": "Electroblob's Wizardry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10833151,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus]Electroblob's%20Wizardry.jar",
+            "MD5": "407a92f5443e5b60c730a97ab8341716"
           }
         },
         {
@@ -1454,14 +1404,69 @@
           }
         },
         {
-          "id": "[Agus]Electroblob's Wizardry.jar",
-          "name": "[Agus]Electroblob's Wizardry.jar",
+          "id": "[Agus][Addon]Ancient Spellcraft.jar",
+          "name": "[Agus][Addon]Ancient Spellcraft.jar",
           "type": "File",
           "artifact": {
-            "size": 10833151,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Agus]Electroblob's%20Wizardry.jar",
-            "MD5": "407a92f5443e5b60c730a97ab8341716",
-            "path": "mods/[Agus]Electroblob's Wizardry.jar"
+            "size": 6226174,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Agus][Addon]Ancient%20Spellcraft.jar",
+            "MD5": "206ba6f1295df122adb8791fb9b98532",
+            "path": "mods/[Agus][Addon]Ancient Spellcraft.jar"
+          }
+        },
+        {
+          "id": "[Agus][Addon]Arcane Essentials.jar",
+          "name": "[Agus][Addon]Arcane Essentials.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1333700,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Agus][Addon]Arcane%20Essentials.jar",
+            "MD5": "9b6ddb80b7ab0636e07cfc604bceadbc",
+            "path": "mods/[Agus][Addon]Arcane Essentials.jar"
+          }
+        },
+        {
+          "id": "[Agus][Addon]Mo' Spells.jar",
+          "name": "[Agus][Addon]Mo' Spells.jar",
+          "type": "File",
+          "artifact": {
+            "size": 659420,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Agus][Addon]Mo'%20Spells.jar",
+            "MD5": "896e9dd595fbd920701cb0a871ec4a65",
+            "path": "mods/[Agus][Addon]Mo' Spells.jar"
+          }
+        },
+        {
+          "id": "[Agus][Addon]Zettai Grimoires.jar",
+          "name": "[Agus][Addon]Zettai Grimoires.jar",
+          "type": "File",
+          "artifact": {
+            "size": 998135,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Agus][Addon]Zettai%20Grimoires.jar",
+            "MD5": "c6479d5c3573b504e8322b636e75fc35",
+            "path": "mods/[Agus][Addon]Zettai Grimoires.jar"
+          }
+        },
+        {
+          "id": "[Agus][Addon]Zettai Magic.jar",
+          "name": "[Agus][Addon]Zettai Magic.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6342821,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Agus][Addon]Zettai%20Magic.jar",
+            "MD5": "27a191bc457ad921c1f6d79356d9fb60",
+            "path": "mods/[Agus][Addon]Zettai Magic.jar"
+          }
+        },
+        {
+          "id": "[Agus][Addon][PELIGROSO]Extra Arcane Knowledge.jar",
+          "name": "[Agus][Addon][PELIGROSO]Extra Arcane Knowledge.jar",
+          "type": "File",
+          "artifact": {
+            "size": 87435,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Agus][Addon][PELIGROSO]Extra%20Arcane%20Knowledge.jar",
+            "MD5": "1f73de50c7cb53b7c6b09ea581b66c87",
+            "path": "mods/[Agus][Addon][PELIGROSO]Extra Arcane Knowledge.jar"
           }
         },
         {
