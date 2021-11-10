@@ -336,6 +336,16 @@
           }
         },
         {
+          "id": "hunternif.mc.atlas:antiqueatlas:1.12.2-4.6.3@jar",
+          "name": "Antique Atlas",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1239580,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Agus]Antique%20Atlas.jar",
+            "MD5": "2cafce41d88d5067bf9a9da6a8fc79a8"
+          }
+        },
+        {
           "id": "baubles:baubles:1.12-1.5.2@jar",
           "name": "Baubles",
           "type": "ForgeMod",
@@ -1515,6 +1525,17 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/resourcepacks/AntiqueAtlasExtra-v1.2.zip",
             "MD5": "8c8f4a20714bce5779b06b81a9f24f46",
             "path": "resourcepacks/AntiqueAtlasExtra-v1.2.zip"
+          }
+        },
+        {
+          "id": "Oblivion - Varitas 3D.zip",
+          "name": "Oblivion - Varitas 3D.zip",
+          "type": "File",
+          "artifact": {
+            "size": 124614,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/resourcepacks/Oblivion%20-%20Varitas%203D.zip",
+            "MD5": "436063aefd812521fd189460cc2b863d",
+            "path": "resourcepacks/Oblivion - Varitas 3D.zip"
           }
         },
         {
