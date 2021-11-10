@@ -1222,16 +1222,6 @@
           }
         },
         {
-          "id": "minecrafttransportsimulator:mts:20.3.0@jar",
-          "name": "Immersive Vehicles (formerly MTS)",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4338476,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Tobias]Immersive%20Vehicles.jar",
-            "MD5": "c49c5ddcfbb6e19ef696b93c02328c91"
-          }
-        },
-        {
           "id": "techguns:techguns:1.12.2-2.0.2.0@jar",
           "name": "Techguns",
           "type": "ForgeMod",
@@ -1239,36 +1229,6 @@
             "size": 28126750,
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Tobias]Techguns.jar",
             "MD5": "dbae09102aedeca925d4b3546685e5b5"
-          }
-        },
-        {
-          "id": "unucivil:unucivil:4.2.4@jar",
-          "name": "UNU Civilian Vehicles",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 77139666,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Tobias]UNU%20Civilian%20Pack%20(MTS).jar",
-            "MD5": "e43774989eaa4c86b7dc9fa5d6d3d491"
-          }
-        },
-        {
-          "id": "unumilitary:unumilitary:4.0.2@jar",
-          "name": "UNU Military Vehicles",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 12137811,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Tobias]UNU%20Military%20Pack%20(MTS).jar",
-            "MD5": "993c1c6a64fa29ea3f048093cf192a2b"
-          }
-        },
-        {
-          "id": "unuparts:unuparts:4.4.0@jar",
-          "name": "UNU Parts Pack",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 14356040,
-            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Tobias]UNU%20Parts%20Pack%20(MTS).jar",
-            "MD5": "c877d0c3f5c181fe20841aaaffee5ba1"
           }
         },
         {
@@ -1500,6 +1460,50 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[General][Lib]Forgelin.jar",
             "MD5": "2da79fce72265eab0541e565636d389d",
             "path": "mods/[General][Lib]Forgelin.jar"
+          }
+        },
+        {
+          "id": "[Tobias]Immersive Vehicles.jar",
+          "name": "[Tobias]Immersive Vehicles.jar",
+          "type": "File",
+          "artifact": {
+            "size": 4338476,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Tobias]Immersive%20Vehicles.jar",
+            "MD5": "c49c5ddcfbb6e19ef696b93c02328c91",
+            "path": "mods/[Tobias]Immersive Vehicles.jar"
+          }
+        },
+        {
+          "id": "[Tobias]UNU Civilian Pack (MTS).jar",
+          "name": "[Tobias]UNU Civilian Pack (MTS).jar",
+          "type": "File",
+          "artifact": {
+            "size": 77139666,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Tobias]UNU%20Civilian%20Pack%20(MTS).jar",
+            "MD5": "e43774989eaa4c86b7dc9fa5d6d3d491",
+            "path": "mods/[Tobias]UNU Civilian Pack (MTS).jar"
+          }
+        },
+        {
+          "id": "[Tobias]UNU Military Pack (MTS).jar",
+          "name": "[Tobias]UNU Military Pack (MTS).jar",
+          "type": "File",
+          "artifact": {
+            "size": 12137811,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Tobias]UNU%20Military%20Pack%20(MTS).jar",
+            "MD5": "993c1c6a64fa29ea3f048093cf192a2b",
+            "path": "mods/[Tobias]UNU Military Pack (MTS).jar"
+          }
+        },
+        {
+          "id": "[Tobias]UNU Parts Pack (MTS).jar",
+          "name": "[Tobias]UNU Parts Pack (MTS).jar",
+          "type": "File",
+          "artifact": {
+            "size": 14356040,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/mods/[Tobias]UNU%20Parts%20Pack%20(MTS).jar",
+            "MD5": "c877d0c3f5c181fe20841aaaffee5ba1",
+            "path": "mods/[Tobias]UNU Parts Pack (MTS).jar"
           }
         },
         {
