@@ -766,6 +766,16 @@
           }
         },
         {
+          "id": "com.raoulvdberge:refinedstorage:1.6.16@jar",
+          "name": "Refined Storage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1912377,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[Dariel]Refined%20Storage.jar",
+            "MD5": "0b5e41f29c3ceb1db560531fef9f55a2"
+          }
+        },
+        {
           "id": "net.geforcemods:securitycraft:v1.8.23.2@jar",
           "name": "SecurityCraft",
           "type": "ForgeMod",
@@ -1059,6 +1069,16 @@
             "size": 341728,
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[General]Ore%20Lib.jar",
             "MD5": "00cce3b240365458adcad3e77782358a"
+          }
+        },
+        {
+          "id": "com.teamderpy:shouldersurfing:2.2.1@jar",
+          "name": "Shoulder Surfing",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 150246,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[General]Shoulder%20Surfing.jar",
+            "MD5": "3805aa998fecb298db4fee93261eeefc"
           }
         },
         {
@@ -1371,6 +1391,50 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/config/antiqueatlas/tileids.json",
             "MD5": "33155192fb405e6d1dcb0743f03b4792",
             "path": "config/antiqueatlas/tileids.json"
+          }
+        },
+        {
+          "id": "example.json",
+          "name": "example.json",
+          "type": "File",
+          "artifact": {
+            "size": 2595,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/config/customloadingscreen/example.json",
+            "MD5": "87eb53734c8d8658013b1654d9877cc2",
+            "path": "config/customloadingscreen/example.json"
+          }
+        },
+        {
+          "id": "customloadingscreen.cfg",
+          "name": "customloadingscreen.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1031,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/config/customloadingscreen.cfg",
+            "MD5": "56837182234eaaa119bda66e1910271d",
+            "path": "config/customloadingscreen.cfg"
+          }
+        },
+        {
+          "id": "hbm.cfg",
+          "name": "hbm.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 15927,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/config/hbm/hbm.cfg",
+            "MD5": "e76e4a77a27ec2aaea40ab99840112fb",
+            "path": "config/hbm/hbm.cfg"
+          }
+        },
+        {
+          "id": "shouldersurfing.cfg",
+          "name": "shouldersurfing.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1916,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/config/shouldersurfing.cfg",
+            "MD5": "141bbbd21e98333879fc070d2f725a6d",
+            "path": "config/shouldersurfing.cfg"
           }
         },
         {
