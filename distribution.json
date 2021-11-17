@@ -1426,6 +1426,17 @@
           }
         },
         {
+          "id": "config.json",
+          "name": "config.json",
+          "type": "File",
+          "artifact": {
+            "size": 269,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/config/emoticons/config.json",
+            "MD5": "dc9171b7accbe48211700f6c3825b4d9",
+            "path": "config/emoticons/config.json"
+          }
+        },
+        {
           "id": "hbm.cfg",
           "name": "hbm.cfg",
           "type": "File",
@@ -1610,6 +1621,72 @@
             "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/resourcepacks/Oblivion%20-%20Varitas%203D.zip",
             "MD5": "436063aefd812521fd189460cc2b863d",
             "path": "resourcepacks/Oblivion - Varitas 3D.zip"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 1950697,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/resources/loadingscreen/panorama/panorama_0.png",
+            "MD5": "58097dd8db30f3c8faebef784488e7d2",
+            "path": "resources/loadingscreen/panorama/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 2060859,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/resources/loadingscreen/panorama/panorama_1.png",
+            "MD5": "235f116355e6d5da1b50d797219927a4",
+            "path": "resources/loadingscreen/panorama/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 1827525,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/resources/loadingscreen/panorama/panorama_2.png",
+            "MD5": "c569529ef41aaa26e3c756f93a62e394",
+            "path": "resources/loadingscreen/panorama/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 1430369,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/resources/loadingscreen/panorama/panorama_3.png",
+            "MD5": "e1a699b10fbb23c43ffb45e3db3edf7b",
+            "path": "resources/loadingscreen/panorama/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 11939,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/resources/loadingscreen/panorama/panorama_4.png",
+            "MD5": "11b2a4339c056b7237caae32042418fa",
+            "path": "resources/loadingscreen/panorama/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 3347187,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/files/resources/loadingscreen/panorama/panorama_5.png",
+            "MD5": "a6c1d4533f9d59ff284c9ab74dc04c11",
+            "path": "resources/loadingscreen/panorama/panorama_5.png"
           }
         },
         {
