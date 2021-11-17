@@ -1029,6 +1029,16 @@
           }
         },
         {
+          "id": "gr8pefish.ironbackpacks:ironbackpacks:1.12.2-3.0.8-12@jar",
+          "name": "Iron Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 465363,
+            "url": "http://190.190.29.214:800/Phobos/servers/Hola-1.12.2/forgemods/required/[General]Iron%20Backpacks.jar",
+            "MD5": "9fd50b1827b711704c69789aa94ac2ca"
+          }
+        },
+        {
           "id": "com.pg85.otg:openterraingenerator:1.12.2-v9.3@jar",
           "name": "Open Terrain Generator",
           "type": "ForgeMod",
