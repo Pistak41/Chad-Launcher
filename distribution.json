@@ -24812,6 +24812,20 @@
           }
         },
         {
+          "id": "journeymap:journeymap:1.12.2-5.7.1@jar",
+          "name": "JourneyMap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6990968,
+            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/optionaloff/[General]Journey%20Map.jar",
+            "MD5": "8160b970fc14cff30dff2785bb9f964c"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
           "id": "com.pg85.otg:openterraingenerator:1.12.2-v9.3@jar",
           "name": "Open Terrain Generator",
           "type": "ForgeMod",
@@ -25203,9 +25217,9 @@
           "name": "config.json",
           "type": "File",
           "artifact": {
-            "size": 269,
+            "size": 268,
             "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/emoticons/config.json",
-            "MD5": "dc9171b7accbe48211700f6c3825b4d9",
+            "MD5": "d4ececafccc59511e0c52844649a8dfa",
             "path": "config/emoticons/config.json"
           }
         },
@@ -25218,17 +25232,6 @@
             "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/hbm/hbm.cfg",
             "MD5": "e76e4a77a27ec2aaea40ab99840112fb",
             "path": "config/hbm/hbm.cfg"
-          }
-        },
-        {
-          "id": "shouldersurfing.cfg",
-          "name": "shouldersurfing.cfg",
-          "type": "File",
-          "artifact": {
-            "size": 1916,
-            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/config/shouldersurfing.cfg",
-            "MD5": "141bbbd21e98333879fc070d2f725a6d",
-            "path": "config/shouldersurfing.cfg"
           }
         },
         {
