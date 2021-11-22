@@ -24029,16 +24029,6 @@
           }
         },
         {
-          "id": "noobanidus.mods:erebusfix:1.12.2-0.0.0.1@jar",
-          "name": "ErebusFix",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 899831,
-            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[Agus][Addon]Erebus%20Fix.jar",
-            "MD5": "64edbbe265324ddebed4f0aca9727a1a"
-          }
-        },
-        {
           "id": "com.meteor:extrabotany:r1.1-58@jar",
           "name": "ExtraBotany",
           "type": "ForgeMod",
@@ -24149,16 +24139,6 @@
           }
         },
         {
-          "id": "erebus:erebus:1.0.32@jar",
-          "name": "Erebus",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 12365648,
-            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[Agus]Erebus.jar",
-            "MD5": "d6209a99064f8b77f3e415416f4da9eb"
-          }
-        },
-        {
           "id": "zabi.minecraft:extraalchemy:0.5.4@jar",
           "name": "Extra Alchemy",
           "type": "ForgeMod",
@@ -24256,16 +24236,6 @@
             "size": 16612,
             "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[Cliente]Resource%20Loader.jar",
             "MD5": "51141e882f96ce756b9b3d25f2acdf57"
-          }
-        },
-        {
-          "id": "quarris.farmeradditions:farmeradditions:1.0.0@jar",
-          "name": "AA Farmer Compat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 9036,
-            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[Dariel][Addon]Actually%20Additions%20Farmer%20Compact.jar",
-            "MD5": "860cca56afc40c7434e76784ad267fc9"
           }
         },
         {
@@ -24719,16 +24689,6 @@
           }
         },
         {
-          "id": "biomesoplenty.core:biomesoplenty:7.0.1@jar",
-          "name": "Biomes O' Plenty",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4702147,
-            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[General]Biomes%20O'%20Plenty.jar",
-            "MD5": "4c1d23b8a58b6aaa9a5204fae3f18393"
-          }
-        },
-        {
           "id": "tschipp.carryon:carryon:1.12.3@jar",
           "name": "Carry On",
           "type": "ForgeMod",
@@ -24906,16 +24866,6 @@
             "size": 220064,
             "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[General]UniDict.jar",
             "MD5": "a620d9d19149607e3903d8f69e862cfb"
-          }
-        },
-        {
-          "id": "generated.forgemod:weather2:1.12.1-2.6.12@jar",
-          "name": "Localized Weather & Storms",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4550732,
-            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[General]Weather,%20Storms%20&%20Tornadoes.jar",
-            "MD5": "486d7c789eb29050aa7b04dc5c834c50"
           }
         },
         {
@@ -25287,17 +25237,6 @@
             "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/[Agus][Addon]Zettai%20Magic.jar",
             "MD5": "27a191bc457ad921c1f6d79356d9fb60",
             "path": "mods/[Agus][Addon]Zettai Magic.jar"
-          }
-        },
-        {
-          "id": "[Agus][Addon][PELIGROSO]Extra Arcane Knowledge.jar",
-          "name": "[Agus][Addon][PELIGROSO]Extra Arcane Knowledge.jar",
-          "type": "File",
-          "artifact": {
-            "size": 87435,
-            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/files/mods/[Agus][Addon][PELIGROSO]Extra%20Arcane%20Knowledge.jar",
-            "MD5": "1f73de50c7cb53b7c6b09ea581b66c87",
-            "path": "mods/[Agus][Addon][PELIGROSO]Extra Arcane Knowledge.jar"
           }
         },
         {
