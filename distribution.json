@@ -24279,26 +24279,6 @@
           }
         },
         {
-          "id": "cofh.thermaldynamics:thermaldynamics:2.5.6.1@jar",
-          "name": "Thermal Dynamics",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 728082,
-            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[Dariel][Addon]Thermal%20Dynamics.jar",
-            "MD5": "38a0c024f5775b0cf783de839033f8db"
-          }
-        },
-        {
-          "id": "cofh.thermalexpansion:thermalexpansion:5.5.7.1@jar",
-          "name": "Thermal Expansion",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2345139,
-            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[Dariel][Addon]Thermal%20Expansion.jar",
-            "MD5": "0bf91e166b05e83d22455a9c7ec395bb"
-          }
-        },
-        {
           "id": "aroma1997.core:aroma1997core:2.0.0.2@jar",
           "name": "Aroma1997Core",
           "type": "ForgeMod",
@@ -24316,16 +24296,6 @@
             "size": 827900,
             "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[Dariel][Core]Brandon's%20Core.jar",
             "MD5": "4a67ccad9d684466010c02164d7ff13e"
-          }
-        },
-        {
-          "id": "cofh:cofhcore:4.6.6.1@jar",
-          "name": "CoFH Core",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 848187,
-            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[Dariel][Core]CoFH%20Core.jar",
-            "MD5": "f147d3b87f97bb317e1c37cba0dde002"
           }
         },
         {
@@ -24379,16 +24349,6 @@
           }
         },
         {
-          "id": "cofh.cofhworld:cofhworld:1.4.0.1@jar",
-          "name": "CoFH World",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 505987,
-            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[Dariel][Lib]CoFH%20World.jar",
-            "MD5": "f2bfd74e76b71bdee8a20a9243dd5cdf"
-          }
-        },
-        {
           "id": "omtteam.omlib:omlib:3.1.5-256@jar",
           "name": "OMLib",
           "type": "ForgeMod",
@@ -24416,6 +24376,16 @@
             "size": 11604,
             "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[Dariel]Actually%20Baubles.jar",
             "MD5": "71b8dfb3383bf90c615ff4be27f425b7"
+          }
+        },
+        {
+          "id": "com.chocohead.advsolar:advanced_solar_panels:4.3.0@jar",
+          "name": "Advanced Solar Panels",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 316833,
+            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[Dariel]Advanced%20Solar%20Panels.jar",
+            "MD5": "2f16b7591d15da58d91f2ff147299a73"
           }
         },
         {
@@ -24526,16 +24496,6 @@
             "size": 1915657,
             "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[Dariel]Security%20Craft.jar",
             "MD5": "32d7af044c1d127597eb3e02199700bd"
-          }
-        },
-        {
-          "id": "cofh.thermalfoundation:thermalfoundation:2.6.7.1@jar",
-          "name": "Thermal Foundation",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2219736,
-            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[Dariel]Thermal%20Foundation.jar",
-            "MD5": "6eca041bbf28949b60ecf1179d561156"
           }
         },
         {
