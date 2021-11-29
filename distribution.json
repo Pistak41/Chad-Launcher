@@ -24669,6 +24669,16 @@
           }
         },
         {
+          "id": "noppes.npcs:customnpcs:1.12@jar",
+          "name": "CustomNPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9911871,
+            "url": "http://181.171.59.49:800/Phobos/servers/Nacion%20CHAD-1.12.2/forgemods/required/[General]CustomNPCs.jar",
+            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7"
+          }
+        },
+        {
           "id": "com.mia:props:2.6.3.7_1.12.2@jar",
           "name": "Decocraft",
           "type": "ForgeMod",
