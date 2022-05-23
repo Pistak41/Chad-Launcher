@@ -23686,7 +23686,7 @@
       "description": "Albion Online.... EN MINECRAFT!!!",
       "icon": "http://186.23.120.80:800/Phobos/servers/PhobosCraft-1.12.2/PhobosCraft-1.12.2.png",
       "version": "1.0.0",
-      "address": "181.228.97.220:25565",
+      "address": "pistak.mooo.com:777",
       "minecraftVersion": "1.12.2",
       "discord": {
         "shortId": "PhobosCraft",
@@ -24173,13 +24173,23 @@
           }
         },
         {
-          "id": "net.mcreator:futureminecraf:1.3.1@jar",
-          "name": "Future Versions",
+          "id": "net.shadowfacts:forgelin:1.8.3@jar",
+          "name": "Shadowfacts' Forgelin",
           "type": "ForgeMod",
           "artifact": {
-            "size": 10011886,
-            "url": "http://186.23.120.80:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/FutureVersions+v1.3.1.jar",
-            "MD5": "e2d83e1bb81d3c4f3a1c905a52cdaade"
+            "size": 5772310,
+            "url": "http://186.23.120.80:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Forgelin-1.8.3.jar",
+            "MD5": "d729a4a101a5687329526f6cb7adc64d"
+          }
+        },
+        {
+          "id": "thedarkcolour.futuremc:futuremc:0.2.9@jar",
+          "name": "Future MC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14192460,
+            "url": "http://186.23.120.80:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/future-mc-0.2.9.jar",
+            "MD5": "de6f3d41742338b4c90f994bb7e4e7e7"
           }
         },
         {
@@ -24200,6 +24210,16 @@
             "size": 440023,
             "url": "http://186.23.120.80:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/heroicarmory-1.2.0.jar",
             "MD5": "ad2c0c8d156739d758bc6e0f103302af"
+          }
+        },
+        {
+          "id": "mcp.mobius:waila:1.8.26@jar",
+          "name": "Waila",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 453778,
+            "url": "http://186.23.120.80:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Hwyla-1.8.26-B41_1.12.2.jar",
+            "MD5": "bca1c069d9171d331d211d24e8a3b770"
           }
         },
         {
