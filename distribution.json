@@ -887,6 +887,50 @@
           }
         },
         {
+          "id": "drpcmblueprints-1.12.2-1.2.4.jar",
+          "name": "drpcmblueprints-1.12.2-1.2.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 231675,
+            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/drpcmblueprints-1.12.2-1.2.4.jar",
+            "MD5": "3944660806cf516f21f29330ef8577b5",
+            "path": "mods/drpcmblueprints-1.12.2-1.2.4.jar"
+          }
+        },
+        {
+          "id": "drpcmdates-1.12.2-1.1.jar",
+          "name": "drpcmdates-1.12.2-1.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 170525,
+            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/drpcmdates-1.12.2-1.1.jar",
+            "MD5": "839166348d244ebe9f6c3e4660d08998",
+            "path": "mods/drpcmdates-1.12.2-1.1.jar"
+          }
+        },
+        {
+          "id": "drpcore-1.12.2-0.4.8.jar",
+          "name": "drpcore-1.12.2-0.4.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1075472,
+            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/drpcore-1.12.2-0.4.8.jar",
+            "MD5": "5425b06103cbce9ff1abddb6ad8ea5c9",
+            "path": "mods/drpcore-1.12.2-0.4.8.jar"
+          }
+        },
+        {
+          "id": "drpmedieval-1.12.2-0.3.6.jar",
+          "name": "drpmedieval-1.12.2-0.3.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5575065,
+            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/drpmedieval-1.12.2-0.3.6.jar",
+            "MD5": "d65b3f37ed9a9cec5d607ccd8ed67a7c",
+            "path": "mods/drpmedieval-1.12.2-0.3.6.jar"
+          }
+        },
+        {
           "id": "Z.png",
           "name": "Z.png",
           "type": "File",
