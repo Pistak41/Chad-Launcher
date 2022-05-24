@@ -306,16 +306,6 @@
           }
         },
         {
-          "id": "baguchan.betterswiming:betterswiming:1.12.2-1.0.4@jar",
-          "name": "BetterSwiming",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 14238,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Better-Swiming-Mod-1.12.2.jar",
-            "MD5": "1514af06a86cc8dafeb7b27862d4bf21"
-          }
-        },
-        {
           "id": "its_meow.betteranimalsplus:betteranimalsplus:1.12.2-9.0.1@jar",
           "name": "Better Animals Plus",
           "type": "ForgeMod",
