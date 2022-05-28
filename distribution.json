@@ -24,23 +24,23 @@
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2855:universal",
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2859:universal",
           "name": "Minecraft Forge",
           "type": "ForgeHosted",
           "artifact": {
-            "size": 4464387,
-            "MD5": "02fcc447bb8938e5214292e4d36ec949",
-            "url": "http://pistak.mooo.com:800/Phobos/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-universal.jar"
+            "size": 4466108,
+            "MD5": "fda01cd3cae80c2c6348ac3fc26e0af8",
+            "url": "http://pistak.mooo.com:800/Phobos/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
           },
           "subModules": [
             {
-              "id": "1.12.2-14.23.5.2855",
+              "id": "1.12.2-14.23.5.2859",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 10873,
-                "MD5": "5d114618e561d76e0f692c2d69dcb784",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/versions/1.12.2-forge-14.23.5.2855/1.12.2-forge-14.23.5.2855.json"
+                "size": 12345,
+                "MD5": "1959bb357e54a9666dd80d744b524639",
+                "url": "http://pistak.mooo.com:800/Phobos/repo/versions/1.12.2-forge-14.23.5.2859/1.12.2-forge-14.23.5.2859.json"
               }
             },
             {
@@ -231,6 +231,36 @@
                 "size": 78175,
                 "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
                 "url": "http://pistak.mooo.com:800/Phobos/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
               }
             }
           ]
@@ -803,13 +833,13 @@
           }
         },
         {
-          "id": "ovh.corail:tombstone:4.4.7@jar",
+          "id": "ovh.corail:tombstone:4.5.4@jar",
           "name": "Corail Tombstone",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1105722,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/tombstone-1.12.2-4.4.7.jar",
-            "MD5": "916973a24707f412294a4f8133725cf6"
+            "size": 1215481,
+            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/tombstone-4.5.4-1.12.2.jar",
+            "MD5": "ea4299a5891ca1adf4cc7cdca754d673"
           }
         },
         {
