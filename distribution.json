@@ -11,7 +11,7 @@
       "id": "PhobosCraft-1.12.2",
       "name": "PhobosCraft",
       "description": "Albion Online.... EN MINECRAFT!!!",
-      "icon": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/PhobosCraft-1.12.2.png",
+      "icon": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/PhobosCraft-1.12.2.png",
       "version": "1.0.0",
       "address": "pistak.mooo.com:777",
       "minecraftVersion": "1.12.2",
@@ -30,7 +30,7 @@
           "artifact": {
             "size": 4466108,
             "MD5": "fda01cd3cae80c2c6348ac3fc26e0af8",
-            "url": "http://pistak.mooo.com:800/Phobos/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
+            "url": "http://localhost:800/pagina/repo/lib/net/minecraftforge/forge/1.12.2-14.23.5.2859/forge-1.12.2-14.23.5.2859-universal.jar"
           },
           "subModules": [
             {
@@ -40,7 +40,7 @@
               "artifact": {
                 "size": 12345,
                 "MD5": "1959bb357e54a9666dd80d744b524639",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/versions/1.12.2-forge-14.23.5.2859/1.12.2-forge-14.23.5.2859.json"
+                "url": "http://localhost:800/pagina/repo/versions/1.12.2-forge-14.23.5.2859/1.12.2-forge-14.23.5.2859.json"
               }
             },
             {
@@ -50,7 +50,7 @@
               "artifact": {
                 "size": 387903,
                 "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/ow2/asm/asm-debug-all/5.2/asm-debug-all-5.2.jar"
               }
             },
             {
@@ -60,7 +60,7 @@
               "artifact": {
                 "size": 32999,
                 "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+                "url": "http://localhost:800/pagina/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
               }
             },
             {
@@ -70,7 +70,7 @@
               "artifact": {
                 "size": 614590,
                 "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/jline/jline/3.5.1/jline-3.5.1.jar"
               }
             },
             {
@@ -80,7 +80,7 @@
               "artifact": {
                 "size": 2514991,
                 "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+                "url": "http://localhost:800/pagina/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
               }
             },
             {
@@ -90,7 +90,7 @@
               "artifact": {
                 "size": 219554,
                 "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+                "url": "http://localhost:800/pagina/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
               }
             },
             {
@@ -100,7 +100,7 @@
               "artifact": {
                 "size": 58018,
                 "MD5": "f5e79398daa1806f8b17311a3c782723",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
               }
             },
             {
@@ -110,7 +110,7 @@
               "artifact": {
                 "size": 13449765,
                 "MD5": "06030143bf86ca896fb6ccfd679b5760",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
               }
             },
             {
@@ -120,7 +120,7 @@
               "artifact": {
                 "size": 25365,
                 "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2_mc/scala-continuations-library_2.11-1.0.2_mc.jar"
               }
             },
             {
@@ -130,7 +130,7 @@
               "artifact": {
                 "size": 206575,
                 "MD5": "359c4a6743a082c689039482eed78670",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2_mc/scala-continuations-plugin_2.11.1-1.0.2_mc.jar"
               }
             },
             {
@@ -140,7 +140,7 @@
               "artifact": {
                 "size": 5538130,
                 "MD5": "1d88f665219e6006c5dd82d71c525c0f",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
               }
             },
             {
@@ -150,7 +150,7 @@
               "artifact": {
                 "size": 419701,
                 "MD5": "4e694499c965af4a02599c99d4f0b196",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
               }
             },
             {
@@ -160,7 +160,7 @@
               "artifact": {
                 "size": 4372892,
                 "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
               }
             },
             {
@@ -170,7 +170,7 @@
               "artifact": {
                 "size": 726500,
                 "MD5": "1009d69e4948045383f2a7a334348af5",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
               }
             },
             {
@@ -180,7 +180,7 @@
               "artifact": {
                 "size": 648679,
                 "MD5": "c2d7e66495afe14545c31b21e99879ef",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
               }
             },
             {
@@ -190,7 +190,7 @@
               "artifact": {
                 "size": 5762,
                 "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+                "url": "http://localhost:800/pagina/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
               }
             },
             {
@@ -200,7 +200,7 @@
               "artifact": {
                 "size": 318956,
                 "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
+                "url": "http://localhost:800/pagina/repo/lib/java3d/vecmath/1.5.2/vecmath-1.5.2.jar"
               }
             },
             {
@@ -210,7 +210,7 @@
               "artifact": {
                 "size": 2523218,
                 "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
+                "url": "http://localhost:800/pagina/repo/lib/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar"
               }
             },
             {
@@ -220,7 +220,7 @@
               "artifact": {
                 "size": 54961,
                 "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/apache/maven/maven-artifact/3.5.3/maven-artifact-3.5.3.jar"
               }
             },
             {
@@ -230,7 +230,7 @@
               "artifact": {
                 "size": 78175,
                 "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
+                "url": "http://localhost:800/pagina/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.3/jopt-simple-5.0.3.jar"
               }
             },
             {
@@ -240,7 +240,7 @@
               "artifact": {
                 "size": 301804,
                 "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
               }
             },
             {
@@ -250,7 +250,7 @@
               "artifact": {
                 "size": 1789769,
                 "MD5": "81e0433ae00602c0e4d00424d213b0ab",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
               }
             },
             {
@@ -260,7 +260,7 @@
               "artifact": {
                 "size": 21223,
                 "MD5": "196442f1bdde4dbb0f576eed616e21b0",
-                "url": "http://pistak.mooo.com:800/Phobos/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+                "url": "http://localhost:800/pagina/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
               }
             }
           ]
@@ -271,7 +271,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 76507517,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/AmbientSounds_v3.0.18_mc1.12.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/AmbientSounds_v3.0.18_mc1.12.2.jar",
             "MD5": "e7f8ea70aafda2e38ab3c85a8fe38d7c"
           }
         },
@@ -281,7 +281,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1239580,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/antiqueatlas-1.12.2-4.6.3.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/antiqueatlas-1.12.2-4.6.3.jar",
             "MD5": "2cafce41d88d5067bf9a9da6a8fc79a8"
           }
         },
@@ -291,7 +291,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 186686,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Aquaculture-1.12.2-1.6.8.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Aquaculture-1.12.2-1.6.8.jar",
             "MD5": "168ee7ded8fa21d49700b99e8617c79b"
           }
         },
@@ -301,7 +301,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 710738,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Armor+Souls+1.0.1+Forge.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Armor+Souls+1.0.1+Forge.jar",
             "MD5": "52aa0e75e22824f8e93df2941331067f"
           }
         },
@@ -311,7 +311,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 102399,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/astikorcarts-1.12.2-0.1.2.7.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/astikorcarts-1.12.2-0.1.2.7.jar",
             "MD5": "af7be118e58fb1e205c33a7587a77eef"
           }
         },
@@ -321,7 +321,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 330344,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/athenaeum-1.12.2-1.19.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/athenaeum-1.12.2-1.19.2.jar",
             "MD5": "7b5b3e8a433c8f59f112d0be1d3ca31a"
           }
         },
@@ -331,7 +331,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 108450,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Baubles-1.12-1.5.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Baubles-1.12-1.5.2.jar",
             "MD5": "944dec4ef3fbfd4d498d94a7047af201"
           }
         },
@@ -341,7 +341,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 8211365,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/betteranimalsplus-1.12.2-9.0.1.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/betteranimalsplus-1.12.2-9.0.1.jar",
             "MD5": "154144d50500329125deac9304c4c23f"
           }
         },
@@ -351,7 +351,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1925728,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/bookworm-1.12.2-2.5.2.1.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/bookworm-1.12.2-2.5.2.1.jar",
             "MD5": "f31cf69f387844f97fa3de429f26b2f7"
           }
         },
@@ -361,7 +361,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 130134,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/callablehorses-1.12.2-1.1.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/callablehorses-1.12.2-1.1.jar",
             "MD5": "3472074c62e63bfd3e8bd5264186905b"
           }
         },
@@ -371,7 +371,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 4755282,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Chisel-MC1.12.2-1.0.2.45.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Chisel-MC1.12.2-1.0.2.45.jar",
             "MD5": "54afc298f94e708f0e1cdf399200b2cb"
           }
         },
@@ -381,7 +381,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5400241,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Chocolate_Quest_Repoured-1.12.2-2.4.2B.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Chocolate_Quest_Repoured-1.12.2-2.4.2B.jar",
             "MD5": "28fbb80ced7a27c4a56424f570f61f64"
           }
         },
@@ -391,7 +391,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2327451,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/coroutil-1.12.1-1.2.37.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/coroutil-1.12.1-1.2.37.jar",
             "MD5": "350c216784bb54cffc538325ab52d4cc"
           }
         },
@@ -401,7 +401,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 90465,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/CraftStudioAPI-universal-1.0.1.95-mc1.12-alpha.jar",
             "MD5": "e6dcc9b9784d52aa67f6e706eccb2cb2"
           }
         },
@@ -411,7 +411,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1535753,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/CraftTweaker2-1.12-4.1.20.634.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/CraftTweaker2-1.12-4.1.20.634.jar",
             "MD5": "c724e1a12972e83501aec5109264001f"
           }
         },
@@ -421,7 +421,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1193769,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/CreativeCore_v1.10.44_mc1.12.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/CreativeCore_v1.10.44_mc1.12.2.jar",
             "MD5": "1ec6aa803ba0827eb97ed7160090b795"
           }
         },
@@ -431,7 +431,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 199045,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/CTM-MC1.12.2-1.0.2.31.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/CTM-MC1.12.2-1.0.2.31.jar",
             "MD5": "77a8bb5486c97e3eaa6f45e5bd768864"
           }
         },
@@ -441,7 +441,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 9911871,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/CustomNPCs_1.12.2-(05Jul20).jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/CustomNPCs_1.12.2-(05Jul20).jar",
             "MD5": "3ab1a5c4b069d574631da5bc1880ebf7"
           }
         },
@@ -451,7 +451,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 702996,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/DoomlikeDungeons-1.13.2-MC1.12.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/DoomlikeDungeons-1.13.2-MC1.12.2.jar",
             "MD5": "b762700ca12b78dccbbbd78ded271fa0"
           }
         },
@@ -461,7 +461,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 132718,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/dropt-1.12.2-1.15.1.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/dropt-1.12.2-1.15.1.jar",
             "MD5": "ccf7d55915761dcc43d0f4713a571fbb"
           }
         },
@@ -471,7 +471,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2797080,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/DungeonTactics-1.12.2-0.16.9.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/DungeonTactics-1.12.2-0.16.9.jar",
             "MD5": "0e87f86e10338ad36cdc9a1b4e56d78b"
           }
         },
@@ -481,7 +481,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 10833151,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/ebwizardry-4.3.4.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/ebwizardry-4.3.4.jar",
             "MD5": "407a92f5443e5b60c730a97ab8341716"
           }
         },
@@ -491,7 +491,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 704876,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Explorercraft-2.2.14.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Explorercraft-2.2.14.jar",
             "MD5": "8ab9f77b52301b29e1db167b2764b01b"
           }
         },
@@ -501,7 +501,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3831672,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Fish's+Undead+Rising-1.2.3.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Fish's+Undead+Rising-1.2.3.jar",
             "MD5": "5b92d074c2cb4085d3c4d2efa549ec5a"
           }
         },
@@ -511,7 +511,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 210423,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/optionaloff/foamfix-0.10.11-1.12.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/optionaloff/foamfix-0.10.11-1.12.2.jar",
             "MD5": "005b3d124df67e4c2ca7c1aeb1b2cb7c"
           },
           "required": {
@@ -525,7 +525,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3680008,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/forge-1.12.2-geckolib-3.0.0-beta.7.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/forge-1.12.2-geckolib-3.0.0-beta.7.jar",
             "MD5": "7f787fe1b332596f4c669228e63d504b"
           }
         },
@@ -535,7 +535,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5772310,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Forgelin-1.8.3.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Forgelin-1.8.3.jar",
             "MD5": "d729a4a101a5687329526f6cb7adc64d"
           }
         },
@@ -545,7 +545,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 14192460,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/future-mc-0.2.9.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/future-mc-0.2.9.jar",
             "MD5": "de6f3d41742338b4c90f994bb7e4e7e7"
           }
         },
@@ -555,7 +555,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 379371,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/GottschCore-mc1.12.2-f14.23.5.2854-v1.14.0.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/GottschCore-mc1.12.2-f14.23.5.2854-v1.14.0.jar",
             "MD5": "39e311e9e5cc333f46cd82393d67f369"
           }
         },
@@ -565,7 +565,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 440023,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/heroicarmory-1.2.0.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/heroicarmory-1.2.0.jar",
             "MD5": "ad2c0c8d156739d758bc6e0f103302af"
           }
         },
@@ -575,7 +575,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 453778,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Hwyla-1.8.26-B41_1.12.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Hwyla-1.8.26-B41_1.12.2.jar",
             "MD5": "bca1c069d9171d331d211d24e8a3b770"
           }
         },
@@ -585,7 +585,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 465363,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/IronBackpacks-1.12.2-3.0.8-12.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/IronBackpacks-1.12.2-3.0.8-12.jar",
             "MD5": "9fd50b1827b711704c69789aa94ac2ca"
           }
         },
@@ -595,7 +595,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 455763,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/IvToolkit-1.3.3-1.12.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/IvToolkit-1.3.3-1.12.jar",
             "MD5": "f1a23cb6eaa682240c0ecdab65e7857f"
           }
         },
@@ -605,7 +605,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 653211,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/jei_1.12.2-4.16.1.301.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/jei_1.12.2-4.16.1.301.jar",
             "MD5": "1dee4be93d666e2228039c551e927b35"
           }
         },
@@ -615,7 +615,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 884550,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/llibrary-1.7.20-1.12.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/llibrary-1.7.20-1.12.2.jar",
             "MD5": "218aefca8bd6bb8d9ff7dd877c1d277d"
           }
         },
@@ -625,7 +625,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2043519,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/mahoutsukai-1.12.2-v1.19.41.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/mahoutsukai-1.12.2-v1.19.41.jar",
             "MD5": "efc718dcede5032ed41766199e415df0"
           }
         },
@@ -635,7 +635,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 843486,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Mantle-1.12-1.3.3.55.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Mantle-1.12-1.3.3.55.jar",
             "MD5": "1026f5f8d3c4997831decd9023ca65a6"
           }
         },
@@ -645,7 +645,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2459965,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/MCA-1.12.2-6.1.0-universal.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/MCA-1.12.2-6.1.0-universal.jar",
             "MD5": "38bc3efca9daee41f7d43870d1261bd8"
           }
         },
@@ -655,7 +655,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5185246,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/mowziesmobs-1.5.8.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/mowziesmobs-1.5.8.jar",
             "MD5": "de6541439f9a436963b020f20164cbfa"
           }
         },
@@ -665,7 +665,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 183875,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/multimob-1.0.5.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/multimob-1.0.5.jar",
             "MD5": "48bff39752c6ac0b6090ac4c241a55ea"
           }
         },
@@ -675,7 +675,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1200094,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/MutantBeasts-1.12.2-1.0.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/MutantBeasts-1.12.2-1.0.2.jar",
             "MD5": "6b7285e4a0197f1c0a02e431ca918e73"
           }
         },
@@ -685,7 +685,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 108944,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/OfflineSkins-1.12.2-v6.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/OfflineSkins-1.12.2-v6.jar",
             "MD5": "0f6a73ce19399a58687639e282ea057a"
           }
         },
@@ -695,7 +695,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 4561377,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/OpenTerrainGenerator-1.12.2-v9.3.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/OpenTerrainGenerator-1.12.2-v9.3.jar",
             "MD5": "d2217d13d7e454174124a0ac14750f23"
           }
         },
@@ -705,7 +705,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2457427,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_G5_MOD.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/optionalon/OptiFine_1.12.2_HD_U_G5_MOD.jar",
             "MD5": "dc2865643ff1885d7520a5e6204228f9"
           },
           "required": {
@@ -718,7 +718,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 47241,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/ordinarycoins-1.12.2-1.5.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/ordinarycoins-1.12.2-1.5.jar",
             "MD5": "170bc6362cfd7bad72f9ae11b283954c"
           }
         },
@@ -728,7 +728,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 341728,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/OreLib-1.12.2-3.6.0.1.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/OreLib-1.12.2-3.6.0.1.jar",
             "MD5": "00cce3b240365458adcad3e77782358a"
           }
         },
@@ -738,7 +738,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 145329,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/PotionCore-1.9_for_1.12.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/PotionCore-1.9_for_1.12.2.jar",
             "MD5": "5dea390b2e61967b35d23f73adf73bad"
           }
         },
@@ -748,7 +748,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 7076645,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/RecurrentComplex-1.4.8.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/RecurrentComplex-1.4.8.2.jar",
             "MD5": "821b38ba97b03eb79d64db797db67dac"
           }
         },
@@ -758,7 +758,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1247278,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Reliquary-1.12.2-1.3.4.796.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Reliquary-1.12.2-1.3.4.796.jar",
             "MD5": "acd6db4d0449a588f651a63480c4b435"
           }
         },
@@ -768,7 +768,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 16612,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/ResourceLoader-MC1.12.1-1.5.3.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/ResourceLoader-MC1.12.1-1.5.3.jar",
             "MD5": "51141e882f96ce756b9b3d25f2acdf57"
           }
         },
@@ -778,7 +778,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 701215,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/RoguelikeDungeons-1.12.2-1.8.0.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/RoguelikeDungeons-1.12.2-1.8.0.jar",
             "MD5": "e6f7604a6ec95d0af6eee2f2f3ecef85"
           }
         },
@@ -788,7 +788,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 244703,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Ruins-1.12.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Ruins-1.12.2.jar",
             "MD5": "e37b1cf7390ce37975c2f8754ac7cd63"
           }
         },
@@ -798,7 +798,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1400465,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/rustic-1.1.7.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/rustic-1.1.7.jar",
             "MD5": "e5fc580c4f69dd2e8b830ef2d814e34f"
           }
         },
@@ -808,7 +808,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 465440,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/signpost-1.12.2-1.08.3.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/signpost-1.12.2-1.08.3.jar",
             "MD5": "55d65e8e354196e0d8307a37a75ceee3"
           }
         },
@@ -818,7 +818,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 309015,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Terra-Mod-1.12.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Terra-Mod-1.12.2.jar",
             "MD5": "5fa74ceb7700d639be9611b0ef632e57"
           }
         },
@@ -828,7 +828,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2531823,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/tetra-1.12.2-0.39.1.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/tetra-1.12.2-0.39.1.jar",
             "MD5": "9e9db45a08dd7ca24e2c02a069ca214f"
           }
         },
@@ -838,7 +838,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1215481,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/tombstone-4.5.4-1.12.2.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/tombstone-4.5.4-1.12.2.jar",
             "MD5": "ea4299a5891ca1adf4cc7cdca754d673"
           }
         },
@@ -848,7 +848,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 700179,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/toroquest-1.12.2-5.3.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/toroquest-1.12.2-5.3.jar",
             "MD5": "499efc967e8303e3bf3ccf7b18a4d2ce"
           }
         },
@@ -858,7 +858,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 423682,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/forgemods/required/Voice+Chat+Reloaded-1.2.5.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/forgemods/required/Voice+Chat+Reloaded-1.2.5.jar",
             "MD5": "13344fa9ab436f944f354fb8687306d8"
           }
         },
@@ -868,7 +868,7 @@
           "type": "File",
           "artifact": {
             "size": 3659,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/config/CustomMainMenu/mainmenu.json",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/config/CustomMainMenu/mainmenu.json",
             "MD5": "dfc240f24245b1c559294678f9ed3d41",
             "path": "config/CustomMainMenu/mainmenu.json"
           }
@@ -879,7 +879,7 @@
           "type": "File",
           "artifact": {
             "size": 3412,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/config/antiqueatlas/atlas_overlay.cfg",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/config/antiqueatlas/atlas_overlay.cfg",
             "MD5": "3c22c94f819d1e451cdd93d9dd8d041b",
             "path": "config/antiqueatlas/atlas_overlay.cfg"
           }
@@ -890,7 +890,7 @@
           "type": "File",
           "artifact": {
             "size": 1066150,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/Mixin%20-%20NO%20ELIMINAR.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/mods/Mixin%20-%20NO%20ELIMINAR.jar",
             "MD5": "bd76dd9467f3bc208d37b3c827e86c38",
             "path": "mods/Mixin - NO ELIMINAR.jar"
           }
@@ -901,7 +901,7 @@
           "type": "File",
           "artifact": {
             "size": 702608,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/MoBends%20-%20NO%20ELIMINAR.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/mods/MoBends%20-%20NO%20ELIMINAR.jar",
             "MD5": "3b744a926aec836a079caa7382f91c94",
             "path": "mods/MoBends - NO ELIMINAR.jar"
           }
@@ -912,7 +912,7 @@
           "type": "File",
           "artifact": {
             "size": 231675,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/drpcmblueprints-1.12.2-1.2.4.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/mods/drpcmblueprints-1.12.2-1.2.4.jar",
             "MD5": "3944660806cf516f21f29330ef8577b5",
             "path": "mods/drpcmblueprints-1.12.2-1.2.4.jar"
           }
@@ -923,7 +923,7 @@
           "type": "File",
           "artifact": {
             "size": 170525,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/drpcmdates-1.12.2-1.1.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/mods/drpcmdates-1.12.2-1.1.jar",
             "MD5": "839166348d244ebe9f6c3e4660d08998",
             "path": "mods/drpcmdates-1.12.2-1.1.jar"
           }
@@ -934,7 +934,7 @@
           "type": "File",
           "artifact": {
             "size": 1075472,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/drpcore-1.12.2-0.4.8.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/mods/drpcore-1.12.2-0.4.8.jar",
             "MD5": "5425b06103cbce9ff1abddb6ad8ea5c9",
             "path": "mods/drpcore-1.12.2-0.4.8.jar"
           }
@@ -945,7 +945,7 @@
           "type": "File",
           "artifact": {
             "size": 5575065,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/mods/drpmedieval-1.12.2-0.3.6.jar",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/mods/drpmedieval-1.12.2-0.3.6.jar",
             "MD5": "d65b3f37ed9a9cec5d607ccd8ed67a7c",
             "path": "mods/drpmedieval-1.12.2-0.3.6.jar"
           }
@@ -956,7 +956,7 @@
           "type": "File",
           "artifact": {
             "size": 30763,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/resources/modpack/Z.png",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/resources/modpack/Z.png",
             "MD5": "3c7cad3beeb96a032dac5660a3d1ac41",
             "path": "resources/modpack/Z.png"
           }
@@ -967,7 +967,7 @@
           "type": "File",
           "artifact": {
             "size": 6328,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/resources/modpack/bg_menu.png",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/resources/modpack/bg_menu.png",
             "MD5": "982a96cd0b85bb5eecd13cb6841775f6",
             "path": "resources/modpack/bg_menu.png"
           }
@@ -978,7 +978,7 @@
           "type": "File",
           "artifact": {
             "size": 1827,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/resources/modpack/boton.png",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/resources/modpack/boton.png",
             "MD5": "e8fffe42461ff14ec01f896def4827cd",
             "path": "resources/modpack/boton.png"
           }
@@ -989,7 +989,7 @@
           "type": "File",
           "artifact": {
             "size": 2958,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/resources/modpack/btn.png",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/resources/modpack/btn.png",
             "MD5": "93679909e4e3c6ba9875174da24916fd",
             "path": "resources/modpack/btn.png"
           }
@@ -1000,7 +1000,7 @@
           "type": "File",
           "artifact": {
             "size": 127117,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/resources/modpack/panorama/panorama_0.png",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/resources/modpack/panorama/panorama_0.png",
             "MD5": "e4138e528b8eb3393501e4895085c133",
             "path": "resources/modpack/panorama/panorama_0.png"
           }
@@ -1011,7 +1011,7 @@
           "type": "File",
           "artifact": {
             "size": 128726,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/resources/modpack/panorama/panorama_1.png",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/resources/modpack/panorama/panorama_1.png",
             "MD5": "f8accb2dfa666ad10409e00b64588498",
             "path": "resources/modpack/panorama/panorama_1.png"
           }
@@ -1022,7 +1022,7 @@
           "type": "File",
           "artifact": {
             "size": 120529,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/resources/modpack/panorama/panorama_2.png",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/resources/modpack/panorama/panorama_2.png",
             "MD5": "e9b3f6407e4677ac80b32e7586b57cac",
             "path": "resources/modpack/panorama/panorama_2.png"
           }
@@ -1033,7 +1033,7 @@
           "type": "File",
           "artifact": {
             "size": 119936,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/resources/modpack/panorama/panorama_3.png",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/resources/modpack/panorama/panorama_3.png",
             "MD5": "d66042fc656dd3a7a34a6af98c984e06",
             "path": "resources/modpack/panorama/panorama_3.png"
           }
@@ -1044,7 +1044,7 @@
           "type": "File",
           "artifact": {
             "size": 84374,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/resources/modpack/panorama/panorama_4.png",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/resources/modpack/panorama/panorama_4.png",
             "MD5": "aad720f49453c1bcd6c3a59faec6ec7c",
             "path": "resources/modpack/panorama/panorama_4.png"
           }
@@ -1055,7 +1055,7 @@
           "type": "File",
           "artifact": {
             "size": 136742,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/resources/modpack/panorama/panorama_5.png",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/resources/modpack/panorama/panorama_5.png",
             "MD5": "82e4c2e61a76bc6a1ab2194e4796e90a",
             "path": "resources/modpack/panorama/panorama_5.png"
           }
@@ -1066,7 +1066,7 @@
           "type": "File",
           "artifact": {
             "size": 3134623,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/shaderpacks/Chocapic13_V9_Extreme.zip",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/shaderpacks/Chocapic13_V9_Extreme.zip",
             "MD5": "2a5ec76ad7acc47005e32cc1e5da1e41",
             "path": "shaderpacks/Chocapic13_V9_Extreme.zip"
           }
@@ -1077,7 +1077,7 @@
           "type": "File",
           "artifact": {
             "size": 3134568,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/shaderpacks/Chocapic13_V9_High.zip",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/shaderpacks/Chocapic13_V9_High.zip",
             "MD5": "29c39e1d1e6030b14e3db3f65c38ce05",
             "path": "shaderpacks/Chocapic13_V9_High.zip"
           }
@@ -1088,7 +1088,7 @@
           "type": "File",
           "artifact": {
             "size": 2428092,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/shaderpacks/Chocapic13_V9_Medium.zip",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/shaderpacks/Chocapic13_V9_Medium.zip",
             "MD5": "55e6328b1ca9e1208f8034bc6983f5c3",
             "path": "shaderpacks/Chocapic13_V9_Medium.zip"
           }
@@ -1099,7 +1099,7 @@
           "type": "File",
           "artifact": {
             "size": 3134570,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/shaderpacks/Chocapic13_V9_Ultra.zip",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/shaderpacks/Chocapic13_V9_Ultra.zip",
             "MD5": "46d8fcd102bdaa4340c37a137135a2bc",
             "path": "shaderpacks/Chocapic13_V9_Ultra.zip"
           }
@@ -1110,7 +1110,7 @@
           "type": "File",
           "artifact": {
             "size": 142935,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/shaderpacks/Sildurs%20Vibrant%20Shaders%20v1.283%20Lite.zip",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/shaderpacks/Sildurs%20Vibrant%20Shaders%20v1.283%20Lite.zip",
             "MD5": "72f6fb6310b14bde06c5e33c51169e3f",
             "path": "shaderpacks/Sildurs Vibrant Shaders v1.283 Lite.zip"
           }
@@ -1121,7 +1121,7 @@
           "type": "File",
           "artifact": {
             "size": 142963,
-            "url": "http://pistak.mooo.com:800/Phobos/servers/PhobosCraft-1.12.2/files/shaderpacks/Sildurs%20Vibrant%20Shaders%20v1.283%20Medium.zip",
+            "url": "http://localhost:800/pagina/servers/PhobosCraft-1.12.2/files/shaderpacks/Sildurs%20Vibrant%20Shaders%20v1.283%20Medium.zip",
             "MD5": "30371722f8ef16d3503a087302d721a7",
             "path": "shaderpacks/Sildurs Vibrant Shaders v1.283 Medium.zip"
           }
