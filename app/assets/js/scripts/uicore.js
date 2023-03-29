@@ -5,14 +5,14 @@
  * modules, excluding dependencies.
  */
 // Requirements
-const $                                      = require('jquery')
-const {ipcRenderer, remote, shell, webFrame} = require('electron')
-const isDev                                  = require('./assets/js/isdev')
-const LoggerUtil                             = require('./assets/js/loggerutil')
+const $                              = require('jquery')
+const {ipcRenderer, shell, webFrame} = require('electron')
+const remote                         = require('@electron/remote')
+const isDev                          = require('./assets/js/isdev')
+const { LoggerUtil }                 = require('helios-core')
 
-const loggerUICore             = LoggerUtil('%c[UICore]', 'color: #000668; font-weight: bold')
-const loggerAutoUpdater        = LoggerUtil('%c[AutoUpdater]', 'color: #000668; font-weight: bold')
-const loggerAutoUpdaterSuccess = LoggerUtil('%c[AutoUpdater]', 'color: #209b07; font-weight: bold')
+const loggerUICore             = LoggerUtil.getLogger('UICore')
+const loggerAutoUpdater        = LoggerUtil.getLogger('AutoUpdater')
 
 // Log deprecation and process warnings.
 process.traceProcessWarnings = true
@@ -26,9 +26,9 @@ window.eval = global.eval = function () {
 
 // Display warning when devtools window is opened.
 remote.getCurrentWebContents().on('devtools-opened', () => {
-    console.log('%cSi la consola tiene mas de 5 errores, empieza a rezarle al de arriba.', 'color: white; -webkit-text-stroke: 4px #a02d2a; font-size: 60px; font-weight: bold')
-    console.log('%cSi alguien te dijo que pegues algo aca, no le des bola.', 'font-size: 16px')
-    console.log('%cA menos que Pistak41 te lo haya dicho xd.', 'font-size: 16px')
+    console.log('%cThe console is dark and full of terrors.', 'color: white; -webkit-text-stroke: 4px #a02d2a; font-size: 60px; font-weight: bold')
+    console.log('%cIf you\'ve been told to paste something here, you\'re being scammed.', 'font-size: 16px')
+    console.log('%cUnless you know exactly what you\'re doing, close this window.', 'font-size: 16px')
 })
 
 // Disable zoom, needed for darwin.
@@ -36,7 +36,70 @@ webFrame.setZoomLevel(0)
 webFrame.setVisualZoomLevelLimits(1, 1)
 
 // Initialize auto updates in production environments.
+let updateCheckListener
+if(!isDev){
+    ipcRenderer.on('autoUpdateNotification', (event, arg, info) => {
+        switch(arg){
+            case 'checking-for-update':
+                loggerAutoUpdater.info('Checking for update..')
+                settingsUpdateButtonStatus('Checking for Updates..', true)
+                break
+            case 'update-available':
+                loggerAutoUpdater.info('New update available', info.version)
+                
+                if(process.platform === 'darwin'){
+                    info.darwindownload = 'https://github.com/Pistak41/Chad-Launcher'
+                    showUpdateUI(info)
+                }
+                
+                populateSettingsUpdateInformation(info)
+                break
+            case 'update-downloaded':
+                loggerAutoUpdater.info('Update ' + info.version + ' ready to be installed.')
+                settingsUpdateButtonStatus('Install Now', false, () => {
+                    if(!isDev){
+                        ipcRenderer.send('autoUpdateAction', 'installUpdateNow')
+                    }
+                })
+                showUpdateUI(info)
+                break
+            case 'update-not-available':
+                loggerAutoUpdater.info('No new update found.')
+                settingsUpdateButtonStatus('Check for Updates')
+                break
+            case 'ready':
+                updateCheckListener = setInterval(() => {
+                    ipcRenderer.send('autoUpdateAction', 'checkForUpdate')
+                }, 1800000)
+                ipcRenderer.send('autoUpdateAction', 'checkForUpdate')
+                break
+            case 'realerror':
+                if(info != null && info.code != null){
+                    if(info.code === 'ERR_UPDATER_INVALID_RELEASE_FEED'){
+                        loggerAutoUpdater.info('No suitable releases found.')
+                    } else if(info.code === 'ERR_XML_MISSED_ELEMENT'){
+                        loggerAutoUpdater.info('No releases found.')
+                    } else {
+                        loggerAutoUpdater.error('Error during update check..', info)
+                        loggerAutoUpdater.debug('Error Code:', info.code)
+                    }
+                }
+                break
+            default:
+                loggerAutoUpdater.info('Unknown argument', arg)
+                break
+        }
+    })
+}
 
+/**
+ * Send a notification to the main process changing the value of
+ * allowPrerelease. If we are running a prerelease version, then
+ * this will always be set to true, regardless of the current value
+ * of val.
+ * 
+ * @param {boolean} val The new allow prerelease value.
+ */
 function changeAllowPrerelease(val){
     ipcRenderer.send('autoUpdateAction', 'allowPrereleaseChange', val)
 }
@@ -66,12 +129,12 @@ function showUpdateUI(info){
 
 /* jQuery Example
 $(function(){
-    loggerUICore.log('UICore Initialized');
+    loggerUICore.info('UICore Initialized');
 })*/
 
 document.addEventListener('readystatechange', function () {
     if (document.readyState === 'interactive'){
-        loggerUICore.log('UICore Initializing..')
+        loggerUICore.info('UICore Initializing..')
 
         // Bind close button.
         Array.from(document.getElementsByClassName('fCb')).map((val) => {
@@ -124,7 +187,7 @@ document.addEventListener('readystatechange', function () {
         document.getElementById('launch_progress').style.width = 170.8
         document.getElementById('launch_details_right').style.maxWidth = 170.8
         document.getElementById('launch_progress_label').style.width = 53.21
-
+        
     }
 
 }, false)
@@ -140,10 +203,10 @@ $(document).on('click', 'a[href^="http"]', function(event) {
 /**
  * Opens DevTools window if you hold (ctrl + shift + i).
  * This will crash the program if you are using multiple
- * DevTools, for example the chrome debugger in VS Code.
+ * DevTools, for example the chrome debugger in VS Code. 
  */
 document.addEventListener('keydown', function (e) {
-    if((e.key === 'I' || e.key === 'i') && e.ctrlKey){
+    if((e.key === 'I' || e.key === 'i') && e.ctrlKey && e.shiftKey){
         let window = remote.getCurrentWindow()
         window.toggleDevTools()
     }

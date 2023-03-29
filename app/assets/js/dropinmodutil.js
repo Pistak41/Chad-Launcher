@@ -1,6 +1,7 @@
 const fs        = require('fs-extra')
 const path      = require('path')
-const { shell } = require('electron')
+const { ipcRenderer, shell } = require('electron')
+const { SHELL_OPCODE } = require('./ipcconstants')
 
 // Group #1: File Name (without .disabled, if any)
 // Group #2: File Extension (jar, zip, or litemod)
@@ -92,14 +93,19 @@ exports.addDropinMods = function(files, modsdir) {
  * @param {string} modsDir The path to the mods directory.
  * @param {string} fullName The fullName of the discovered mod to delete.
  * 
- * @returns {boolean} True if the mod was deleted, otherwise false.
+ * @returns {Promise.<boolean>} True if the mod was deleted, otherwise false.
  */
-exports.deleteDropinMod = function(modsDir, fullName){
-    const res = shell.moveItemToTrash(path.join(modsDir, fullName))
-    if(!res){
+exports.deleteDropinMod = async function(modsDir, fullName){
+
+    const res = await ipcRenderer.invoke(SHELL_OPCODE.TRASH_ITEM, path.join(modsDir, fullName))
+
+    if(!res.result) {
         shell.beep()
+        console.error('Error deleting drop-in mod.', res.error)
+        return false
     }
-    return res
+
+    return true
 }
 
 /**

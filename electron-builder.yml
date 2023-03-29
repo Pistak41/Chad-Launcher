@@ -1,0 +1,51 @@
+appId: 'C.H.A.D'
+productName: 'Chad Launcher'
+artifactName: '${productName}-Installer-Version${version}.${ext}'
+copyright: 'Copyright © 2021-2023 Pistak41'
+
+
+asar: true
+compression: 'maximum'
+
+files:
+  - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,.eslintrc.json}'
+
+extraResources:
+  - 'libraries'
+
+# Windows Configuration
+win: 
+  target: 
+    - target: 'nsis'
+      arch: 'x64'
+
+# Windows Installer Configuration
+nsis:
+  oneClick: false
+  perMachine: false
+  allowElevation: true
+  allowToChangeInstallationDirectory: true
+
+# macOS Configuration
+mac:
+  target:
+    - target: 'dmg'
+      arch:
+        - 'x64'
+        - 'arm64'
+  artifactName: '${productName}-setup-${version}-${arch}.${ext}'
+  category: 'public.app-category.games'
+
+# Linux Configuration
+linux: 
+  target: 'AppImage'
+  maintainer: 'Pistak41'
+  vendor: 'Pistak41'
+  synopsis: 'Launcher de Minecraft Moddeado'
+  description: 'Launcher modificado que permite el acceso a Phoboscraft, las actualizaciones son automaticas.'
+  category: 'Game'
+
+
+directories:
+  buildResources: 'build'
+  output: 'dist'
