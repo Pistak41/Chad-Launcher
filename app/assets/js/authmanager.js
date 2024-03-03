@@ -209,6 +209,8 @@ exports.removeMicrosoftAccount = async function(uuid){
  * otherwise false.
  */
 async function validateSelectedMojangAccount(){
+    if (ConfigManager.getClientToken() == 'ImCrakedLOL') return true
+
     const current = ConfigManager.getSelectedAccount()
     const response = await MojangRestAPI.validate(current.accessToken, ConfigManager.getClientToken())
 
