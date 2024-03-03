@@ -567,7 +567,7 @@ async function dlAsync(login = true) {
         const onLoadComplete = () => {
             toggleLaunchArea(false)
             if(hasRPC){
-                DiscordWrapper.updateDetails('Loading game..')
+                DiscordWrapper.updateDetails('Preparandose para entrar...')
                 proc.stdout.on('data', gameStateChange)
             }
             proc.stdout.removeListener('data', tempListener)
@@ -593,10 +593,8 @@ async function dlAsync(login = true) {
         // Listener for Discord RPC.
         const gameStateChange = function(data){
             data = data.trim()
-            if(SERVER_JOINED_REGEX.test(data)){
-                DiscordWrapper.updateDetails('Exploring the Realm!')
-            } else if(GAME_JOINED_REGEX.test(data)){
-                DiscordWrapper.updateDetails('Sailing to Westeros!')
+            if(GAME_JOINED_REGEX.test(data)){
+                DiscordWrapper.updateDetails(serv.rawServer.discord.largeImageText)
             }
         }
 
@@ -619,7 +617,7 @@ async function dlAsync(login = true) {
             setLaunchDetails('Done. Enjoy the server!')
 
             // Init Discord Hook
-            if(distro.rawDistribution.discord != null && serv.rawServerdiscord != null){
+            if(distro.rawDistribution.discord != null && serv.rawServer.discord != null){
                 DiscordWrapper.initRPC(distro.rawDistribution.discord, serv.rawServer.discord)
                 hasRPC = true
                 proc.on('close', (code, signal) => {
