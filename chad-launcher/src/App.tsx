@@ -14,7 +14,6 @@ export const App = () => {
     if (!username) navigate('/');
   }, [username, navigate]);
 
-
   return (
     <div className="flex gap-x-4 h-screen">
       <section className="flex flex-1 p-20 flex-col justify-between">

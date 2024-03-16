@@ -1,32 +1,32 @@
-import { useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom";
 import { BlurCard } from "./components/Cards";
 import { useEffect, useState } from "react";
 import { useConfig } from "./store/AuthContext";
 
 export const Login = () => {
   const navigate = useNavigate();
-  const { username, setUsername } = useConfig()
-  const [isVisible, setIsVisible] = useState(false)
+  const { username, setUsername } = useConfig();
+  const [isVisible, setIsVisible] = useState(false);
 
-  const { JAVA_HOME, setJavaHome, setMemory } = useConfig()
+  const { JAVA_HOME, setJavaHome, setMemory } = useConfig();
 
   useEffect(() => {
     window.electronAPI.getENV(((_, javaHome) => {
       if (JAVA_HOME) return;
 
-      setJavaHome(javaHome)
-    }))
+      setJavaHome(javaHome);
+    }));
 
     window.electronAPI.getMemoryStatus(((_, ram) => {
-      setMemory(ram)
-    }))
+      setMemory(ram);
+    }));
 
     if (username) {
-      navigate('/home')
+      navigate('/home');
     } else {
-      setIsVisible(true)
+      setIsVisible(true);
     }
-  }, [navigate, username, JAVA_HOME, setJavaHome, setMemory])
+  }, [navigate, username, JAVA_HOME, setJavaHome, setMemory]);
 
   const login = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -36,7 +36,7 @@ export const Login = () => {
     const nickname = formData.get('nickname') as string;
 
     setUsername(nickname);
-  }
+  };
 
   return isVisible && (
     <BlurCard>
@@ -70,5 +70,5 @@ export const Login = () => {
       </form>
 
     </BlurCard>
-  )
-}
+  );
+};
