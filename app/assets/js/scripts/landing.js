@@ -299,7 +299,6 @@ function showLaunchFailure(title, desc){
  * @param {boolean} launchAfter Whether we should begin to launch after scanning. 
  */
 async function asyncSystemScan(effectiveJavaOptions, launchAfter = true){
-
     setLaunchDetails(Lang.queryJS('landing.systemScan.checking'))
     toggleLaunchArea(true)
     setLaunchPercentage(0, 100)
@@ -466,6 +465,13 @@ async function dlAsync(login = true) {
     }
 
     const serv = distro.getServerById(ConfigManager.getSelectedServer())
+    console.log('la idstro pa', ConfigManager.getCommonDirectory(),)
+
+    console.log('ESTO ES MIOS')
+    const authUser = ConfigManager.getSelectedAccount()
+    let pb = new ProcessBuilder(serv, versionData, modLoaderData, authUser, remote.app.getVersion())
+    pb.build()
+    console.log('ESTO ES MIOS')
 
     if(login) {
         if(ConfigManager.getSelectedAccount() == null){

@@ -1,16 +1,12 @@
-import { contextBridge, ipcRenderer } from 'electron'
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { type IpcRendererEvent, contextBridge, ipcRenderer } from 'electron'
 
 contextBridge.exposeInMainWorld("electronAPI", {
-  saveNickname: (nickname: string) => ipcRenderer.send('save-nickname', nickname),
-  onSaved: (callback: () => void) => ipcRenderer.on('nickname-saved', callback),
-  getNickname: () => {
-    ipcRenderer.send('get-nickname')
-    return new Promise<string>((resolve) => {
-      ipcRenderer.once('nickname', (_, nickname) => {
-        console.log('nickname recuperado', nickname);
-        
-        resolve(nickname)
-      })
-    })
+  changeIcon: () => ipcRenderer.send('change-icon'),
+  getENV: (callback: (event: IpcRendererEvent, ...args: any[]) => void) => {
+    ipcRenderer.on('JAVA_HOME', callback);
   },
+  getMemoryStatus: (callback: (event: IpcRendererEvent, ...args: any[]) => void) => {
+    ipcRenderer.on('get-memory', callback);
+  }
 });
