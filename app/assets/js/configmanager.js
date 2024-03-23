@@ -99,7 +99,8 @@ const DEFAULT_CONFIG = {
     selectedAccount: null,
     authenticationDatabase: {},
     modConfigurations: [],
-    javaConfig: {}
+    javaConfig: {},
+    distroURL: 'http://181.46.204.83/modpack/distribution.json'
 }
 
 let config = null
@@ -637,6 +638,14 @@ exports.setJavaExecutable = function (serverid, executable) {
  */
 exports.getJVMOptions = function (serverid) {
     return config.javaConfig[serverid].jvmOptions
+}
+
+exports.getDistroURL = function (){
+    return config.distroURL
+}
+
+exports.setDistroURL = function (distroURL) {
+    config.distroURL = distroURL
 }
 
 /**
