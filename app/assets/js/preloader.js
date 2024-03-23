@@ -21,6 +21,7 @@ ConfigManager.load()
 // TODO Fix this
 DistroAPI['commonDir'] = ConfigManager.getCommonDirectory()
 DistroAPI['instanceDir'] = ConfigManager.getInstanceDirectory()
+DistroAPI['remoteUrl'] = ConfigManager.getDistroURL()
 
 // Load Strings
 LangLoader.loadLanguage('en_US')

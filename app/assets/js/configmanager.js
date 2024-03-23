@@ -122,7 +122,6 @@ exports.save = function () {
  */
 exports.load = function () {
     let doLoad = true
-
     if (!fs.existsSync(configPath)) {
         // Create all parent directories.
         fs.ensureDirSync(path.join(configPath, '..'))
@@ -640,7 +639,7 @@ exports.getJVMOptions = function (serverid) {
     return config.javaConfig[serverid].jvmOptions
 }
 
-exports.getDistroURL = function (){
+exports.getDistroURL = function () {
     return config.distroURL
 }
 
