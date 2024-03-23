@@ -1064,7 +1064,7 @@ button {
     width: 16em;
 }
 
-.settingsDistroUrl {
+#settingsDistroUrlContainer {
     display: flex;
     width: 75%;
 }
