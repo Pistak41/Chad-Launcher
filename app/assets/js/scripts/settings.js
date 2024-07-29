@@ -1341,7 +1341,13 @@ function populateMemoryStatus() {
 async function populateJavaExecDetails(execPath) {
     const server = (await DistroAPI.getDistribution()).getServerById(ConfigManager.getSelectedServer())
 
-    const details = await validateSelectedJvm(ensureJavaDirIsRoot(execPath), server.effectiveJavaOptions.supported)
+    let details
+    
+    try {
+        details = await validateSelectedJvm(ensureJavaDirIsRoot(execPath), server.effectiveJavaOptions.supported)
+    } catch (error) {
+        
+    }
 
     if (details != null) {
         settingsJavaExecDetails.innerHTML = `Selected: Java ${details.semverStr} (${details.vendor})`

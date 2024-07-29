@@ -706,24 +706,25 @@ function slide_(up){
 }
 
 // Bind news button.
-document.getElementById('newsButton').onclick = () => {
-    // Toggle tabbing.
-    if(newsActive){
-        $('#landingContainer *').removeAttr('tabindex')
-        $('#newsContainer *').attr('tabindex', '-1')
-    } else {
-        $('#landingContainer *').attr('tabindex', '-1')
-        $('#newsContainer, #newsContainer *, #lower, #lower #center *').removeAttr('tabindex')
-        if(newsAlertShown){
-            $('#newsButtonAlert').fadeOut(2000)
-            newsAlertShown = false
-            ConfigManager.setNewsCacheDismissed(true)
-            ConfigManager.save()
-        }
-    }
-    slide_(!newsActive)
-    newsActive = !newsActive
-}
+
+// document.getElementById('newsButton').onclick = () => {
+//     // Toggle tabbing.
+//     if(newsActive){
+//         $('#landingContainer *').removeAttr('tabindex')
+//         $('#newsContainer *').attr('tabindex', '-1')
+//     } else {
+//         $('#landingContainer *').attr('tabindex', '-1')
+//         $('#newsContainer, #newsContainer *, #lower, #lower #center *').removeAttr('tabindex')
+//         if(newsAlertShown){
+//             $('#newsButtonAlert').fadeOut(2000)
+//             newsAlertShown = false
+//             ConfigManager.setNewsCacheDismissed(true)
+//             ConfigManager.save()
+//         }
+//     }
+//     slide_(!newsActive)
+//     newsActive = !newsActive
+// }
 
 // Array to store article meta.
 let newsArr = null

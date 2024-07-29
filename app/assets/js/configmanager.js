@@ -100,7 +100,7 @@ const DEFAULT_CONFIG = {
     authenticationDatabase: {},
     modConfigurations: [],
     javaConfig: {},
-    distroURL: 'http://181.46.204.83/modpack/distribution.json'
+    distroURL: 'http://phobos.net.ar/modpack/distribution.json'
 }
 
 let config = null

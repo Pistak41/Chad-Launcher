@@ -594,6 +594,50 @@ button {
         transform: translate3d(4px, 0, 0);
     }
 }
+.fade-in-delay,
+.fade-in {
+    animation: fadein 0.5s linear both;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spin1 {
+    border-top: 4px rgb(255, 255, 255) solid;
+    border-radius: 100%;
+    animation: spin 1.25s linear infinite;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes fadein {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
 
 /* Login text input styles. */
 .loginField {
@@ -4204,10 +4248,13 @@ input:checked+.toggleSwitchSlider:before {
 
 /* Spinner container. */
 #loadSpinnerContainer {
-    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 /* Stationary image for the spinner. */
