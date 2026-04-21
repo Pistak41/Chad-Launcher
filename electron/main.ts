@@ -1,8 +1,14 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { app, BrowserWindow, ipcMain, shell } from 'electron';
+import { spawn } from 'node:child_process';
 import path from 'node:path';
 import os from 'node:os';
 import { existsSync } from 'fs';
+import { readdirSync } from 'node:fs';
+import { ConfigProps } from '../src/types/Config';
+import ConfigManager from '../src/helpers/ConfigManager';
+import { v3 as uuidv3 } from 'uuid';
+
 
 // The built directory structure
 //
@@ -19,6 +25,8 @@ process.env.VITE_PUBLIC = app.isPackaged ? process.env.DIST : path.join(process.
 let win: BrowserWindow | null;
 // 🚧 Use ['ENV_NAME'] avoid vite:define plugin - Vite@2.x
 const VITE_DEV_SERVER_URL = process.env['VITE_DEV_SERVER_URL'];
+const SYS_ROOT = path.join(process.env.APPDATA!, '.chadlauncher');
+const manager = new ConfigManager();
 
 function createWindow() {
   win = new BrowserWindow({
@@ -49,14 +57,14 @@ function createWindow() {
       });
   }
 
-  win.webContents.setWindowOpenHandler(({url}) => {
+  win.webContents.setWindowOpenHandler(({ url }) => {
     shell.openExternal(url);
     return { action: 'deny' };
   });
 
   win.webContents.addListener('dom-ready', () => {
 
-    const JAVA_HOME = process.env.JAVA_HOME?.replaceAll('\\', '/');
+    const JAVA_HOME = process.env.JAVA_HOME!;
 
     if (!existsSync(`${JAVA_HOME}/bin/javaw.exe`)) return;
 
@@ -71,6 +79,113 @@ function createWindow() {
 
 ipcMain.on('change-icon', () => {
   win?.setIcon(path.join(process.env.VITE_PUBLIC, 'tree.png'));
+});
+
+function getLibs(p = path.join(SYS_ROOT, 'common', 'libraries')): Array<string> {
+
+  let args: Array<string> = [];
+
+  readdirSync(p, { recursive: true, withFileTypes: true }).forEach(a => {
+    if (a.isDirectory()) {
+      args = [...args, ...getLibs(p + '/' + a.name)];
+    } else {
+      args = [...args, p + '/' + a.name];
+    }
+  });
+
+  return args;
+
+}
+
+ipcMain.on('update-config', (_, c: Partial<ConfigProps>) => {
+  manager.saveValues(c);
+});
+
+ipcMain.on('play', () => {
+
+  
+
+  const libs = [
+    ...getLibs().filter(a => a.endsWith('.jar')),
+    path.join(SYS_ROOT, "common", "versions", "1.12.2", "1.12.2.jar")
+  ];
+
+  const { selectedRam, username, JAVA_HOME: java } = manager.config as ConfigProps;
+
+  console.log(uuidv3(username, uuidv3.DNS));
+
+
+  // const args = [
+  //   '-Xmx' + selectedRam.max + 'G',
+  //   '-Xms' + selectedRam.min + 'G',
+  //   '-cp',
+  //   libs.join(';'),
+  //   '-Djava.library.path=' + path.join(SYS_ROOT, 'native'),
+  //   'net.minecraft.launchwrapper.Launch',
+  //   '--username',
+  //   username,
+  //   '--version',
+  //   'Test1-1.12.2',
+  //   '--gameDir',
+  //   path.join(SYS_ROOT, "instances", "Test1-1.12.2"),
+  //   '--assetsDir',
+  //   path.join(SYS_ROOT, "common", "assets"),
+  //   '--assetIndex',
+  //   '1.12',
+  //   '--uuid',
+  //   '58c7e90c-670a-3053-becd-fdca141f81a8',
+  //   '--accessToken',
+  //   'ImCrakedLOL',
+  //   '--userType',
+  //   'mojang',
+  //   '--tweakClass',
+  //   'net.minecraftforge.fml.common.launcher.FMLTweaker',
+  //   '--versionType',
+  //   'Forge',
+  //   '--width',
+  //   '1280',
+  //   '--height',
+  //   '720',
+  //   '--modListFile',
+  //   'absolute:' + path.join(SYS_ROOT, "instances", "Test1-1.12.2", "forgeModList.json"),
+  // ];
+
+  // const child = spawn(
+  //   java,
+  //   args,
+  //   {
+  //     cwd: path.join(SYS_ROOT, "instances", "Test1-1.12.2"),
+  //     detached: true
+  //   }
+  // );
+
+  // child.stdout.setEncoding('utf8');
+  // child.stderr.setEncoding('utf8');
+
+  // let errors: string[] = [];
+
+  // child.stdout.on('data', (data: string) => {
+  //   data.trim().split('\n').forEach(x => console.log(`\x1b[32m[Minecraft]\x1b[0m ${x}`));
+
+  // });
+
+  // child.stderr.on('data', (data: string) => {
+
+  //   const errorMsgs = data.trim().split('\n');
+
+  //   errors = [...errors, ...errorMsgs];
+
+  //   errorMsgs.forEach(x => console.log(`\x1b[31m[Minecraft]\x1b[0m ${x}`));
+
+  // });
+
+  // child.on('close', () => {
+
+  //   if (errors.length !== 0) {
+  //     throw new Error(errors.join('\n'));
+  //   }
+
+  // });
 });
 
 // Quit when all windows are closed, except on macOS. There, it's common

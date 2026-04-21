@@ -1,14 +1,23 @@
 import { app } from "electron";
-import { writeFile } from 'node:fs/promises'
+import { writeFile } from 'node:fs/promises';
 import { existsSync, readFileSync } from "node:fs";
-import { join } from 'node:path'
+import { join } from 'node:path';
 
 export default class ConfigManager {
-    path = join(app.getPath('userData'), 'config.json')
-    config: { [key: string]: string } = {};
+    path = join(app.getPath('userData'), 'config.json');
+    config: Record<string, any> = {};
 
-    constructor() {
+    constructor() {        
         this.loadConfig();
+    }
+
+    async saveValues(config: Record<string, any>) {
+        this.config = {
+            ...this.config,
+            ...config
+        };
+
+        await this.saveConfig();
     }
 
     async saveValue(key: string, value: string) {
@@ -23,6 +32,6 @@ export default class ConfigManager {
     }
 
     private saveConfig() {
-        return writeFile(this.path, JSON.stringify(this.config, null, 2))
+        return writeFile(this.path, JSON.stringify(this.config, null, 2));
     }
 }

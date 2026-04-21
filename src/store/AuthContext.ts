@@ -1,28 +1,6 @@
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
-
-interface ConfigProps {
-    username: string,
-    JAVA_HOME: string,
-    selectedRam: {
-        min: number,
-        max: number
-    },
-    memory: {
-        totalRam: number,
-        freeRam: number
-    },
-    setSelectedRam: (selectedRam: {
-        min: number,
-        max: number
-    }) => void,
-    setMemory: (memory: {
-        totalRam: number,
-        freeRam: number
-    }) => void,
-    setUsername: (username: string) => void,
-    setJavaHome: (JAVA_HOME: string) => void
-}
+import type { ConfigProps } from '../types/Config';
 
 export const useConfig = create<ConfigProps>()(persist(set => ({
     memory: {
@@ -43,3 +21,5 @@ export const useConfig = create<ConfigProps>()(persist(set => ({
     name: 'config-storage',
     storage: createJSONStorage(() => localStorage)
 }));
+
+useConfig.subscribe(state => window.electronAPI.updateConfig(JSON.parse(JSON.stringify(state)) as Partial<ConfigProps>));

@@ -21,7 +21,7 @@ export const TextButton = ({ uppercase = false, bold = false, onHover, children,
         className={`transition-all ${uppercase ? 'uppercase' : ''} ${bold ? 'font-bold' : ''} disabled:text-gray-500 disabled:pointer-events-none disabled:drop-shadow-[0_1.2px_1.2px_#000] duration-200 hover:scale-105 hover:[text-shadow:1px_1px_5px_white] focus-visible:[outline:none]`}
         {...props}
     >{children}</button>
-)
+);
 
 export const BackButton = ({ color = '#FFF', size = 30 }: LinkProps) => {
     const location = useLocation();
@@ -30,5 +30,5 @@ export const BackButton = ({ color = '#FFF', size = 30 }: LinkProps) => {
         <Link to={location.state.prevURL} className="my-5" style={{ color }} >
             <BackArrow width={size} height={size} />
         </Link>
-    )
-}
+    );
+};

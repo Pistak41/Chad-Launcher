@@ -2,29 +2,38 @@ import { useCallback, useEffect, useState } from "react";
 import { useConfig } from "../../store/AuthContext";
 
 export const Java = () => {
+  const {
+    JAVA_HOME,
+    setJavaHome,
+    memory: { freeRam, totalRam },
+    selectedRam,
+    setSelectedRam,
+  } = useConfig();
 
-  const { JAVA_HOME, setJavaHome, memory: { freeRam, totalRam }, selectedRam, setSelectedRam } = useConfig();
-
-  const calculateAccent = useCallback((x: number, set: (accent: string) => void) => {
-    if (x <= freeRam / 2.8) return set('#22c55e');
-    if (freeRam / 2.8 < x && x <= freeRam / 1.4) return set('#facc15');
-    if (freeRam / 1.4 < x) return set('#dc2626');
-  }, [freeRam]);
+  const calculateAccent = useCallback(
+    (x: number, set: (accent: string) => void) => {
+      if (x <= freeRam / 2.8) return set("#22c55e");
+      if (freeRam / 2.8 < x && x <= freeRam / 1.4) return set("#facc15");
+      if (freeRam / 1.4 < x) return set("#dc2626");
+    },
+    [freeRam],
+  );
 
   useEffect(() => {
     calculateAccent(selectedRam.max, setAccentMax);
     calculateAccent(selectedRam.min, setAccentMin);
   }, [calculateAccent, selectedRam]);
 
-  const [accentMax, setAccentMax] = useState<string>('#facc15');
-  const [accentMin, setAccentMin] = useState<string>('#facc15');
+  const [accentMax, setAccentMax] = useState<string>("#facc15");
+  const [accentMin, setAccentMin] = useState<string>("#facc15");
 
-  const handleChange = ({ target: { files } }: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = ({
+    target: { files },
+  }: React.ChangeEvent<HTMLInputElement>) => {
     if (!files) return;
 
     setJavaHome(files[0].path);
   };
-
 
   return (
     <section className="flex-1 px-5 text-white">
@@ -47,8 +56,9 @@ export const Java = () => {
                 const newMaxRam = Number(max);
 
                 setSelectedRam({
-                  min: newMaxRam < selectedRam.min ? newMaxRam : selectedRam.min,
-                  max: Number(max)
+                  min:
+                    newMaxRam < selectedRam.min ? newMaxRam : selectedRam.min,
+                  max: Number(max),
                 });
               }}
             />
@@ -72,8 +82,9 @@ export const Java = () => {
                 const newMinRam = Number(min);
 
                 setSelectedRam({
-                  max: newMinRam > selectedRam.max ? newMinRam : selectedRam.max,
-                  min: newMinRam
+                  max:
+                    newMinRam > selectedRam.max ? newMinRam : selectedRam.max,
+                  min: newMinRam,
                 });
               }}
             />
@@ -82,8 +93,12 @@ export const Java = () => {
         </div>
 
         <div className="flex flex-col">
-          <span>Max ram: <b>{totalRam}Gb</b></span>
-          <span>Free ram: <b>{freeRam}Gb</b></span>
+          <span>
+            Max ram: <b>{totalRam}Gb</b>
+          </span>
+          <span>
+            Free ram: <b>{freeRam}Gb</b>
+          </span>
         </div>
       </article>
 
@@ -113,7 +128,6 @@ export const Java = () => {
           />
         </div>
       </article>
-
     </section>
   );
 };

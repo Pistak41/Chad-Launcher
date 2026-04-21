@@ -2,4 +2,4 @@ export const BlurCard = ({ children, className = '' }: { children: React.ReactNo
     <section className={`bg-[#42424281] backdrop:blur-xl rounded-xl self-center ${className}`}>
         {children}
     </section>
-)
+);
