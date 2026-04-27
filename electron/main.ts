@@ -3,12 +3,20 @@ import { app, BrowserWindow, ipcMain, shell } from 'electron';
 import { spawn } from 'node:child_process';
 import path from 'node:path';
 import os from 'node:os';
-import { existsSync } from 'fs';
-import { readdirSync } from 'node:fs';
+import { readdirSync, existsSync, mkdirSync, cpSync } from 'node:fs';
 import { ConfigProps } from '../src/types/Config';
 import ConfigManager from '../src/helpers/ConfigManager';
 import { v3 as uuidv3 } from 'uuid';
+import { DistributionAPI } from 'helios-core/common';
+import { FullRepair } from 'helios-core/dl';
 
+
+
+cpSync(
+  path.resolve('node_modules/helios-core'),
+  path.resolve('dist-electron/node_modules/helios-core'),
+  { recursive: true }
+);
 
 // The built directory structure
 //
@@ -41,6 +49,10 @@ function createWindow() {
       preload: path.join(__dirname, 'preload.js'),
     },
   });
+
+  if (!existsSync(SYS_ROOT)) {
+    mkdirSync(SYS_ROOT);
+  }
 
   // Test active push message to Renderer-process.
   win.webContents.on('did-finish-load', () => {
@@ -75,6 +87,45 @@ function createWindow() {
       freeRam: Math.floor(os.freemem() / 1073741824)
     });
   });
+
+  loadDistro();
+
+}
+
+async function loadDistro() {
+
+  const api = new DistributionAPI(
+    app.getPath('userData'),
+    path.join(SYS_ROOT, 'common'),
+    path.join(SYS_ROOT, 'instances'),
+    'http://192.168.1.46:3000/distribution.json',
+    false
+  );
+
+  const { servers } = await api.getDistribution();
+
+  console.log('getMainServer()', servers[0].rawServer.id);
+
+
+  const fullRepairModule = new FullRepair(
+    path.join(SYS_ROOT, 'common'),
+    path.join(SYS_ROOT, 'instances'),
+    app.getPath('userData'),
+    servers[0].rawServer.id,
+    api.isDevMode()
+  );
+
+  fullRepairModule.spawnReceiver();
+
+  fullRepairModule.childProcess.on('error', (err) => { console.log(err); });
+  fullRepairModule.childProcess.on('close', (code, _signal) => { console.log(code); });
+
+  const a = await fullRepairModule.verifyFiles(p => console.log(p));
+  console.log('a', a);
+  await fullRepairModule.download(percent => console.log(percent));
+
+
+
 }
 
 ipcMain.on('change-icon', () => {
@@ -103,8 +154,6 @@ ipcMain.on('update-config', (_, c: Partial<ConfigProps>) => {
 
 ipcMain.on('play', () => {
 
-  
-
   const libs = [
     ...getLibs().filter(a => a.endsWith('.jar')),
     path.join(SYS_ROOT, "common", "versions", "1.12.2", "1.12.2.jar")
@@ -112,80 +161,76 @@ ipcMain.on('play', () => {
 
   const { selectedRam, username, JAVA_HOME: java } = manager.config as ConfigProps;
 
-  console.log(uuidv3(username, uuidv3.DNS));
+  const args = [
+    '-Xmx' + selectedRam.max + 'G',
+    '-Xms' + selectedRam.min + 'G',
+    '-cp',
+    libs.join(';'),
+    '-Djava.library.path=' + path.join(SYS_ROOT, 'native'),
+    'net.minecraft.launchwrapper.Launch',
+    '--username',
+    username,
+    '--version',
+    'Test1-1.12.2',
+    '--gameDir',
+    path.join(SYS_ROOT, "instances", "Test1-1.12.2"),
+    '--assetsDir',
+    path.join(SYS_ROOT, "common", "assets"),
+    '--assetIndex',
+    '1.12',
+    '--uuid',
+    uuidv3(username, uuidv3.DNS),
+    '--accessToken',
+    'ImCrakedLOL',
+    '--userType',
+    'mojang',
+    '--tweakClass',
+    'net.minecraftforge.fml.common.launcher.FMLTweaker',
+    '--versionType',
+    'Forge',
+    '--width',
+    '1280',
+    '--height',
+    '720',
+    '--modListFile',
+    'absolute:' + path.join(SYS_ROOT, "instances", "Test1-1.12.2", "forgeModList.json"),
+  ];
 
+  const child = spawn(
+    java,
+    args,
+    {
+      cwd: path.join(SYS_ROOT, "instances", "Test1-1.12.2"),
+      detached: true
+    }
+  );
 
-  // const args = [
-  //   '-Xmx' + selectedRam.max + 'G',
-  //   '-Xms' + selectedRam.min + 'G',
-  //   '-cp',
-  //   libs.join(';'),
-  //   '-Djava.library.path=' + path.join(SYS_ROOT, 'native'),
-  //   'net.minecraft.launchwrapper.Launch',
-  //   '--username',
-  //   username,
-  //   '--version',
-  //   'Test1-1.12.2',
-  //   '--gameDir',
-  //   path.join(SYS_ROOT, "instances", "Test1-1.12.2"),
-  //   '--assetsDir',
-  //   path.join(SYS_ROOT, "common", "assets"),
-  //   '--assetIndex',
-  //   '1.12',
-  //   '--uuid',
-  //   '58c7e90c-670a-3053-becd-fdca141f81a8',
-  //   '--accessToken',
-  //   'ImCrakedLOL',
-  //   '--userType',
-  //   'mojang',
-  //   '--tweakClass',
-  //   'net.minecraftforge.fml.common.launcher.FMLTweaker',
-  //   '--versionType',
-  //   'Forge',
-  //   '--width',
-  //   '1280',
-  //   '--height',
-  //   '720',
-  //   '--modListFile',
-  //   'absolute:' + path.join(SYS_ROOT, "instances", "Test1-1.12.2", "forgeModList.json"),
-  // ];
+  child.stdout.setEncoding('utf8');
+  child.stderr.setEncoding('utf8');
 
-  // const child = spawn(
-  //   java,
-  //   args,
-  //   {
-  //     cwd: path.join(SYS_ROOT, "instances", "Test1-1.12.2"),
-  //     detached: true
-  //   }
-  // );
+  let errors: string[] = [];
 
-  // child.stdout.setEncoding('utf8');
-  // child.stderr.setEncoding('utf8');
+  child.stdout.on('data', (data: string) => {
+    data.trim().split('\n').forEach(x => console.log(`\x1b[32m[Minecraft]\x1b[0m ${x}`));
+  });
 
-  // let errors: string[] = [];
+  child.stderr.on('data', (data: string) => {
 
-  // child.stdout.on('data', (data: string) => {
-  //   data.trim().split('\n').forEach(x => console.log(`\x1b[32m[Minecraft]\x1b[0m ${x}`));
+    const errorMsgs = data.trim().split('\n');
 
-  // });
+    errors = [...errors, ...errorMsgs];
 
-  // child.stderr.on('data', (data: string) => {
+    errorMsgs.forEach(x => console.log(`\x1b[31m[Minecraft]\x1b[0m ${x}`));
 
-  //   const errorMsgs = data.trim().split('\n');
+  });
 
-  //   errors = [...errors, ...errorMsgs];
+  child.on('close', () => {
 
-  //   errorMsgs.forEach(x => console.log(`\x1b[31m[Minecraft]\x1b[0m ${x}`));
+    if (errors.length !== 0) {
+      throw new Error(errors.join('\n'));
+    }
 
-  // });
-
-  // child.on('close', () => {
-
-  //   if (errors.length !== 0) {
-  //     throw new Error(errors.join('\n'));
-  //   }
-
-  // });
+  });
 });
 
 // Quit when all windows are closed, except on macOS. There, it's common
