@@ -1,5 +1,5 @@
 import { existsSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
-import { Library } from "../../common/types/MojangTypes";
+import { Library } from "../common/types/MojangTypes";
 import path from "node:path";
 import AdmZip from "adm-zip";
 import { tmpdir } from "node:os";
@@ -91,7 +91,7 @@ export const checkJava = async (launcherDir: string, selectedServer: HeliosServe
 
     if (!asset) return '';
 
-    await downloadFile(asset.url, asset.path, ({ transferred }) => handlePercentage(transferred));
+    await downloadFile(asset.url, asset.path, ({ percent }) => handlePercentage(Math.round(percent * 100)));
 
     return await extractJdk(asset.path);
 

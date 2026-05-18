@@ -52,5 +52,5 @@
     "vite": "8.0.13",
     "vite-plugin-electron": "0.29.1"
   },
-  "main": "dist-electron/index.js"
+  "main": "dist-electron/main.js"
 }

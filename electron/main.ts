@@ -11,7 +11,7 @@ import { v3 as uuidv3 } from 'uuid';
 import { HeliosServer, isLibraryCompatible, mcVersionAtLeast } from 'helios-core/common';
 import { MojangIndexProcessor } from 'helios-core/dl';
 import { javaExecFromRoot } from 'helios-core/java';
-import { checkJava, NATIVE_TEMP_FOLDER_NAME, removeNativeLibs, resolveArguments, resolveNativeLibs, SYS_ROOT } from '../helpers/utils';
+import { checkJava, NATIVE_TEMP_FOLDER_NAME, removeNativeLibs, resolveArguments, resolveNativeLibs, SYS_ROOT } from './utils';
 
 // The built directory structure
 //
@@ -40,8 +40,9 @@ function createWindow() {
     autoHideMenuBar: true,
     backgroundMaterial: 'acrylic',
     webPreferences: {
+      preload: path.join(__dirname, 'preload.js'),
+      contextIsolation: true,
       nodeIntegration: false,
-      contextIsolation: true
     },
   });
 
@@ -248,14 +249,20 @@ const load112Args = async ({ libraries }: VersionJson) => {
 
 ipcMain.on('play', async () => {
 
-  const java = await checkJava(app.getPath('userData'), selectedServer!);
+  const java = await checkJava(app.getPath('userData'), selectedServer!, (per) => console.log('Descargando java', per));
 
   win?.webContents.send('JAVA_HOME', java);
 
   const args = await loadArgs();
 
+  console.log('java', java);
+  console.log('javaExecFromRoot(java)', javaExecFromRoot(java));
+
+
   const child = spawn(
-    javaExecFromRoot(java),
+    java.endsWith('javaw.exe')
+      ? java
+      : javaExecFromRoot(java),
     args,
     {
       cwd: path.join(SYS_ROOT, 'instances', selectedServer!.rawServer.id)

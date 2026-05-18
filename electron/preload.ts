@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { type IpcRendererEvent, contextBridge, ipcRenderer } from 'electron';
-import type { ConfigProps } from '../../common/types/Config';
+import type { ConfigProps } from '../common/types/Config';
 
 contextBridge.exposeInMainWorld("electronAPI", {
   play: () => ipcRenderer.send('play'),
