@@ -5,6 +5,8 @@ export interface ConfigProps {
         min: number,
         max: number
     },
+    width: number,
+    height: number,
     memory: {
         totalRam: number,
         freeRam: number
@@ -17,6 +19,7 @@ export interface ConfigProps {
         totalRam: number,
         freeRam: number
     }) => void,
+    setScreenSize: (width: number, height: number) => void,
     setUsername: (username: string) => void,
     setJavaHome: (JAVA_HOME: string) => void
 }

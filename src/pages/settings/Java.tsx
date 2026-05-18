@@ -12,9 +12,9 @@ export const Java = () => {
 
   const calculateAccent = useCallback(
     (x: number, set: (accent: string) => void) => {
-      if (x <= freeRam / 2.8) return set("#22c55e");
-      if (freeRam / 2.8 < x && x <= freeRam / 1.4) return set("#facc15");
-      if (freeRam / 1.4 < x) return set("#dc2626");
+      if (x <= freeRam / 2.8) return set("#22C55E");
+      if (freeRam / 2.8 < x && x <= freeRam / 1.4) return set("#FACC15");
+      if (freeRam / 1.4 < x) return set("#DC2626");
     },
     [freeRam],
   );
@@ -24,15 +24,16 @@ export const Java = () => {
     calculateAccent(selectedRam.min, setAccentMin);
   }, [calculateAccent, selectedRam]);
 
-  const [accentMax, setAccentMax] = useState<string>("#facc15");
-  const [accentMin, setAccentMin] = useState<string>("#facc15");
+  const [accentMax, setAccentMax] = useState<string>("#FACC15");
+  const [accentMin, setAccentMin] = useState<string>("#FACC15");
 
-  const handleChange = ({
-    target: { files },
-  }: React.ChangeEvent<HTMLInputElement>) => {
-    if (!files) return;
+  const selectFolder = async () => {
 
-    setJavaHome(files[0].path);
+    const folderPath = await window.electronAPI.openFolder();
+    console.log('Selected folder:', folderPath);
+
+    setJavaHome(folderPath);
+
   };
 
   return (
@@ -54,10 +55,8 @@ export const Java = () => {
               value={selectedRam.max}
               onChange={({ target: { value: max } }) => {
                 const newMaxRam = Number(max);
-
                 setSelectedRam({
-                  min:
-                    newMaxRam < selectedRam.min ? newMaxRam : selectedRam.min,
+                  min: newMaxRam < selectedRam.min ? newMaxRam : selectedRam.min,
                   max: Number(max),
                 });
               }}
@@ -80,10 +79,8 @@ export const Java = () => {
               value={selectedRam.min}
               onChange={({ target: { value: min } }) => {
                 const newMinRam = Number(min);
-
                 setSelectedRam({
-                  max:
-                    newMinRam > selectedRam.max ? newMinRam : selectedRam.max,
+                  max: newMinRam > selectedRam.max ? newMinRam : selectedRam.max,
                   min: newMinRam,
                 });
               }}
@@ -113,13 +110,10 @@ export const Java = () => {
             Change Java
           </label>
 
-          <input
-            type="file"
+          <button
             id="file_input"
-            onChange={handleChange}
+            onClick={selectFolder}
             hidden
-            accept=".exe"
-            multiple={false}
           />
           <input
             className="w-full text-sm pl-2 text-gray-900 border border-gray-300 rounded-[0px_8px_8px_0px] bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"

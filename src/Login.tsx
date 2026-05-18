@@ -2,31 +2,24 @@ import { useNavigate } from "react-router-dom";
 import { BlurCard } from "./components/Cards";
 import { useEffect, useState } from "react";
 import { useConfig } from "./store/AuthContext";
+import { Loading } from "./Loading";
 
 export const Login = () => {
   const navigate = useNavigate();
   const { username, setUsername } = useConfig();
   const [isVisible, setIsVisible] = useState(false);
 
-  const { JAVA_HOME, setJavaHome, setMemory } = useConfig();
+  const { JAVA_HOME, setMemory } = useConfig();
 
   useEffect(() => {
-    window.electronAPI.getENV(((_, javaHome) => {
-      if (JAVA_HOME) return;
 
-      setJavaHome(javaHome);
-    }));
-
-    window.electronAPI.getMemoryStatus(((_, ram) => {
-      setMemory(ram);
-    }));
 
     if (username) {
       navigate('/home');
     } else {
       setIsVisible(true);
     }
-  }, [navigate, username, JAVA_HOME, setJavaHome, setMemory]);
+  }, [navigate, username, JAVA_HOME, setMemory]);
 
   const login = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -38,7 +31,7 @@ export const Login = () => {
     setUsername(nickname);
   };
 
-  return isVisible && (
+  return !isVisible ? <Loading /> : (
     <BlurCard>
       <form className="flex flex-col items-center gap-6 px-12 py-8" onSubmit={login}>
         <img

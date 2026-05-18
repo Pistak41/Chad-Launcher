@@ -1,12 +1,20 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@common/*": [
+        "./common/*"
+      ]
+    },
     "target": "ES2020",
     "useDefineForClassFields": true,
     "lib": [
       "ES2020",
       "DOM",
       "DOM.Iterable",
-      "ES2021"
+      "ES2022"
     ],
     "module": "ESNext",
     "skipLibCheck": true,
@@ -25,7 +33,8 @@
   },
   "include": [
     "src",
-    "electron"
+    "electron",
+    "common"
   ],
   "references": [
     {

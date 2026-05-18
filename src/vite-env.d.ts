@@ -1,13 +1,15 @@
 /// <reference types="vite/client" />
 
-import type { ConfigProps } from "./types/Config";
+import type { ConfigProps } from "../common/types/Config";
 
 export interface IElectronAPI {
     play: () => void
     changeIcon: () => void
     getENV: (callback: (event: IpcRendererEvent, ...args: any[]) => void) => void
+    getReady: (callback: () => void) => void
     getMemoryStatus: (callback: (event: IpcRendererEvent, ...args: any[]) => void) => void
     updateConfig: (state: Partial<ConfigProps>) => void
+    openFolder: () => Promise<string>
 }
 
 declare global {
