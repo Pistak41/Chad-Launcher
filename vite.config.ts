@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import path from 'node:path';
 import electron from 'vite-plugin-electron';
 import react from '@vitejs/plugin-react';
+import { copyFileSync } from 'node:fs';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -23,6 +24,16 @@ export default defineConfig({
           options.reload();
         },
       },
-    ])
+    ]),
+    {
+      name: 'copy-helios-runner',
+
+      closeBundle() {
+        copyFileSync(
+          path.resolve(__dirname, 'electron/heliosRunner.js'),
+          path.resolve(__dirname, 'dist-electron/heliosRunner.js')
+        );
+      },
+    }
   ],
 });

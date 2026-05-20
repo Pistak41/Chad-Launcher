@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import { TextButton } from "./components/Buttons";
-import { ServerStatus } from "./components/ServerStatus";
-import { useConfig } from "./store/AuthContext";
+import { TextButton } from "@/components/Buttons";
+import { ServerStatus } from "@/components/ServerStatus";
+import { useConfig } from "@/store/AuthContext";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 export const App = () => {

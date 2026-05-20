@@ -1,6 +1,6 @@
 /// <reference types="vite/client" />
 
-import type { ConfigProps } from "../common/types/Config";
+import type { ConfigProps } from "@common/types/Config";
 
 export interface IElectronAPI {
     play: () => void

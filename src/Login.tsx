@@ -1,8 +1,9 @@
 import { useNavigate } from "react-router-dom";
-import { BlurCard } from "./components/Cards";
+import { BlurCard } from "@/components/Cards";
 import { useEffect, useState } from "react";
-import { useConfig } from "./store/AuthContext";
-import { Loading } from "./Loading";
+import { useConfig } from "@/store/AuthContext";
+import { Loading } from "@/Loading";
+import chadLogo from '@/assets/chad.png';
 
 export const Login = () => {
   const navigate = useNavigate();
@@ -12,8 +13,6 @@ export const Login = () => {
   const { JAVA_HOME, setMemory } = useConfig();
 
   useEffect(() => {
-
-
     if (username) {
       navigate('/home');
     } else {
@@ -35,7 +34,7 @@ export const Login = () => {
     <BlurCard>
       <form className="flex flex-col items-center gap-6 px-12 py-8" onSubmit={login}>
         <img
-          src="/chad.png"
+          src={chadLogo}
           alt="Chad Launcher"
           width={150}
           className="rounded-full border-white border-2 p-2"

@@ -1,14 +1,7 @@
+import "./index.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { App } from "./App.tsx";
-import "./index.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Login } from "./Login.tsx";
-import { Settings } from "./Settings.tsx";
-import { Minecraft } from "./pages/settings/Minecraft.tsx";
-import { Mods } from "./pages/settings/Mods.tsx";
-import { Java } from "./pages/settings/Java.tsx";
-import { Loading } from "./Loading.tsx";
+import { HashRouter as Router } from "react-router-dom";
 
 import imagen0 from '@/assets/0.jpg';
 import imagen1 from '@/assets/1.jpg';
@@ -26,6 +19,7 @@ import wiseTreeSong from '@/assets/Wise Mystical Tree.mp3';
 import facu from '@/assets/facu.mp3';
 import tree from '@/assets/tree.png';
 import chadLogo from '@/assets/chad.png';
+import { AnimatedRoutes } from "@/components/AnimatedRoutes.tsx";
 
 const BG_IMGS = [
   imagen0,
@@ -80,16 +74,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       style={{ backgroundImage: `url(${BG_IMGS[imagenRandom]})` }}
     >
       <Router>
-        <Routes>
-          <Route index path="/" element={<Loading />} />
-          <Route path="login" element={<Login />} />
-          <Route path="home" element={<App />} />
-          <Route path="settings" element={<Settings />}>
-            <Route index path="minecraft" element={<Minecraft />} />
-            <Route path="mods" element={<Mods />} />
-            <Route path="java" element={<Java />} />
-          </Route>
-        </Routes>
+        <AnimatedRoutes />
       </Router>
     </main>
   </React.StrictMode>,

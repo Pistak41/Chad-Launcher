@@ -24,10 +24,10 @@ export const TextButton = ({ uppercase = false, bold = false, onHover, children,
 );
 
 export const BackButton = ({ color = '#FFF', size = 30 }: LinkProps) => {
-    const location = useLocation();
+    const { state } = useLocation();
 
-    return location.state?.prevURL && (
-        <Link to={location.state.prevURL} className="my-5" style={{ color }} >
+    return state?.prevURL && (
+        <Link to={state.prevURL} target="_self" className="my-5" style={{ color }} >
             <BackArrow width={size} height={size} />
         </Link>
     );
