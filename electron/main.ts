@@ -102,7 +102,7 @@ type EventHandlers = {
 const eventHandlers: EventHandlers = {
   selectedServer: data => {
     selectedServer = data;
-    win?.webContents.send('ready');
+    win?.webContents.send('ready', data);
   },
   log: str => console.log(str),
   percentage: str => console.log('percentage', str),

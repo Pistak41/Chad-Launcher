@@ -7,7 +7,7 @@ export const Loading = () => {
 
     const navigate = useNavigate();
 
-    const { JAVA_HOME, setJavaHome, setMemory } = useConfig();
+    const { JAVA_HOME, setJavaHome, setMemory, setServer } = useConfig();
 
     useEffect(() => {
         window.electronAPI.getENV(((_, javaHome) => {
@@ -20,11 +20,13 @@ export const Loading = () => {
             setMemory(ram);
         }));
 
-        window.electronAPI.getReady(() => {
+        window.electronAPI.getReady((_, server) => {
+            setServer(server);
+
             navigate('/login');
         });
 
-    }, [navigate, JAVA_HOME, setJavaHome, setMemory]);
+    }, [navigate, JAVA_HOME, setJavaHome, setMemory, setServer]);
 
     return (
         <div className="flex-1 flex justify-center items-center">

@@ -6,7 +6,7 @@ export const SettingsMenu = () => {
     const { state } = useLocation();
 
     return (
-        <ul className="grid gap-4 mt-5">
+        <ul className="flex flex-col gap-4 mt-5 h-full ">
             <li>
                 <TextButton size={14} uppercase >
                     <Link to="/settings/minecraft" state={state}>Minecraft</Link>
@@ -20,6 +20,12 @@ export const SettingsMenu = () => {
             <li>
                 <TextButton size={14} uppercase >
                     <Link to="/settings/java" state={state}>Java</Link>
+                </TextButton>
+            </li>
+
+            <li className="mt-auto">
+                <TextButton size={14} uppercase >
+                    <Link to="/settings/updates" state={state}>Actualizaciones</Link>
                 </TextButton>
             </li>
         </ul>

@@ -8,6 +8,7 @@ import { Settings } from "@/Settings";
 import { Minecraft } from "@/pages/settings/Minecraft";
 import { Mods } from "@/pages/settings/Mods";
 import { Java } from "@/pages/settings/Java";
+import { Updates } from "@/pages/settings/Updates";
 
 export const AnimatedRoutes = () => {
     const location = useLocation();
@@ -22,6 +23,7 @@ export const AnimatedRoutes = () => {
                     <Route path="minecraft" element={<Page><Minecraft /></Page>} />
                     <Route path="mods" element={<Page><Mods /></Page>} />
                     <Route path="java" element={<Page><Java /></Page>} />
+                    <Route path="updates" element={<Page><Updates /></Page>} />
                 </Route>
             </Routes>
         </AnimatePresence>

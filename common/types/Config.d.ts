@@ -1,3 +1,5 @@
+import type { HeliosServer } from "./HeliosTypes";
+
 export interface ConfigProps {
     username: string,
     JAVA_HOME: string,
@@ -11,6 +13,7 @@ export interface ConfigProps {
         totalRam: number,
         freeRam: number
     },
+    server: HeliosServer,
     setSelectedRam: (selectedRam: {
         min: number,
         max: number
@@ -21,5 +24,6 @@ export interface ConfigProps {
     }) => void,
     setScreenSize: (width: number, height: number) => void,
     setUsername: (username: string) => void,
-    setJavaHome: (JAVA_HOME: string) => void
+    setJavaHome: (JAVA_HOME: string) => void,
+    setServer: (server: HeliosServer) => void
 }

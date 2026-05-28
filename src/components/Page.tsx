@@ -8,7 +8,7 @@ export const Page = ({ children }: { children: React.ReactNode }) => (
         transition={{
             duration: 0.25,
         }}
-        className="h-full"
+        className="h-full flex-1 flex"
     >
         {children}
     </motion.div>

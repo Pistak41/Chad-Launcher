@@ -1,7 +1,8 @@
-import "./index.css";
+import "@/assets/index.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { HashRouter as Router } from "react-router-dom";
+import { AnimatedRoutes } from "@/components/AnimatedRoutes.tsx";
 
 import imagen0 from '@/assets/0.jpg';
 import imagen1 from '@/assets/1.jpg';
@@ -19,7 +20,6 @@ import wiseTreeSong from '@/assets/Wise Mystical Tree.mp3';
 import facu from '@/assets/facu.mp3';
 import tree from '@/assets/tree.png';
 import chadLogo from '@/assets/chad.png';
-import { AnimatedRoutes } from "@/components/AnimatedRoutes.tsx";
 
 const BG_IMGS = [
   imagen0,

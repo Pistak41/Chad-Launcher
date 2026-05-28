@@ -1,12 +1,13 @@
 /// <reference types="vite/client" />
 
 import type { ConfigProps } from "@common/types/Config";
+import type { HeliosServer } from "@common/types/HeliosTypes";
 
 export interface IElectronAPI {
     play: () => void
     changeIcon: () => void
     getENV: (callback: (event: IpcRendererEvent, ...args: any[]) => void) => void
-    getReady: (callback: () => void) => void
+    getReady: (callback: (event: IpcRendererEvent, server: HeliosServer) => void) => void
     getMemoryStatus: (callback: (event: IpcRendererEvent, ...args: any[]) => void) => void
     updateConfig: (state: Partial<ConfigProps>) => void
     openFolder: () => Promise<string>

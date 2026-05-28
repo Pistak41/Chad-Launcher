@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import type { ConfigProps } from '../../common/types/Config';
+import type { HeliosServer } from '@common/types/HeliosTypes';
 
 export const useConfig = create<ConfigProps>()(persist(set => ({
     memory: {
@@ -15,11 +16,13 @@ export const useConfig = create<ConfigProps>()(persist(set => ({
         min: 3,
         max: 3
     },
+    server: {} as HeliosServer,
     setMemory: memory => set({ memory }),
     setUsername: username => set({ username }),
     setJavaHome: JAVA_HOME => set({ JAVA_HOME }),
     setScreenSize: (width, height) => set({ width, height }),
-    setSelectedRam: selectedRam => set({ selectedRam })
+    setSelectedRam: selectedRam => set({ selectedRam }),
+    setServer: server => set({ server })
 }), {
     name: 'config-storage',
     storage: createJSONStorage(() => localStorage)

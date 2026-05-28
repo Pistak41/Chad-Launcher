@@ -14,7 +14,7 @@ export const App = () => {
   }, [username, navigate]);
 
   return (
-    <div className="flex gap-x-4 h-screen">
+    <div className="flex-1 flex gap-x-4 h-screen">
       <section className="flex flex-1 p-20 flex-col justify-between">
         <span>
           Bienvenido <strong>{username}</strong>

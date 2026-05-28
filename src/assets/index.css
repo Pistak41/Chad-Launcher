@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+Source - https://stackoverflow.com/a/69410151
+Posted by juliomalves, modified by community. See post 'Timeline' for change history
+Retrieved 2026-05-21, License - CC BY-SA 4.0
+*/
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+
+    .scrollbar::-webkit-scrollbar-track {
+        border-radius: 100vh;
+        background: transparent;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb {
+        background: #919191;
+        border-radius: 2rem;
+    }
+}
