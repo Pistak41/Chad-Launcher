@@ -12,6 +12,7 @@ import { HeliosServer, isLibraryCompatible, mcVersionAtLeast } from 'helios-core
 import { MojangIndexProcessor } from 'helios-core/dl';
 import { javaExecFromRoot } from 'helios-core/java';
 import { checkJava, NATIVE_TEMP_FOLDER_NAME, removeNativeLibs, resolveArguments, resolveNativeLibs, SYS_ROOT } from './utils';
+import { autoUpdater } from 'electron-updater';
 
 // The built directory structure
 //
@@ -319,27 +320,26 @@ app.on('activate', () => {
 
 app.whenReady().then(() => {
 
-
   createWindow();
 
-  // autoUpdater.checkForUpdatesAndNotify();
+  autoUpdater.checkForUpdatesAndNotify();
 
 });
 
-// autoUpdater.on('checking-for-update', () => {
-//   console.log('Buscando updates...');
-// });
+autoUpdater.on('checking-for-update', () => {
+  console.log('Buscando updates...');
+});
 
-// autoUpdater.on('update-available', () => {
-//   console.log('Nueva versión disponible');
-// });
+autoUpdater.on('update-available', () => {
+  console.log('Nueva versión disponible');
+});
 
-// autoUpdater.on('download-progress', (progress) => {
-//   console.log(progress.percent);
-// });
+autoUpdater.on('download-progress', (progress) => {
+  console.log(progress.percent);
+});
 
-// autoUpdater.on('update-downloaded', () => {
-//   console.log('Update descargado');
+autoUpdater.on('update-downloaded', () => {
+  console.log('Update descargado');
 
-//   autoUpdater.quitAndInstall();
-// });
+  autoUpdater.quitAndInstall();
+});
