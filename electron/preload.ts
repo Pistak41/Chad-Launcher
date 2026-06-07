@@ -5,7 +5,6 @@ import type { HeliosServer } from 'helios-core/common';
 
 contextBridge.exposeInMainWorld("electronAPI", {
   play: () => ipcRenderer.send('play'),
-  changeIcon: () => ipcRenderer.send('change-icon'),
   openFolder: () => ipcRenderer.invoke('dialog:openDirectory'),
   getReady: (callback: (event: IpcRendererEvent, server: HeliosServer) => void) => {
     ipcRenderer.on('ready', callback);

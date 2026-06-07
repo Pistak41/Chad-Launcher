@@ -37,7 +37,9 @@ function createWindow() {
   win = new BrowserWindow({
     width: 980,
     height: 552,
-    icon: path.join('src', 'assets', 'chad.png'),
+    icon: app.isPackaged
+      ? path.join(process.resourcesPath, 'build', 'chad.png')
+      : path.join('src', 'assets', 'chad.png'),
     autoHideMenuBar: true,
     backgroundMaterial: 'acrylic',
     webPreferences: {
@@ -126,10 +128,6 @@ async function loadDistro() {
 
   child.on('message', (msg: ChildEvents) => (eventHandlers[msg.type] as (data: typeof msg.data) => void)?.(msg.data));
 }
-
-ipcMain.on('change-icon', () => {
-  win?.setIcon(path.join('src', 'assets', 'tree.png'));
-});
 
 ipcMain.handle('dialog:openDirectory', async () => {
 

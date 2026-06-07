@@ -5,7 +5,6 @@ import type { HeliosServer } from "@common/types/HeliosTypes";
 
 export interface IElectronAPI {
     play: () => void
-    changeIcon: () => void
     getENV: (callback: (event: IpcRendererEvent, ...args: any[]) => void) => void
     getReady: (callback: (event: IpcRendererEvent, server: HeliosServer) => void) => void
     getMemoryStatus: (callback: (event: IpcRendererEvent, ...args: any[]) => void) => void

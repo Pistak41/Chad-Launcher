@@ -1,11 +1,8 @@
-/**
- * @see https://www.electron.build/configuration/configuration
- */
 {
   "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
-  "appId": "YourAppID",
+  "appId": "com.chad.launcher",
   "asar": true,
-  "productName": "YourAppName",
+  "productName": "com.chad.launcher",
   "directories": {
     "output": "release/${version}"
   },
@@ -20,6 +17,7 @@
     "artifactName": "${productName}-Mac-${version}-Installer.${ext}"
   },
   "win": {
+    "icon": "build/icon.ico",
     "target": [
       {
         "target": "nsis",

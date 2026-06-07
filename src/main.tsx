@@ -50,8 +50,6 @@ if (imagenRandom === 9) {
   favicon.href = tree;
   document.head.appendChild(favicon);
 
-  window.electronAPI.changeIcon();
-
   const audio = new Audio(wiseTreeSong);
   audio.loop = true;
   audio.play();
