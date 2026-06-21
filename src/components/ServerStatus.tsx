@@ -1,20 +1,21 @@
 import { useEffect, useState } from "react";
 import type { ServerStatusResponse } from "../vite-env";
-const serverURL = "181.46.204.83:7777";
+import { useConfig } from "@/store/AuthContext";
 
 export const ServerStatus = () => {
 
+    const { server: { hostname, port } } = useConfig();
     const [status, setStatus] = useState('');
 
     useEffect(() => {
-        fetch(`https://api.mcsrvstat.us/3/${serverURL}`, { cache: "reload" })
+        fetch(`https://api.mcsrvstat.us/3/${hostname}:${port}`, { cache: "reload" })
             .then(response => response.json())
             .then((data: ServerStatusResponse) => {
                 if (data.online) {
                     setStatus(data.players.online + "/" + data.players.max);
                 }
             });
-    }, []);
+    }, [hostname, port]);
 
     return (
         <div className="flex gap-3 items-center">
