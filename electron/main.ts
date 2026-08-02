@@ -11,7 +11,7 @@ import { v3 as uuidv3 } from 'uuid';
 import { HeliosServer, isLibraryCompatible, mcVersionAtLeast } from 'helios-core/common';
 import { MojangIndexProcessor } from 'helios-core/dl';
 import { javaExecFromRoot } from 'helios-core/java';
-import { checkJava, NATIVE_TEMP_FOLDER_NAME, removeNativeLibs, resolveArguments, resolveNativeLibs, SYS_ROOT } from './utils';
+import { checkJava, IS_MAC, NATIVE_TEMP_FOLDER_NAME, removeNativeLibs, resolveArguments, resolveNativeLibs, SYS_ROOT } from './utils';
 import { autoUpdater } from 'electron-updater';
 
 // The built directory structure
@@ -48,9 +48,11 @@ function createWindow() {
       nodeIntegration: false,
     },
   });
+  console.log('el sysroot es', SYS_ROOT);
 
   if (!existsSync(SYS_ROOT)) {
     mkdirSync(SYS_ROOT);
+    
   }
 
   // Test active push message to Renderer-process.
@@ -200,9 +202,9 @@ const load113Args = async ({ libraries }: VersionJson) => {
 const load112Args = async ({ libraries }: VersionJson) => {
 
   const classpath = [
-    ...readdirSync(path.join(SYS_ROOT, 'common', 'libraries'), { recursive: true, withFileTypes: true }).filter(f => f.isFile()).map(({ parentPath, name }) => path.join(parentPath, name)),
+    ...readdirSync(path.join(SYS_ROOT, 'common', 'libraries'), { recursive: true, withFileTypes: true }).filter(f => f.isFile() && f.name.endsWith('.jar')).map(({ parentPath, name }) => path.join(parentPath, name)),
     path.join(SYS_ROOT, 'common', 'versions', '1.12.2', '1.12.2.jar')
-  ];
+  ];  
 
   const { rawServer: { minecraftVersion, id: serverId } } = selectedServer!;
 
@@ -235,13 +237,16 @@ const load112Args = async ({ libraries }: VersionJson) => {
     },
     {
       [`-Xms${minRam}G`]: `-Xmx${maxRam}G`,
-      '-cp': classpath.join(';'),
+      '-cp': classpath.join(IS_MAC ? ':' : ';'),
       ['-Djava.library.path=' + NATIVE_TEMP_FOLDER_NAME]: 'net.minecraft.launchwrapper.Launch',
       '--width': '1280',
       '--height': '720',
       '--modListFile': 'absolute:' + path.join(SYS_ROOT, 'instances', selectedServer!.rawServer.id, 'forgeModList.json'),
     }
   );
+
+  console.log('args', args);
+  
 
   return args;
 };
@@ -256,7 +261,6 @@ ipcMain.on('play', async () => {
 
   console.log('java', java);
   console.log('javaExecFromRoot(java)', javaExecFromRoot(java));
-
 
   const child = spawn(
     java.endsWith('javaw.exe')
@@ -304,7 +308,6 @@ ipcMain.on('play', async () => {
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
     app.quit();
-    win = null;
   }
 });
 

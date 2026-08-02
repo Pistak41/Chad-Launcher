@@ -28,6 +28,7 @@ export interface Library {
             javadoc?: LibraryArtifact;
             'natives-linux'?: LibraryArtifact;
             'natives-macos'?: LibraryArtifact;
+            'natives-osx'?: LibraryArtifact;
             'natives-windows'?: LibraryArtifact;
             sources?: LibraryArtifact;
         };
