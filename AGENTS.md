@@ -311,18 +311,25 @@ When the user clicks **JUGAR** or executes `npm run launch:dev`:
 
 ## 9. IPC Channel Reference
 
-| Channel                | Pattern              | Source                      | Handler                  | Payload                | Return / Description                                                  |
-| :--------------------- | :------------------- | :-------------------------- | :----------------------- | :--------------------- | :-------------------------------------------------------------------- |
-| `play`                 | `ipcRenderer.send`   | Renderer (`Buttons.tsx`)    | Main (`main.ts`)         | _None_                 | Triggers Java check, arg resolution, and launches Minecraft.          |
-| `update-config`        | `ipcRenderer.send`   | Renderer (`AuthContext.ts`) | Main (`main.ts`)         | `Partial<ConfigProps>` | Saves updated configuration to `config.json`.                         |
-| `get-servers`          | `ipcRenderer.invoke` | Renderer (`useServers.ts`)  | Main (`main.ts`)         | _None_                 | Fetches server list from `DistributionAPI`. Returns `HeliosServer[]`. |
-| `get-java`             | `ipcRenderer.invoke` | Renderer (`Loading.tsx`)    | Main (`main.ts`)         | _None_                 | Returns active `JAVA_HOME` path string.                               |
-| `get-memory`           | `ipcRenderer.invoke` | Renderer (`Loading.tsx`)    | Main (`main.ts`)         | _None_                 | Returns `{ totalRam: number, freeRam: number }` (in GB).              |
-| `dialog:openDirectory` | `ipcRenderer.invoke` | Renderer (`Java.tsx`)       | Main (`main.ts`)         | _None_                 | Opens native folder picker. Returns selected directory path string.   |
-| `ready`                | `webContents.send`   | Main (`main.ts`)            | Renderer (`Loading.tsx`) | `HeliosServer`         | Emitted when Helios finishes file check and selects default server.   |
-| `download-progress`    | `webContents.send`   | Main (`main.ts`)            | Renderer (`Buttons.tsx`) | `number \| string`     | Reports download/repair progress percentage (0 - 100).                |
-| `download-complete`    | `webContents.send`   | Main (`main.ts`)            | Renderer                 | _None_                 | Notifies download completion.                                         |
-| `download-error`       | `webContents.send`   | Main (`main.ts`)            | Renderer                 | `string`               | Notifies download failure.                                            |
+| Channel                | Pattern              | Source                      | Handler                   | Payload                | Return / Description                                                  |
+| :--------------------- | :------------------- | :-------------------------- | :------------------------ | :--------------------- | :-------------------------------------------------------------------- |
+| `play`                 | `ipcRenderer.send`   | Renderer (`Buttons.tsx`)    | Main (`main.ts`)          | _None_                 | Triggers Java check, arg resolution, and launches Minecraft.          |
+| `update-config`        | `ipcRenderer.send`   | Renderer (`AuthContext.ts`) | Main (`main.ts`)          | `Partial<ConfigProps>` | Saves updated configuration to `config.json`.                         |
+| `get-servers`          | `ipcRenderer.invoke` | Renderer (`useServers.ts`)  | Main (`main.ts`)          | _None_                 | Fetches server list from `DistributionAPI`. Returns `HeliosServer[]`. |
+| `get-java`             | `ipcRenderer.invoke` | Renderer (`Loading.tsx`)    | Main (`main.ts`)          | _None_                 | Returns active `JAVA_HOME` path string.                               |
+| `get-memory`           | `ipcRenderer.invoke` | Renderer (`Loading.tsx`)    | Main (`main.ts`)          | _None_                 | Returns `{ totalRam: number, freeRam: number }` (in GB).              |
+| `get-app-version`      | `ipcRenderer.invoke` | Renderer (`Updates.tsx`)    | Main (`main.ts`)          | _None_                 | Returns app version string (e.g. `2.2.0`).                            |
+| `check-for-updates`    | `ipcRenderer.invoke` | Renderer (`Updates.tsx`)    | Main (`main.ts`)          | _None_                 | Triggers manual update check via `autoUpdater.checkForUpdates()`.     |
+| `restart-and-install`  | `ipcRenderer.send`   | Renderer (`UpdateBanner`)   | Main (`main.ts`)          | _None_                 | Triggers `autoUpdater.quitAndInstall()` to apply downloaded update.   |
+| `dialog:openDirectory` | `ipcRenderer.invoke` | Renderer (`Java.tsx`)       | Main (`main.ts`)          | _None_                 | Opens native folder picker. Returns selected directory path string.   |
+| `ready`                | `webContents.send`   | Main (`main.ts`)            | Renderer (`Loading.tsx`)  | `HeliosServer`         | Emitted when Helios finishes file check and selects default server.   |
+| `download-progress`    | `webContents.send`   | Main (`main.ts`)            | Renderer (`Buttons.tsx`)  | `number \| string`     | Reports download/repair progress percentage (0 - 100).                |
+| `update-checking`      | `webContents.send`   | Main (`main.ts`)            | Renderer (`UpdateBanner`) | _None_                 | Emitted when autoUpdater starts checking for updates.                 |
+| `update-available`     | `webContents.send`   | Main (`main.ts`)            | Renderer (`UpdateBanner`) | `UpdateVersionInfo`    | Emitted when a new launcher version release is found on GitHub.       |
+| `update-not-available` | `webContents.send`   | Main (`main.ts`)            | Renderer (`UpdateBanner`) | `UpdateVersionInfo`    | Emitted when the launcher is already up to date.                      |
+| `update-progress`      | `webContents.send`   | Main (`main.ts`)            | Renderer (`UpdateBanner`) | `UpdateProgressInfo`   | Emitted during update download with `percent` and transfer info.      |
+| `update-downloaded`    | `webContents.send`   | Main (`main.ts`)            | Renderer (`UpdateBanner`) | `UpdateVersionInfo`    | Emitted when update download completes and is ready for restart.      |
+| `update-error`         | `webContents.send`   | Main (`main.ts`)            | Renderer (`UpdateBanner`) | `string`               | Emitted on update check/download error.                               |
 
 ---
 

@@ -76,7 +76,7 @@ export const PlayButton = () => {
                 }
             });
 
-        return () => unsubscribe;
+        return unsubscribe;
     }, []);
 
     return (

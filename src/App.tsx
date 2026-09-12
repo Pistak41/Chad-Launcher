@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { PlayButton, TextButton } from "@/components/Buttons";
 import { ServerStatus } from "@/components/ServerStatus";
+import { UpdateBanner } from "@/components/UpdateBanner";
 import { useConfig } from "@/store/AuthContext";
 import { Link, useLocation, useNavigate } from "react-router";
 
@@ -16,9 +17,12 @@ export const App = () => {
 	return (
 		<div className="flex-1 flex gap-x-4 h-screen">
 			<section className="flex flex-1 p-20 flex-col justify-between">
-				<span>
-					Bienvenido <strong>{username}</strong>
-				</span>
+				<div className="flex flex-col gap-4">
+					<UpdateBanner />
+					<span>
+						Bienvenido <strong>{username}</strong>
+					</span>
+				</div>
 				<ServerStatus />
 			</section>
 			<aside className="p-20 flex flex-col justify-between">

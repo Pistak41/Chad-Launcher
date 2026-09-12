@@ -134,6 +134,22 @@ ipcMain.handle('get-servers', async () => {
   return servers;
 });
 
+ipcMain.handle('get-app-version', () => app.getVersion());
+
+ipcMain.handle('check-for-updates', async () => {
+  try {
+    return await autoUpdater.checkForUpdates();
+  } catch (err: any) {
+    console.error('Error checking for updates:', err);
+    win?.webContents.send('update-error', err?.message || String(err));
+    throw err;
+  }
+});
+
+ipcMain.on('restart-and-install', () => {
+  autoUpdater.quitAndInstall();
+});
+
 ipcMain.on('play', async () => {
   try {
     await launcher.launch({
@@ -161,22 +177,42 @@ app.on('activate', () => {
 
 app.whenReady().then(() => {
   createWindow();
-  autoUpdater.checkForUpdatesAndNotify();
+  if (app.isPackaged) {
+    autoUpdater.checkForUpdatesAndNotify();
+  }
 });
 
 autoUpdater.on('checking-for-update', () => {
   console.log('Buscando updates...');
+  win?.webContents.send('update-checking');
 });
 
-autoUpdater.on('update-available', () => {
-  console.log('Nueva versión disponible');
+autoUpdater.on('update-available', (info) => {
+  console.log('Nueva versión disponible:', info.version);
+  win?.webContents.send('update-available', info);
+});
+
+autoUpdater.on('update-not-available', (info) => {
+  console.log('El launcher está actualizado:', info.version);
+  win?.webContents.send('update-not-available', info);
 });
 
 autoUpdater.on('download-progress', (progress) => {
-  console.log(progress.percent);
+  console.log(`Descargando update: ${progress.percent}%`);
+  win?.webContents.send('update-progress', {
+    percent: Math.round(progress.percent),
+    bytesPerSecond: progress.bytesPerSecond,
+    transferred: progress.transferred,
+    total: progress.total
+  });
 });
 
-autoUpdater.on('update-downloaded', () => {
-  console.log('Update descargado');
-  autoUpdater.quitAndInstall();
+autoUpdater.on('update-downloaded', (info) => {
+  console.log('Update descargado:', info.version);
+  win?.webContents.send('update-downloaded', info);
+});
+
+autoUpdater.on('error', (err) => {
+  console.error('Error en autoUpdater:', err);
+  win?.webContents.send('update-error', err?.message || String(err));
 });

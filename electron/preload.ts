@@ -44,4 +44,37 @@ contextBridge.exposeInMainWorld("electronAPI", {
   updateConfig: (state: Partial<ConfigProps>) => ipcRenderer.send('update-config', state),
   getJava: () => ipcRenderer.invoke('get-java'),
   getMemory: () => ipcRenderer.invoke('get-memory'),
+  getAppVersion: () => ipcRenderer.invoke('get-app-version'),
+  checkForUpdates: () => ipcRenderer.invoke('check-for-updates'),
+  restartAndInstall: () => ipcRenderer.send('restart-and-install'),
+  onUpdateChecking: (callback: () => void) => {
+    const listener = () => callback();
+    ipcRenderer.on('update-checking', listener);
+    return () => { ipcRenderer.removeListener('update-checking', listener); };
+  },
+  onUpdateAvailable: (callback: (info: any) => void) => {
+    const listener = (_: any, info: any) => callback(info);
+    ipcRenderer.on('update-available', listener);
+    return () => { ipcRenderer.removeListener('update-available', listener); };
+  },
+  onUpdateNotAvailable: (callback: (info: any) => void) => {
+    const listener = (_: any, info: any) => callback(info);
+    ipcRenderer.on('update-not-available', listener);
+    return () => { ipcRenderer.removeListener('update-not-available', listener); };
+  },
+  onUpdateProgress: (callback: (progress: any) => void) => {
+    const listener = (_: any, progress: any) => callback(progress);
+    ipcRenderer.on('update-progress', listener);
+    return () => { ipcRenderer.removeListener('update-progress', listener); };
+  },
+  onUpdateDownloaded: (callback: (info: any) => void) => {
+    const listener = (_: any, info: any) => callback(info);
+    ipcRenderer.on('update-downloaded', listener);
+    return () => { ipcRenderer.removeListener('update-downloaded', listener); };
+  },
+  onUpdateError: (callback: (error: string) => void) => {
+    const listener = (_: any, error: string) => callback(error);
+    ipcRenderer.on('update-error', listener);
+    return () => { ipcRenderer.removeListener('update-error', listener); };
+  },
 });
