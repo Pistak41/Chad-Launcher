@@ -7,13 +7,13 @@ import { existsSync, mkdirSync } from 'node:fs';
 import type { ConfigProps } from '@common/types/Config';
 import ConfigManager from '@common/utils/ConfigManager';
 import { DistributionAPI, HeliosServer } from 'helios-core/common';
-import { SYS_ROOT } from './utils';
+import { DISTRO_URL, SYS_ROOT } from './utils';
 import { MinecraftLauncher } from './launcher';
 import { autoUpdater } from 'electron-updater';
 
 process.env.DIST = path.join(__dirname, '../dist');
 
-const { DISTRO_URL = '', VITE_DEV_SERVER_URL } = process.env;
+const { VITE_DEV_SERVER_URL } = process.env;
 
 let win: BrowserWindow | null;
 const manager = new ConfigManager();
@@ -75,17 +75,22 @@ const eventHandlers: EventHandlers = {
 
 function runHelios(serverId = manager.config.server?.rawServer?.id) {
   return new Promise(resolve => {
+    const runnerPath = existsSync(path.join(__dirname, 'heliosRunner.js'))
+      ? path.join(__dirname, 'heliosRunner.js')
+      : path.join(process.cwd(), 'electron', 'heliosRunner.ts');
+
     const child = fork(
-      path.join(__dirname, 'heliosRunner.js'),
+      runnerPath,
       [],
-      { stdio: 'inherit' }
+      { stdio: 'inherit', env: { ...process.env, DISTRO_URL } }
     );
 
     child.send({
       launcherDirectory: app.getPath('userData'),
       commonDirectory: path.join(SYS_ROOT, 'common'),
       instanceDirectory: path.join(SYS_ROOT, 'instances'),
-      serverId
+      serverId,
+      distroUrl: DISTRO_URL
     });
 
     child.on('message', (msg: ChildEvents) => (eventHandlers[msg.type] as (data: typeof msg.data) => void)?.(msg.data));

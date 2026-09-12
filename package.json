@@ -1,10 +1,10 @@
 {
   "name": "chad-launcher",
   "private": true,
-  "version": "2.1.0",
+  "version": "2.2.0",
   "scripts": {
     "dev": "vite",
-    "launch:dev": "npx tsx scripts/launch.ts",
+    "launch:dev": "tsx scripts/launch.ts",
     "build": "tsc && vite build && electron-builder",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"

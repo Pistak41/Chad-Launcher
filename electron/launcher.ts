@@ -11,6 +11,8 @@ import type { Library, VersionJSON } from '../common/types/MojangTypes';
 import ConfigManager from '../common/utils/ConfigManager';
 import {
     checkJava,
+    DEFAULT_DISTRO_URL,
+    DISTRO_URL,
     getUserDataPath,
     IS_MAC,
     NATIVE_TEMP_FOLDER_NAME,
@@ -41,7 +43,7 @@ export class MinecraftLauncher {
         this.userDataDir = options.userDataDir || getUserDataPath();
         this.commonDir = options.commonDir || path.join(SYS_ROOT, 'common');
         this.instancesDir = options.instancesDir || path.join(SYS_ROOT, 'instances');
-        this.distroUrl = options.distroUrl || process.env.DISTRO_URL || 'https://files.phobos.net.ar/distribution.json';
+        this.distroUrl = options.distroUrl || DISTRO_URL || DEFAULT_DISTRO_URL;
 
         if (!existsSync(SYS_ROOT)) mkdirSync(SYS_ROOT, { recursive: true });
         if (!existsSync(this.commonDir)) mkdirSync(this.commonDir, { recursive: true });
@@ -51,8 +53,8 @@ export class MinecraftLauncher {
     private getHeliosRunnerPath(): string {
         const candidates = [
             path.join(__dirname, 'heliosRunner.js'),
+            path.join(process.cwd(), 'electron', 'heliosRunner.ts'),
             path.join(process.cwd(), 'dist-electron', 'heliosRunner.js'),
-            path.join(process.cwd(), 'electron', 'heliosRunner.js'),
         ];
         for (const p of candidates) {
             if (existsSync(p)) return p;
@@ -74,7 +76,8 @@ export class MinecraftLauncher {
                 launcherDirectory: this.userDataDir,
                 commonDirectory: this.commonDir,
                 instanceDirectory: this.instancesDir,
-                serverId
+                serverId,
+                distroUrl: this.distroUrl
             });
 
             child.on('message', (msg: any) => {

@@ -25,14 +25,14 @@ The application is responsible for:
 
 - **Electron** (`v42.x`): Desktop window management, IPC communication, OS integration, process spawning.
 - **Vite** (`v8.x`): Fast development server and production bundler.
-- **vite-plugin-electron** (`v0.29.x`): Builds Electron Main and Preload scripts alongside the web application.
+- **vite-plugin-electron** (`v0.29.x`): Builds Electron Main, Preload, and Helios Worker scripts alongside the web application.
 - **electron-builder** (`v26.x`): Multi-platform packaging and installer generation (NSIS for Windows, DMG for macOS, AppImage for Linux).
 - **electron-updater** (`v6.8.x`): Auto-updater connected to GitHub Releases (`Pistak41/Chad-Launcher`).
 
 ### Frontend (Renderer)
 
 - **React** (`v19.x`): Component architecture.
-- **TypeScript** (`v5.x`): Strict type checking across renderer, main, and standalone CLI contexts.
+- **TypeScript** (`v5.x`): Strict type checking across renderer, main, worker, and standalone CLI contexts.
 - **TailwindCSS** (`v3.4.x`): Styling and UI layout.
 - **React Router** (`v8.x`): Client-side routing with `HashRouter`.
 - **Framer Motion** (`v12.x`): Route transitions, modal card animations, and interactive component effects.
@@ -75,7 +75,7 @@ The application is structured into distinct execution environments with a shared
                             │ (child_process.fork)
                             ▼
 ┌────────────────────────────────────────────────────────┐
-│              Helios Worker (heliosRunner.js)           │
+│           Helios Worker (`electron/heliosRunner.ts`)   │
 │   Distribution Processing • FullRepair • Mod List Gen  │
 └────────────────────────────────────────────────────────┘
 ```
@@ -103,7 +103,7 @@ The application is structured into distinct execution environments with a shared
 ### 3.4. Decoupled Launch Engine ([electron/launcher.ts](file:///f:/dev/nodejs/chad-launcher/electron/launcher.ts))
 
 - Encapsulates game execution logic inside `MinecraftLauncher` class.
-- Runs `heliosRunner.js` background worker for file validation, repairs, and download progress.
+- Runs `heliosRunner.ts` background worker for file validation, repairs, and download progress.
 - Resolves Java binary location dynamically via `checkJava`.
 - Dynamically resolves `mainClass`, filters Java 17+ JPMS classpath collisions, evaluates feature rules, and synchronizes instance mods.
 - Spawns the Minecraft Java process, pipes colored logs to stdout/stderr, and cleans up temporary native DLLs on process termination.
@@ -113,10 +113,11 @@ The application is structured into distinct execution environments with a shared
 - Command-line runner for launching any server directly without starting Electron UI.
 - Executed via `npm run launch:dev -- --server=<serverId>`.
 
-### 3.6. Helios Background Worker (`electron/heliosRunner.js`)
+### 3.6. Helios Background Worker ([electron/heliosRunner.ts](file:///f:/dev/nodejs/chad-launcher/electron/heliosRunner.ts))
 
-- Forked as an independent Node.js process by `MinecraftLauncher.runHelios`.
-- Connects to `DISTRO_URL` using `DistributionAPI`.
+- TypeScript module (`electron/heliosRunner.ts`) compiled by `vite-plugin-electron` into `dist-electron/heliosRunner.js`.
+- Forked as an independent Node.js process by `MinecraftLauncher.runHelios` and `electron/main.ts`.
+- Connects to distribution URL using `DistributionAPI` with safe fallback (`DEFAULT_DISTRO_URL = 'https://files.phobos.net.ar/distribution.json'`).
 - Performs file validation and parallel repair via `FullRepair.verifyFiles()` and `FullRepair.download()`.
 - Generates `forgeModList.json` and syncs mod files inside instance folders.
 - Emits download percentage (`percentage`) and server selection (`selectedServer`) events back to Main, then gracefully disconnects.
@@ -139,16 +140,16 @@ The application is structured into distinct execution environments with a shared
 chad-launcher/
 ├── .env                     # Distribution server URL (DISTRO_URL)
 ├── electron-builder.json    # Packaging targets and NSIS configuration
-├── vite.config.ts           # Vite + React + Electron bundling & file copying
+├── vite.config.ts           # Vite + React + Electron bundling & entry configuration
 ├── tsconfig.json            # Root TypeScript compiler options & path aliases
 ├── package.json             # Scripts & dependencies
 │
 ├── electron/                # Electron Main & Launcher source code
 │   ├── main.ts              # Electron Main entry point & IPC handlers
 │   ├── launcher.ts          # Decoupled MinecraftLauncher class (core launch engine)
+│   ├── heliosRunner.ts      # TypeScript child process worker for distribution repair
 │   ├── preload.ts           # Context bridge exposing electronAPI
-│   ├── heliosRunner.js      # Child process worker for distribution repair
-│   └── utils.ts             # Java validation, native lib extractor, arg parser
+│   └── utils.ts             # Java validation, native lib extractor, DEFAULT_DISTRO_URL
 │
 ├── scripts/                 # Developer scripts & standalone execution
 │   └── launch.ts            # CLI launcher (npm run launch:dev)
@@ -238,13 +239,13 @@ User changes UI (e.g., RAM slider, username)
 
 ## 6. Helios Distribution & Server Management
 
-- **Manifest Endpoint**: Defined via `process.env.DISTRO_URL` (configured in `.env`, e.g. `https://files.phobos.net.ar/distribution.json`).
+- **Manifest Endpoint**: Defined via `process.env.DISTRO_URL` with automatic fallback to `DEFAULT_DISTRO_URL = 'https://files.phobos.net.ar/distribution.json'`.
 - **Server Selection**:
   - The launcher queries servers via `electronAPI.getServers()`.
   - The active server defaults to the server flagged with `mainServer: true` or the first server in the manifest.
   - Users switch servers through `ServerList.tsx`, which updates `useConfig.server`.
 - **Mod List Resolution & Version-Specific Mod Discovery**:
-  - **Legacy Forge (1.12.2)**: `heliosRunner.js` generates `forgeModList.json` pointing to `common/modstore`. Legacy FML loads mods directly from `modstore` via `--modListFile`.
+  - **Legacy Forge (1.12.2)**: `heliosRunner.ts` generates `forgeModList.json` pointing to `common/modstore`. Legacy FML loads mods directly from `modstore` via `--modListFile`.
   - **Modern Forge (1.13+, 1.20.1+)**: Modern Forge ModLauncher ignores `--modListFile` and requires mod `.jar` files inside `instances/<serverId>/mods/`. The launcher (`syncInstanceMods`) automatically copies/synchronizes `ForgeMod` JARs into `instances/<serverId>/mods/`.
 - **Live Status Monitoring**:
   - `ServerStatus.tsx` pings `https://api.mcsrvstat.us/3/<hostname>:<port>` to display real-time player counts and server online/offline status.
@@ -277,7 +278,7 @@ When the user clicks **JUGAR** or executes `npm run launch:dev`:
 2. Launcher Instantiation (`MinecraftLauncher` in `electron/launcher.ts`)
                     │
                     ▼
-3. Distribution & File Verification (`runHelios` child process)
+3. Distribution & File Verification (`runHelios` child process -> `electron/heliosRunner.ts`)
    - Downloads/repairs assets, libraries, and modstore JARs
    - Generates `forgeModList.json`
                     │
@@ -354,8 +355,8 @@ npm run preview
 - `vite.config.ts`:
   - Compiles `electron/main.ts` -> `dist-electron/main.js`.
   - Compiles `electron/preload.ts` -> `dist-electron/preload.js`.
-  - Compiles `electron/launcher.ts` -> `dist-electron/launcher.js`.
-  - Uses custom plugin `copy-helios-runner` to copy `electron/heliosRunner.js` directly to `dist-electron/heliosRunner.js`.
+  - Compiles `electron/heliosRunner.ts` -> `dist-electron/heliosRunner.js`.
+  - Externalizes runtime node_modules (`helios-core`, etc.) via `isExternal` matching so relative receiver paths (`ReceiverExecutor.js`) resolve cleanly.
 - `electron-builder.json`:
   - Artifact output: `release/${version}/`.
   - Windows: NSIS 64-bit installer with custom install directory option (`allowToChangeInstallationDirectory: true`).
@@ -376,7 +377,7 @@ When modifying or expanding the Chad Launcher codebase, all agents must abide by
    - For classpath separators, check platform: `IS_MAC ? ':' : ';'` (Windows uses `;`, UNIX uses `:`).
    - Account for executable naming differences (`javaw.exe` vs `java`).
 3. **Heavy Tasks in Background Workers**:
-   - Do not perform heavy synchronous hashing, asset extraction, or socket downloads directly inside `electron/main.ts`. Follow the pattern established by `heliosRunner.js` (forking a child process and communicating via IPC).
+   - Do not perform heavy synchronous hashing, asset extraction, or socket downloads directly inside `electron/main.ts`. Follow the pattern established by `heliosRunner.ts` (forking a child process and communicating via IPC).
 4. **Temporary Resource Cleanup**:
    - Any extracted native DLLs or temporary game files must be strictly cleaned up in child process `close` or `error` handlers.
 5. **Type Safety & Lint Verification**:

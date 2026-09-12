@@ -2,12 +2,14 @@ import { existsSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { Library } from "../common/types/MojangTypes";
 import path from "node:path";
 import AdmZip from "adm-zip";
-import { tmpdir } from "node:os";
+import os, { tmpdir } from "node:os";
 import { randomUUID } from "node:crypto";
 import { discoverBestJvmInstallation, extractJdk, latestOpenJDK } from "helios-core/java";
 import { downloadFile } from "helios-core/dl";
-import os from "node:os";
 import { HeliosServer } from "helios-core/common";
+
+export const DEFAULT_DISTRO_URL = 'https://files.phobos.net.ar/distribution.json';
+export const DISTRO_URL = process.env.DISTRO_URL || DEFAULT_DISTRO_URL;
 
 export const getAppDataPath = (): string => {
     try {
