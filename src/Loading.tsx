@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useCallback, useEffect } from "react";
+import { useNavigate } from "react-router";
 import { useConfig } from "@/store/AuthContext";
 import chadLogo from '@/assets/chad.png';
 
@@ -7,26 +7,31 @@ export const Loading = () => {
 
     const navigate = useNavigate();
 
-    const { JAVA_HOME, setJavaHome, setMemory, setServer } = useConfig();
+    const { setJavaHome, setMemory, setServer } = useConfig();
 
-    useEffect(() => {
-        window.electronAPI.getENV(((_, javaHome) => {
-            if (JAVA_HOME) return;
+    const loadConfig = useCallback(async () => {
+        const java = await window.electronAPI.getJava();
+        const memory = await window.electronAPI.getMemory();
 
-            setJavaHome(javaHome);
-        }));
+        setJavaHome(java);
+        setMemory(memory);
 
-        window.electronAPI.getMemoryStatus(((_, ram) => {
-            setMemory(ram);
-        }));
+        console.log('aca');
+
 
         window.electronAPI.getReady((_, server) => {
+
+            console.log('asas', server);
+
             setServer(server);
 
             navigate('/login');
         });
+    }, [navigate, setJavaHome, setMemory, setServer]);
 
-    }, [navigate, JAVA_HOME, setJavaHome, setMemory, setServer]);
+    useEffect(() => {
+        loadConfig();
+    }, [loadConfig]);
 
     return (
         <div className="flex-1 flex justify-center items-center">

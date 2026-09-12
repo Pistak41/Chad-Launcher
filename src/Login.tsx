@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router";
 import { BlurCard } from "@/components/Cards";
 import { useEffect, useState } from "react";
 import { useConfig } from "@/store/AuthContext";

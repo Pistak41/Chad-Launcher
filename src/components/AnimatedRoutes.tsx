@@ -1,5 +1,5 @@
 import { AnimatePresence } from "framer-motion";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router";
 import { Page } from "@/components/Page";
 import { Loading } from "@/Loading";
 import { Login } from "@/Login";

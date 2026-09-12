@@ -6,10 +6,42 @@ import { tmpdir } from "node:os";
 import { randomUUID } from "node:crypto";
 import { discoverBestJvmInstallation, extractJdk, latestOpenJDK } from "helios-core/java";
 import { downloadFile } from "helios-core/dl";
+import os from "node:os";
 import { HeliosServer } from "helios-core/common";
-import { app } from "electron";
 
-export const SYS_ROOT = path.join(app.getPath('appData'), '.chad');
+export const getAppDataPath = (): string => {
+    try {
+        const electron = require('electron');
+        const app = electron?.app || electron?.remote?.app;
+        if (app && typeof app.getPath === 'function') {
+            return app.getPath('appData');
+        }
+    } catch {
+        // Fallback for standalone Node.js CLI execution
+    }
+    if (process.platform === 'win32') {
+        return process.env.APPDATA || path.join(os.homedir(), 'AppData', 'Roaming');
+    }
+    if (process.platform === 'darwin') {
+        return path.join(os.homedir(), 'Library', 'Application Support');
+    }
+    return process.env.XDG_CONFIG_HOME || path.join(os.homedir(), '.config');
+};
+
+export const getUserDataPath = (): string => {
+    try {
+        const electron = require('electron');
+        const app = electron?.app || electron?.remote?.app;
+        if (app && typeof app.getPath === 'function') {
+            return app.getPath('userData');
+        }
+    } catch {
+        // Fallback for standalone Node.js CLI execution
+    }
+    return path.join(getAppDataPath(), 'chad-launcher');
+};
+
+export const SYS_ROOT = path.join(getAppDataPath(), '.chad');
 
 export const NATIVE_TEMP_FOLDER_NAME = path.join(tmpdir(), randomUUID());
 const NATIVES_RGX = /.+:natives-([^-]+)(?:-(.+))?/;
@@ -51,14 +83,14 @@ export const resolveNativeLibs = async (libraries: Library[]) => {
                             entryName.split('/').at(-1)!
                         ),
                         new Uint8Array(getData())
-                    ))
+                    ));
             }
             )
             .join()
     );
 };
 
-const aux = (arg: string) : string[] => {
+const aux = (arg: string): string[] => {
 
     const aTrimmed = arg.trim();
 
@@ -75,11 +107,11 @@ const aux = (arg: string) : string[] => {
 };
 
 export const resolveArguments = (minecraftArguments: string, argMap: Record<string, string>, extraArgs: Record<string, string>) => {
-    return [...Object.entries(extraArgs).flat(1), ...minecraftArguments.replace(/\${(.*?)}/g, (_, arg) => argMap[arg] + '\n').split('\n').map((a, i, l) => i === l.length - 1 ? aux(a).map(o => o.split(' ')): aux(a)).flat(10)];
+    return [...Object.entries(extraArgs).flat(1), ...minecraftArguments.replace(/\${(.*?)}/g, (_, arg) => argMap[arg] + '\n').split('\n').map((a, i, l) => i === l.length - 1 ? aux(a).map(o => o.split(' ')) : aux(a)).flat(10)];
 };
 
 export const checkJava = async (launcherDir: string, selectedServer: HeliosServer, handlePercentage: (percentage: number) => void = () => null) => {
-    const { effectiveJavaOptions: { supported, distribution, suggestedMajor } } = selectedServer!;
+    const { effectiveJavaOptions: { supported, distribution, suggestedMajor } } = selectedServer;
 
     const jvmDetails = await discoverBestJvmInstallation(launcherDir, supported);
 
@@ -89,7 +121,7 @@ export const checkJava = async (launcherDir: string, selectedServer: HeliosServe
 
     if (!asset) return '';
 
-    await downloadFile(asset.url, asset.path, ({ percent }) => handlePercentage(Math.round(percent * 100)));
+    await downloadFile(asset.url, asset.path, ({ percent }: { percent: number }) => handlePercentage(Math.round(percent * 100)));
 
     return await extractJdk(asset.path);
 

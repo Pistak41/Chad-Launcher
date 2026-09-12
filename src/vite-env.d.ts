@@ -5,11 +5,14 @@ import type { HeliosServer } from "@common/types/HeliosTypes";
 
 export interface IElectronAPI {
     play: () => void
-    getENV: (callback: (event: IpcRendererEvent, ...args: any[]) => void) => void
+    onDownloadProgress: (callback: (event: IpcRendererEvent, progress: number) => void) => void
+    onDownloadComplete: (callback: () => void) => void
     getReady: (callback: (event: IpcRendererEvent, server: HeliosServer) => void) => void
-    getMemoryStatus: (callback: (event: IpcRendererEvent, ...args: any[]) => void) => void
     updateConfig: (state: Partial<ConfigProps>) => void
     openFolder: () => Promise<string>
+    getServers: () => Promise<HeliosServer[]>
+    getJava: () => Promise<string>
+    getMemory: () => Promise<MemoryProps>
 }
 
 declare global {

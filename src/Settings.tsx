@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router";
 import { BackButton } from "./components/Buttons";
 import { SettingsMenu } from "./components/Menues";
 export const Settings = () => {

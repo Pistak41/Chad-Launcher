@@ -1,7 +1,7 @@
 import "@/assets/index.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router";
 import { AnimatedRoutes } from "@/components/AnimatedRoutes.tsx";
 
 import imagen0 from '@/assets/0.jpg';

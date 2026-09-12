@@ -40,42 +40,128 @@ export interface Library {
     natives?: Natives;
     rules?: Rule[];
 }
-export interface VersionJson {
-    assetIndex: {
-        id: string;
-        sha1: string;
-        size: number;
-        totalSize: number;
-        url: string;
-    };
+export interface VersionJSON {
+    arguments: Arguments;
+    assetIndex: AssetIndex;
     assets: string;
-    downloads: {
-        client: BaseArtifact;
-        server: BaseArtifact;
-    };
+    complianceLevel: number;
+    downloads: VersionJSONDownloads;
     id: string;
-    /**
-     * Only on modloader version properties (extend and override base version)
-     */
-    inheritsFrom?: string;
+    javaVersion: JavaVersion;
     libraries: Library[];
-    logging: {
-        client: {
-            argument: string;
-            file: {
-                id: string;
-                sha1: string;
-                size: number;
-                url: string;
-            };
-            type: string;
-        };
-    };
+    logging: Logging;
     mainClass: string;
-    releaseTime: string;
-    time: string;
+    minimumLauncherVersion: number;
+    releaseTime: Date;
+    time: Date;
     type: string;
 }
+
+export interface Arguments {
+    game: Array<GameClass | string>;
+    jvm: Array<JVMClass | string>;
+}
+
+export interface GameClass {
+    rules: GameRule[];
+    value: string[] | string;
+}
+
+export interface GameRule {
+    action: Action;
+    features: Features;
+}
+
+export enum Action {
+    Allow = "allow",
+}
+
+export interface Features {
+    is_demo_user?: boolean;
+    has_custom_resolution?: boolean;
+    has_quick_plays_support?: boolean;
+    is_quick_play_singleplayer?: boolean;
+    is_quick_play_multiplayer?: boolean;
+    is_quick_play_realms?: boolean;
+}
+
+export interface JVMClass {
+    rules: JVMRule[];
+    value: string[] | string;
+}
+
+export interface JVMRule {
+    action: Action;
+    os: PurpleOS;
+}
+
+export interface PurpleOS {
+    name?: Name;
+    arch?: string;
+}
+
+export enum Name {
+    Linux = "linux",
+    Osx = "osx",
+    Windows = "windows",
+}
+
+export interface AssetIndex {
+    id: string;
+    sha1: string;
+    size: number;
+    totalSize?: number;
+    url: string;
+}
+
+export interface VersionJSONDownloads {
+    client: ClientMappingsClass;
+    client_mappings: ClientMappingsClass;
+    server: ClientMappingsClass;
+    server_mappings: ClientMappingsClass;
+}
+
+export interface ClientMappingsClass {
+    sha1: string;
+    size: number;
+    url: string;
+    path?: string;
+}
+
+export interface JavaVersion {
+    component: string;
+    majorVersion: number;
+}
+
+export interface Library {
+    downloads: LibraryDownloads;
+    name: string;
+    rules?: LibraryRule[];
+}
+
+export interface LibraryDownloads {
+    artifact: ClientMappingsClass;
+}
+
+export interface LibraryRule {
+    action: Action;
+    os: FluffyOS;
+}
+
+export interface FluffyOS {
+    name: Name;
+}
+
+export interface Logging {
+    client: LoggingClient;
+}
+
+export interface LoggingClient {
+    argument: string;
+    file: AssetIndex;
+    type: string;
+}
+
 
 export interface AssetIndex {
     objects: {
